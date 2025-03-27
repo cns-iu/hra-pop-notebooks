@@ -1,0 +1,705 @@
+Biomarker,Preferred Term,HGNC_ID,Biomolecule,Tissue,Cell,Context,Organism,Senescence Hallmark,Citation,Experimental Evidence
+BAX,"BCL2 associated X, apoptosis regulator",HGNC:959,mRNA,Adipose tissue,,Obesity,Human,DDR,25682741,rt-qPCR
+BDNF,brain derived neurotrophic factor,HGNC:1033,Protein,Adipose tissue,progenitors,Aging,Mouse,SASP/Inflammation,32489703,"IHC, Immunoblot, rt-qPCR"
+CCAR2,cell cycle and apoptosis regulator 2,HGNC:23360,mRNA,Adipose tissue,,Obesity,Human,DDR,25682741,rt-qPCR
+CCL2,C-C motif chemokine ligand 2,HGNC:10618,Protein,Adipose tissue,,Aging,Human,SASP/Inflammation,29988130,"rt-qPCR, Immunoassay"
+CD38,CD38 molecule,HGNC:1667,Protein,Adipose tissue,immune cells,Aging,Mouse,Metabolic adaptations,33199925,"IHC, IF"
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,"mRNA, Protein",Adipose tissue,"endothelial cells, mesenchymal stem cells, myeloid cells, macrophages","Aging, Obesity","Human, Mouse",Cell cycle arrest,"35024619, 34813734, 30131393, 35417665, 24397850, 31971661","scSeq, rt-qPCR, Immunoblot, Mouse model"
+CDKN1C,cyclin dependent kinase inhibitor 1C,HGNC:1786,"mRNA, Protein",Adipose tissue,stem cells,Aging,Human,Cell cycle arrest,32224418,"rt-qPCR, RNAseq, IF"
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,"mRNA,",Adipose tissue,,"Aging, Obesity","Human, Mouse",Cell cycle arrest,"35024619, 31199925, 26578790, 29988130, 30907060, 35417665, 24397850, 31971661, 34813734","scSeq, rt-qPCR, Immunoblot, Mouse model"
+CXCL8,C-X-C motif chemokine ligand 8,HGNC:6025,Protein,Adipose tissue,,Aging,Human,SASP/Inflammation,29988130,"rt-qPCR, Immunoassay"
+GDF15,growth differentiation factor 15,HGNC:30142,Protein,Adipose tissue,,Aging,"Human, Mouse",SASP/Inflammation,32691494,RNAseq
+H2AX,H2A.X variant histone,HGNC:4739,Protein,Adipose tissue,progenitors,"Aging, Obesity","Human, Mouse",DDR,"26578790, 35417665",IF
+IL1B,interleukin 1 beta,HGNC:5992,Protein,Adipose tissue,,Aging,Human,SASP/Inflammation,30907060,Immunoassay
+IL6,interleukin 6,HGNC:6018,"mRNA, Protein",Adipose tissue,,"Aging, Obesity",Mouse,SASP/Inflammation,"35024619, 26578790, 29988130, 30131393, 35417665","rt-qPCR, Immunoassay, Immunoblot"
+LMNB1,lamin B1,HGNC:6637,Protein,Adipose tissue,immune cells,Aging,Mouse,Nuclear changes,31199925,IF
+MDM2,MDM2 proto-oncogene,HGNC:6973,Protein,Adipose tissue,,Aging,Mouse,Cell cycle arrest,30131393,"rt-qPCR, Immunoblot"
+MMP12,matrix metallopeptidase 12,HGNC:7158,mRNA,Adipose tissue,progenitors,Aging,Mouse,SASP/Inflammation,26578790,"rt-qPCR, Immunoassay"
+MMP3,matrix metallopeptidase 3,HGNC:7173,mRNA,Adipose tissue,progenitors,Aging,Mouse,SASP/Inflammation,26578790,"rt-qPCR, Immunoassay"
+NAD+,Nicotinamide adenine dinucleotide,,,Adipose tissue,immune cells,Aging,Mouse,Metabolic adaptations,33199925,HPLC-Mass Spectroscopy
+RRAD,"RRAD, Ras related glycolysis inhibitor and calcium channel regulator",HGNC:10446,mRNA,Adipose tissue,,Aging,Human,Metabolic adaptations,30391675,"RNAseq, rt-qPCR, Immunoblot"
+SA-β-Gal,senescence associated beta galactosidase,,,Adipose tissue,,"Aging, Obesity","Human, Mouse",Increased lysosomal content,"35024619, 29346516, 24397850, 36617688, 29988130, 30907060, 30131393, 35417665",Colorimetric and Fluorescent staining and microscopy
+SERPINE1,serpin family E member 1,HGNC:8583,Protein,Adipose tissue,,Aging,Human,SASP/Inflammation,29988130,"rt-qPCR, Immunoassay"
+SIRT1,sirtuin 1,HGNC:14929,Protein,Adipose tissue,mesenchymal stem cells,Aging,Human,Nuclear changes,29678576,"rt-qPCR, Immunoblot"
+TNF,tumor necrosis factor,HGNC:11892,mRNA,Adipose tissue,progenitors,Aging,Mouse,SASP/Inflammation,"26578790, 30131393","rt-qPCR, Immunoassay"
+TP53,tumor protein p53,HGNC:11998,mRNA,Adipose tissue,,Obesity,Human,Cell cycle arrest,25682741,rt-qPCR
+ATM,ATM serine/threonine kinase,HGNC:795,Protein,Bone marrow,Bone marrow mesenchyme,Aging,Mouse,Cell cycle arrest,37524694,CyTOF
+BCL2,BCL2 apoptosis regulator,HGNC:990,Protein,Bone marrow,Bone marrow mesenchyme,Aging,Mouse,Cell cycle arrest,37524694,CyTOF
+CCL2,C-C motif chemokine ligand 2,HGNC:10618,mRNA,Bone marrow,"Osteocyte, Bone, Needle biopsies of Bone - Marrow",Aging,"Human, Mouse",SASP/Inflammation,"27341653, 35974106",rt-qPCR
+CCL20,C-C motif chemokine ligand 20,HGNC:10619,mRNA,Bone marrow,Bone marrow stroma,Oncogene induced senescence,Mouse,SASP/Inflammation,30401703,rt-qPCR
+CCL24,C-C motif chemokine ligand 24,HGNC:10623,mRNA,Bone marrow,Bone and bone marrow biopses,Aging,Human,SASP/Inflammation,35974106,"rt-qPCR, scRNA-seq"
+CCL3,C-C motif chemokine ligand 3,HGNC:10627,mRNA,Bone marrow,Needle biopsies of Bone - Marrow,Aging,Human,SASP/Inflammation,27341653,scRNA-seq
+CCL5,C-C motif chemokine ligand 5,HGNC:10632,mRNA,Bone marrow,"Osteocyte, Bone marrow stroma","Aging, Irradiation Induced senescence",Mouse,SASP/Inflammation,"27341653, 26657143",rt-qPCR
+CCL7,C-C motif chemokine ligand 7,HGNC:10634,mRNA,Bone marrow,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+CCL8,C-C motif chemokine ligand 8,HGNC:10635,mRNA,Bone marrow,"Osteoblast progenitor, Osteocyte, Needle biopsies of Bone - Marrow",Aging,"Human, Mouse",SASP/Inflammation,27341653,rt-qPCR
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,"mRNA, Protein",Bone marrow,"Osteocytes,  Bone marrow mesenchyme and stroma, bone, Needle biopsies of Bone - Marrow","Aging, Oncogene induced senescence, Irradiation Induced senescence","Human, Mouse",Cell cycle arrest,"27341653, 37524694, 30401703, 26657143, 35974106","rt-qPCR, scRNA-seq, CyTOF"
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,"mRNA, Protein",Bone marrow,"Osteoblast progenitor, Osteoblast, Osteocyte, Bone,  Bone marrow mesenchyme and stroma, Needle biopsies of Bone - Marrow, Needle biopsies of Bone - Marrow","Aging, Oncogene induced senescence, Irradiation Induced senescence","Human, Mouse",Cell cycle arrest,"27341653, 36711531, 30401703, 26657143","rt-qPCR, scRNA-seq, CyTOF"
+CEBPB,CCAAT enhancer binding protein beta,HGNC:1834,Protein,Bone marrow,Bone marrow mesenchyme,Aging,Mouse,SASP/Inflammation,37524694,CyTOF
+CSF1,colony stimulating factor 1,HGNC:2432,mRNA,Bone marrow,"Osteocyte, Needle biopsies of Bone - Marrow",Aging,"Human, Mouse",SASP/Inflammation,27341653,rt-qPCR
+CSF2,colony stimulating factor 2,HGNC:2434,mRNA,Bone marrow,"Osteoblast progenitor, Osteocyte, Needle biopsies of Bone - Marrow",Aging,"Human, Mouse",SASP/Inflammation,27341653,rt-qPCR
+CSF3,colony stimulating factor 3,HGNC:2438,mRNA,Bone marrow,Needle biopsies of Bone - Marrow,Aging,Human,SASP/Inflammation,27341653,rt-qPCR
+CXCL1,C-X-C motif chemokine ligand 1,HGNC:4602,Protein,Bone marrow,Bone marrow mesenchyme,Aging,Mouse,SASP/Inflammation,37524694,CyTOF
+CXCL15,"Cxcl15 C-X-C motif chemokine 15, no homolog in humans",,mRNA,Bone marrow,"Osteocyte,  Bone marrow mesenchyme and stroma",Aging,Mouse,SASP/Inflammation,"27341653, 37524694","rt-qPCR, CyTOF"
+CXCL2,C-X-C motif chemokine ligand 2,HGNC:4603,mRNA,Bone marrow,Osteoblast progenitor,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+FAS,Fas cell surface death receptor,HGNC:11920,mRNA,Bone marrow,"Osteoblast progenitor, Osteoblast, Osteocyte, Needle biopsies of Bone - Marrow",Aging,"Human, Mouse",SASP/Inflammation,27341653,rt-qPCR
+FGF13,fibroblast growth factor 13,HGNC:3670,mRNA,Bone marrow,Bone and bone marrow biopses,Aging,Human,SASP/Inflammation,35974106,scRNA-seq
+HMGB1,high mobility group box 1,HGNC:4983,mRNA,Bone marrow,Osteocytes,Aging,Mouse,Nuclear changes,27341653,rt-qPCR
+ICAM1,intercellular adhesion molecule 1,HGNC:5344,mRNA,Bone marrow,"Osteocyte, Needle biopsies of Bone - Marrow",Aging,"Human, Mouse",SASP/Inflammation,27341653,rt-qPCR
+IFNG,interferon gamma,HGNC:5438,mRNA,Bone marrow,Osteoblast progenitor,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+IGFBP3,insulin like growth factor binding protein 3,HGNC:5472,mRNA,Bone marrow,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+IGFBP4,insulin like growth factor binding protein 4,HGNC:5473,mRNA,Bone marrow,"Osteocytes, Needle biopsies of Bone - Marrow",Aging,"Human, Mouse",SASP/Inflammation,27341653,rt-qPCR
+IGFBP7,insulin like growth factor binding protein 7,HGNC:5476,mRNA,Bone marrow,Bone and bone marrow biopses,Aging,Human,SASP/Inflammation,35974106,rt-qPCR
+IL17A,interleukin 17A,HGNC:5981,mRNA,Bone marrow,Osteocyte,Aging,Mouse,SASP/Inflammation,27341653,scRNA-seq
+IL1A,interleukin 1 alpha,HGNC:5991,"mRNA, Protein",Bone marrow,"Osteocyte, Bone marrow mesenchyme and stroma","Aging, Irradiation Induced senescence",Mouse,SASP/Inflammation,"27341653, 37524694, 26657143","rt-qPCR, CyTOF"
+IL1B,interleukin 1 beta,HGNC:5992,"mRNA, Protein",Bone marrow,Bone marrow mesenchyme and stroma,"Aging, Irradiation Induced senescence",Mouse,SASP/Inflammation,"37524694, 26657143","rt-qPCR, CyTOF"
+IL6,interleukin 6,HGNC:6018,"mRNA, Protein",Bone marrow,"Osteocyte,  Bone marrow mesenchyme and stroma","Aging, Oncogene induced senescence, Irradiation Induced senescence",Mouse,SASP/Inflammation,"27341653, 36711531, 30401703, 26657143","rt-qPCR, scRNA-seq, CyTOF"
+INHBA,inhibin subunit beta A,HGNC:6066,mRNA,Bone marrow,Osteoblast,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+IRF1,interferon regulatory factor 1,HGNC:6116,mRNA,Bone marrow,"Osteocytes, Needle biopsies of Bone - Marrow",Aging,"Human, Mouse",SASP/Inflammation,27341653,rt-qPCR
+LMNB1,lamin B1,HGNC:6637,mRNA,Bone marrow,Bone marrow stroma,Oncogene induced senescence,Mouse,Nuclear changes,30401703,rt-qPCR
+MKI67,marker of proliferation Ki-67,HGNC:7107,Protein,Bone marrow,Bone marrow mesenchyme,Aging,Mouse,Cell cycle arrest,37524694,CyTOF
+MMP12,matrix metallopeptidase 12,HGNC:7158,mRNA,Bone marrow,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+MMP13,matrix metallopeptidase 13,HGNC:7159,mRNA,Bone marrow,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+MMP9,matrix metallopeptidase 9,HGNC:7176,mRNA,Bone marrow,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+NFKB1,nuclear factor kappa B subunit 1,HGNC:7794,Protein,Bone marrow,Bone marrow mesenchyme,Aging,Mouse,SASP/Inflammation,37524694,CyTOF
+NFKB1,nuclear factor kappa B subunit 1,HGNC:7794,mRNA,Bone marrow,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+PAPPA,pappalysin 1,HGNC:8602,mRNA,Bone marrow,Needle biopsies of Bone - Marrow,Aging,Human,SASP/Inflammation,27341653,rt-qPCR
+SA-β-Gal,senescence associated beta galactosidase,,"Protein,",Bone marrow,Bone marrow stroma,Irradiation Induced senescence,Mouse,Increased lysosomal content,26657143,Staining
+SEMA3F,semaphorin 3F,HGNC:10728,mRNA,Bone marrow,Bone and bone marrow biopses,Aging,Human,SASP/Inflammation,35974106,scRNA-seq
+SERPINB2,serpin family B member 2,HGNC:8584,mRNA,Bone marrow,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+SERPINE1,serpin family E member 1,HGNC:8583,mRNA,Bone marrow,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+TGFB1,transforming growth factor beta 1,HGNC:11766,mRNA,Bone marrow,Bone marrow stroma,"Aging, Irradiation Induced senescence","Human, Mouse",SASP/Inflammation,"26657143, 35974106","rt-qPCR, scRNA-seq"
+TNF,tumor necrosis factor,HGNC:11892,"mRNA, Protein",Bone marrow,"Osteoblast progenitor, Osteocyte,  Needle biopsies of Bone - Marrow ,  Bone marrow mesenchyme and stroma",Aging,"Human, Mouse",SASP/Inflammation,"27341653, 37524694","rt-qPCR, CyTOF"
+TP53,tumor protein p53,HGNC:11998,"mRNA, Protein",Bone marrow,"Osteocyte,  Bone marrow mesenchyme",Aging,Mouse,Cell cycle arrest,"27341653, 37524694",CyTOF
+VCAM1,vascular cell adhesion molecule 1,HGNC:12663,mRNA,Bone marrow,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+VEGFA,vascular endothelial growth factor A,HGNC:12680,mRNA,Bone marrow,Osteoblast progenitor,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+4-HNE,4-Hydroxy-2-nonenal,,,Cardiovascular system,Cardiomyocytes,Aging,Mouse,Metabolic adaptations,30737259,IF
+8-OHdG,8-hydroxy-2'-deoxyguanosine,,,Cardiovascular system,"Cardiomyocytes, VSMC, aorta","Atheroscelortic plaque, Aging, AgII induce AAA","Human, Mouse",DDR,"27650558, 30737259, 16794190","IF, IHC"
+ACTA1,"actin alpha 1, skeletal muscle",HGNC:129,mRNA,Cardiovascular system,Cardiomyocytes,"Aging, MI",Mouse,Changes in morphology,"30737259, 36150603",rt-qPCR
+BMP1,bone morphogenetic protein 1,HGNC:1067,mRNA,Cardiovascular system,"cadriomyocytes, cardiac fibroblasts",Heart failure,Mouse,SASP/Inflammation,35672400,rt-qPCR
+CAPN3,calpain 3,HGNC:1480,mRNA,Cardiovascular system,Cardiomyocytes,MI,Mouse,Changes in morphology,36150603,rt-qPCR
+CCL11,C-C motif chemokine ligand 11,HGNC:10610,"mRNA, Protein",Cardiovascular system,"aorta, stromal cells, cardiac fibroblasts","Aging, MI, ischemia‚Äìreperfusion injury",Mouse,SASP/Inflammation,"32805724, 36150603, 32996233","RNA-seq, rt-qPCR, LC-MS/MS"
+CCL2,C-C motif chemokine ligand 2,HGNC:10618,"mRNA, protein",Cardiovascular system,"Aorta, total tissue, cMSCs, cardiac stromal cells","AAA AngII, Aging, Heart failure, MI","Mouse, Human",SASP/Inflammation,"27650558, 32805724, 31353772, 36150603, 33668142, 36150603","RNA-seq, WB, rt-qPCR, WB, Microarray"
+CCL7,C-C motif chemokine ligand 7,HGNC:10634,mRNA,Cardiovascular system,aorta,Aging,Mouse,SASP/Inflammation,32805724,RNA-seq
+CCL8,C-C motif chemokine ligand 8,HGNC:10635,mRNA,Cardiovascular system,"Total tissu, cardiac stromal cells, CMSCs, Aorta","Aging, Heart failure",Mouse,SASP/Inflammation,"32805724, 31353772, 33668142","RNA-seq, rt-qPCR, Microarray"
+CCN1,cellular communication network factor 1,HGNC:2654,"mRNA, Protein",Cardiovascular system,cardiac fibroblasts,Heart failure,Mouse,SASP/Inflammation,27126529,"rt-qPCR, WB"
+CCND1,cyclin D1,HGNC:1582,protein,Cardiovascular system,"VSMC, aorta",Atheroscelortic plaque,Human,Cell cycle arrest,16794190,WB
+CCNE1,cyclin E1,HGNC:1589,protein,Cardiovascular system,"VSMC, aorta",Atheroscelortic plaque,Human,Cell cycle arrest,16794190,WB
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,"mRNA, protein",Cardiovascular system,"whole tissue, Endothelial Cells, aorta, vSMC, Cardiomyocytes, cMSCs, cardiac stromal cells, cardiac fibroblasts","Aging, Atheroscelortic plaque, AngII induce AAA, TAA, Heart failure, ischemia, pressure overload, atrial fibrillation",Mouse,Cell cycle arrest,"25735595, 32805724, 36465181, 27650558","rt-qPCR, RNA-seq, WB, IHC, IF"
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,"mRNA, Protein",Cardiovascular system,"VSMC, aorta, Cardiomyocytes, cardiac stromal cells, macrophages, CPCs (=cMSCs), cardiac fibroblasts","Aging, Atherosclerosis, Atheroscelortic plaque, atrial fibrillation, TAC, Heart failure, MI","Human, Mouse",Cell cycle arrest,"25735595, 32805724, 27789842, 36465181, 16794190, 30737259, 31353772, 33668142, 36150603, 30854802, 33668142, 36150603,28938531,27126529,33668142, 36150603, 30920115","rt-qPCR, RNA-seq, WB, IHC, IF"
+CDKN2B,cyclin dependent kinase inhibitor 2B,HGNC:1788,mRNA,Cardiovascular system,"cMSCs, cardiomyocytesm cardiac stromal cells","Heart failure, Aging",Mouse,Cell cycle arrest,"30737259, 36150603, 31353772, 33668142",rt-qPCR
+CDKN2C,cyclin dependent kinase inhibitor 2C,HGNC:1789,mRNA,Cardiovascular system,"cMSCs, cardiac stromal cells","Aging, Heart failure",Mouse,Cell cycle arrest,"31353772, 33668142",rt-qPCR
+cGAS,cyclic GMP-AMP synthase,HGNC:21367,protein,Cardiovascular system,aorta,Aging,"Human, Mouse",SASP/Inflammation,36465181,WB
+CSF2,colony stimulating factor 2,HGNC:2434,mRNA,Cardiovascular system,Stromal cells,"Aging, MI",Mouse,SASP/Inflammation,36150603,rt-qPCR
+CX3CL1,C-X3-C motif chemokine ligand 1,HGNC:10647,mRNA,Cardiovascular system,"Total tissu, cardiac stromal cells, cMSCs","Aging, Heart failure, IRI",Mouse,SASP/Inflammation,"31353772, 33668142, 32996233","rt-qPCR, Microarray"
+CXCL1,C-X-C motif chemokine ligand 1,HGNC:4602,mRNA,Cardiovascular system,Cardiac fibroblasts,"Heart failure, chemOtherapy induced cardiotoxicity, myocardial infarction",Mouse,SASP/Inflammation,24040275,
+CXCL10,C-X-C motif chemokine ligand 10,HGNC:10637,Protein,Cardiovascular system,cardiac fibroblasts,ischemia‚Äìreperfusion injury,Mouse,SASP/Inflammation,32996233,LC-MS/MS
+CXCL12,C-X-C motif chemokine ligand 12,HGNC:10672,mRNA,Cardiovascular system,"Total tissu, cardiac stromal cells",Heart failure,Mouse,SASP/Inflammation,33668142,rt-qPCR
+CXCL2,C-X-C motif chemokine ligand 2,HGNC:4603,mRNA,Cardiovascular system,Cardiac fibroblasts,"Heart failure, chemOtherapy induced cardiotoxicity",Mouse,SASP/Inflammation,24040275,
+DHE,Dehydrolactone,,,Cardiovascular system,"Total heart, aorta",Aging,Mouse,Metabolic adaptations,"36150603, 25735595",IF
+EDN3,endothelin 3,HGNC:3178,mRNA,Cardiovascular system,Cardiomyocytes,Aging,Mouse,SASP/Inflammation,30737259,"rt-qPCR, RNA seq"
+EdU,5-ethynyl-2'-deoxyuridine,,,Cardiovascular system,CPCs (=cMSCs),Aging,Human,Cell cycle arrest,30854802,IF
+GDF15,growth differentiation factor 15,HGNC:30142,mRNA,Cardiovascular system,Cardiomyocytes,Aging,Mouse,SASP/Inflammation,30737259,"rt-qPCR, RNA seq"
+GDF6,growth differentiation factor 6,HGNC:4221,mRNA,Cardiovascular system,cMSCs,Aging,Mouse,SASP/Inflammation,31353772,rt-qPCR
+GDF6,growth differentiation factor 6,HGNC:4221,mRNA,Cardiovascular system,cMSCs,Heart failure,Mouse,SASP/Inflammation,33668142,rt-qPCR
+H2AX,H2A.X variant histone,HGNC:4739,Protein,Cardiovascular system,"cMSCs, cardiac stromal cells, aorta, cadriomyocytes, cardiac fibroblasts, cardiac stromal cells, Endothelial Cells","MI, AAA, Aging, Heart failure",Mouse,DDR,"25735595, 36555139, 30854802, 31353772, 33668142, 36150603, 35672400, 36150603","IF, IHC"
+HGF,hepatocyte growth factor,HGNC:4893,mRNA,Cardiovascular system,cMSCs,Aging,Mouse,SASP/Inflammation,31353772,"rt-qPCR, Microarray"
+IGF1,insulin like growth factor 1,HGNC:5464,mRNA,Cardiovascular system,"Total tissu, cardiac stromal cells, cMSCs, Endothelial cells",Heart failure,Mouse,SASP/Inflammation,33668142,rt-qPCR
+IGFBP5,insulin like growth factor binding protein 5,HGNC:5474,mRNA,Cardiovascular system,Stromal cells,"Aging, MI",Mouse,SASP/Inflammation,36150603,rt-qPCR
+IGFBP7,insulin like growth factor binding protein 7,HGNC:5476,,Cardiovascular system,serum,Heart failure,Human,SASP/Inflammation,30354399,Aptamer-based plasma profiling
+IL11,interleukin 11,HGNC:5966,Protein,Cardiovascular system,cardiac fibroblasts,ischemia‚Äìreperfusion injury,Mouse,SASP/Inflammation,32996233,LC-MS/MS
+IL16,interleukin 16,HGNC:5980,Protein,Cardiovascular system,cardiac fibroblasts,ischemia‚Äìreperfusion injury,Mouse,SASP/Inflammation,32996233,LC-MS/MS
+IL1A,interleukin 1 alpha,HGNC:5991,mRNA,Cardiovascular system,"Total tissu, Aorta, macrophages","Atherosclerosis, Heart failure",Mouse,SASP/Inflammation,"27789842, 33668142",rt-qPCR
+IL1B,interleukin 1 beta,HGNC:5992,"mRNA, Protein",Cardiovascular system,"Macrophages, Total tissu, cardiac stromal cells","Aging, Heart failure",Mouse,SASP/Inflammation,"31353772, 33668142, 36150603","rt-qPCR, Microarray, WB"
+IL33,interleukin 33,HGNC:16028,mRNA,Cardiovascular system,"Total tissu, cardiac stromal cells",Heart failure,Mouse,SASP/Inflammation,33668142,rt-qPCR
+IL6,interleukin 6,HGNC:6018,mRNA,Cardiovascular system,"Aorta, Macrophages, cardiac fibroblasts, stromal cells, cardiomyocytes","TAA, Aging, MI, ischemia-reperfusion injury","Human, Mouse",SASP/Inflammation,"36555139, 31353772, 36150603, 32996233, 36150603","WB, LC-MS/MS, rt-qPCR, Microarray"
+IL7,interleukin 7,HGNC:6023,mRNA,Cardiovascular system,cMSCs,Heart failure,Mouse,SASP/Inflammation,33668142,rt-qPCR
+LAMB1,laminin subunit beta 1,HGNC:6486,mRNA,Cardiovascular system,aorta,Aging,Mouse,Nuclear changes,32805724,RNA-seq
+MANF,mesencephalic astrocyte derived neurotrophic factor,HGNC:15461,mRNA,Cardiovascular system,Cardiomyocytes,Aging,Mouse,Changes in morphology,30737259,
+MAOA,monoamine oxidase A,HGNC:6833,mRNA,Cardiovascular system,Cardiomyocytes,Aging,Mouse,Metabolic adaptations,30737259,rt-qPCR
+MKI67,marker of proliferation Ki-67,HGNC:7107,Protein,Cardiovascular system,cMSCs,"Aging, Heart failure",Mouse,Cell cycle arrest,"31353772, 33668142",IF
+MMP10,matrix metallopeptidase 10,HGNC:7156,mRNA,Cardiovascular system,aorta,Aging,Mouse,SASP/Inflammation,32805724,RNA-seq
+MMP12,matrix metallopeptidase 12,HGNC:7158,mRNA,Cardiovascular system,aorta,Atherosclerosis,Mouse,SASP/Inflammation,27789842,rt-qPCR
+MMP13,matrix metallopeptidase 13,HGNC:7159,mRNA,Cardiovascular system,aorta,Atherosclerosis,Mouse,SASP/Inflammation,27789842,rt-qPCR
+MMP2,matrix metallopeptidase 2,HGNC:7166,protein,Cardiovascular system,aorta,AAA,Human,SASP/Inflammation,,WB
+MMP3,matrix metallopeptidase 3,HGNC:7173,mRNA,Cardiovascular system,"aorta, cMSCs","Aging, Atherosclerosis",Mouse,SASP/Inflammation,"32805724, 31353772, 27789842","Microarray, RNA-seq, rt-qPCR"
+MMP9,matrix metallopeptidase 9,HGNC:7176,mRNA,Cardiovascular system,aorta,"Aging, Atherosclerosis",Mouse,SASP/Inflammation,"32805724, 27789842","RNA-seq, rt-qPCR"
+MYBPC2,myosin binding protein C2,HGNC:7550,mRNA,Cardiovascular system,Cardiomyocytes,MI,Mouse,Changes in morphology,36150603,rt-qPCR
+MYH7,myosin heavy chain 7,HGNC:7577,mRNA,Cardiovascular system,Cardiomyocytes,"Aging, MI",Mouse,Changes in morphology,"30737259, 36150603",rt-qPCR
+NPPA,natriuretic peptide A,HGNC:7939,mRNA,Cardiovascular system,Cardiomyocytes,MI,Mouse,Changes in morphology,36150603,rt-qPCR
+p-p53,Phospohorylated tumor protein p53,HGNC:11998,protein,Cardiovascular system,aorta,TAA,Human,Cell cycle arrest,36555139,IF
+p-RB,Phosphorylated RB transcriptional corepressor 1,HGNC:9884,protein,Cardiovascular system,aorta,TAA,Human,Cell cycle arrest,36555139,WB
+p19ARF,cyclin dependent kinase inhibitor 2A,,mRNA,Cardiovascular system,aorta,"Aging, Atherosclerosis",Mouse,Cell cycle arrest,"25735595, 27789842",rt-qPCR
+POSTN,periostin,HGNC:16953,mRNA,Cardiovascular system,cMSCs,Aging,Mouse,SASP/Inflammation,31353772,"rt-qPCR, Microarray"
+POSTN,periostin,HGNC:16953,mRNA,Cardiovascular system,cMSCs,Heart failure,Mouse,SASP/Inflammation,33668142,rt-qPCR
+RB/p-RB,RB transcriptional corepressor 1,HGNC:9884,protein,Cardiovascular system,"VSMC, aorta",Atheroscelortic plaque,Human,Cell cycle arrest,16794190,WB
+ROS,Reactive oxygen species,,,Cardiovascular system,aorta,TAA,Human,Metabolic adaptations,36555139,In Vitro ROS/RNS Assay
+SA-β-Gal,senescence associated beta galactosidase,,protein,Cardiovascular system,"cardiomyocytes, cardiac stromal cells, cardiac fibroblasts, CPCs (=cMSCs), VSMC, EC, foam Macrophages, aorta","induction of IGF1R, TAC, Aging, Heart failure, Atrial Fibrillation, AngII induce AAA, Atherosclerosis, Atheroscelortic plaque,",Human,Increased lysosomal content,"16794190, 27650558, 27789842, 30854802, 30737259, 33668142, 28938531, 26469138, 27126529","IHC, IF, X-Gal crystal detection via Electron microscopy"
+SERPINE1,serpin family E member 1,HGNC:8583,mRNA,Cardiovascular system,Stromal cells,"Aging, MI",Mouse,SASP/Inflammation,36150603,rt-qPCR
+STING1,stimulator of interferon response cGAMP interactor 1,HGNC:27962,protein,Cardiovascular system,aorta,Aging,"Human, Mouse",SASP/Inflammation,36465181,WB
+TAF,Telomere-Associated Foci,,"protein,",Cardiovascular system,"Cardiomyocytes, Endothelial Cells, vSMC, aorta",Aging,Mouse,DDR,"30737259, 36350415","IF, in situ hybridisation"
+Telomere length,Telomere length,,protein,Cardiovascular system,"Endothelial Cells, aorta",Aging,Mouse,DDR,36350415,FISH
+TGFB1,transforming growth factor beta 1,HGNC:11766,"mRNA, protein",Cardiovascular system,"Macrophages, cardiac fibroblasts","Aging, atrial fibrillation","Human, Mouse",SASP/Inflammation,"31353772, 28938531","WB, rt-qPCR, Microarray"
+TGFB2,transforming growth factor beta 2,HGNC:11768,mRNA,Cardiovascular system,"Cardiomyocytes, Heart","Aging, MI",Mouse,SASP/Inflammation,"30737259, 36150603, 30920115","rt-qPCR, RNA seq"
+THBS4,thrombospondin 4,HGNC:11788,mRNA,Cardiovascular system,"cMSCs, Endothelial cells",Heart failure,Mouse,SASP/Inflammation,33668142,rt-qPCR
+TIFs,Telomere-Associated Foci,,protein,Cardiovascular system,aorta,TAA,Human,DDR,36555139,"IF, in situ hybridisation"
+TNF,tumor necrosis factor,HGNC:11892,mRNA,Cardiovascular system,"Aorta, Macrophages, cardiac fibroblasts, stromal cells","Aging, MI, Atherosclerosis",Mouse,SASP/Inflammation,"27789842, 31353772, 36150603, 36150603",rt-qPCR
+Tnfrsf21,TNF receptor superfamily member 21,HGNC:13469,mRNA,Cardiovascular system,aorta,Aging,Mouse,SASP/Inflammation,32805724,RNA-seq
+TP53,tumor protein p53,HGNC:11998,"mRNA, protein",Cardiovascular system,"whole tissue, aorta, cardiomyocytes","AngII induce AAA, ischemic heart disease, Aging, heart failure",Mouse,Cell cycle arrest,"27650558, 32805724, 36465181, 32781064","RNA-seq, WB"
+TP53BP1,tumor protein p53 binding protein 1,HGNC:11999,protein,Cardiovascular system,"Endothelial Cells, vSMC, aorta",Aging,Mouse,DDR,36350415,IF
+4-HNE,4-Hydroxy-2-nonenal,,Protein,Central nervous system,Purkinje cell,Aging,Mouse,Metabolic adaptations,22882466,IF
+AXL,AXL receptor tyrosine kinase,HGNC:905,mRNA,Central nervous system,microglia,Aging,Mouse,SASP/Inflammation,"36167854, 33470505","scRNA-seq, snRNA-seq"
+BCL2,BCL2 apoptosis regulator,HGNC:990,mRNA,Central nervous system,"microglia, monocytes, NFT neurons","Aging, AD",Mouse,Resistance to apoptosis,"33470505, 30126037, 38091952","rt-qPCR, snRNA-seq, bulk RNA-seq"
+CCL2,C-C motif chemokine ligand 2,HGNC:10618,mRNA,Central nervous system,"microglia, monocytes, neuroblasts, microglia","Aging, Obesity",Mouse,SASP/Inflammation,"33470505, 33257875, 32236824, 30612898, 38091952","snRNA-seq, scRNA-seq, bulk RNA-seq"
+CCL3,C-C motif chemokine ligand 3,HGNC:10627,mRNA,Central nervous system,endothelial cells,Aging,Mouse,SASP/Inflammation,"32236824, 36167854",scRNA-seq
+CCL4,C-C motif chemokine ligand 4,HGNC:10630,mRNA,Central nervous system,endothelial cells,Aging,Mouse,SASP/Inflammation,"32236824, 36167854",scRNA-seq
+CCL5,C-C motif chemokine ligand 5,HGNC:10632,mRNA,Central nervous system,neuroblasts,Aging,Mouse,SASP/Inflammation,"33257875, 36167854",scRNA-seq
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,"mRNA, Protein",Central nervous system,"astrocytes, Purkinje cell, cortical neurons, oligodendrocyte progenitors, NFT neurons, neuroblasts, microglia, endothelial cells","Aging, tauopathy, AD, MCI, alcohol binge drinking, AT","Human, Mouse",Cell cycle arrest,"33470505, 30232451, 22882466, 30936558, 30126037, 33257875, 36691110, 32236824, 34107254, 34915311, 35426375, 33041998","snRNA-seq, IF, scRNA-seq"
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,"mRNA, Protein",Central nervous system,"microglia, oligodendrocyte progenitors, monocytes, astrocytes, oligodendrocytes, endothelial cells, NFT neurons, neuroblasts","Aging, tauopathy, AD, MCI, PSP, radiation treatment, PD, Obesity, FTD","Human, Mouse",Cell cycle arrest,"33470505, 36167854, 30232451, 30936558, 30126037, 33257875, 30615147, 32236824, 29386135, 22948612, 35063124, 34107254, 30612898, 34289368, 34233184","scRNA-seq, snRNA-seq, IHC, IF, WB, rt-qPCR"
+CDKN2B,cyclin dependent kinase inhibitor 2B,HGNC:1788,mRNA,Central nervous system,neuroblasts,Aging,Mouse,Cell cycle arrest,35063124,FISH
+CDKN2D,cyclin dependent kinase inhibitor 2D,HGNC:1790,"mRNA, Protein",Central nervous system,"excitatory neuron, microglia","AD, alcohol binge drinking, tauopathy","Human, Mouse",Cell cycle arrest,"35531351, 36691110, 35063124, 34107254, 30232451, 38091952","snRNA-seq, scRNA-seq, RNA-ISH, IF, rt-qPCR, bulk RNA-seq"
+CSF1,colony stimulating factor 1,HGNC:2432,mRNA,Central nervous system,microglia,Aging,Mouse,SASP/Inflammation,"36167854, 33470505","scRNA-seq, snRNA-seq"
+CSF2RA,colony stimulating factor 2 receptor subunit alpha,HGNC:2435,mRNA,Central nervous system,microglia,Aging,Mouse,SASP/Inflammation,33470505,snRNA-seq
+CXCL1,C-X-C motif chemokine ligand 1,HGNC:4602,"mRNA, Protein",Central nervous system,"NFT neurons, endothelial cells","AD, Obesity","Human, Mouse",SASP/Inflammation,"30126037, 30612898, 33041998","rt-qPCR, bulk RNA-seq, snRNA-seq, cytokine array, RNA-ISH"
+CXCL8,C-X-C motif chemokine ligand 8,HGNC:6025,"mRNA, Protein",Central nervous system,microglia,"tauopathy, AD","Human, Mouse",SASP/Inflammation,"29386135, 34107254, 33041998","rt-qPCR, Olink PEA"
+GLB1,galactosidase beta 1,HGNC:4298,mRNA,Central nervous system,microglia,tauopathy,Mouse,Increased lysosomal content,"34107254, 30126037, 38091952","bulk RNA-seq, rt-qPCR"
+H2AX,H2A.X variant histone,HGNC:4739,Protein,Central nervous system,"Purkinje cell, cortical neuron, neuroblasts","Aging, alcohol binge drinking, Obesity, AD, FTD, injury","Human, Mouse",DDR,"22882466, 36691110, 35063124, 30612898, 34289368, 34233184",IF
+HMGB1,high mobility group box 1,HGNC:4983,"mRNA, Protein",Central nervous system,"hippocampal neuron, astrocytes","Aging, PD, AD, FTD","Human, Mouse",Nuclear changes,"33470505, 29386135, 34289368, 36167854",scRNA-seq
+IGF1,insulin like growth factor 1,HGNC:5464,"mRNA, Protein",Central nervous system,microglia,Aging,Mouse,SASP/Inflammation,"36167854, 33470505","scRNA-seq, snRNA-seq"
+IL1A,interleukin 1 alpha,HGNC:5991,"mRNA, Protein",Central nervous system,"microglia, NFT neurons, neuroblasts","Aging, AD, PD, Obesity","Human, Mouse",SASP/Inflammation,"33470505, 30126037, 33257875, 29386135, 30612898","rt-qPCR, snRNA-seq, scRNA-seq, cytokine array"
+IL1B,interleukin 1 beta,HGNC:5992,"mRNA, Protein",Central nervous system,"microglia, NFT neurons","Aging, AD, tauopathy, Obesity","Human, Mouse",SASP/Inflammation,"33470505, 30232451, 30936558, 30126037, 35063124, 30612898, 35426375, 36167854, 38091952","rt-qPCR, scRNA-seq, cytokine array, bulk RNA-seq"
+IL27,interleukin 27,HGNC:19157,"mRNA, Protein",Central nervous system,neuroblasts,Aging,Mouse,SASP/Inflammation,33257875,"flow cytometry, cytokine array, scRNA-seq"
+IL6,interleukin 6,HGNC:6018,"mRNA, Protein",Central nervous system,"Purkinje cell, cortical neuron, microglia, endothelial cells","tauopathy, PD, AD, Obesity","Human, Mouse",SASP/Inflammation,"30232451, 22882466, 29386135, 35063124, 34107254, 30612898, 35426375, 33041998","rt-qPCR, ELISA, Olink PEA, IF"
+LGALS3,galectin 3,HGNC:6563,mRNA,Central nervous system,"microglia, monocytes",Aging,Mouse,Increased lysosomal content,36167854,scRNA-seq
+LGALS3BP,galectin 3 binding protein,HGNC:6564,mRNA,Central nervous system,"microglia, monocytes",Aging,Mouse,Increased lysosomal content,36167854,scRNA-seq
+LMNB1,lamin B1,HGNC:6637,"mRNA, Protein",Central nervous system,"hippocampal neuron, astrocytes, neuroblasts","Aging, PD, AT","Human, Mouse",Nuclear changes,"33470505, 34989056, 29386135, 35063124, 34915311","snRNA-seq, IF"
+MACROH2A1,macroH2A.1 histone,HGNC:4740,Protein,Central nervous system,"Purkinje cell, cortical neuron",Aging,Mouse,DDR,22882466,IF
+MIF,macrophage migration inhibitory factor,HGNC:7097,mRNA,Central nervous system,microglia,Aging,Mouse,SASP/Inflammation,33470505,snRNA-seq
+MMP12,matrix metallopeptidase 12,HGNC:7158,"mRNA, Protein",Central nervous system,"microglia, macrophage","Aging, LCH",Mouse,SASP/Inflammation,"36167854, 38091952","scRNA-seq, bulk RNA-seq"
+MMP3,matrix metallopeptidase 3,HGNC:7173,"mRNA, Protein",Central nervous system,,PD,Human,SASP/Inflammation,29386135,rt-qPCR
+MTOR,mechanistic target of rapamycin kinase,HGNC:3942,"mRNA, Protein",Central nervous system,neuroblasts,Aging,Mouse,Cell cycle arrest,33257875,scRNA-seq
+PCNA,proliferating cell nuclear antigen,HGNC:8729,Protein,Central nervous system,cortical neurons,alcohol binge drinking,Mouse,Cell cycle arrest,36691110,IF
+PLAUR,"plasminogen activator, urokinase receptor",HGNC:9053,"mRNA, Protein",Central nervous system,microglia,Aging,Mouse,SASP/Inflammation,"33470505, 36167854, 30126037, 38091952","scRNA-seq, snRNA-seq, bulk RNA-seq"
+SA-β-Gal,senescence associated beta galactosidase,,,Central nervous system,"astrocytes, microglia, Purkinje cell, cortical neurons, neuroblasts","Aging, tauopathy, AD, alcohol binge drinking, PD, AT, Obesity, injury",Mouse,Increased lysosomal content,"30232451, 22882466, 30936558, 33257875, 36691110, 29386135, 35063124, 34107254, 34915311, 30612898, 34233184, 36448971",IHC
+SATB1,SATB homeobox 1,HGNC:10541,"mRNA, Protein",Central nervous system,,PD,"Human, Mouse",Cell cycle arrest,26214373,"TRAPseq, RNA-ISH, WB, rt-qPCR"
+SERPINE1,serpin family E member 1,HGNC:8583,"mRNA, Protein",Central nervous system,microglia,"tauopathy, AD",Mouse,SASP/Inflammation,"30232451, 32236824, 35063124, 33041998","scRNA-seq, rt-qPCR, Olink PEA"
+SPP1,secreted phosphoprotein 1,HGNC:11255,mRNA,Central nervous system,"microglia, monocytes",Aging,Mouse,SASP/Inflammation,"36167854, 38091952","scRNA-seq, bulk RNA-seq"
+STING1,stimulator of interferon response cGAMP interactor 1,HGNC:27962,mRNA,Central nervous system,microglia,Aging,Mouse,SASP/Inflammation,36167854,scRNA-seq
+TGFB1,transforming growth factor beta 1,HGNC:11766,mRNA,Central nervous system,NFT neurons,AD,Human,SASP/Inflammation,"30126037, 36167854",scRNA-seq
+TIMP2,TIMP metallopeptidase inhibitor 2,HGNC:11821,mRNA,Central nervous system,microglia,Aging,Mouse,SASP/Inflammation,"33470505, 32236824","snRNA-seq, scRNA-seq"
+TNF,tumor necrosis factor,HGNC:11892,"mRNA, Protein",Central nervous system,"NFT neurons, neuroblasts","Aging, AD, Obesity","Human, Mouse",SASP/Inflammation,"30936558, 30126037, 33257875, 30612898","rt-qPCR, scRNA-seq, cytokine array"
+TP53,tumor protein p53,HGNC:11998,"mRNA, Protein",Central nervous system,"NFT neurons, neuroblasts, cortical neurons","AD, alcohol binge drinking, AT","Human, Mouse",Cell cycle arrest,"30126037, 33257875, 36691110, 32236824, 34915311, 35426375","scRNA-seq, IF"
+15-deoxy-delta-12_14-prostaglandin J2,15-deoxy-delta-12_14-prostaglandin J2,,,Circulating markers,,Senescence induction by doxorubicin,Mouse,SASP/Inflammation,33811820,LC-MS/MS
+ADAMTS13,ADAM metallopeptidase with thrombospondin type 1 motif 13,HGNC:1366,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,"36367600, 32554926",Immunoassay (Luminex)
+ALCAM,activated leukocyte cell adhesion molecule,HGNC:400,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,31945054,Aptamer-Based Proteomics (SOMAscan assay)
+B2M,beta-2-microglobulin,HGNC:914,Protein,Circulating markers,CD3+ T cells,"Aging, (WT and Ercc1‚àí/‚àÜ)",Mouse,SASP/Inflammation,31981461,"Immunoassay (ELISA), rt-qPCR"
+BGN,biglycan,HGNC:1044,Protein,Circulating markers,,"Aging, multimorbidity",Human,SASP/Inflammation,"31945054, 33210602",Aptamer-Based Proteomics (SOMAscan assay)
+BMP6,bone morphogenetic protein 6,HGNC:1073,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+CCL1,C-C motif chemokine ligand 1,HGNC:10609,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+CCL11,C-C motif chemokine ligand 11,HGNC:10610,Protein,Circulating markers,,"Aging, physical function","Human, Mouse",SASP/Inflammation,"36367600, 26578790","Immunoassay (ELISA, Luminex)"
+CCL17,C-C motif chemokine ligand 17,HGNC:10615,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,32554926,Immunoassay (Luminex)
+CCL18,C-C motif chemokine ligand 18,HGNC:10616,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,36367600,Immunoassay (Luminex)
+CCL2,C-C motif chemokine ligand 2,HGNC:10618,Protein,Circulating markers,CD3+ T cells,"Aging (WT and Ercc1‚àí/‚àÜ), menopause","Human, Mouse",SASP/Inflammation,"36367600, 35583231, 33981041, 29992704, 30279143, 31981461","Immunoassay (ELISA, Luminex), rt-qPCR"
+CCL22,C-C motif chemokine ligand 22,HGNC:10621,Protein,Circulating markers,,"Aging, physical function",Human,SASP/Inflammation,"36367600, 32554926","Immunoassay (ELISA, Luminex)"
+CCL26,C-C motif chemokine ligand 26,HGNC:10625,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+CCL3,C-C motif chemokine ligand 3,HGNC:10627,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,"29992704, 32554926",Aptamer-Based Proteomics (SOMAscan assay)
+CCL4,C-C motif chemokine ligand 4,HGNC:10630,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,32554926,Immunoassay (Luminex)
+CCL5,C-C motif chemokine ligand 5,HGNC:10632,Protein,Circulating markers,,"Aging, physical function",Human,SASP/Inflammation,"36367600, 32554926","Immunoassay (ELISA, Luminex)"
+CCL7,C-C motif chemokine ligand 7,HGNC:10634,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+CCL8,C-C motif chemokine ligand 8,HGNC:10635,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,Protein,Circulating markers,CD3+ T cells,Aging (Ercc1‚àí/‚àÜ),Mouse,Cell cycle arrest,30279143,"Immunoassay (Luminex), rt-qPCR"
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,Protein,Circulating markers,CD3+ T cells,Aging (WT and Ercc1‚àí/‚àÜ),Mouse,Cell cycle arrest,"26840489, 31981461, 30279143","Immunoassay (WB), rt-qPCR"
+CLEC11A,C-type lectin domain containing 11A,HGNC:10576,Protein,Circulating markers,,"Aging, multimorbidity",Human,SASP/Inflammation,33210602,Aptamer-Based Proteomics (SOMAscan assay)
+COTL1,coactosin like F-actin binding protein 1,HGNC:18304,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,31945054,Aptamer-Based Proteomics (SOMAscan assay)
+CSF2,colony stimulating factor 2,HGNC:2434,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+CSF2,colony stimulating factor 2,HGNC:2434,Protein,Circulating markers,,Diabetic kidney disease,"Human, Mouse",SASP/Inflammation,31542391,Immunoassay (ELISA)
+CST3,cystatin C,HGNC:2475,Protein,Circulating markers,,"Aging, multimorbidity, mortality",Human,SASP/Inflammation,"31945054, 33210602",Aptamer-Based Proteomics (SOMAscan assay)
+CTSB,cathepsin B,HGNC:2527,Protein,Circulating markers,,"Aging, multimorbidity","Human, Mouse",SASP/Inflammation,"33210602, 31945054, 29992704",Aptamer-Based Proteomics (SOMAscan assay)
+CTSD,cathepsin D,HGNC:2529,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,"31945054, 33210602",Aptamer-Based Proteomics (SOMAscan assay)
+CTSZ,cathepsin Z,HGNC:2547,Protein,Circulating markers,,"Aging, multimorbidity",Human,SASP/Inflammation,"31945054, 33210602",Aptamer-Based Proteomics (SOMAscan assay)
+CXCL1,C-X-C motif chemokine ligand 1,HGNC:4602,Protein,Circulating markers,,Aging,"Human, Mouse",SASP/Inflammation,26578790,Immunoassay (Luminex)
+CXCL10,C-X-C motif chemokine ligand 10,HGNC:10637,Protein,Circulating markers,,"Aging, menopause","Human, Mouse",SASP/Inflammation,"35583231, 26578790","Immunoassay (ELISA, Luminex)"
+CXCL12,C-X-C motif chemokine ligand 12,HGNC:10672,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+CXCL16,C-X-C motif chemokine ligand 16,HGNC:16642,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+CXCL8,C-X-C motif chemokine ligand 8,HGNC:6025,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+CXCL8,C-X-C motif chemokine ligand 8,HGNC:6025,Protein,Circulating markers,,"Aging, menopause",Human,SASP/Inflammation,"35583231, 36367600","Immunoassay (ELISA, Luminex)"
+Cysteinyl leukotrienes,Cysteinyl leukotrienes,,,Circulating markers,,Bleomycin-induced lung fibrosis,Mouse,SASP/Inflammation,31687975,Immunoassay (ELISA)
+FAS,Fas cell surface death receptor,HGNC:11920,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,"36367600, 29992704, 32554926","Aptamer-Based Proteomics (SOMAscan assay), Immunoassay (Luminex)"
+FGF2,fibroblast growth factor 2,HGNC:3676,Protein,Circulating markers,,Diabetic kidney disease,"Human, Mouse",SASP/Inflammation,31542391,Immunoassay (ELISA)
+FLNA,filamin A,HGNC:3754,Protein,Circulating markers,,Doxorubicin treatment,Mouse,SASP/Inflammation,31553904,Immunoassay (ELISA)
+FN1,fibronectin 1,HGNC:3778,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,"31945054, 29992704",Aptamer-Based Proteomics (SOMAscan assay)
+GDF15,growth differentiation factor 15,HGNC:30142,Protein,Circulating markers,,"Aging, mortality, multimobidity, menopause, physical function",Human,SASP/Inflammation,"31945054, 33210602, 29992704, 32554926, 36367600, 35583231","Aptamer-Based Proteomics (SOMAscan assay), Immunoassay (ELISA, Luminex)"
+GSN,gelsolin,HGNC:4620,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,31945054,Aptamer-Based Proteomics (SOMAscan assay)
+GSTP1,glutathione S-transferase pi 1,HGNC:4638,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,31945054,Aptamer-Based Proteomics (SOMAscan assay)
+HGF,hepatocyte growth factor,HGNC:4893,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+HSPA1A,heat shock protein family A (Hsp70) member 1A,HGNC:5232,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,31945054,Aptamer-Based Proteomics (SOMAscan assay)
+HSPA8,heat shock protein family A (Hsp70) member 8,HGNC:5241,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,31945054,Aptamer-Based Proteomics (SOMAscan assay)
+ICAM1,intercellular adhesion molecule 1,HGNC:5344,Protein,Circulating markers,,"Aging, physical function",Human,SASP/Inflammation,36367600,"Immunoassay (ELISA, Luminex)"
+ICAM3,intercellular adhesion molecule 3,HGNC:5346,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+IFNG,interferon gamma,HGNC:5438,Protein,Circulating markers,,"Aging, menopause",Human,SASP/Inflammation,35583231,Immunoassay (Luminex)
+IGF1,insulin like growth factor 1,HGNC:5464,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+IGFBP2,insulin like growth factor binding protein 2,HGNC:5471,Protein,Circulating markers,,"Aging, menopause, multimorbidity, mortality",Human,SASP/Inflammation,"33210602, 35583231, 31945054, 29992704","Aptamer-Based Proteomics (SOMAscan assay), Immunoassay (ELISA, Luminex)"
+IGFBP3,insulin like growth factor binding protein 3,HGNC:5472,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+IGFBP4,insulin like growth factor binding protein 4,HGNC:5473,Protein,Circulating markers,,"Aging, multimorbidity, mortality",Human,SASP/Inflammation,33210602,Aptamer-Based Proteomics (SOMAscan assay)
+IGFBP5,insulin like growth factor binding protein 5,HGNC:5474,Protein,Circulating markers,,"Aging, multimorbidity",Human,SASP/Inflammation,33210602,Aptamer-Based Proteomics (SOMAscan assay)
+IGFBP7,insulin like growth factor binding protein 7,HGNC:5476,Protein,Circulating markers,,"Aging, menopause, multimorbidity",Human,SASP/Inflammation,"33210602, 35583231, 31945054","Aptamer-Based Proteomics (SOMAscan assay), Immunoassay (ELISA, Luminex)"
+IL15,interleukin 15,HGNC:5977,Protein,Circulating markers,,"Aging, menopause",Human,SASP/Inflammation,"32554926, 36367600, 35583231","Immunoassay (ELISA, Luminex)"
+IL17A,interleukin 17A,HGNC:5981,Protein,Circulating markers,,"Aging, menopause","Human, Mouse",SASP/Inflammation,"35583231, 26578790",Immunoassay (Luminex)
+IL1A,interleukin 1 alpha,HGNC:5991,Protein,Circulating markers,,Diabetic kidney disease,"Human, Mouse",SASP/Inflammation,"31542391, 26578790","Immunoassay (ELISA, Luminex)"
+IL1B,interleukin 1 beta,HGNC:5992,Protein,Circulating markers,CD3+ T cells,"Aging (WT and Ercc1‚àí/‚àÜ), menopause","Human, Mouse",SASP/Inflammation,"35583231, 33981041, 29992704, 30279143, 31981461","Immunoassay (ELISA), rt-qPCR"
+IL1R1,interleukin 1 receptor type 1,HGNC:5993,Protein,Circulating markers,,"Aging, diabetic kidney disease","Human, Mouse",SASP/Inflammation,31542391,Immunoassay (ELISA)
+IL2,interleukin 2,HGNC:6001,Protein,Circulating markers,,"Aging, diabetic kidney disease","Human, Mouse",SASP/Inflammation,31542391,Immunoassay (ELISA)
+IL6,interleukin 6,HGNC:6018,Protein,Circulating markers,,"Aging, diabetic kidney disease, physical function","Human, Mouse",SASP/Inflammation,"36367600, 32554926, 31542391, 26578790","Immunoassay (ELISA, Luminex), rt-qPCR"
+IL7,interleukin 7,HGNC:6023,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,"36367600, 32554926",Immunoassay (Luminex)
+IL9,interleukin 9,HGNC:6029,Protein,Circulating markers,,Diabetic kidney disease,"Human, Mouse",SASP/Inflammation,31542391,Immunoassay (ELISA)
+INHBA,inhibin subunit beta A,HGNC:6066,Protein,Circulating markers,CD3+ T cells,Aging (Ercc1‚àí/fl) (WT and Ercc1‚àí/‚àÜ),"Human, Mouse",SASP/Inflammation,"36367600, 32554926, 33981041, 29992704, 31981461","Immunoassay (ELISA, Luminex)"
+LAMB1,laminin subunit beta 1,HGNC:6486,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+MMP1,matrix metallopeptidase 1,HGNC:7155,Protein,Circulating markers,,"Aging, mortality","Human, Mouse",SASP/Inflammation,"33210602, 31945054, 36367600, 29992704","Aptamer-Based Proteomics (SOMAscan assay), Immunoassay (ELISA, Luminex)"
+MMP10,matrix metallopeptidase 10,HGNC:7156,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+MMP12,matrix metallopeptidase 12,HGNC:7158,Protein,Circulating markers,,Diabetic kidney disease,"Human, Mouse",SASP/Inflammation,"31542391, 29992704","Aptamer-Based Proteomics (SOMAscan assay), Immunoassay (ELISA)"
+MMP2,matrix metallopeptidase 2,HGNC:7166,Protein,Circulating markers,,Aging,"Human, Mouse",SASP/Inflammation,"31945054, 36367600, 31542391, 32554926","Aptamer-Based Proteomics (SOMAscan assay), Immunoassay (ELISA, Luminex)"
+MMP7,matrix metallopeptidase 7,HGNC:7174,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,"36367600, 32554926",Immunoassay (Luminex)
+MMP9,matrix metallopeptidase 9,HGNC:7176,Protein,Circulating markers,,"Aging, diabetic kidney disease","Human, Mouse",SASP/Inflammation,"36367600, 31542391","Immunoassay (ELISA, Luminex)"
+MOK,MOK protein kinase,HGNC:9833,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,36367600,Immunoassay (Luminex)
+MPO,myeloperoxidase,HGNC:7218,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,36367600,Immunoassay (Luminex)
+PARK7,Parkinsonism associated deglycase,HGNC:16369,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,31945054,Aptamer-Based Proteomics (SOMAscan assay)
+PGK1,phosphoglycerate kinase 1,HGNC:8896,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,31945054,Aptamer-Based Proteomics (SOMAscan assay)
+PLAT,"plasminogen activator, tissue type",HGNC:9051,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+PLAU,"plasminogen activator, urokinase",HGNC:9052,Protein,Circulating markers,,"Aging, doxorubicin treatment","Human, Mouse",SASP/Inflammation,"29992704, 31553904",Aptamer-Based Proteomics (SOMAscan assay)
+PLAUR,"plasminogen activator, urokinase receptor",HGNC:9053,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+POSTN,periostin,HGNC:16953,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,"31945054, 33210602",Aptamer-Based Proteomics (SOMAscan assay)
+RB1,RB transcriptional corepressor 1,HGNC:9884,Protein,Circulating markers,,Aging,Human,Cell cycle arrest,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+SERPINE1,serpin family E member 1,HGNC:8583,Protein,Circulating markers,,"Aging, doxorubicin treatment","Human, Mouse",SASP/Inflammation,"31553904, 36367600, 31945054, 32554926","Aptamer-Based Proteomics (SOMAscan assay), Immunoassay (ELISA, Luminex)"
+SERPINE2,serpin family E member 2,HGNC:8951,Protein,Circulating markers,,Doxorubicin treatment,Mouse,SASP/Inflammation,31553904,Immunoassay (ELISA)
+SERPING1,serpin family G member 1,HGNC:1228,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,"31945054, 29992704",Aptamer-Based Proteomics (SOMAscan assay)
+SOST,sclerostin,HGNC:13771,Protein,Circulating markers,,"Aging, physical function",Human,SASP/Inflammation,36367600,"Immunoassay (ELISA, Luminex)"
+SPP1,secreted phosphoprotein 1,HGNC:11255,Protein,Circulating markers,CD3+ T cells,"Aging (Ercc1‚àí/fl), physical function, (WT and Ercc1‚àí/‚àÜ)","Human, Mouse",SASP/Inflammation,"32554926, 36367600, 33981041, 31981461",Immunoassay (ELISA)
+STC1,stanniocalcin 1,HGNC:11373,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,"33210602, 31945054, 29992704",Aptamer-Based Proteomics (SOMAscan assay)
+TGFB1,transforming growth factor beta 1,HGNC:11766,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+THBS1,thrombospondin 1,HGNC:11785,Protein,Circulating markers,,doxorubicin treatment,Mouse,SASP/Inflammation,31553904,Immunoassay (ELISA)
+TIMP1,TIMP metallopeptidase inhibitor 1,HGNC:11820,Protein,Circulating markers,,"Aging, multimorbidity, mortality, doxorubicin treatment","Human, Mouse",SASP/Inflammation,"33210602, 29992704, 31553904","Aptamer-Based Proteomics (SOMAscan assay), Immunoassay (ELISA)"
+TIMP2,TIMP metallopeptidase inhibitor 2,HGNC:11821,Protein,Circulating markers,,"Aging, multimorbidity, mortality, menopause",Human,SASP/Inflammation,"35583231, 33210602, 31945054, 29992704","Aptamer-Based Proteomics (SOMAscan assay), Immunoassay (Luminex)"
+TNF,tumor necrosis factor,HGNC:11892,Protein,Circulating markers,CD3+ T cells,"Aging (WT and Ercc1‚àí/‚àÜ), menopause","Human, Mouse",SASP/Inflammation,"36367600, 35583231, 32554926, 33981041, 30279143","Immunoassay (ELISA, Luminex), rt-qPCR"
+TNFRSF1A,TNF receptor superfamily member 1A,HGNC:11916,Protein,Circulating markers,,"Aging, physical function",Human,SASP/Inflammation,"36367600, 32554926","Immunoassay (ELISA, Luminex)"
+TNFRSF1B,TNF receptor superfamily member 1B,HGNC:11917,Protein,Circulating markers,,"Aging, physical function",Human,SASP/Inflammation,36367600,"Immunoassay (ELISA, Luminex)"
+TP53,tumor protein p53,HGNC:11998,Protein,Circulating markers,,Aging,Human,Cell cycle arrest,29992704,Aptamer-Based Proteomics (SOMAscan assay)
+VEGFA,vascular endothelial growth factor A,HGNC:12680,Protein,Circulating markers,,"Aging, menopause",Human,SASP/Inflammation,"36367600, 29992704, 35583231, 32554926","Aptamer-Based Proteomics (SOMAscan assay), Immunoassay (ELISA, Luminex)"
+YWHAQ,tyrosine 3-monooxygenase/tryptophan 5-monooxygenase activation protein theta,HGNC:12854,Protein,Circulating markers,,Aging,Human,SASP/Inflammation,31945054,Aptamer-Based Proteomics (SOMAscan assay)
+CD40LG,CD40 ligand,HGNC:11935,Protein,Immune system,platelets,"Aging, blood",Human,Cell surface markers,36656789,"RNA-Seq, Flow Cytometry"
+CD63,CD63 molecule,HGNC:1692,Protein,Immune system,platelets,"Aging, blood",Human,Cell surface markers,36656789,"RNA-Seq, Flow Cytometry"
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,Protein,Immune system,lymphocytes,"Aging, blood",Mouse,Cell cycle arrest,31981461,rt-qPCR
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,Protein,Immune system,lymphocytes,"Aging, blood",Mouse,Cell cycle arrest,31981461,rt-qPCR
+ERCC1,"ERCC excision repair 1, endonuclease non-catalytic subunit",HGNC:3433,Protein,Immune system,T cells,"Aging, spleen, thymus",Mouse,DDR,31981461,rt-qPCR
+ERCC4,"ERCC excision repair 4, endonuclease catalytic subunit",HGNC:3436,Protein,Immune system,T cells,"Aging, spleen, thymus",Mouse,DDR,31981461,rt-qPCR
+GCA,grancalcin,HGNC:15990,Protein,Immune system,macrophages and neutrophils,"Aging, bone marrow",Mouse,Metabolic adaptations,34614408,"Mass spec, ssRNA-Seq, ELISA, Immunoblot"
+GDF3,growth differentiation factor 3,HGNC:4218,"mRNA, Protein",Immune system,macrophages,"Aging,  adipose tissue",Mouse,Metabolic adaptations,28953873,RNA-Seq
+IL33,interleukin 33,HGNC:16028,Protein,Immune system,ILC2 cells,"Aging,  adipose tissue",Mouse,SASP/Inflammation,34473956,scRNA-seq
+MAOA,monoamine oxidase A,HGNC:6833,"mRNA, Protein",Immune system,macrophages,"Aging,  adipose tissue",Mouse,Metabolic adaptations,28953873,RNA-Seq
+MAPK14,MAPK14,HGNC:6876,Protein,Immune system,CD8+ Temra,"Aging, blood",Human,SASP/Inflammation,29024417,Microarray
+NLRP3,NLR family pyrin domain containing 3,HGNC:16400,Protein,Immune system,macrophages,"Aging, thymus",Mouse,SASP/Inflammation,22832107,rt-qPCR
+SA-β-Gal,senescence associated beta galactosidase,,Protein,Immune system,CD8+ T cells,"Aging, blood",Human,Increased lysosomal content,33939265,flow cytometry
+SELP,selectin P,HGNC:10721,Protein,Immune system,platelets,"Aging, blood",Human,Cell surface markers,36656789,"RNA-Seq, Flow Cytometry"
+CASP1,caspase 1,HGNC:1499,Protein,Kidneys,,Diabetes,Mouse,SASP/Inflammation,29253812,WB
+CCL2,C-C motif chemokine ligand 2,HGNC:10618,mRNA,Kidneys,"Podocytes, endothelial cells, macrophages","Aging, Diabetes",Mouse,SASP/Inflammation,"29253812, 32592814","RNA-seq, rt-qPCR"
+CCL3,C-C motif chemokine ligand 3,HGNC:10627,mRNA,Kidneys,Podocytes,Aging,Mouse,SASP/Inflammation,32592814,RNA-seq
+CCL5,C-C motif chemokine ligand 5,HGNC:10632,mRNA,Kidneys,Podocytes,Aging,Mouse,SASP/Inflammation,32592814,RNA-seq
+CCL8,C-C motif chemokine ligand 8,HGNC:10635,mRNA,Kidneys,Podocytes,Aging,Mouse,SASP/Inflammation,32592814,RNA-seq
+CDK4,cyclin dependent kinase 4,HGNC:1773,mRNA,Kidneys,,Aging,Human,SASP/Inflammation,14717921,rt-qPCR
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,Protein,Kidneys,"Glomerular enothelial cells, tubular epithelial cells, podocytes, macrophages","Aging, irradiation, ishemic renal injury, diabetic nephropathy",Mouse,Cell cycle arrest,"31527620, 34725920, 35166234, 32657444, 24996978, 19959722, 29253812","IHC, IF, rt-qPCR"
+CDKN1B,cyclin dependent kinase inhibitor 1B,HGNC:1785,mRNA,Kidneys,cortical tubular cells,"Aging, chronic allograft nephropathy, Diabetes",Human,Cell cycle arrest,"12776284, 25701431","rt-qPCR, IHC, WB"
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,Protein,Kidneys,"Glomerular enothelial cells, tubular epithelial cells, podocytes, renal arterial vascular smooth myocytes, glomerular parietal epithelium, macrophages","Aging, irradiation, chronic allograft nephropathy, glomerular disease, Type 2 diabetic nephropathy, ishemic renal injury","Human, Mouse",Cell cycle arrest,"34725920, 26840489, 35166234, 17183247, 14717921, 18768588, 32657444, 31527620, 29253812, 32657444","IHC, IF, RNA-seq"
+CEBPA,CCAAT enhancer binding protein alpha,HGNC:1833,Protein,Kidneys,Podocytes,"Aging, injury",Mouse,SASP/Inflammation,31527620,"IHC, IF"
+CEBPB,CCAAT enhancer binding protein beta,HGNC:1834,mRNA,Kidneys,Podocytes,Aging,Mouse,SASP/Inflammation,32592814,RNA-seq
+CXCL9,C-X-C motif chemokine ligand 9,HGNC:7098,mRNA,Kidneys,,Diabetes,Mouse,SASP/Inflammation,29253812,rt-qPCR
+GSK3B,glycogen synthase kinase 3 beta,HGNC:4617,Protein,Kidneys,"Podocytes, tubular cells",Aging,"Human, Mouse",Metabolic adaptations,"35166234, 34716239","IF, WB"
+H2AX,H2A.X variant histone,HGNC:4739,Protein,Kidneys,Glomerular enothelial cells,Aging,Mouse,DDR,34725920,"IHC, IF, WB"
+HSPA5,heat shock protein family A (Hsp70) member 5,HGNC:5238,mRNA,Kidneys,,Aging,Human,SASP/Inflammation,14717921,rt-qPCR
+IGFBP3,insulin like growth factor binding protein 3,HGNC:5472,Protein,Kidneys,Podocytes,Aging,Mouse,SASP/Inflammation,35166234,"RNA-seq, IF, WB"
+IL1B,interleukin 1 beta,HGNC:5992,"mRNA, Protein",Kidneys,,"Aging, Diabetes",Mouse,SASP/Inflammation,"34725920, 29253812","IHC, IF, RNA-seq"
+IL6,interleukin 6,HGNC:6018,mRNA,Kidneys,"endothelial cells, macrophages","Aging, ishemic renal injury, Diabetes",Mouse,SASP/Inflammation,"34725920, 32657444, 29253812",RNA-seq
+IRF5,interferon regulatory factor 5,HGNC:6120,mRNA,Kidneys,Podocytes,Aging,Mouse,SASP/Inflammation,32592814,RNA-seq
+JDP2,Jun dimerization protein 2,HGNC:17546,mRNA,Kidneys,Podocytes,Aging,Mouse,SASP/Inflammation,32592814,RNA-seq
+MAPK14,MAPK14,HGNC:6876,Protein,Kidneys,,Diabetes,Mouse,SASP/Inflammation,"29253812, 25701431",WB
+MIR146A,microRNA 146a,HGNC:31533,mRNA,Kidneys,,Diabetes,Mouse,SASP/Inflammation,29253812,rt-qPCR
+MIR21,microRNA 21,HGNC:31586,mRNA,Kidneys,,Diabetes,Mouse,SASP/Inflammation,29253812,rt-qPCR
+MMP1,matrix metallopeptidase 1,HGNC:7155,mRNA,Kidneys,,Aging,Human,SASP/Inflammation,14717921,rt-qPCR
+MMP12,matrix metallopeptidase 12,HGNC:7158,mRNA,Kidneys,Podocytes,Aging,Mouse,SASP/Inflammation,32592814,RNA-seq
+MMP13,matrix metallopeptidase 13,HGNC:7159,mRNA,Kidneys,,Aging,Mouse,SASP/Inflammation,"34725920, 32592814","rt-qPCR, RNA-seq"
+NOX1,NADPH oxidase 1,HGNC:7889,mRNA,Kidneys,,Diabetes,Mouse,DDR,25701431,rt-qPCR
+NPRL3,"NPR3 like, GATOR1 complex subunit",HGNC:14124,mRNA,Kidneys,,Diabetes,Mouse,SASP/Inflammation,29253812,rt-qPCR
+PTGS1,prostaglandin-endoperoxide synthase 1,HGNC:9604,mRNA,Kidneys,,Aging,Human,SASP/Inflammation,14717921,"rt-qPCR, IHC"
+PTGS2,prostaglandin-endoperoxide synthase 2,HGNC:9605,mRNA,Kidneys,,Aging,Human,SASP/Inflammation,14717921,"rt-qPCR, IHC"
+SA-β-Gal,senescence associated beta galactosidase,,Protein,Kidneys,,Diabetes,Mouse,Increased lysosomal content,25701431,IHC
+SERPINE1,serpin family E member 1,HGNC:8583,"Protein, mRNA",Kidneys,"Glomerular enothelial cells, macrophages","Aging, irradiation; Diabetes","Human, Mouse",SASP/Inflammation,"34725920, 35166234, 17183247, 29253812","IHC, IF, RNA-seq"
+Telomere length,Telomere length,,,Kidneys,,AKI,Mouse,DDR,19959722,FISH
+TGFB1,transforming growth factor beta 1,HGNC:11766,Protein,Kidneys,"Podocytes; endothelial cells, macrophages",Aging; Diabetes,Mouse,SASP/Inflammation,"35166234, 29253812","RNA-seq, IF, WB"
+TNF,tumor necrosis factor,HGNC:11892,mRNA,Kidneys,,ishemic renal injury,Mouse,SASP/Inflammation,32657444,rt-qPCR
+TP53BP1,tumor protein p53 binding protein 1,HGNC:11999,Protein,Kidneys,"Glomerular enothelial cells, podocytes",Aging,Mouse,DDR,"34725920, 35166234","IHC, IF"
+WNT9A,Wnt family member 9A,HGNC:12778,Protein,Kidneys,Tubular epithelial cells,"Chronic kidney disease, various nephropathies","Human, Mouse",SASP/Inflammation,29440280,"WB, IHC"
+CCL2,C-C motif chemokine ligand 2,HGNC:10618,mRNA,Liver,,partial hepatectomy,Mouse,SASP/Inflammation,35708907,rt-qPCR
+CCL5,C-C motif chemokine ligand 5,HGNC:10632,mRNA,Liver,,partial hepatectomy,Mouse,SASP/Inflammation,35708907,rt-qPCR
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,"mRNA, Protein",Liver,"hepatocytes, stellate cells","Aging, NAFLD, Fibrosis, HFD","Human, Mouse",Cell cycle arrest,"23142622, 26840489, 18724938, 28608850","IHC, rt-qPCR, IF"
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,"mRNA, Protein",Liver,"hepatocyte, stellate cells","Aging, Partial hepatectomy, Fibrosis, HFD",Mouse,Cell cycle arrest,"26840489, 35708907, 31296937, 28802066, 28608850, 18724938","rt-qPCR, FISH, RNA-ISH, IHC"
+CXCL1,C-X-C motif chemokine ligand 1,HGNC:4602,mRNA,Liver,,Partial hepatectomy,Mouse,SASP/Inflammation,35708907,rt-qPCR
+CXCL2,C-X-C motif chemokine ligand 2,HGNC:4603,"mRNA, Protein",Liver,,partial hepatectomy,Mouse,SASP/Inflammation,35708907,rt-qPCR
+CXCL5,C-X-C motif chemokine ligand 5,HGNC:10642,mRNA,Liver,,partial hepatectomy,Mouse,SASP/Inflammation,35708907,rt-qPCR
+H2AX,H2A.X variant histone,HGNC:4739,Protein,Liver,hepatocytes,"Aging, NAFLD, HFD","Human, Mouse",DDR,"23142622, 28608850, 19627270","IF, IHC"
+HMGA1,high mobility group AT-hook 1,HGNC:5010,Protein,Liver,Stellate cells,Fibrosis,Mouse,DDR,18724938,IF
+IFNA1,interferon alpha 1,HGNC:5417,mRNA,Liver,,Aging,Mouse,SASP/Inflammation,31296937,rt-qPCR
+IL1A,interleukin 1 alpha,HGNC:5991,mRNA,Liver,,Partial hepatectomy,Mouse,SASP/Inflammation,35708907,rt-qPCR
+IL6,interleukin 6,HGNC:6018,"mRNA, Protein",Liver,,"Aging, Partial hepatectomy",Mouse,SASP/Inflammation,"26840489, 35708907, 31296937","rt-qPCR, IF, Elisa"
+IRF7,interferon regulatory factor 7,HGNC:6122,mRNA,Liver,,Aging,Mouse,SASP/Inflammation,31296937,rt-qPCR
+Karyomegaly,Karyomegaly,,,Liver,,"Aging, HFD",Mouse,Nuclear changes,28608850,IF
+MACROH2A1,macroH2A.1 histone,HGNC:4740,mRNA,Liver,,Aging,Mouse,Nuclear changes,21176091,"IF, Immunoblotting"
+MMP1,matrix metallopeptidase 1,HGNC:7155,mRNA,Liver,,Aging,Mouse,SASP/Inflammation,26840489,rt-qPCR
+MMP2,matrix metallopeptidase 2,HGNC:7166,mRNA,Liver,,Partial hepatectomy,Mouse,SASP/Inflammation,35708907,rt-qPCR
+MMP3,matrix metallopeptidase 3,HGNC:7173,mRNA,Liver,,"Aging, Partial hepatectomy",Mouse,SASP/Inflammation,"26840489, 35708907, 31296937",rt-qPCR
+PDGFB,platelet derived growth factor subunit B,HGNC:8800,"mRNA, Protein",Liver,,Fibrosis,Mouse,SASP/Inflammation,28802066,"RNAscope-ISH, rt-qPCR"
+SA-β-Gal,senescence associated beta galactosidase,,,Liver,,"Aging, Cirrhosis","Human, Mouse",Increased lysosomal content,"31296937, 19627270, 12087054",Histochemistry
+senescence-associated distension of satellites,senescence-associated distension of satellites,,,Liver,,Aging,Mouse,Nuclear changes,28608850,FISH
+SERPINE1,serpin family E member 1,HGNC:8583,mRNA,Liver,,"Aging, Partial hepatectomy",Mouse,SASP/Inflammation,"26840489, 35708907, 31296937",rt-qPCR
+TAF,Telomere-Associated Foci,,,Liver,hepatocytes,"Aging, HFD, ALD","baboon, Human, Mouse",DDR,"22426077, 22426229, 28608850, 25879839",FISH
+TGFB1,transforming growth factor beta 1,HGNC:11766,"mRNA, Protein",Liver,,Fibrosis,Mouse,SASP/Inflammation,28802066,"RNAscope-ISH, rt-qPCR"
+TNF,tumor necrosis factor,HGNC:11892,"mRNA, Protein",Liver,,Fibrosis,Mouse,SASP/Inflammation,28802066,"RNAscope-ISH, rt-qPCR"
+TP53,tumor protein p53,HGNC:11998,Protein,Liver,Stellate cells,Fibrosis,Mouse,Cell cycle arrest,18724938,IF
+BCL2L1,BCL2 like 1,HGNC:992,Protein,Lungs,Fibroblast,IPF,Mouse,SASP/Inflammation,24603818,Immunoblotting
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,Protein,Lungs,,"Aging, Pulmonary fibrosis, ARDS, IPF, COPD","Human, Mouse",Cell cycle arrest,"35256943, 33515780, 36231077, 36650158, 28722352, 31959867, 15333326, 36506578, 34063608, 28230051","rt-qPCR, IHC, RNA-seq, Immunoblot,IF"
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,Protein,Lungs,,"Non-small cell lung, IPF, Aging, emphysema","Human, Mouse",Cell cycle arrest,"31428695, 36227993, 37078230, 31959867, 34063608, 31157548, 35672770","Immunostaining, Gene knockout, scRNA seq"
+CXCL8,C-X-C motif chemokine ligand 8,HGNC:6025,Protein,Lungs,,"COPD, IPF","Human, Mouse",SASP/Inflammation,"34238764, 16140223, 21916917","ELISA, Multiplex Immunoassay"
+GDF15,growth differentiation factor 15,HGNC:30142,Protein,Lungs,,"Aging, ILD, COPD, Pulmonary Emphysema, IPF","Human, Mouse",SASP/Inflammation,"33080140, 28145442, 29977354, 35993367, 28145442, 35993367, 31432710","Knockout studies, proteomic analyses, ELISA, IF, IHC, rt-qPCR"
+H2AX,H2A.X variant histone,HGNC:4739,Protein,Lungs,,"Aging, COPD",Human,DDR,"34728633, 26386120",IHC
+H2AX,H2A.X variant histone,HGNC:4739,Protein,Lungs,,"Development, Aging, IPF",Mouse,DDR,"36650158, 26386120, 36059455","IF, IHC"
+IL10,interleukin 10,HGNC:5962,Protein,Lungs,,"Aging, COPD","Human, Mouse",SASP/Inflammation,"16140223, 11029344, 32170906","Multiplex Immunoassay, Gene knockout studies"
+IL1A,interleukin 1 alpha,HGNC:5991,Protein,Lungs,,"IPF, Tobacco/cigarette smoke (CS) exposure",Mouse,SASP/Inflammation,"28230051, 34238764, 34063608",rt-qPCR
+IL1B,interleukin 1 beta,HGNC:5992,Protein,Lungs,,"COPD, IPF","Human, Mouse",SASP/Inflammation,"31959867, 16140223","rt-qPCR, Multiplex Immunoassay"
+IL6,interleukin 6,HGNC:6018,Protein,Lungs,,"IPF, CS exposure, COPD","Human, Mouse",SASP/Inflammation,"28230051, 34238764, 34063608, 16140223, 21916917","rt-qPCR, Multiplex Immunoassay"
+MMP12,matrix metallopeptidase 12,HGNC:7158,Protein,Lungs,,"IPF, CS exposure",Mouse,SASP/Inflammation,"28230051, 34063608","RNAseq, rt-qPCR, immunoblotting"
+MMP8,matrix metallopeptidase 8,HGNC:7175,Protein,Lungs,,COPD,Human,SASP/Inflammation,10351949,ELISA
+SERPINE1,serpin family E member 1,HGNC:8583,Protein,Lungs,,"IPF, Aging","Human, Mouse",SASP/Inflammation,"28722352, 28230051, 36059455, 29152572","rt-qPCR, immunoblotting"
+TGFB1,transforming growth factor beta 1,HGNC:11766,Protein,Lungs,,IPF,"Human, Mouse",SASP/Inflammation,"32661339, 31959867, 28230051","rt-qPCR, scRNA seq, IF, Microarray, RNAseq"
+TNF,tumor necrosis factor,HGNC:11892,Protein,Lungs,,IPF,"Human, Mouse",SASP/Inflammation,28230051,"microarrays, rt-qPCR"
+TNFRSF1B,TNF receptor superfamily member 1B,HGNC:11917,Protein,Lungs,,Hyperoxia,Mouse,SASP/Inflammation,36650158,"scRNA seq, Luminex"
+TP53,tumor protein p53,HGNC:11998,Protein,Lungs,,"Aging, ARDS, IPF, COPD",Mouse,Cell cycle arrest,"33515780, 32661339, 28722352, 31959867, 36506578, 34063608","rt-qPCR, scRNA seq, IF"
+TP53,tumor protein p53,HGNC:11998,Protein,Lungs,,ARDS,Human,Cell cycle arrest,"33515780, 28230051","Microarray, RNAseq, rt-qPCR"
+VEGFA,vascular endothelial growth factor A,HGNC:12680,Protein,Lungs,,COPD,Human,SASP/Inflammation,21916917,Cytometric Bead Array
+CCL5,C-C motif chemokine ligand 5,HGNC:10632,Protein,Mammary gland,,Aging,Mouse,SASP/Inflammation,33378681,scRNAseq
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,Protein,Mammary gland,Stromal cells,Aging,Mouse,Cell cycle arrest,27852980,"RNAseq, rt-qPCR"
+CSF1,colony stimulating factor 1,HGNC:2432,Protein,Mammary gland,,Aging,Mouse,SASP/Inflammation,33378681,scRNAseq
+CSF3,colony stimulating factor 3,HGNC:2438,Protein,Mammary gland,,Aging,Mouse,SASP/Inflammation,33378681,scRNAseq
+CXCL1,C-X-C motif chemokine ligand 1,HGNC:4602,Protein,Mammary gland,,Aging,Mouse,SASP/Inflammation,33378681,scRNAseq
+CXCL16,C-X-C motif chemokine ligand 16,HGNC:16642,Protein,Mammary gland,,Aging,Mouse,SASP/Inflammation,33378681,scRNAseq
+CXCL2,C-X-C motif chemokine ligand 2,HGNC:4603,Protein,Mammary gland,,Aging,Mouse,SASP/Inflammation,33378681,scRNAseq
+IL6,interleukin 6,HGNC:6018,Protein,Mammary gland,,Aging,Mouse,SASP/Inflammation,33378681,scRNAseq
+macrophage crown-like structures,macrophage crown-like structures,,,Mammary gland,Stromal cells,Aging,Mouse,SASP/Inflammation,27852980,IHC
+PTGS2,prostaglandin-endoperoxide synthase 2,HGNC:9605,Protein,Mammary gland,,Aging,Mouse,SASP/Inflammation,27852980,"RNAseq, IHC"
+AKT1,AKT serine/threonine kinase 1,HGNC:391,Protein,Ovary,Granulosa cells,Development,Mouse,SASP/Inflammation,31111482,WB
+BAX,"BCL2 associated X, apoptosis regulator",HGNC:959,Protein,Ovary,Granulosa cells,Development,Mouse,Resistance to apoptosis,31111482,WB
+BCL2,BCL2 apoptosis regulator,HGNC:990,Protein,Ovary,Granulosa cells,Development,Mouse,Resistance to apoptosis,31111482,WB
+CASP3,caspase 3,HGNC:1504,Protein,Ovary,Granulosa cells,Development,Mouse,Resistance to apoptosis,31111482,WB
+CBX1,chromobox 1,HGNC:1551,Protein,Ovary,,Disease (POI),Mouse,Nuclear changes,33358858,
+CBX3,chromobox 3,HGNC:1553,Protein,Ovary,,Disease (POI),Mouse,Nuclear changes,33358858,IF
+CBX5,chromobox 5,HGNC:1555,Protein,Ovary,,Disease (POI),Mouse,Nuclear changes,33358858,
+CCL2,C-C motif chemokine ligand 2,HGNC:10618,mRNA,Ovary,,Disease (genotoxic reagent),Mouse,SASP/Inflammation,36648735,rt-qPCR
+CCL3,C-C motif chemokine ligand 3,HGNC:10627,mRNA,Ovary,Immune cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+CCL5,C-C motif chemokine ligand 5,HGNC:10632,"mRNA, Protein",Ovary,Stromal cells,Aging,Mouse,SASP/Inflammation,31111482,"IHC, rt-qPCR"
+CCL8,C-C motif chemokine ligand 8,HGNC:10635,mRNA,Ovary,Immune cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+CCL8,C-C motif chemokine ligand 8,HGNC:10635,mRNA,Ovary,,Aging,Mouse,SASP/Inflammation,33383072,"rt-qPCR, bulk RNA-seq"
+CD74,CD74 molecule,HGNC:1697,mRNA,Ovary,,Aging,Mouse,SASP/Inflammation,36054356,scRNAseq
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,"mRNA, Protein",Ovary,Perivascular endothelial cells,"Aging, Disease (genotoxic reagent)","Human, Mouse",Cell cycle arrest,"33383072, 35693700, 36648735, 36336229, 36543131","scRNAseq, rt-qPCR, bulk RNA-seq, WB"
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,"mRNA, Protein",Ovary,Granulosa cells,"Aging, Disease (genotoxic reagent)",Mouse,Cell cycle arrest,"15520862, 33383072, 35784529, 35693700, 36648735, 36336229","rt-qPCR, bulk RNA-seq, IHC, WB"
+CRLF1,cytokine receptor like factor 1,HGNC:2364,mRNA,Ovary,,Aging,Mouse,SASP/Inflammation,33383072,"rt-qPCR, bulk RNA sequecing"
+CXCL1,C-X-C motif chemokine ligand 1,HGNC:4602,mRNA,Ovary,Immune cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+CXCL10,C-X-C motif chemokine ligand 10,HGNC:10637,mRNA,Ovary,,Aging,Mouse,SASP/Inflammation,36054356,scRNAseq
+CXCL2,C-X-C motif chemokine ligand 2,HGNC:4603,mRNA,Ovary,Immune cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+CXCL3,C-X-C motif chemokine ligand 3,HGNC:4604,mRNA,Ovary,Immune cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+CXCL8,C-X-C motif chemokine ligand 8,HGNC:6025,mRNA,Ovary,Immune cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+H2AX,H2A.X variant histone,HGNC:4739,Protein,Ovary,Granulosa cells,Aging,Mouse,DDR,35784529,"IHC, WB"
+H3K9me3,histone H3 lysine 9 trimethylation,,Protein,Ovary,,Disease (POI),Mouse,Nuclear changes,33358858,IF
+HMGA1,high mobility group AT-hook 1,HGNC:5010,Protein,Ovary,,Disease (POI),Mouse,DDR,33358858,WB
+HMGA2,high mobility group AT-hook 2,HGNC:5009,Protein,Ovary,,Disease (POI),Mouse,Nuclear changes,33358858,WB
+HMGB1,high mobility group box 1,HGNC:4983,mRNA,Ovary,,Aging,Mouse,Nuclear changes,33383072,rt-qPCR
+IGFBP2,insulin like growth factor binding protein 2,HGNC:5471,mRNA,Ovary,Stromal cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+IGFBP3,insulin like growth factor binding protein 3,HGNC:5472,mRNA,Ovary,Stromal cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+IGFBP4,insulin like growth factor binding protein 4,HGNC:5473,mRNA,Ovary,Stromal cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+IGFBP7,insulin like growth factor binding protein 7,HGNC:5476,mRNA,Ovary,Endothelial cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+IL1A,interleukin 1 alpha,HGNC:5991,mRNA,Ovary,,Aging,Mouse,SASP/Inflammation,36336229,rt-qPCR
+IL1B,interleukin 1 beta,HGNC:5992,mRNA,Ovary,,Aging,Mouse,SASP/Inflammation,36336229,rt-qPCR
+IL6,interleukin 6,HGNC:6018,"mRNA, Protein",Ovary,,Disease (genotoxic reagent),Mouse,SASP/Inflammation,"35693700, 36648735","WB, IHC, Luminex mouse 23 cytokine array, rt-qPCR"
+Lipofuscin,Lipofuscin,,Protein,Ovary,,Aging,Mouse,Increased lysosomal content,33383072,Lipofuscin staining (sudan black dye)
+PTEN,phosphatase and tensin homolog,HGNC:9588,Protein,Ovary,Granulosa cells,Development,Mouse,Cell cycle arrest,31111482,WB
+RELA,"RELA proto-oncogene, NF-kB subunit",HGNC:9955,Protein,Ovary,Granulosa cells,Development,Mouse,SASP/Inflammation,31111482,WB
+SA-β-Gal,senescence associated beta galactosidase,,Protein,Ovary,Stromal cells,"Aging, Disease (genotoxic reagent)",Mouse,Increased lysosomal content,"31111482, 35693700, 36648735",SA‐β‐gal staining
+SERPINE1,serpin family E member 1,HGNC:8583,mRNA,Ovary,Stromal cells,Aging,"Mouse, Human",SASP/Inflammation,"33383072, 36543131","rt-qPCR, scRNAseq"
+TGFB1,transforming growth factor beta 1,HGNC:11766,mRNA,Ovary,,Disease (genotoxic reagent),Mouse,SASP/Inflammation,36648735,rt-qPCR
+TIMP1,TIMP metallopeptidase inhibitor 1,HGNC:11820,mRNA,Ovary,Stromal cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+TIMP2,TIMP metallopeptidase inhibitor 2,HGNC:11821,mRNA,Ovary,Stromal cells,Aging,Human,SASP/Inflammation,36543131,scRNAseq
+ACTG1,actin gamma 1,HGNC:144,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+ADAMTS1,ADAM metallopeptidase with thrombospondin type 1 motif 1,HGNC:217,Protein,Pancreas,,infiltrating ductal adenocarcinoma of the pancreas,Human,Other,30953539,Quantitative methylation-specific PCR
+ANKRD1,ankyrin repeat domain 1,HGNC:15819,mRNA,Pancreas,b-cells,MODY,Mouse,SASP/Inflammation,34644565,rt-qPCR
+ARG2,arginase 2,HGNC:664,mRNA,Pancreas,Acinar cells,Aging,Mouse,SASP/Inflammation,28356309,two-step rt-qPCR
+ATM,ATM serine/threonine kinase,HGNC:795,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+ATR,ATR serine/threonine kinase,HGNC:882,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+BCL2A1,BCL2 related protein A1,HGNC:991,mRNA,Pancreas,b-cells,MODY,Mouse,Resistance to apoptosis,34644565,rt-qPCR
+BHLHA15,basic helix-loop-helix family member a15,HGNC:22265,mRNA,Pancreas,Acinar cells,"Aging, pancreatitis",Mouse,SASP/Inflammation,25212177,rt-qPCR
+BHLHE40,basic helix-loop-helix family member e40,HGNC:1046,Protein,Pancreas,Acinar cells,suspension culture,Mouse,Cell cycle arrest,21193456,"Immunoblots, IHC"
+BNC1,basonuclin 1,HGNC:1081,Protein,Pancreas,,infiltrating ductal adenocarcinoma of the pancreas,Human,,30953539,Quantitative methylation-specific PCR
+CASP3,caspase 3,HGNC:1504,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+CBX3,chromobox 3,HGNC:1553,Protein,Pancreas,duct cells,IPMN (Intraductal papillary mucinous neoplasm),Human,Nuclear changes,21733551,IF
+CCL3,C-C motif chemokine ligand 3,HGNC:10627,"mRNA, Protein",Pancreas,b-cells,"Type 2 diabetes, insulin resistance","Human, Mouse",SASP/Inflammation,31155496,"rt-qPCR, Flow cytometry"
+CCL4,C-C motif chemokine ligand 4,HGNC:10630,"mRNA, Protein",Pancreas,b-cells,"Type 2 diabetes, insulin resistance","Human, Mouse",SASP/Inflammation,31155496,"rt-qPCR, Flow cytometry"
+CCL5,C-C motif chemokine ligand 5,HGNC:10632,"mRNA, Protein",Pancreas,b-cells,"Type 2 diabetes, insulin resistance","Human, Mouse",SASP/Inflammation,31155496,"rt-qPCR, Flow cytometry"
+CD68,CD68 molecule,HGNC:1693,mRNA,Pancreas,b-cells,MODY,Mouse,SASP/Inflammation,34644565,rt-qPCR
+CDK1,cyclin dependent kinase 1,HGNC:1722,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,"mRNA, Protein",Pancreas,"b-cells, Acinar cells","Type 1 diabetes, Type 2 diabetes, insulin resistance, MODY, Aging, suspension culture, chronic pancreatitis, pancreatic ductal adenocarcinoma, acinar to ductal metaplasia","Human, Mouse",Cell cycle arrest,"31155496, 30799288, 34644565, 36375063, 21193456, 25894862, 25212177, 21860420","Immunoblots, rt-qPCR, IHC"
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,"mRNA, Protein",Pancreas,"Acinar cells, b cells, duct cells","Aging, senescence induced by tamoxifen, pancreatitis, Type 1 diabetes, Type 2 diabetes, insulin resistance, IPMN (Intraductal papillary mucinous neoplasm), Pancreatic ductal adenocarcinoma (PDAC), Pancreatitis","Human, Mouse",Cell cycle arrest,"31240701, 25212177, 22609312, 14681207, 21733551, 33627784, 21075310, 31155496, 30799288, 34644565, 36375063","rt-qPCR, WB, IHC"
+CDKN2B,cyclin dependent kinase inhibitor 2B,HGNC:1788,"mRNA, Protein",Pancreas,"Acinar cells, duct cells","Aging, IPMN (Intraductal papillary mucinous neoplasm)","Human, Mouse",Cell cycle arrest,"26057580, 21733551","IHC, SABiosciences Cellular Senescence RT2 Profiler PCR Array"
+CXCL1,C-X-C motif chemokine ligand 1,HGNC:4602,"mRNA, Protein",Pancreas,b-cells,"Type 2 diabetes, insulin resistance","Human, Mouse",SASP/Inflammation,31155496,"rt-qPCR, Flow cytometry"
+CXCL10,C-X-C motif chemokine ligand 10,HGNC:10637,"mRNA, Protein",Pancreas,b-cells,"Type 2 diabetes, insulin resistance","Human, Mouse",SASP/Inflammation,31155496,"rt-qPCR, Flow cytometry"
+CXCL11,C-X-C motif chemokine ligand 11,HGNC:10638,mRNA,Pancreas,b-cells,MODY,Mouse,SASP/Inflammation,34644565,rt-qPCR
+CXCL12,C-X-C motif chemokine ligand 12,HGNC:10672,mRNA,Pancreas,b-cells,MODY,Mouse,SASP/Inflammation,34644565,rt-qPCR
+DNAJA3,DnaJ heat shock protein family (Hsp40) member A3,HGNC:11808,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+FAS,Fas cell surface death receptor,HGNC:11920,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+H2AX,H2A.X variant histone,HGNC:4739,mRNA,Pancreas,"Acinar cells, b-cells","suspension culture, Type 1 diabetes",Mouse,DDR,"21193456, 30799288","rt-qPCR, IHC"
+HIV-NEF,nef Human immunodeficiency virus 1,,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+HMGB1,high mobility group box 1,HGNC:4983,Protein,Pancreas,"a-cells, b-cells","Aging, Type 2 diabetes","Human, Mouse",Nuclear changes,"31155496, 36375063",IHC
+ICAM1,intercellular adhesion molecule 1,HGNC:5344,mRNA,Pancreas,b-cells,MODY,Mouse,SASP/Inflammation,34644565,rt-qPCR
+ICAM3,intercellular adhesion molecule 3,HGNC:5346,mRNA,Pancreas,b-cells,MODY,Mouse,SASP/Inflammation,34644565,rt-qPCR
+ID3,"inhibitor of DNA binding 3, HLH protein",HGNC:5362,mRNA,Pancreas,Acinar cells,pancreatic ductal adenocarcinoma,Human,SASP/Inflammation,25894862,"Microarray, WB"
+IGFBP3,insulin like growth factor binding protein 3,HGNC:5472,Protein,Pancreas,b-cells,Type 1 diabetes,Mouse,SASP/Inflammation,30799288,Luminex assay
+IL1A,interleukin 1 alpha,HGNC:5991,mRNA,Pancreas,,Pancreatic adenocarcinoma,Human,SASP/Inflammation,36622275,rt-qPCR
+IL1A,interleukin 1 alpha,HGNC:5991,"mRNA, Protein",Pancreas,b-cells,"Type 2 diabetes, insulin resistance",Mouse,SASP/Inflammation,31155496,"rt-qPCR, Flow cytometry"
+IL6,interleukin 6,HGNC:6018,"mRNA, Protein",Pancreas,b-cells,"Type 1 diabetes, Type 2 diabetes, insulin resistance, Pancreatic adenocarcinoma","Human, Mouse",SASP/Inflammation,"31155496, 30799288, 36622275","rt-qPCR, ELISA"
+Infiltration of F4/80,Infiltration of F4/80,,mRNA,Pancreas,Acinar cells,senescence induced by tamoxifen,Mouse,SASP/Inflammation,31240701,IHC
+KRAS,"KRAS proto-oncogene, GTPase",HGNC:6407,mRNA,Pancreas,duct cells/acinar cells,Aging,Human,DDR,10592048,Nucleotide sequence
+MAPK14,MAPK14,HGNC:6876,mRNA,Pancreas,Acinar cells,"Aging, suspension culture",Mouse,SASP/Inflammation,"21193456, 28356309",rt-qPCR
+MMP2,matrix metallopeptidase 2,HGNC:7166,Protein,Pancreas,b-cells,Type 1 diabetes,Mouse,SASP/Inflammation,30799288,IHC
+NFKB1,nuclear factor kappa B subunit 1,HGNC:7794,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+proteasome,proteasome,,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+SA-β-Gal,senescence associated beta galactosidase,,Protein,Pancreas,"Acinar , b-cells, duct cells","Aging, suspension culture, senescence induced by tamoxifen, acinar to ductal metaplasia, IPMN (Intraductal papillary mucinous neoplasm), Type 2 diabetes, insulin resistance","Human, Mouse",Increased lysosomal content,"21193456, 31240701, 26057580, 21860420, 21733551, 21075310, 31155496, 33674410, 34644565","Histochemical staining, Flow cytometry, SA-β-gal staining, IHC"
+SERPINE1,serpin family E member 1,HGNC:8583,Protein,Pancreas,b-cells,Type 1 diabetes,Mouse,SASP/Inflammation,30799288,IHC
+SMAD4,SMAD family member 4,HGNC:6770,Protein,Pancreas,duct cells,pancreatic adenocarcinoma,Mouse,DDR,14681207,WB
+TGFB1,transforming growth factor beta 1,HGNC:11766,mRNA,Pancreas,Acinar cells,"Aging, pancreatitis","Human, Mouse",SASP/Inflammation,"25212177, 30858455",rt-qPCR
+TGFBR2,transforming growth factor beta receptor 2,HGNC:11773,mRNA,Pancreas,Acinar cells,"Aging, pancreatitis",Mouse,SASP/Inflammation,25212177,rt-qPCR
+TLR2,toll like receptor 2,HGNC:11848,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+TNF,tumor necrosis factor,HGNC:11892,"mRNA, Protein",Pancreas,"Acinar cells, b-cells","Type 2 diabetes, insulin resistance, Aging, suspension culture","Human, Mouse",SASP/Inflammation,"31155496, 28356309","rt-qPCR, Flow cytometry"
+TNFRSF1A,TNF receptor superfamily member 1A,HGNC:11916,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+TNFRSF1B,TNF receptor superfamily member 1B,HGNC:11917,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+TNFRSF9,TNF receptor superfamily member 9,HGNC:11924,mRNA,Pancreas,Acinar cells,suspension culture,Mouse,SASP/Inflammation,21193456,rt-qPCR
+TP53,tumor protein p53,HGNC:11998,"mRNA, Protein",Pancreas,"Acinar cells, duct cells","Aging, suspension culture, pancreatitis, acinar to ductal metaplasia, pancreatic adenocarcinoma","Human, Mouse",Cell cycle arrest,"21193456, 25212177, 22609312, 21860420, 14681207, 28161061","Immunoblots, IHC, WB, rt-qPCR"
+8-OHdG,8-hydroxy-2'-deoxyguanosine,,Protein,Placenta,Villous stroma,"Development, Disease (IUGR)",Human,DDR,28161061,IHC
+BCL2,BCL2 apoptosis regulator,HGNC:990,Protein,Placenta,Trophoblasts,Disease (IUGR),Human,Resistance to apoptosis,"10940199, 19359039",IHC
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,"mRNA, Protein",Placenta,Syncytiotrophoblasts,"Development, Aging, disease (PE, FGR)","Human, Mouse",Cell cycle arrest,"26851389, 30055665, 19359039, 31424120, 27324096, 34785431, 9925645","WB, IHC, IF, rt-qPCR, WB, knock-out mice functional studies"
+CDKN1C,cyclin dependent kinase inhibitor 1C,HGNC:1786,"mRNA, Protein",Placenta,Extravillous trophoblasts,Development,"Human, Mouse",Cell cycle arrest,"30312291, 27324096, 9925645","IF, knock-out mice functional studies, WB"
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,"mRNA, Protein",Placenta,,"Aging, Disease (FGR/IUGR)","Human, Mouse",Cell cycle arrest,"19359039, 31424120, 34176822","rt-qPCR, WB, IHC, IF"
+CSF2,colony stimulating factor 2,HGNC:2434,,Placenta,,Placental Aging,Human,SASP/Inflammation,26025293,Antibody array
+CXCL8,C-X-C motif chemokine ligand 8,HGNC:6025,"mRNA,",Placenta,,"Disease (PE), Placental Aging","Human, Mouse",SASP/Inflammation,"34785431, 26025293","rt-qPCR, Antibody array"
+EEF1A1,eukaryotic translation elongation factor 1 alpha 1,HGNC:3189,mRNA,Placenta,,Disease (FGR),Human,Nuclear changes,19359039,rt-qPCR
+GDF15,growth differentiation factor 15,HGNC:30142,Protein,Placenta,,Development,Human,SASP/Inflammation,11134143,ELISA
+H2AX,H2A.X variant histone,HGNC:4739,Protein,Placenta,Syncytiotrophoblasts,"Disease (PE, IUGR)","Human, Mouse",DDR,"30055665, 33450376",IHC
+HMGB1,high mobility group box 1,HGNC:4983,,Placenta,,"Placental Aging, Disease (PE)",Human,Nuclear changes,26851389,"rt-qPCR, Bulk RNAseq"
+IFNG,interferon gamma,HGNC:5438,,Placenta,,"Development, Placental Aging, Disease (PE, IUGR)",Human,SASP/Inflammation,36834513,ELISA
+IL17A,interleukin 17A,HGNC:5981,,Placenta,,Placental Aging,Human,SASP/Inflammation,26851389,Bulk RNAseq
+IL1A,interleukin 1 alpha,HGNC:5991,mRNA,Placenta,,Aging,Mouse,SASP/Inflammation,34176822,"rt-qPCR, Mouse cytokine array (antibody-based)"
+IL1B,interleukin 1 beta,HGNC:5992,"mRNA,",Placenta,,"Placental Aging, Development, disease (PE)","Human, Mouse",SASP/Inflammation,"32591788, 34176822, 34785431","rt-qPCR, ELISA, Antibody Array"
+IL6,interleukin 6,HGNC:6018,"mRNA,",Placenta,,"Aging, Development, disease (PE)","Human, Mouse",SASP/Inflammation,"34176822, 34785431, 31424120, 36834513, 32591788, 26851389, 26025293","ELISA, Bulk RNA seq, Mouse cytokine array (antibody-based), rt-qPCR"
+Lipofuscin,Lipofuscin,,Protein,Placenta,Syncytiotrophoblasts,"Disease (PE, IUGR), Development","Human, Mouse",Increased lysosomal content,"33450376, 30055665","Indirect measures in cell lines, Sudan Black-B staining"
+LMNB1,lamin B1,HGNC:6637,Protein,Placenta,,Placental Aging,Human,Nuclear changes,26851389,IF
+MAPK14,MAPK14,HGNC:6876,Protein,Placenta,,"Placental Aging, Development","Human, Mouse",SASP/Inflammation,"26851389, 27324096","IF, WB, Bulk RNAseq"
+MMP2,matrix metallopeptidase 2,HGNC:7166,,Placenta,,Placental Aging,Human,SASP/Inflammation,32591788,
+MMP9,matrix metallopeptidase 9,HGNC:7176,,Placenta,,Placental Aging,Human,SASP/Inflammation,32591788,Antibody array
+NAMPT,nicotinamide phosphoribosyltransferase,HGNC:30092,Protein,Placenta,Syncytiotrophoblasts,"Development, Disease (PE)",Human,Nuclear changes,28161061,IHC
+NFKB1,nuclear factor kappa B subunit 1,HGNC:7794,Protein,Placenta,,Development,Human,SASP/Inflammation,28161061,IHC
+PTEN,phosphatase and tensin homolog,HGNC:9588,mRNA,Placenta,,Disease (PE),Human,Cell cycle arrest,36834513,rt-qPCR
+SA-β-Gal,senescence associated beta galactosidase,,Protein,Placenta,,"Placental Aging, Development",Human,Increased lysosomal content,"27324096, 26851389, 26025293",Staining
+SIRT1,sirtuin 1,HGNC:14929,Protein,Placenta,Syncytiotrophoblasts,"Development, Disease (PE, IUGR)","Human, Mouse",Nuclear changes,"28161061, 33450376",IHC
+SIRT3,sirtuin 3,HGNC:14931,Protein,Placenta,Syncytiotrophoblasts,"Development, Disease (PE)",Human,Nuclear changes,28161061,IHC
+Telomere length,Telomere length,,,Placenta,,"Development, Disease (FGR/IUGR)","Human, Mouse",DDR,"10940199, 19359039, 27324096","TRAP assay, rt-qPCR"
+TNF,tumor necrosis factor,HGNC:11892,"mRNA, Protein",Placenta,,Placental Aging,"Human, Mouse",SASP/Inflammation,"32591788, 34176822","EIA, ELISA, Mouse cytokine array (antibody-based)"
+TP53,tumor protein p53,HGNC:11998,"mRNA, Protein",Placenta,,"Development, Disease (PE, IUGR)","Human, Mouse",Cell cycle arrest,"30055665, 31424120,34176822, 27324096, 34785431, 31424120","rt-qPCR, WB, knock-out mice functional studies, IHC"
+TREM1,triggering receptor expressed on myeloid cells 1,HGNC:17760,,Placenta,,Placental Aging,Human,SASP/Inflammation,26851389,Bulk RNAseq
+ACVR1B,activin A receptor type 1B,HGNC:172,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+ANG,angiogenin,HGNC:483,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+ANGPT1,angiopoietin 1,HGNC:484,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+ANGPTL4,angiopoietin like 4,HGNC:16039,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+AREG,amphiregulin,HGNC:651,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+AXL,AXL receptor tyrosine kinase,HGNC:905,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+BEX3,brain expressed X-linked 3,HGNC:13388,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+BMP2,bone morphogenetic protein 2,HGNC:1069,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+BMP6,bone morphogenetic protein 6,HGNC:1073,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+C3,complement C3,HGNC:1318,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CCL1,C-C motif chemokine ligand 1,HGNC:10609,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"35974106, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+CCL13,C-C motif chemokine ligand 13,HGNC:10611,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CCL16,C-C motif chemokine ligand 16,HGNC:10614,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CCL2,C-C motif chemokine ligand 2,HGNC:10618,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"27341653, 35974106, 34617510, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+CCL20,C-C motif chemokine ligand 20,HGNC:10619,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CCL24,C-C motif chemokine ligand 24,HGNC:10623,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CCL26,C-C motif chemokine ligand 26,HGNC:10625,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CCL3,C-C motif chemokine ligand 3,HGNC:10627,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"27341653, 35974106, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+CCL3L1,C-C motif chemokine ligand 3 like 1,HGNC:10628,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CCL4,C-C motif chemokine ligand 4,HGNC:10630,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"35974106, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+CCL5,C-C motif chemokine ligand 5,HGNC:10632,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation, Type 2 Diabetes","Human, Mouse",SASP/Inflammation,"27341653, 35974106, 32023351, 32267250","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+CCL7,C-C motif chemokine ligand 7,HGNC:10634,mRNA,Skeleton,"N/A, Osteocytes, Callus cells","Aging, Fracture, Focal Radiation","Human, Mouse",SASP/Inflammation,"27341653, 35974106, 34617510, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+CCL8,C-C motif chemokine ligand 8,HGNC:10635,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"27341653, 35974106, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+CD55,CD55 molecule (Cromer blood group),HGNC:2665,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CD9,CD9 molecule,HGNC:1709,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,mRNA,Skeleton,"N/A, Osteocytes, Osteoprogenitors (Osx+), Bone marrow stromal cells (BMSCs), Callus cells","Aging, Fracture, Focal Radiation, Type 2 Diabetes","Human, Mouse",Cell cycle arrest,"27341653, 28401730, 34617510, 35426372, 32267250","rt-qPCR, WB, CyTOF"
+CDKN1B,cyclin dependent kinase inhibitor 1B,HGNC:1785,mRNA,Skeleton,Osteocytes,Focal Radiation,Mouse,Cell cycle arrest,32023351,rt-qPCR
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,mRNA,Skeleton,"N/A, Osteoprogenitors (Lepr+), Osteoblasts (ALPL+), Osteocytes, Callus cells","Aging, Fracture, Focal Radiation, Type 2 Diabetes","Human, Mouse",Cell cycle arrest,"27341653, 28878136, 34617510, 35426372, 32023351, 32267250, 36809340","rt-qPCR, IF, CyTOF"
+CDKN2B,cyclin dependent kinase inhibitor 2B,HGNC:1788,mRNA,Skeleton,Osteocytes,Focal Radiation,Mouse,Cell cycle arrest,32023351,rt-qPCR
+CDKN2C,cyclin dependent kinase inhibitor 2C,HGNC:1789,mRNA,Skeleton,Callus cells,Fracture,Mouse,Cell cycle arrest,35426372,rt-qPCR
+CDKN2D,cyclin dependent kinase inhibitor 2D,HGNC:1790,mRNA,Skeleton,"Callus cells, osteocytes","Fracture, Focal Radiation",Mouse,Cell cycle arrest,"35426372, 32023351",rt-qPCR
+CSF1,colony stimulating factor 1,HGNC:2432,mRNA,Skeleton,"N/A, Osteocytes",Aging,"Human, Mouse",SASP/Inflammation,"27341653, 35974106","rt-qPCR, Bulk RNA-seq, scRNA-seq"
+CSF2,colony stimulating factor 2,HGNC:2434,mRNA,Skeleton,"N/A, Osteocytes",Aging,"Human, Mouse",SASP/Inflammation,"27341653, 35974106","rt-qPCR, Bulk RNA-seq, scRNA-seq"
+CSF2RB,colony stimulating factor 2 receptor subunit beta,HGNC:2436,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CSF3,colony stimulating factor 3,HGNC:2438,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,27341653,rt-qPCR
+CST4,cystatin S,HGNC:2476,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CST5,cystatin D,HGNC:2477,mRNA,Skeleton,,Aging,Mouse,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CTNNB1,catenin beta 1,HGNC:2514,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CTSB,cathepsin B,HGNC:2527,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CXCL1,C-X-C motif chemokine ligand 1,HGNC:4602,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"35974106, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR, CyTOF"
+CXCL10,C-X-C motif chemokine ligand 10,HGNC:10637,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"35974106, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+CXCL12,C-X-C motif chemokine ligand 12,HGNC:10672,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CXCL12,C-X-C motif chemokine ligand 12,HGNC:10672,mRNA,Skeleton,Osteocytes,Aging,Mouse,SASP/Inflammation,"28878136, 28401730",rt-qPCR
+CXCL13,C-X-C motif chemokine ligand 13,HGNC:10639,mRNA,Skeleton,Osteocytes,Focal Radiation,Mouse,SASP/Inflammation,32023352,rt-qPCR
+Cxcl15,"Cxcl15 C-X-C motif chemokine 15, no homolog in humans",,mRNA,Skeleton,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+CXCL16,C-X-C motif chemokine ligand 16,HGNC:16642,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"35974106, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+CXCL2,C-X-C motif chemokine ligand 2,HGNC:4603,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"35974106, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+CXCL3,C-X-C motif chemokine ligand 3,HGNC:4604,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CXCL8,C-X-C motif chemokine ligand 8,HGNC:6025,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+CXCL9,C-X-C motif chemokine ligand 9,HGNC:7098,mRNA,Skeleton,Osteocytes,Focal Radiation,Mouse,SASP/Inflammation,32023352,rt-qPCR
+CXCR2,C-X-C motif chemokine receptor 2,HGNC:6027,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+DKK1,dickkopf WNT signaling pathway inhibitor 1,HGNC:2891,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+EDN1,endothelin 1,HGNC:3176,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+EGF,epidermal growth factor,HGNC:3229,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+EGFR,epidermal growth factor receptor,HGNC:3236,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+EREG,epiregulin,HGNC:3443,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+ESM1,endothelial cell specific molecule 1,HGNC:3466,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+ETS2,"ETS proto-oncogene 2, transcription factor",HGNC:3489,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+FAS,Fas cell surface death receptor,HGNC:11920,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+FAS,Fas cell surface death receptor,HGNC:11920,mRNA,Skeleton,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+FASLG,Fas ligand,HGNC:11936,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,27341653,rt-qPCR
+FGF1,fibroblast growth factor 1,HGNC:3665,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+FGF2,fibroblast growth factor 2,HGNC:3676,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+FGF7,fibroblast growth factor 7,HGNC:3685,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+FOXO4,forkhead box O4,HGNC:7139,mRNA,Skeleton,Callus cells,Fracture,Mouse,SASP/Inflammation,34617510,rt-qPCR
+GATA4,GATA binding protein 4,HGNC:4173,Protein,Skeleton,"Osteoprogenitors (Osx+), Osteocytes",Aging,Mouse,SASP/Inflammation,"28401730, 28878136","WB, WB"
+GDF15,growth differentiation factor 15,HGNC:30142,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+GEM,GTP binding protein overexpressed in skeletal muscle,HGNC:4234,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+GMFG,glia maturation factor gamma,HGNC:4374,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+H2AX,H2A.X variant histone,HGNC:4739,Protein,Skeleton,Osteocytes,Aging,Mouse,DDR,"28878136, 28401730","WB, IF"
+HGF,hepatocyte growth factor,HGNC:4893,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+HMGB1,high mobility group box 1,HGNC:4983,mRNA,Skeleton,"N/A, Osteocytes",Aging,"Human, Mouse",Nuclear changes,"27341653, 35974106","rt-qPCR, Bulk RNA-seq, scRNA-seq"
+ICAM1,intercellular adhesion molecule 1,HGNC:5344,mRNA,Skeleton,"N/A, Osteocytes",Aging,"Human, Mouse",SASP/Inflammation,"27341653, 35974106","rt-qPCR, Bulk RNA-seq, scRNA-seq"
+ICAM3,intercellular adhesion molecule 3,HGNC:5346,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+ICAM5,intercellular adhesion molecule 5,HGNC:5348,mRNA,Skeleton,,Aging,Mouse,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IFNG,interferon gamma,HGNC:5438,mRNA,Skeleton,Osteocytes,Type 2 Diabetes,Mouse,SASP/Inflammation,32267250,rt-qPCR
+IGF1,insulin like growth factor 1,HGNC:5464,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IGFBP1,insulin like growth factor binding protein 1,HGNC:5469,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IGFBP2,insulin like growth factor binding protein 2,HGNC:5471,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IGFBP3,insulin like growth factor binding protein 3,HGNC:5472,mRNA,Skeleton,"N/A, Osteocytes, Callus cells","Aging, Fracture","Human, Mouse",SASP/Inflammation,"27341653, 35974106, 34617510","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+IGFBP4,insulin like growth factor binding protein 4,HGNC:5473,mRNA,Skeleton,"N/A, Osteocytes, Callus cells","Aging, Fracture, Focal Radiation","Human, Mouse",SASP/Inflammation,"27341653, 35974106, 34617510, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+IGFBP5,insulin like growth factor binding protein 5,HGNC:5474,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IGFBP6,insulin like growth factor binding protein 6,HGNC:5475,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IGFBP7,insulin like growth factor binding protein 7,HGNC:5476,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IL10,interleukin 10,HGNC:5962,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"35974106, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+IL13,interleukin 13,HGNC:5973,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IL15,interleukin 15,HGNC:5977,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IL17A,interleukin 17A,HGNC:5981,mRNA,Skeleton,"Osteocytes, Callus cells","Aging, Fracture",Mouse,SASP/Inflammation,"27341653, 34617510",rt-qPCR
+IL18,interleukin 18,HGNC:5986,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"35974106, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+IL1A,interleukin 1 alpha,HGNC:5991,mRNA,Skeleton,"N/A, Osteocytes, Osteoprogenitors (Osx+)",Aging,"Human, Mouse",SASP/Inflammation,"27341653, 28401730, 35974106","rt-qPCR, Bulk RNA-seq, scRNA-seq, CyTOF"
+IL1B,interleukin 1 beta,HGNC:5992,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq, CyTOF"
+IL2,interleukin 2,HGNC:6001,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IL32,interleukin 32,HGNC:16830,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IL6,interleukin 6,HGNC:6018,mRNA,Skeleton,"N/A, Osteocytes, Callus cells","Aging, Fracture","Human, Mouse",SASP/Inflammation,"27341653, 35974106, 34617510","Bulk RNA-seq, scRNA-seq, rt-qPCR, CyTOF"
+IL6ST,interleukin 6 cytokine family signal transducer,HGNC:6021,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IL7,interleukin 7,HGNC:6023,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+INHA,inhibin subunit alpha,HGNC:6065,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+INHBA,inhibin subunit beta A,HGNC:6066,mRNA,Skeleton,Osteocytes,Type 2 Diabetes,Mouse,SASP/Inflammation,32267250,rt-qPCR
+IQGAP2,IQ motif containing GTPase activating protein 2,HGNC:6111,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+IRF1,interferon regulatory factor 1,HGNC:6116,mRNA,Skeleton,"N/A, Osteocytes",Aging,"Human, Mouse",SASP/Inflammation,27341653,rt-qPCR
+ITGA2,integrin subunit alpha 2,HGNC:6137,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+ITPKA,inositol-trisphosphate 3-kinase A,HGNC:6178,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+JUN,"Jun proto-oncogene, AP-1 transcription factor subunit",HGNC:6204,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+KITLG,KIT ligand,HGNC:6343,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+LCP1,lymphocyte cytosolic protein 1,HGNC:6528,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+MIF,macrophage migration inhibitory factor,HGNC:7097,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+MMP1,matrix metallopeptidase 1,HGNC:7155,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+MMP10,matrix metallopeptidase 10,HGNC:7156,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+MMP12,matrix metallopeptidase 12,HGNC:7158,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation, Type 2 Diabetes","Human, Mouse",SASP/Inflammation,"27341653, 35974106, 32023351, 32267250","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+MMP13,matrix metallopeptidase 13,HGNC:7159,mRNA,Skeleton,"N/A, Osteocytes, Callus cells","Aging, Fracture, Type 2 Diabetes","Human, Mouse",SASP/Inflammation,"27341653, 28878136, 28401730, 35974106, 34617510, 32267250","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+MMP14,matrix metallopeptidase 14,HGNC:7160,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+MMP2,matrix metallopeptidase 2,HGNC:7166,mRNA,Skeleton,"N/A, Osteocytes","Aging, Focal Radiation","Human, Mouse",SASP/Inflammation,"35974106, 32023351","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+MMP3,matrix metallopeptidase 3,HGNC:7173,mRNA,Skeleton,"N/A, Osteocytes","Aging, Type 2 Diabetes","Human, Mouse",SASP/Inflammation,"27341653, 35974106, 32267250","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+MMP9,matrix metallopeptidase 9,HGNC:7176,mRNA,Skeleton,"N/A, Osteocytes, Callus cells","Aging, Fracture, Type 2 Diabetes","Human, Mouse",SASP/Inflammation,"27341653, 35974106, 34617510, 32267250","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+NAP1L4,nucleosome assembly protein 1 like 4,HGNC:7640,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+NFKB1,nuclear factor kappa B subunit 1,HGNC:7794,mRNA,Skeleton,"Osteocytes, Callus cells","Aging, Fracture, Type 2 Diabetes",Mouse,SASP/Inflammation,"27341653, 34617510, 32267250","rt-qPCR, rt-qPCR"
+NFKBIA,NFKB inhibitor alpha,HGNC:7797,Protein,Skeleton,Osteoprogenitors (Osx+),Aging,Mouse,SASP/Inflammation,28401730,WB
+NRG1,neuregulin 1,HGNC:7997,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+PAPPA,pappalysin 1,HGNC:8602,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,"27341653, 35974106","rt-qPCR, Bulk RNA-seq, scRNA-seq"
+PDGFA,platelet derived growth factor subunit A,HGNC:8799,mRNA,Skeleton,Callus cells,Fracture,Mouse,SASP/Inflammation,34617510,rt-qPCR
+PECAM1,platelet and endothelial cell adhesion molecule 1,HGNC:8823,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+PGF,placental growth factor,HGNC:8893,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+PIGF,phosphatidylinositol glycan anchor biosynthesis class F,HGNC:8962,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+PLAT,"plasminogen activator, tissue type",HGNC:9051,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+PLAU,"plasminogen activator, urokinase",HGNC:9052,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+PLAUR,"plasminogen activator, urokinase receptor",HGNC:9053,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+PTBP1,polypyrimidine tract binding protein 1,HGNC:9583,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+PTGER2,prostaglandin E receptor 2,HGNC:9594,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+PTGES,prostaglandin E synthase,HGNC:9599,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+RELA,"RELA proto-oncogene, NF-kB subunit",HGNC:9955,Protein,Skeleton,Osteoprogenitors (Osx+),Aging,Mouse,SASP/Inflammation,28401730,"CyTOF, WB"
+RPS6KA5,ribosomal protein S6 kinase A5,HGNC:10434,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+SCAMP4,secretory carrier membrane protein 4,HGNC:30385,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+SELPLG,selectin P ligand,HGNC:10722,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+SEMA3F,semaphorin 3F,HGNC:10728,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+SERPINB2,serpin family B member 2,HGNC:8584,mRNA,Skeleton,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+SERPINB4,serpin family B member 4,HGNC:10570,mRNA,Skeleton,,Aging,Mouse,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+SERPINB4,serpin family B member 4,HGNC:10570,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+SERPINE1,serpin family E member 1,HGNC:8583,mRNA,Skeleton,"N/A, Callus cells","Aging, Fracture","Human, Mouse",SASP/Inflammation,"35974106, 34617510","Bulk RNA-seq, scRNA-seq, rt-qPCR, CyTOF"
+SERPINE2,serpin family E member 2,HGNC:8951,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+SPP1,secreted phosphoprotein 1,HGNC:11255,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+SPX,spexin hormone,HGNC:28139,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+TGFB1,transforming growth factor beta 1,HGNC:11766,"mRNA, Protein",Skeleton,Callus cells,Fracture,Mouse,SASP/Inflammation,"34617510, 35426372","rt-qPCR, WB, Flow Cytometry"
+TGFB2,transforming growth factor beta 2,HGNC:11768,mRNA,Skeleton,Callus cells,Fracture,Mouse,SASP/Inflammation,34617510,rt-qPCR
+TGFBR1,transforming growth factor beta receptor 1,HGNC:11772,mRNA,Skeleton,Callus cells,Fracture,Mouse,SASP/Inflammation,34617510,rt-qPCR
+TIMP2,TIMP metallopeptidase inhibitor 2,HGNC:11821,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+TNF,tumor necrosis factor,HGNC:11892,mRNA,Skeleton,"N/A, Osteoprogenitors (Osx+)",Aging,"Human, Mouse",SASP/Inflammation,"27341653, 35974106, 28401730","Bulk RNA-seq, scRNA-seq, rt-qPCR, CyTOF"
+TNFRSF10C,TNF receptor superfamily member 10c,HGNC:11906,mRNA,Skeleton,,Aging,Human,SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+TNFRSF11B,TNF receptor superfamily member 11b,HGNC:11909,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+TNFRSF1A,TNF receptor superfamily member 1A,HGNC:11916,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+TNFRSF1B,TNF receptor superfamily member 1B,HGNC:11917,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+TP53,tumor protein p53,HGNC:11998,Protein,Skeleton,Osteoprogenitors (Osx+),Aging,Mouse,Cell cycle arrest,28401730,IF
+TP53,tumor protein p53,HGNC:11998,mRNA,Skeleton,"Osteocytes, Callus cells","Aging, Fracture",Mouse,Cell cycle arrest,"27341653, 34617510",rt-qPCR
+TUBGCP2,tubulin gamma complex associated protein 2,HGNC:18599,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+VCAM1,vascular cell adhesion molecule 1,HGNC:12663,mRNA,Skeleton,Osteocytes,Aging,Mouse,SASP/Inflammation,27341653,rt-qPCR
+VEGFA,vascular endothelial growth factor A,HGNC:12680,mRNA,Skeleton,"N/A, Callus cells","Aging, Fracture","Human, Mouse",SASP/Inflammation,"35974106, 34617510","Bulk RNA-seq, scRNA-seq, rt-qPCR"
+VEGFC,vascular endothelial growth factor C,HGNC:12682,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+VGF,VGF nerve growth factor inducible,HGNC:12684,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+WNT16,Wnt family member 16,HGNC:16267,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+WNT2,Wnt family member 2,HGNC:12780,mRNA,Skeleton,,Aging,"Human, Mouse",SASP/Inflammation,35974106,"Bulk RNA-seq, scRNA-seq"
+BRAFV600E,"B-Raf proto-oncogene, serine/threonine kinase",HGNC:1097,mRNA,Skin,melanocytes,oncogene induced senescence,Human,DDR,"16079850, 12447372, 26924424","Duplex PCR, rt-qPCR, Sanger Sequencing"
+CDKN1A,cyclin dependent kinase inhibitor 1A,HGNC:1784,Protein,Skin,keratinocytes,Aging,Human,Cell cycle arrest,31633821,IF
+CDKN2A,cyclin dependent kinase inhibitor 2A,HGNC:1787,Protein,Skin,"melanocytes, keratinocytes, fibroblasts","Aging, cancer/tumor","Human, Mouse",Cell cycle arrest,"31633821, 16079850, 32641409",IF
+CXCL10,C-X-C motif chemokine ligand 10,HGNC:10637,Protein,Skin,keratinocytes,cancer,Mouse,SASP/Inflammation,32641409,rt-qPCR
+CXCL8,C-X-C motif chemokine ligand 8,HGNC:6025,Protein,Skin,melanocytes,photodamage - UVA+UVB,Human,SASP/Inflammation,30030153,"ELISA, rt-qPCR"
+CXCR3,C-X-C motif chemokine receptor 3,HGNC:4540,Protein,Skin,melanocytes,"Aging, photodamage",Human,SASP/Inflammation,31633821,"IF, chemical inhibition, genetic knockdown"
+H2AJ,H2A.J histone,HGNC:14456,Protein,Skin,epidermis,"OIS, photodamage","Human, Mouse",Nuclear changes,"28489069, 33795696","IHC, IF, Mass Spectrometry"
+H2AX,H2A.X variant histone,HGNC:4739,,Skin,"epdidermis, melanoyctes",Aging,Human,DDR,"28489069, 31633821",IF
+HMGB1,high mobility group box 1,HGNC:4983,Protein,Skin,"melanocytes, keratinocytes","Aging, photodamage - UVA+UVB",Human,Nuclear changes,"31633821, 30030153","WB, ELISA, IF"
+IL1A,interleukin 1 alpha,HGNC:5991,Protein,Skin,dermal fibroblasts,senescence,Human,SASP/Inflammation,19053174,"Antibody Arrays, ELISA"
+IL1B,interleukin 1 beta,HGNC:5992,Protein,Skin,dermal fibroblasts,senescence,"Human, Mouse",SASP/Inflammation,"19053174, 36798808","Antibody Arrays, ELISA"
+IL6,interleukin 6,HGNC:6018,Protein,Skin,"melanoyctes, fibroblasts",senescence,"Human, Mouse",SASP/Inflammation,"19053174, 30030153, 36798808, 32916932","Antibody Arrays, ELISA, rt-qPCR"
+KITLG,KIT ligand,HGNC:6343,Protein,Skin,melanocytes,photodamage - UVA+UVB,Human,SASP/Inflammation,30030153,
+Lipofuscin,Lipofuscin,,Protein,Skin,dermis and epidermis,Aging,Human,Increased lysosomal content,33795696,Histochemistry
+LMNB1,lamin B1,HGNC:6637,Protein,Skin,epidermis,photodamage - UVB,"Human, Mouse",Nuclear changes,"29142250, 32641409","IF, rt-qPCR, WB"
+MKI67,marker of proliferation Ki-67,HGNC:7107,Protein,Skin,epidermis,Aging,Human,Cell cycle arrest,33795696,IF
+MMP1,matrix metallopeptidase 1,HGNC:7155,Protein,Skin,dermal fibroblasts,senescence,Human,SASP/Inflammation,19053174,"Antibody Arrays, ELISA"
+MMP2,matrix metallopeptidase 2,HGNC:7166,Protein,Skin,,photodamage,Mouse,SASP/Inflammation,32916932,rt-qPCR
+MMP3,matrix metallopeptidase 3,HGNC:7173,Protein,Skin,"keratinocytes, fibroblasts",senescence/photodamage,"Human, Mouse",SASP/Inflammation,"19053174, 32641409, 36798808","Antibody Arrays, ELISA, rt-qPCR, IHC"
+MMP9,matrix metallopeptidase 9,HGNC:7176,Protein,Skin,"keratinocytes, fibroblasts",senescence/photodamage,"Human, Mouse",SASP/Inflammation,"19053174, 32641409, 32916932","Antibody Arrays, ELISA, rt-qPCR"
+mtDNA4977 del,mitochondrial DNA (mtDNA) 4977 base-pair large-scale deletion,,,Skin,,photodamage,Human,DDR,15140232,"Nested PCR, rt-qPCR (UV photodamage)"
+PML nuclear bodies,promyelocytic leukemia protein nuclear bodies,,Protein,Skin,fibroblasts,Aging,Human,DDR,"19053174, 25815425",IF
+RARRES2,retinoic acid receptor responder 2,HGNC:9868,Protein,Skin,dermal fibroblasts,senescence,Human,SASP/Inflammation,27907906,"rt-qPCR, ELISA, IF"
+SA-β-Gal,senescence associated beta galactosidase,,Protein,Skin,"fibroblast, keratinocytes, melanocytes","Aging, cancer/tumor",Human,Increased lysosomal content,"7568133, 33795696, 23332765, 32641409",X-gal precipitation
+TAF,Telomere-Associated Foci,,,Skin,melanocytes,Aging,Human,DDR,31633821,IF-FISH
+Telomere length,Telomere length,,,Skin,epidermis,Aging,Human,DDR,33795696,FISH
+TNF,tumor necrosis factor,HGNC:11892,Protein,Skin,dermal fibroblasts,senescence,"Human, Mouse",SASP/Inflammation,"19053174, 36798808, 32916932","Antibody Arrays, ELISA"
+TP53BP1,tumor protein p53 binding protein 1,HGNC:11999,,Skin,"epidermis, fibroblasts","photodamage, Aging",Human,DDR,"25815425, 28489069, 33795696, 31633821",IF foci

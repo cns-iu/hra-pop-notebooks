@@ -1,0 +1,81 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r env, warning=FALSE}
+library(FactoMineR)
+library(magrittr)
+library(tidyr)
+library(plyr)
+library(dplyr)
+library(stringr)
+library(Matrix)
+library(uwot)
+library(ggplot2)
+```
+
+```{r load}
+data <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v5.csv", header=T)
+
+# Clean up organ labels
+data$organ <- 
+  data$organ %>% 
+    str_replace("left ","") %>%
+    str_replace("right ","") %>%
+    str_replace("Set of lactiferous glands in breast","mammary gland") %>%
+    str_replace("respiratory system", "lung") %>%
+    str_replace("male reproductive system","prostate") %>%
+    str_replace(" of body","") %>%
+    str_to_title()
+
+# Reshape data
+data_cell_ct <- 
+  data %>% 
+  select(dataset,tool,organ,organId,cell_id,cell_count,percentage) %>%
+  pivot_wider(id_cols=c(dataset, tool, organ), names_from = c(cell_id),
+              values_from = c(cell_count), values_fill = 0, values_fn = mean) 
+
+# Tool Subsets
+data_ct_azimuth <- 
+  data_cell_ct %>%
+  filter(tool == "azimuth")
+data_ct_celltypist <- 
+  data_cell_ct %>%
+  filter(tool == "celltypist")
+data_ct_popv <- 
+  data_cell_ct %>%
+  filter(tool == "popv")
+```
+
+```{r pca}
+# PCA Model
+res.ct.PCA <- PCA(data_ct_celltypist[,c(3:ncol(data_cell_ct))], 
+                  scale.unit = TRUE, quali.sup = c(1), graph=T,
+                  axes = c(1,3))
+
+# % of Variance for dims
+res.ct.PCA$eig
+
+# Variables (cell types)
+#res.ct.PCA$var
+res.ct.PCA$var$coord
+res.ct.PCA$var$cor
+res.ct.PCA$var$contrib
+
+# Individuals (datasets)
+#res.ct.PCA$ind
+res.ct.PCA$ind$coord
+res.ct.PCA$ind$cos2
+res.ct.PCA$ind$contrib
+res.ct.PCA$ind$dist
+```
+```{r plot}
+pca.results.ct <- cbind(data_ct_celltypist[,1:3],res.ct.PCA$ind$coord)
+
+pca.results.ct %>%
+  ggplot(aes(x=Dim.5,y=Dim.1)) +
+  geom_point(aes(color=organ))
+
+
+```

@@ -1,0 +1,29 @@
+#+ summary: List of 3D Anatomical Structures with ontology Id and sex
+#+ description: List of 3D Anatomical Structures with ontology Id and sex
+
+# Based on the query at https://grlc.io/api-git/hubmapconsortium/ccf-grlc/subdir/hra/#/default/get_as_3d_cnt
+
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX HRA: <https://purl.humanatlas.io/collection/hra>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX UBERON: <http://purl.obolibrary.org/obo/UBERON_>
+PREFIX FMA: <http://purl.org/sig/ont/fma/fma>
+
+SELECT DISTINCT ?as_label ?uberon_id ?sex ?ref_organ
+FROM HRA:
+FROM ccf:
+WHERE {
+  ?as_3d ccf:has_reference_organ ?ref_organ ;
+		rdfs:label ?as_label_long ;
+		ccf:organ_owner_sex ?sex;
+		ccf:representation_of ?as_id .
+	
+	# ?x ccf:ccf_pref_label ?organ_label ;
+	#  ?ref_organ ccf:representation_of ?organIri .
+	#  ?organ_iri ccf:ccf_pref_label ?organ_label .
+
+  FILTER(!CONTAINS(STR(?ref_organ), '/united-'))
+  FILTER (str(?as_3d) != str(?ref_organ))
+	BIND(REPLACE(REPLACE(STR(?as_id), STR(UBERON:), 'UBERON:'), STR(FMA:), 'FMA:') as ?uberon_id)
+	BIND(REPLACE(STR(?as_label_long), STR("Spatial entity of "), '') as ?as_label)
+}

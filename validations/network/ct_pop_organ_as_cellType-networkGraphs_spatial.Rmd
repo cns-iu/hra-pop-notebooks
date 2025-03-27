@@ -1,0 +1,204 @@
+---
+title: "Organ, Anatomical Structures & Cell Type Bi-modal Networks - Notebook"
+output:
+  html_document
+---
+
+# Environment 
+
+```{r environment, message=FALSE, warning=FALSE}
+library(tidyr)
+library(plyr)
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+library(igraph)
+library(ggraph)
+library(ggnetwork)
+library(stringr)
+
+options(scipen = 999)
+```
+
+# Load Data
+
+This section of script identifies the unique identifiers, organ, and anatomical structure associated with a data set. The identifiers are used to generate a url that is used to download the cell type measurements for each data set. The downloaded data are combined into a single data frame for further data preparation.
+
+```{r load}
+# Data - bar graph 
+# Includes organ, anatomical structure, cell types measures by tool and donor gender
+data_set_meta <- read.csv(paste0("../network/HRApop_intestine_datasets-ASregion_crosswalk-Hickey.csv"), 
+                          header=T, fileEncoding = "UTF8")
+
+# Data set id for cell type measures
+data_set_ids <- unique(data_set_meta$dataset_id)
+#data_hm <- data
+# data frame for downloaded results
+data <- data.frame(id = as.character(),
+                   #organ = as.character(),
+                   #AS = as.character(),
+                   cell_type = as.character(),
+                   count = as.numeric())
+
+# URL for collecting data set measurements
+data_url <- "https://raw.githubusercontent.com/cns-iu/hra-ct-summaries-mx-spatial-data/main/intestine_omap_2_0001/cell_type_counts/"
+
+# For loop to collect data with cell type measures
+for(i in 1:length(data_set_ids)){
+  dataset_id <- data_set_ids[i]
+  tmp <- read.csv(paste0(data_url,data_set_ids[i],".csv"), header = T)
+  tmp <- cbind(dataset_id,tmp)
+  data <- rbind(data,tmp)
+  rm(dataset_id,tmp)
+}
+
+# Join CT measurements with data set metadata
+data <- left_join(data,data_set_meta, by="dataset_id") %>%
+           select(dataset_id, organ, uberon_id, as_uberon_label, 
+                  cell_type, count) 
+names(data) <- c("id","organ","as_id","as","cell_label","count")
+
+# Factoring data
+data$id <- factor(data$id)
+data$as <- factor(str_to_title(data$as))
+
+# Clean-up 
+rm(i, data_set_ids, data_url)
+```
+
+# Prepare data
+
+## Calculate cell type counts
+
+This section of the script is used to calculate the number of cells identified
+in data sets associated with an organ, their anatomical structures, and cell 
+types. First, we calculate the total count of cells in a data set, which are 
+associated with organs and anatomical structures by the team collecting a sample.
+Next, we calculate number of cells for a given cell type found in an organ and 
+anatomical structure, as well as the mean cell counts, and the number of data set
+found in the measurements. Finally, we combine the two cell count calculations 
+into a single data frame, and then calculate the percentage each cell type 
+contributes to data collected from each anatomical structure.
+
+```{r cell_type_pivots}
+# Aggregate data to get limited set of nodes and edges.
+# Organ-AS Total Cell Count (overall)
+data_total_cell_count <- data %>% 
+                          ddply(.(organ, as_id, as), summarise,
+                                  total_cell_count = sum(count))
+# Organ-AS-CT counts 
+data_agg <- data %>% 
+              ddply(.(organ, as_id, as, cell_label), summarise,
+                    datasets = length(unique(id)),
+                    cell_count = sum(count),
+                    mean_cell_count = median(count))
+
+# Combine aggregated data - organ - as - ct counts and percentages.
+data <- left_join(data_agg,data_total_cell_count, by=c("organ","as_id","as")) %>%
+          select(organ,as_id,as,cell_label,datasets,mean_cell_count,cell_count,total_cell_count) %>%
+          mutate(percentage = round(cell_count/total_cell_count,5))
+
+rm(data_agg,data_total_cell_count)
+
+data$tool <- "Spatial"
+
+# Export results
+write.csv(data,"../heatmaps/HRApop_Spatial_OASCT_CellCount_Percentage.csv",
+          row.names = F)
+write.csv(data,"../network/HRApop_Spatial_OASCT_CellCount_Percentage.csv",
+          row.names = F)
+```
+
+## Network Extraction
+
+This section of code is used to create networks from the validation data set. First data is subset into sets based on the cell type annotation tool used for an observation, and added to a list object that will be used in a *for loop*.
+
+The for loop processes each tool subset to create a node list of organs, anatomical structures and cell types and an edge list that link organs to anatomical structures, and anatomical structures to cell types, creating a tree-like multi-modal network graph. After creating a node and edge list for a given data subset, results are saved as CSV files and exported to the R global environment as igraph networks from data.frames.
+
+```{r nets_extract}
+## Subset data for graphs, based on CTann tool
+df_list <- list(data[data$tool=="Spatial",])
+
+## Loops through df_list to create network graphs, for each CTann tool.
+for(i in 1:length(df_list)){
+    ## Node list creation
+    anatomical_structures <-
+      df_list[[i]] %>% 
+      select(organ, as, datasets, total_cell_count) %>%
+      mutate(id_lab = as,
+             type = "Anatomical Structure") %>% 
+      dplyr::rename(label = as,
+                    partOf = organ,
+                    records = datasets,
+                    cell_count = total_cell_count) %>%
+      select(id_lab, label, type, partOf, 
+             records, cell_count) %>%
+      distinct()
+    
+    cell_types <- 
+      df_list[[i]] %>% 
+      select(organ, cell_label, datasets, cell_count) %>%
+      ddply(.(cell_label), summarise,
+            label = head(cell_label)[1],
+            records = sum(datasets),
+            cell_count = sum(cell_count),
+            partOf = length(unique(organ))) %>%
+      mutate(id_lab = cell_label,
+             type = "Cell Type",
+             partOf = paste0("Organ(s): ",partOf)) %>% 
+      select(id_lab, label, type, partOf, 
+             records, cell_count)
+    
+    # Combine node lists into one list
+    nodes <- rbind(anatomical_structures, cell_types)
+    rm(anatomical_structures, cell_types)
+    nodes <- 
+      nodes %>% 
+      mutate(id = as.numeric(row.names(nodes))-1) %>%
+      select(id, id_lab, label, type, partOf, 
+             records, cell_count)
+    
+    # Create Edge List
+    edges <- 
+      df_list[[i]] %>% 
+      ddply(.(as, cell_label), summarise,
+            weight_recs = sum(datasets),
+            percentage = mean(percentage)) %>%
+      mutate(source_id_lab = as,
+             target_id_lab = cell_label,
+             weight = 1) %>% 
+      select(source_id_lab, target_id_lab, 
+             weight, weight_recs, percentage) %>%
+      distinct()
+    
+    # Update edge list source and target ids
+    edges <- left_join(edges, 
+                       nodes[,1:2], by=c("source_id_lab"="id_lab")) %>%
+             dplyr::rename(source = id)
+    edges <- left_join(edges, 
+                       nodes[,1:2], by=c("target_id_lab"="id_lab")) %>%
+             dplyr::rename(target = id) %>%
+             select(source, target, source_id_lab, target_id_lab,
+                    weight, weight_recs, percentage)
+    
+    ## Create network from data_frames
+    ## Save edge and node lists as data files
+    write.csv(edges, file=paste0("../network/HRApop_OASCT_spatial_edgeList.csv"),
+              row.names = FALSE)
+    write.csv(nodes, file=paste0("../network/HRApop_OASCT_spatial_nodeList.csv"),
+              row.names = FALSE)
+
+    # Re-nameing for igraph
+    edges <- edges %>%
+              dplyr::rename(from = source,
+                            to = target)    
+    
+    # Combines network edge and node lists
+    network <- igraph::graph_from_data_frame(edges, directed=T,
+                                  vertices=nodes)
+    # Reassigns name of network object with tool names 
+    rm(nodes,edges)
+}
+
+rm(df_list, i)
+```

@@ -1,0 +1,10 @@
+source,target,distance
+VH_M_diaphragmatic_surface_of_spleen,VH_M_hilum_of_spleen,-1
+VH_M_hilum_of_spleen,VH_M_renal_surface_of_spleen,-1
+VH_M_diaphragmatic_surface_of_spleen,VH_M_renal_surface_of_spleen,-1
+VH_M_colic_surface_of_spleen,VH_M_gastric_surface_of_spleen,-1
+VH_M_colic_surface_of_spleen,VH_M_diaphragmatic_surface_of_spleen,-1
+VH_M_colic_surface_of_spleen,VH_M_hilum_of_spleen,-1
+VH_M_gastric_surface_of_spleen,VH_M_hilum_of_spleen,-1
+VH_M_diaphragmatic_surface_of_spleen,VH_M_gastric_surface_of_spleen,-1
+VH_M_colic_surface_of_spleen,VH_M_renal_surface_of_spleen,-1

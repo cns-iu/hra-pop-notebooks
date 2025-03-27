@@ -1,0 +1,449 @@
+---
+title: "Organ, Anatomical Structures & Cell Type Bi-modal Networks - Notebook"
+output:
+  html_document
+---
+
+# Environment 
+
+```{r environment, message=FALSE, warning=FALSE}
+library(tidyr)
+library(plyr)
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+library(igraph)
+library(ggraph)
+library(ggnetwork)
+library(stringr)
+
+options(scipen = 999)
+```
+
+# Load Data
+
+```{r load}
+# Data - bar graph 
+# Includes organ, anatomical structure, cell types measures by tool and donor gender
+df <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v6.csv", 
+                 header=T, fileEncoding = "UTF8")
+
+# Cell Type Crosswalks - Data Cleaning
+# https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
+# New version June 2024
+## Azimuth
+azimuth <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/azimuth/v1.0/assets/azimuth-crosswalk.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+
+## Cell Typist
+celltypist <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/celltypist/v1.0/assets/celltypist-crosswalk.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+
+## PopV
+popv <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/popv/v1.0/assets/popv-crosswalk.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+```
+
+# Prepare data
+
+```{r prep}
+# Prepare crosswalk field names
+names(celltypist) <- names(popv) <- names(azimuth) <- c("organ_level","organ_id",
+                                                        "annotation_label","annotation_label_id",
+                                                        "cell_label","cell_id","cell_match")
+
+# Title Case for Annotation Labels
+popv$annotation_label <- str_to_title(popv$annotation_label)
+azimuth$annotation_label <- str_to_title(azimuth$annotation_label)
+celltypist$annotation_label <- str_to_title(celltypist$annotation_label)
+
+# Add record number to data 
+df$rec <- as.numeric(row.names(df))
+
+# Prepare Sex
+df$sex <- factor(df$sex)
+
+# Prepare Tool
+df$tool <- factor(df$tool, 
+                  levels=c("azimuth","celltypist","popv","sc_proteomics"),
+                  labels=c("Azimuth","CellTypist","popV","SC Proteomics"))
+
+# Prepare organ labels
+df$organ <- df$organ %>% 
+  str_replace("left ", "") %>%
+  str_replace("right ", "") %>%
+  str_replace("Set of ", "") %>%
+  str_replace("left ", "") %>%
+  str_replace(" of body", "") %>% 
+  str_replace("respiratory system","lung") %>%
+  str_replace("male reproductive system","prostate") %>%
+  str_to_title()
+df$organ <- factor(df$organ)
+
+# Prepare anatomical structure labels
+df$as <- df$as %>% 
+  str_to_title() %>%
+  str_replace(" Part "," part ") %>%
+  str_replace(" Of "," of ") %>% 
+  str_replace(" In "," in ") %>%
+  str_replace("Heart ","")
+
+df$cell_label <- df$cell_label %>%
+  str_replace("_"," ")
+
+# Common labels for data frames.
+labels <-  c("sex", "tool", "modality", "organ", "organId", 
+             "as", "as_id",  "cell_id", "cell_label", "cell_count",
+             "percentage", "asct_relation_in_asctb_table",
+             "indirect_asct_relation_in_asctb_table", 
+             "annotation_label", "annotation_label_id", "cell_label2")
+```
+
+## Clean up Cell Labeling
+
+```{r cell_type_labels}
+## Heart - 1086
+heart <- df[df$organ==levels(df$organ)[1],]
+# Updating cell labels using crosswalks
+tmp1 <- 
+  join(heart[heart$tool=="Azimuth",c(1:11)],
+       azimuth[azimuth$organ_level=="Heart_L2" &
+               azimuth$cell_match=="skos:exactMatch" | 
+               azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+tmp2 <- 
+  join(heart[heart$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="heart" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left") 
+tmp3 <- 
+  join(heart[heart$tool=="CellTypist",c(1:11)],
+       celltypist[celltypist$organ_level=="Healthy_Adult_Heart_pkl" &
+                  celltypist$cell_match=="skos:exactMatch" | 
+                  celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+# Clean up names
+names(tmp1) <- names(tmp2) <- names(tmp3) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
+# Combine temp files
+heart <- rbind(tmp1,tmp2,tmp3) 
+# Add back missing cell labels when annotation label is missing
+heart[is.na(heart$annotation_label),]$cell_label2 <- 
+  heart[is.na(heart$annotation_label),]$cell_label
+
+
+## Lungs - 826
+lung <- df[df$organ==levels(df$organ)[6],]
+# Updating cell labels using crosswalks
+tmp1 <- 
+  join(lung[lung$tool=="Azimuth",c(1:11)],
+       azimuth[azimuth$organ_level=="Lung_v2_finest_level" &
+               azimuth$cell_match=="skos:exactMatch" | 
+               azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+tmp2 <- 
+  join(lung[lung$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="lung" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+tmp3 <- 
+  join(lung[lung$tool=="CellTypist",c(1:11)],
+       celltypist[celltypist$organ_level=="Human_Lung_Atlas_pkl" &
+                  celltypist$cell_match=="skos:exactMatch" | 
+                  celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+#Clean up names
+names(tmp1) <- names(tmp2) <- names(tmp3) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
+# Combine temp files
+lung <- rbind(tmp1,tmp2,tmp3) 
+# Add back missing cell labels when annotation label is missing
+lung[is.na(lung$annotation_label),]$cell_label2 <- 
+  lung[is.na(lung$annotation_label),]$cell_label
+# write.csv(lung,
+#           file=paste0("../bargraphs/HRApop_Lung_AS-CTBarGraph-cellID_annotationIDs.csv"),
+#           row.names = FALSE)
+
+## Kidney - 920
+kidney <- df[df$organ==levels(df$organ)[2],]
+# Updating cell labels using crosswalks
+kidney <- 
+  join(kidney[kidney$tool=="Azimuth",c(1:11)],
+       azimuth[azimuth$organ_level=="Kidney_L3" &
+               azimuth$cell_match=="skos:exactMatch" | 
+               azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+#Clean up names
+names(kidney) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
+# Add back missing cell labels when annotation label is missing
+kidney[is.na(kidney$annotation_label),]$cell_label2 <- 
+  kidney[is.na(kidney$annotation_label),]$cell_label
+# write.csv(kidney,
+#           file=paste0("../bargraphs/HRApop_Kidney_AS-CTBarGraph-cellID_annotationIDs.csv"),
+#           row.names = FALSE)
+
+
+## Large Intestine - 1790
+largeIntestine <- df[df$organ==levels(df$organ)[4],]
+# Updating cell labels using crosswalks
+tmp1 <- 
+  largeIntestine[largeIntestine$tool=="SC Proteomics",c(1:11)] %>%
+  mutate(annotation_label=NA,
+         annotation_label_ids=NA,
+         cell_label2=NA)
+tmp2 <- 
+  join(largeIntestine[largeIntestine$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="large intestine" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+tmp3 <- 
+  join(largeIntestine[largeIntestine$tool=="CellTypist",c(1:11)],
+       celltypist[celltypist$organ_level=="intestine_L1" &
+                  celltypist$cell_match=="skos:exactMatch" | 
+                  celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+#Clean up names
+names(tmp1) <- names(tmp2) <- names(tmp3) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
+# Combine temp files
+largeIntestine <- rbind(tmp1,tmp2,tmp3) 
+# Add back missing cell labels when annotation label is missing
+largeIntestine[is.na(largeIntestine$annotation_label),]$cell_label2 <- 
+  largeIntestine[is.na(largeIntestine$annotation_label),]$cell_label
+
+
+## Small Intestine
+smallIntestine <- df[df$organ==levels(df$organ)[9],]
+# Updating cell labels using crosswalks
+tmp1 <- 
+  smallIntestine[smallIntestine$tool=="SC Proteomics",c(1:11)] %>%
+  mutate(annotation_label=NA,
+         annotation_label_ids=NA,
+         cell_label2=NA)
+tmp2 <- 
+  join(smallIntestine[smallIntestine$tool=="popV",c(1:11)],
+       popv[popv$organ_level=="small intestine" &
+            popv$cell_match=="skos:exactMatch" | 
+            popv$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left") 
+tmp3 <- 
+  join(smallIntestine[smallIntestine$tool=="CellTypist",c(1:11)],
+       celltypist[celltypist$organ_level=="intestine_L1" &
+                  celltypist$cell_match=="skos:exactMatch" | 
+                  celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+       by="cell_id", type="left")
+#Clean up names
+names(tmp1) <- names(tmp2) <- names(tmp3) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
+# Combine temp files
+smallIntestine <- rbind(tmp1,tmp2,tmp3) 
+# Add back missing cell labels when annotation label is missing
+smallIntestine[is.na(smallIntestine$annotation_label),]$cell_label2 <- 
+  smallIntestine[is.na(smallIntestine$annotation_label),]$cell_label
+
+
+## Combine data frames into a single data frame
+df2 <- 
+  rbind(heart,lung,kidney,largeIntestine,smallIntestine) %>%
+  arrange(organ,tool,sex,percentage)
+df2$annotation_label <- gsub("[φ]", "ph", df2$annotation_label)
+
+# Add in missing cell labels for cell_label2 
+df2[is.na(df2$cell_label2),]$cell_label2 <- 
+  df2[is.na(df2$cell_label2),]$cell_label
+ 
+## Export annotation look-up
+organ_as_ct_lookup <- 
+  rbind(heart,lung,kidney,largeIntestine,smallIntestine)
+# write.csv(organ_as_ct_lookup, 
+#           file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_annotationIDs.csv"),
+#           row.names = FALSE)
+
+## Re-aggregate data to remove duplication caused by sex.
+df2 <- df2 %>%
+  ddply(.(tool, organ, organId, as, as_id, cell_id, cell_label2), summarise,
+        cell_count = mean(cell_count),
+        percentage = mean(percentage))
+
+# Clean up
+rm(tmp1,tmp2,tmp3)
+rm(heart,lung,kidney,largeIntestine,smallIntestine)
+```
+
+### Identification of Representative Cell Types Using Term Frequency - Inverse Document Frequency  (TF-IDF) Analysis
+
+The goal of this analysis is to identify cell types that are most descriptive of
+an tool-organ-anatomical structure set. 
+
+This section implements a term-frequency & inverse document frequency analysis to the
+data set to identify cell types most representative of the combinations of organs, & anatomical structures. In this analysis the sets of tools, organs, & anatomical structures are equivalent to documents, and cell types are equivalent to terms in a document. 
+
+In a TF-IDF analysis TF is the frequency of a term divided by the total number of terms
+in a document. In this case, cell type frequency (cTF) would be equivalent to the cell type *percentage* measurement, which is the number of cells (cell count) divided by the total cells found in a given tool-organ-as tissue sample.
+
+```{r tfidf}
+# Initial data selection - cell type term frequencies
+tf <- 
+  df2 %>% 
+  # removes duplicate data rows
+  distinct() %>%
+  # combines sex and tools as a record sum of cell count and avg percentage
+  ddply(.(organ, as, cell_id, cell_label2), summarise,
+        records = length(cell_count),
+        cell_count = sum(cell_count),
+        tf = mean(percentage))
+
+tf[is.na(tf$cell_label2),]$cell_label2 <- tf[is.na(tf$cell_label2),]$cell_label
+
+# Calculate IDF based on TF data.
+## Number of documents (unique combinations of tools, organ, anatomical structures)
+docs <- tf %>% 
+          select(organ, as) %>%
+          distinct() %>%
+          nrow()
+
+## Calculate IDF 
+idf <- tf %>% 
+          group_by(organ, as) %>%
+          ddply(.(cell_id, cell_label2), summarise,
+                term_docs = length(records)) %>%
+          mutate(idf = log(docs/term_docs)) %>%
+          arrange(desc(idf))
+
+# Join IDF results to the TF data
+tf_idf <- 
+  left_join(tf, idf,by=c("cell_id","cell_label2")) %>%
+  mutate(tfidf = tf*idf) %>% 
+  select(organ, as, cell_id, cell_label2, 
+         cell_count, tf, idf, tfidf) %>%
+  arrange(organ,as,desc(tfidf))
+
+# Add TF IDF results to data for bar graphs.
+df2 <- 
+  left_join(df2, tf_idf[,c(1:4,6:8)],
+            by=c("organ","as","cell_id","cell_label2"))
+
+# Rename cell_label2 to cell_label
+names(df2)[7] <- "cell_label"
+
+rm(tf,idf,docs)
+```
+
+## Network Extraction
+
+This section of code is used to create networks from the validation data set. First data is subset into sets based on the cell type annotation tool used for an observation, and added to a list object that will be used in a *for loop*.
+
+The for loop processes each tool subset to create a node list of organs, anatomical structures and cell types and an edge list that link organs to anatomical structures, and anatomical structures to cell types, creating a tree-like multi-modal network graph. After creating a node and edge list for a given data subset, results are saved as CSV files and exported to the R global environment as igraph networks from data.frames.
+
+```{r nets_extract}
+## Subset data for graphs, based on CTann tool
+df_list <- list(df2[df2$tool=="Azimuth",],
+                df2[df2$tool=="popV",],
+                df2[df2$tool=="CellTypist",],
+                df2[df2$tool=="SC Proteomics",])
+
+## Loops through df_list to create network graphs, for each CTann tool.
+for(i in 1:length(df_list)){
+    ## Node list creation
+    anatomical_structures <-
+      df_list[[i]] %>% 
+      select(tool, organ, as_id, as, cell_count) %>%
+      ddply(.(tool, organ, as_id, as), summarise,
+            records = length(cell_count),
+            cell_count = sum(cell_count)) %>%
+      mutate(id_lab = paste0(as_id," ",as),
+             type = "Anatomical Structure") %>% 
+      dplyr::rename(label = as,
+                    partOf = organ) %>%
+      select(tool, id_lab, label, type, partOf, 
+             records, cell_count)
+    
+    cell_types <- 
+      df_list[[i]] %>% 
+      select(tool, organ, cell_id, cell_label, cell_count) %>%
+      ddply(.(tool, cell_id), summarise,
+            label = head(cell_label)[1],
+            records = length(cell_count),
+            cell_count = sum(cell_count),
+            partOf = length(unique(organ)))  %>%
+      mutate(id_lab = cell_id,
+             type = "Cell type",
+             partOf = paste0("Organ(s): ",partOf)) %>% 
+      select(tool, id_lab, label, type, partOf, 
+             records, cell_count)
+    
+    # Combine node lists into one list
+    #nodes <- rbind(organs, anatomical_structures, cell_types)
+    #rm(organs, anatomical_structures, cell_types)
+    nodes <- rbind(anatomical_structures, cell_types)
+    rm(anatomical_structures, cell_types)
+    nodes <- 
+      nodes %>% 
+      mutate(id = as.numeric(row.names(nodes))-1) %>%
+      select(id, id_lab, label, tool, type, partOf, 
+             records, cell_count)
+
+    #as_celltypes <- 
+    edges <- 
+      df_list[[i]] %>% 
+      ddply(.(tool, as_id, as, cell_id), summarise,
+            weight_recs = length(tool),
+            weight_tfidf = median(tfidf)) %>%
+      mutate(source_id_lab = paste0(as_id," ",as),
+             target_id_lab = cell_id,
+             weight = 1) %>% 
+      select(source_id_lab, target_id_lab, 
+             weight, weight_recs, weight_tfidf) %>%
+      distinct()
+    
+    # Update edge list source and target ids
+    edges <- left_join(edges, 
+                       nodes[,1:2], by=c("source_id_lab"="id_lab")) %>%
+             dplyr::rename(to = id)
+    edges <- left_join(edges, 
+                       nodes[,1:2], by=c("target_id_lab"="id_lab")) %>%
+             dplyr::rename(from = id) %>%
+             select(to, from, source_id_lab, target_id_lab,
+                    weight, weight_recs, weight_tfidf)
+    
+    ## Create network from data_frames
+    # Select tool name for graph
+        tool <- 
+      as.character(unique(df_list[[i]]$tool))
+    
+    ## Save edge and node lists as data files
+    write.csv(edges, file=paste0("../network/HRApop_OASCT_",
+                                 str_replace(str_to_lower(tool)," ","_"),
+                                 "_edgeList.csv"),
+              row.names = FALSE)
+    write.csv(nodes, file=paste0("../network/HRApop_OASCT_",
+                                 str_replace(str_to_lower(tool)," ","_"),
+                                 "_nodeList.csv"),
+              row.names = FALSE)
+
+    # Combines network edge and node lists
+    network <- igraph::graph_from_data_frame(edges, directed=T,
+                                  vertices=nodes)
+    # Reassigns name of network object with tool names 
+    assign(paste0("network_",
+                  str_replace(str_to_lower(tool[1])," ","_")),
+           network, envir = .GlobalEnv)
+    rm(nodes,edges,network, tool)
+}
+
+rm(df_list, i)
+```

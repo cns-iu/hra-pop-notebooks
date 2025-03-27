@@ -1,0 +1,65 @@
+dataset_id,organ,as,uberon_id,as_uberon_label
+HBM235.VKNJ.237,Large Intestine,ascending,UBERON:0001156,ascending colon
+HBM238.GTNW.259,Small Intestine,ileum,UBERON:0002116,ileum
+HBM242.LSCK.393,Large Intestine,sigmoid,UBERON:0001159,sigmoid colon
+HBM284.SBPR.357,Small Intestine,proximal jejunum,UBERON:0002115,jejunum
+HBM285.VFDT.966,Small Intestine,proximal jejunum,UBERON:0002115,jejunum
+HBM288.BBKK.828,Large Intestine,ascending,UBERON:0001156,ascending colon
+HBM295.SWJJ.888,Large Intestine,descending,UBERON:0001158,descending colon
+HBM297.MZZX.824,Large Intestine,sigmoid,UBERON:0001159,sigmoid colon
+HBM334.QWFV.953,Large Intestine,transverse,UBERON:0001157,transverse colon
+HBM353.NZVQ.793,Large Intestine,descending,UBERON:0001158,descending colon
+HBM363.CKHC.928,Small Intestine,proximal jejunum,UBERON:0002115,jejunum
+HBM363.LLBL.252,Large Intestine,transverse,UBERON:0001157,transverse colon
+HBM394.VSKR.883,Small Intestine,proximal jejunum,UBERON:0002115,jejunum
+HBM395.NQKF.566,Small Intestine,proximal jejunum,UBERON:0002115,jejunum
+HBM424.STVV.842,Large Intestine,transverse,UBERON:0001157,transverse colon
+HBM429.LLRT.546,Large Intestine,sigmoid,UBERON:0001159,sigmoid colon
+HBM438.JXJW.249,Large Intestine,transverse,UBERON:0001157,transverse colon
+HBM439.WJDV.974,Large Intestine,sigmoid,UBERON:0001159,sigmoid colon
+HBM443.LGZK.435,Small Intestine,duodenum,UBERON:0002114,duodenum
+HBM447.MNKW.592,Large Intestine,transverse,UBERON:0001157,transverse colon
+HBM462.JKCN.863,Large Intestine,descending,UBERON:0001158,descending colon
+HBM465.ZNVW.226,Large Intestine,sigmoid,UBERON:0001159,sigmoid colon
+HBM466.XSKL.867,Small Intestine,ileum,UBERON:0002116,ileum
+HBM473.QGDG.848,Small Intestine,duodenum,UBERON:0002114,duodenum
+HBM488.CNNZ.544,Large Intestine,ascending,UBERON:0001156,ascending colon
+HBM535.QNTP.246,Small Intestine,ileum,UBERON:0002116,ileum
+HBM565.LSMX.645,Small Intestine,ileum,UBERON:0002116,ileum
+HBM569.NBHZ.832,Small Intestine,duodenum,UBERON:0002114,duodenum
+HBM573.SWGH.988,Small Intestine,proximal jejunum,UBERON:0002115,jejunum
+HBM573.TTLG.748,Large Intestine,sigmoid,UBERON:0001159,sigmoid colon
+HBM575.THQM.284,Large Intestine,sigmoid,UBERON:0001159,sigmoid colon
+HBM622.STKS.394,Large Intestine,descending,UBERON:0001158,descending colon
+HBM626.VJMB.795,Small Intestine,ileum,UBERON:0002116,ileum
+HBM627.KDHD.293,Large Intestine,transverse,UBERON:0001157,transverse colon
+HBM666.NDQZ.365,Small Intestine,mid jejunum,UBERON:0002115,jejunum
+HBM666.RBCG.529,Small Intestine,ileum,UBERON:0002116,ileum
+HBM676.QVGZ.455,Small Intestine,mid jejunum,UBERON:0002115,jejunum
+HBM679.NNNK.283,Large Intestine,ascending,UBERON:0001156,ascending colon
+HBM683.NRPR.962,Large Intestine,ascending,UBERON:0001156,ascending colon
+HBM687.SJLD.889,Small Intestine,mid jejunum,UBERON:0002115,jejunum
+HBM727.DMKG.675,Small Intestine,mid jejunum,UBERON:0002115,jejunum
+HBM729.XTBN.693,Large Intestine,ascending,UBERON:0001156,ascending colon
+HBM739.HCWP.359,Large Intestine,sigmoid,UBERON:0001159,sigmoid colon
+HBM742.NHHQ.357,Large Intestine,ascending,UBERON:0001156,ascending colon
+HBM749.SMWP.555,Small Intestine,mid jejunum,UBERON:0002115,jejunum
+HBM772.TKCN.287,Small Intestine,duodenum,UBERON:0002114,duodenum
+HBM785.FJVT.469,Small Intestine,proximal jejunum,UBERON:0002115,jejunum
+HBM792.FFJT.499,Large Intestine,transverse,UBERON:0001157,transverse colon
+HBM823.RJNG.364,Large Intestine,descending,UBERON:0001158,descending colon
+HBM824.XGWZ.857,Large Intestine,descending,UBERON:0001158,descending colon
+HBM827.SJBP.777,Small Intestine,mid jejunum,UBERON:0002115,jejunum
+HBM832.ZSQJ.442,Small Intestine,mid jejunum,UBERON:0002115,jejunum
+HBM845.VMSZ.536,Small Intestine,duodenum,UBERON:0002114,duodenum
+HBM852.NKST.623,Large Intestine,descending,UBERON:0001158,descending colon
+HBM865.VDXC.862,Large Intestine,transverse,UBERON:0001157,transverse colon
+HBM893.MCGS.487,Small Intestine,ileum,UBERON:0002116,ileum
+HBM899.KTQM.246,Small Intestine,ileum,UBERON:0002116,ileum
+HBM934.KLGL.584,Small Intestine,mid jejunum,UBERON:0002115,jejunum
+HBM938.KMNW.825,Large Intestine,ascending,UBERON:0001156,ascending colon
+HBM945.FSHR.864,Small Intestine,duodenum,UBERON:0002114,duodenum
+HBM953.KMTG.758,Small Intestine,duodenum,UBERON:0002114,duodenum
+HBM964.FPNH.767,Large Intestine,descending,UBERON:0001158,descending colon
+HBM974.CNWK.327,Small Intestine,duodenum,UBERON:0002114,duodenum
+HBM996.MDQH.988,Small Intestine,proximal jejunum,UBERON:0002115,jejunum

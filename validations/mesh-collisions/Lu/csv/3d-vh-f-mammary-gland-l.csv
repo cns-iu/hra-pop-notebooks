@@ -1,0 +1,14 @@
+source,target,distance
+VH_F_areolar_tubercles_L,VH_F_main_lactiferous_sinuses_L,-1
+VH_F_fat_L,VH_F_main_lactiferous_sinuses_L,-1
+VH_F_main_lactiferous_sinuses_L,VH_F_nipple_L,-1
+VH_F_fat_L,VH_F_main_lactiferous_ducts_L,-1
+VH_F_areola_L,VH_F_areolar_tubercles_L,-1
+VH_F_areola_L,VH_F_nipple_L,-1
+VH_F_main_lactiferous_ducts_L,VH_F_nipple_L,-1
+VH_F_fat_L,VH_F_suspensory_ligaments_L,-1
+VH_F_main_lactiferous_ducts_L,VH_F_mammary_lobes_L,-1
+VH_F_areola_L,VH_F_main_lactiferous_sinuses_L,-1
+VH_F_main_lactiferous_ducts_L,VH_F_main_lactiferous_sinuses_L,-1
+VH_F_fat_L,VH_F_mammary_lobes_L,-1
+VH_F_areola_L,VH_F_main_lactiferous_ducts_L,-1

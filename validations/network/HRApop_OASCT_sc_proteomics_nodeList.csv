@@ -1,0 +1,39 @@
+"id","id_lab","label","tool","type","partOf","records","cell_count"
+0,"UBERON:0001052 Rectum","Rectum","SC Proteomics","Anatomical Structure","Large Intestine",25,1129.374
+1,"UBERON:0001153 Caecum","Caecum","SC Proteomics","Anatomical Structure","Large Intestine",25,2261.64
+2,"UBERON:0001156 Ascending Colon","Ascending Colon","SC Proteomics","Anatomical Structure","Large Intestine",25,38056.6
+3,"UBERON:0001157 Transverse Colon","Transverse Colon","SC Proteomics","Anatomical Structure","Large Intestine",25,35445.512
+4,"UBERON:0001158 Descending Colon","Descending Colon","SC Proteomics","Anatomical Structure","Large Intestine",25,74569.227
+5,"UBERON:0001159 Sigmoid Colon","Sigmoid Colon","SC Proteomics","Anatomical Structure","Large Intestine",25,22567.541
+6,"FMA:14926 Superior part of Duodenum","Superior part of Duodenum","SC Proteomics","Anatomical Structure","Small Intestine",25,2350.478
+7,"FMA:14928 Descending part of Duodenum","Descending part of Duodenum","SC Proteomics","Anatomical Structure","Small Intestine",25,48824.053
+8,"FMA:14929 Horizontal part of Duodenum","Horizontal part of Duodenum","SC Proteomics","Anatomical Structure","Small Intestine",25,38632.27
+9,"FMA:14930 Ascending part of Duodenum","Ascending part of Duodenum","SC Proteomics","Anatomical Structure","Small Intestine",25,16488.6075
+10,"FMA:14966 Distal part of Ileum","Distal part of Ileum","SC Proteomics","Anatomical Structure","Small Intestine",25,80840.209
+11,"UBERON:0002115 Jejunum","Jejunum","SC Proteomics","Anatomical Structure","Small Intestine",25,66198.2515
+12,"UBERON:0002116 Ileum","Ileum","SC Proteomics","Anatomical Structure","Small Intestine",25,303.684
+13,"ASCTB-TEMP:b","B","SC Proteomics","Cell type","Organ(s): 2",13,7187.7595
+14,"ASCTB-TEMP:cd4-t-cell","CD4+ T cell","SC Proteomics","Cell type","Organ(s): 2",13,20327.882
+15,"ASCTB-TEMP:cd57-enterocyte","CD57+ Enterocyte","SC Proteomics","Cell type","Organ(s): 2",13,300.682
+16,"ASCTB-TEMP:cd66-enterocyte","CD66+ Enterocyte","SC Proteomics","Cell type","Organ(s): 2",13,9226.1905
+17,"ASCTB-TEMP:cd7-immune","CD7+ Immune","SC Proteomics","Cell type","Organ(s): 2",13,1298.698
+18,"ASCTB-TEMP:cd8-t","CD8+ T","SC Proteomics","Cell type","Organ(s): 2",13,34895.4825
+19,"ASCTB-TEMP:cycling-ta","Cycling TA","SC Proteomics","Cell type","Organ(s): 2",13,12688.3245
+20,"ASCTB-TEMP:dc","DC","SC Proteomics","Cell type","Organ(s): 2",13,5572.446
+21,"ASCTB-TEMP:endothelial","Endothelial","SC Proteomics","Cell type","Organ(s): 2",13,31088.1795
+22,"ASCTB-TEMP:enterocyte","Enterocyte","SC Proteomics","Cell type","Organ(s): 2",13,85424.885
+23,"ASCTB-TEMP:goblet","Goblet","SC Proteomics","Cell type","Organ(s): 2",13,28291.4215
+24,"ASCTB-TEMP:icc","ICC","SC Proteomics","Cell type","Organ(s): 2",13,5868.9695
+25,"ASCTB-TEMP:lymphatic","Lymphatic","SC Proteomics","Cell type","Organ(s): 2",13,10075.717
+26,"ASCTB-TEMP:m1-macrophage","M1 Macrophage","SC Proteomics","Cell type","Organ(s): 2",13,4114.932
+27,"ASCTB-TEMP:m2-macrophage","M2 Macrophage","SC Proteomics","Cell type","Organ(s): 2",13,18150.302
+28,"ASCTB-TEMP:muc1-enterocyte","MUC1+ Enterocyte","SC Proteomics","Cell type","Organ(s): 2",13,2979.654
+29,"ASCTB-TEMP:nerve","Nerve","SC Proteomics","Cell type","Organ(s): 2",13,12497.6205
+30,"ASCTB-TEMP:neuroendocrine","Neuroendocrine","SC Proteomics","Cell type","Organ(s): 2",13,2552.3615
+31,"ASCTB-TEMP:neutrophil","Neutrophil","SC Proteomics","Cell type","Organ(s): 2",13,2318.647
+32,"ASCTB-TEMP:nk","NK","SC Proteomics","Cell type","Organ(s): 2",13,909.964
+33,"ASCTB-TEMP:paneth","Paneth","SC Proteomics","Cell type","Organ(s): 2",13,3747.718
+34,"ASCTB-TEMP:plasma","Plasma","SC Proteomics","Cell type","Organ(s): 2",13,22433.047
+35,"ASCTB-TEMP:smooth-muscle","Smooth muscle","SC Proteomics","Cell type","Organ(s): 2",13,60974.6725
+36,"ASCTB-TEMP:stroma","Stroma","SC Proteomics","Cell type","Organ(s): 2",13,35797.804
+37,"ASCTB-TEMP:ta","TA","SC Proteomics","Cell type","Organ(s): 2",13,8944.087

@@ -1,0 +1,9 @@
+source,target,distance
+VH_F_ileum,VH_F_ileum_terminal,-1
+VH_F_duodenum_ascending,VH_F_duodenum_horizontal,-1
+VH_F_duodenum_ascending,VH_F_jejenum,-1
+VH_F_duodenal_ampulla,VH_F_duodenum_superior,-1
+VH_F_ileum,VH_F_jejenum,-1
+VH_F_duodenum_descending,VH_F_duodenum_horizontal,-1
+VH_F_duodenum_descending,VH_F_sphincter_of_heptopancreatic_ampulla,-1
+VH_F_duodenum_descending,VH_F_duodenum_superior,-1

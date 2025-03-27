@@ -1,0 +1,3447 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2024-07-11">
+    <creator>Gephi 0.10.1</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="id_lab" title="id_lab" type="string"/>
+      <attribute id="tool" title="tool" type="string"/>
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="partof" title="partof" type="string"/>
+      <attribute id="records" title="records" type="integer"/>
+      <attribute id="cell_count" title="cell_count" type="double"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="source_id_lab" title="source_id_lab" type="string"/>
+      <attribute id="target_id_lab" title="target_id_lab" type="string"/>
+      <attribute id="weight_recs" title="weight_recs" type="integer"/>
+      <attribute id="weight_tfidf" title="weight_tfidf" type="double"/>
+    </attributes>
+    <nodes>
+      <node id="0" label="Rectum">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Large Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="1129.374"/>
+        </attvalues>
+        <viz:size value="15.292053"/>
+        <viz:position x="547.94666" y="-296.74707"/>
+        <viz:color r="227" g="204" b="55"/>
+      </node>
+      <node id="1" label="Caecum">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Large Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="2261.64"/>
+        </attvalues>
+        <viz:size value="15.691093"/>
+        <viz:position x="544.5952" y="-217.23134"/>
+        <viz:color r="227" g="204" b="55"/>
+      </node>
+      <node id="2" label="Ascending Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Large Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="38056.6"/>
+        </attvalues>
+        <viz:size value="28.306175"/>
+        <viz:position x="527.08105" y="66.264496"/>
+        <viz:color r="227" g="204" b="55"/>
+      </node>
+      <node id="3" label="Transverse Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Large Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="35445.512"/>
+        </attvalues>
+        <viz:size value="27.38596"/>
+        <viz:position x="536.1693" y="-33.383602"/>
+        <viz:color r="227" g="204" b="55"/>
+      </node>
+      <node id="4" label="Descending Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Large Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="74569.227"/>
+        </attvalues>
+        <viz:size value="41.174183"/>
+        <viz:position x="534.7916" y="197.0462"/>
+        <viz:color r="227" g="204" b="55"/>
+      </node>
+      <node id="5" label="Sigmoid Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Large Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="22567.541"/>
+        </attvalues>
+        <viz:size value="22.847424"/>
+        <viz:position x="536.81726" y="-126.834145"/>
+        <viz:color r="227" g="204" b="55"/>
+      </node>
+      <node id="6" label="Superior part of Duodenum">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Small Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="2350.478"/>
+        </attvalues>
+        <viz:size value="15.722402"/>
+        <viz:position x="-580.4477" y="-281.00406"/>
+        <viz:color r="224" g="97" b="76"/>
+      </node>
+      <node id="7" label="Descending part of Duodenum">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Small Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="48824.053"/>
+        </attvalues>
+        <viz:size value="32.100906"/>
+        <viz:position x="-583.77844" y="-25.21865"/>
+        <viz:color r="224" g="97" b="76"/>
+      </node>
+      <node id="8" label="Horizontal part of Duodenum">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Small Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="38632.27"/>
+        </attvalues>
+        <viz:size value="28.509056"/>
+        <viz:position x="-582.9563" y="-123.62827"/>
+        <viz:color r="224" g="97" b="76"/>
+      </node>
+      <node id="9" label="Ascending part of Duodenum">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Small Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="16488.6075"/>
+        </attvalues>
+        <viz:size value="20.70505"/>
+        <viz:position x="-580.1959" y="-208.8382"/>
+        <viz:color r="224" g="97" b="76"/>
+      </node>
+      <node id="10" label="Distal part of Ileum">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Small Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="80840.209"/>
+        </attvalues>
+        <viz:size value="43.38424"/>
+        <viz:position x="-581.85406" y="207.08746"/>
+        <viz:color r="224" g="97" b="76"/>
+      </node>
+      <node id="11" label="Jejunum">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Small Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="66198.2515"/>
+        </attvalues>
+        <viz:size value="38.22403"/>
+        <viz:position x="-581.63293" y="85.865906"/>
+        <viz:color r="224" g="97" b="76"/>
+      </node>
+      <node id="12" label="Ileum">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Small Intestine"/>
+          <attvalue for="records" value="25"/>
+          <attvalue for="cell_count" value="303.684"/>
+        </attvalues>
+        <viz:size value="15.001058"/>
+        <viz:position x="-579.61847" y="-349.05853"/>
+        <viz:color r="224" g="97" b="76"/>
+      </node>
+      <node id="13" label="B">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="7187.7595"/>
+        </attvalues>
+        <viz:size value="17.427187"/>
+        <viz:position x="80.7196" y="-168.54031"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="14" label="CD4+ T cell">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="20327.882"/>
+        </attvalues>
+        <viz:size value="22.05811"/>
+        <viz:position x="-131.40764" y="167.85155"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="15" label="CD57+ Enterocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="300.682"/>
+        </attvalues>
+        <viz:size value="15.0"/>
+        <viz:position x="-87.45325" y="-156.3196"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="16" label="CD66+ Enterocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="9226.1905"/>
+        </attvalues>
+        <viz:size value="18.145584"/>
+        <viz:position x="-64.75089" y="-73.77665"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="17" label="CD7+ Immune">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="1298.698"/>
+        </attvalues>
+        <viz:size value="15.351727"/>
+        <viz:position x="-128.75143" y="71.32076"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="18" label="CD8+ T">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="34895.4825"/>
+        </attvalues>
+        <viz:size value="27.192114"/>
+        <viz:position x="-256.02344" y="98.76966"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="19" label="Cycling TA">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="12688.3245"/>
+        </attvalues>
+        <viz:size value="19.36573"/>
+        <viz:position x="-95.88554" y="-255.40744"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="20" label="DC">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="5572.446"/>
+        </attvalues>
+        <viz:size value="16.857908"/>
+        <viz:position x="103.312836" y="-95.59327"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="21" label="Endothelial">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="31088.1795"/>
+        </attvalues>
+        <viz:size value="25.850323"/>
+        <viz:position x="-275.68402" y="-42.474735"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="22" label="Enterocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="85424.885"/>
+        </attvalues>
+        <viz:size value="45.0"/>
+        <viz:position x="61.429756" y="-329.79968"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="23" label="Goblet">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="28291.4215"/>
+        </attvalues>
+        <viz:size value="24.86467"/>
+        <viz:position x="180.32185" y="-165.85814"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="24" label="ICC">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="5868.9695"/>
+        </attvalues>
+        <viz:size value="16.96241"/>
+        <viz:position x="-47.67903" y="102.57521"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="25" label="Lymphatic">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="10075.717"/>
+        </attvalues>
+        <viz:size value="18.444979"/>
+        <viz:position x="62.67119" y="135.68065"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="26" label="M1 Macrophage">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="4114.932"/>
+        </attvalues>
+        <viz:size value="16.344242"/>
+        <viz:position x="44.219894" y="40.579727"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="27" label="M2 Macrophage">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="18150.302"/>
+        </attvalues>
+        <viz:size value="21.290674"/>
+        <viz:position x="115.95013" y="5.867691"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="28" label="MUC1+ Enterocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="2979.654"/>
+        </attvalues>
+        <viz:size value="15.9441395"/>
+        <viz:position x="-12.0660305" y="-199.83432"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="29" label="Nerve">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="12497.6205"/>
+        </attvalues>
+        <viz:size value="19.298521"/>
+        <viz:position x="197.81847" y="-57.68329"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="30" label="Neuroendocrine">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="2552.3615"/>
+        </attvalues>
+        <viz:size value="15.7935505"/>
+        <viz:position x="23.23682" y="-40.07798"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="31" label="Neutrophil">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="2318.647"/>
+        </attvalues>
+        <viz:size value="15.711184"/>
+        <viz:position x="-167.82487" y="-8.954735"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="32" label="NK">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="909.964"/>
+        </attvalues>
+        <viz:size value="15.214727"/>
+        <viz:position x="-60.48985" y="9.666185"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="33" label="Paneth">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="3747.718"/>
+        </attvalues>
+        <viz:size value="16.214827"/>
+        <viz:position x="-155.51941" y="-105.07545"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="34" label="Plasma">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="22433.047"/>
+        </attvalues>
+        <viz:size value="22.800026"/>
+        <viz:position x="-7.094693" y="205.07686"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="35" label="Smooth muscle">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="60974.6725"/>
+        </attvalues>
+        <viz:size value="36.383102"/>
+        <viz:position x="210.26973" y="104.6098"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="36" label="Stroma">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="35797.804"/>
+        </attvalues>
+        <viz:size value="27.510117"/>
+        <viz:position x="-219.94484" y="-216.22415"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+      <node id="37" label="TA">
+        <attvalues>
+          <attvalue for="id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="tool" value="SC Proteomics"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="13"/>
+          <attvalue for="cell_count" value="8944.087"/>
+        </attvalues>
+        <viz:size value="18.046162"/>
+        <viz:position x="2.6758924" y="-117.984276"/>
+        <viz:color r="145" g="166" b="237"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="3066" source="6" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001925923"/>
+        </attvalues>
+      </edge>
+      <edge id="3067" source="6" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.044038839"/>
+        </attvalues>
+      </edge>
+      <edge id="3068" source="6" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001721793"/>
+        </attvalues>
+      </edge>
+      <edge id="3069" source="6" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.008058699"/>
+        </attvalues>
+      </edge>
+      <edge id="3070" source="6" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="8.60896E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3071" source="6" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.033867838"/>
+        </attvalues>
+      </edge>
+      <edge id="3072" source="6" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.090420737"/>
+        </attvalues>
+      </edge>
+      <edge id="3073" source="6" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.010481634"/>
+        </attvalues>
+      </edge>
+      <edge id="3074" source="6" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.066368892"/>
+        </attvalues>
+      </edge>
+      <edge id="3075" source="6" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.261829209"/>
+        </attvalues>
+      </edge>
+      <edge id="3076" source="6" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.050402372"/>
+        </attvalues>
+      </edge>
+      <edge id="3077" source="6" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.004774279"/>
+        </attvalues>
+      </edge>
+      <edge id="3078" source="6" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.024832864"/>
+        </attvalues>
+      </edge>
+      <edge id="3079" source="6" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001650791"/>
+        </attvalues>
+      </edge>
+      <edge id="3080" source="6" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.040728382"/>
+        </attvalues>
+      </edge>
+      <edge id="3081" source="6" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.008777592"/>
+        </attvalues>
+      </edge>
+      <edge id="3082" source="6" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.024184973"/>
+        </attvalues>
+      </edge>
+      <edge id="3083" source="6" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005582513"/>
+        </attvalues>
+      </edge>
+      <edge id="3084" source="6" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002804569"/>
+        </attvalues>
+      </edge>
+      <edge id="3085" source="6" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002147803"/>
+        </attvalues>
+      </edge>
+      <edge id="3086" source="6" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.012657015"/>
+        </attvalues>
+      </edge>
+      <edge id="3087" source="6" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.037772934"/>
+        </attvalues>
+      </edge>
+      <edge id="3088" source="6" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.064469595"/>
+        </attvalues>
+      </edge>
+      <edge id="3089" source="6" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.05235492"/>
+        </attvalues>
+      </edge>
+      <edge id="3090" source="6" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.014362042"/>
+        </attvalues>
+      </edge>
+      <edge id="3091" source="7" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001330412"/>
+        </attvalues>
+      </edge>
+      <edge id="3092" source="7" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.03989315"/>
+        </attvalues>
+      </edge>
+      <edge id="3093" source="7" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002428498"/>
+        </attvalues>
+      </edge>
+      <edge id="3094" source="7" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.006491127"/>
+        </attvalues>
+      </edge>
+      <edge id="3095" source="7" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002446534"/>
+        </attvalues>
+      </edge>
+      <edge id="3096" source="7" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.049026437"/>
+        </attvalues>
+      </edge>
+      <edge id="3097" source="7" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.053446563"/>
+        </attvalues>
+      </edge>
+      <edge id="3098" source="7" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.008321531"/>
+        </attvalues>
+      </edge>
+      <edge id="3099" source="7" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.064314328"/>
+        </attvalues>
+      </edge>
+      <edge id="3100" source="7" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.247961107"/>
+        </attvalues>
+      </edge>
+      <edge id="3101" source="7" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.047695288"/>
+        </attvalues>
+      </edge>
+      <edge id="3102" source="7" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.00463641"/>
+        </attvalues>
+      </edge>
+      <edge id="3103" source="7" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.020448643"/>
+        </attvalues>
+      </edge>
+      <edge id="3104" source="7" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.006637536"/>
+        </attvalues>
+      </edge>
+      <edge id="3105" source="7" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.037007033"/>
+        </attvalues>
+      </edge>
+      <edge id="3106" source="7" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.011096509"/>
+        </attvalues>
+      </edge>
+      <edge id="3107" source="7" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.021132042"/>
+        </attvalues>
+      </edge>
+      <edge id="3108" source="7" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.006668346"/>
+        </attvalues>
+      </edge>
+      <edge id="3109" source="7" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.00410996"/>
+        </attvalues>
+      </edge>
+      <edge id="3110" source="7" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001799022"/>
+        </attvalues>
+      </edge>
+      <edge id="3111" source="7" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.019809786"/>
+        </attvalues>
+      </edge>
+      <edge id="3112" source="7" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.046274783"/>
+        </attvalues>
+      </edge>
+      <edge id="3113" source="7" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.070923257"/>
+        </attvalues>
+      </edge>
+      <edge id="3114" source="7" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.057308739"/>
+        </attvalues>
+      </edge>
+      <edge id="3115" source="7" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.012873439"/>
+        </attvalues>
+      </edge>
+      <edge id="3116" source="8" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.044458305"/>
+        </attvalues>
+      </edge>
+      <edge id="3117" source="8" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.042558061"/>
+        </attvalues>
+      </edge>
+      <edge id="3118" source="8" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="2.88077E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3119" source="8" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005506442"/>
+        </attvalues>
+      </edge>
+      <edge id="3120" source="8" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.003336111"/>
+        </attvalues>
+      </edge>
+      <edge id="3121" source="8" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.066817755"/>
+        </attvalues>
+      </edge>
+      <edge id="3122" source="8" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.022711017"/>
+        </attvalues>
+      </edge>
+      <edge id="3123" source="8" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.011661586"/>
+        </attvalues>
+      </edge>
+      <edge id="3124" source="8" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.066221725"/>
+        </attvalues>
+      </edge>
+      <edge id="3125" source="8" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.235225133"/>
+        </attvalues>
+      </edge>
+      <edge id="3126" source="8" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.03418926"/>
+        </attvalues>
+      </edge>
+      <edge id="3127" source="8" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.006275395"/>
+        </attvalues>
+      </edge>
+      <edge id="3128" source="8" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.022591775"/>
+        </attvalues>
+      </edge>
+      <edge id="3129" source="8" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.004742972"/>
+        </attvalues>
+      </edge>
+      <edge id="3130" source="8" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.039905657"/>
+        </attvalues>
+      </edge>
+      <edge id="3131" source="8" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.003716629"/>
+        </attvalues>
+      </edge>
+      <edge id="3132" source="8" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.029525643"/>
+        </attvalues>
+      </edge>
+      <edge id="3133" source="8" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.004267515"/>
+        </attvalues>
+      </edge>
+      <edge id="3134" source="8" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.00872811"/>
+        </attvalues>
+      </edge>
+      <edge id="3135" source="8" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001375998"/>
+        </attvalues>
+      </edge>
+      <edge id="3136" source="8" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.019826496"/>
+        </attvalues>
+      </edge>
+      <edge id="3137" source="8" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.02910056"/>
+        </attvalues>
+      </edge>
+      <edge id="3138" source="8" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.118388703"/>
+        </attvalues>
+      </edge>
+      <edge id="3139" source="8" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.065228192"/>
+        </attvalues>
+      </edge>
+      <edge id="3140" source="8" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.013146115"/>
+        </attvalues>
+      </edge>
+      <edge id="3141" source="9" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.044458305"/>
+        </attvalues>
+      </edge>
+      <edge id="3142" source="9" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.042558061"/>
+        </attvalues>
+      </edge>
+      <edge id="3143" source="9" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="2.88077E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3144" source="9" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005506442"/>
+        </attvalues>
+      </edge>
+      <edge id="3145" source="9" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.003336111"/>
+        </attvalues>
+      </edge>
+      <edge id="3146" source="9" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.066817755"/>
+        </attvalues>
+      </edge>
+      <edge id="3147" source="9" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.022711017"/>
+        </attvalues>
+      </edge>
+      <edge id="3148" source="9" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.011661586"/>
+        </attvalues>
+      </edge>
+      <edge id="3149" source="9" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.066221725"/>
+        </attvalues>
+      </edge>
+      <edge id="3150" source="9" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.235225133"/>
+        </attvalues>
+      </edge>
+      <edge id="3151" source="9" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.03418926"/>
+        </attvalues>
+      </edge>
+      <edge id="3152" source="9" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.006275395"/>
+        </attvalues>
+      </edge>
+      <edge id="3153" source="9" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.022591775"/>
+        </attvalues>
+      </edge>
+      <edge id="3154" source="9" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.004742972"/>
+        </attvalues>
+      </edge>
+      <edge id="3155" source="9" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.039905657"/>
+        </attvalues>
+      </edge>
+      <edge id="3156" source="9" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.003716629"/>
+        </attvalues>
+      </edge>
+      <edge id="3157" source="9" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.029525643"/>
+        </attvalues>
+      </edge>
+      <edge id="3158" source="9" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.004267515"/>
+        </attvalues>
+      </edge>
+      <edge id="3159" source="9" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.00872811"/>
+        </attvalues>
+      </edge>
+      <edge id="3160" source="9" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001375998"/>
+        </attvalues>
+      </edge>
+      <edge id="3161" source="9" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.019826496"/>
+        </attvalues>
+      </edge>
+      <edge id="3162" source="9" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.02910056"/>
+        </attvalues>
+      </edge>
+      <edge id="3163" source="9" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.118388703"/>
+        </attvalues>
+      </edge>
+      <edge id="3164" source="9" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.065228192"/>
+        </attvalues>
+      </edge>
+      <edge id="3165" source="9" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.013146115"/>
+        </attvalues>
+      </edge>
+      <edge id="3166" source="10" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.016428655"/>
+        </attvalues>
+      </edge>
+      <edge id="3167" source="10" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.038627471"/>
+        </attvalues>
+      </edge>
+      <edge id="3168" source="10" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="1.04742E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3169" source="10" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005336021"/>
+        </attvalues>
+      </edge>
+      <edge id="3170" source="10" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001479857"/>
+        </attvalues>
+      </edge>
+      <edge id="3171" source="10" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.065666274"/>
+        </attvalues>
+      </edge>
+      <edge id="3172" source="10" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.022638184"/>
+        </attvalues>
+      </edge>
+      <edge id="3173" source="10" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.009461171"/>
+        </attvalues>
+      </edge>
+      <edge id="3174" source="10" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.062073605"/>
+        </attvalues>
+      </edge>
+      <edge id="3175" source="10" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.177006251"/>
+        </attvalues>
+      </edge>
+      <edge id="3176" source="10" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.051379214"/>
+        </attvalues>
+      </edge>
+      <edge id="3177" source="10" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.006960412"/>
+        </attvalues>
+      </edge>
+      <edge id="3178" source="10" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.029538527"/>
+        </attvalues>
+      </edge>
+      <edge id="3179" source="10" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.004925147"/>
+        </attvalues>
+      </edge>
+      <edge id="3180" source="10" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.044165528"/>
+        </attvalues>
+      </edge>
+      <edge id="3181" source="10" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001684779"/>
+        </attvalues>
+      </edge>
+      <edge id="3182" source="10" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.025560253"/>
+        </attvalues>
+      </edge>
+      <edge id="3183" source="10" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.004799513"/>
+        </attvalues>
+      </edge>
+      <edge id="3184" source="10" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.003570878"/>
+        </attvalues>
+      </edge>
+      <edge id="3185" source="10" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001565063"/>
+        </attvalues>
+      </edge>
+      <edge id="3186" source="10" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.056298468"/>
+        </attvalues>
+      </edge>
+      <edge id="3187" source="10" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.028165598"/>
+        </attvalues>
+      </edge>
+      <edge id="3188" source="10" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.122928518"/>
+        </attvalues>
+      </edge>
+      <edge id="3189" source="10" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.083988342"/>
+        </attvalues>
+      </edge>
+      <edge id="3190" source="10" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.019002551"/>
+        </attvalues>
+      </edge>
+      <edge id="3191" source="0" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.014927654"/>
+        </attvalues>
+      </edge>
+      <edge id="3192" source="0" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.032941436"/>
+        </attvalues>
+      </edge>
+      <edge id="3193" source="0" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="2.51494E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3194" source="0" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.02590387"/>
+        </attvalues>
+      </edge>
+      <edge id="3195" source="0" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001589953"/>
+        </attvalues>
+      </edge>
+      <edge id="3196" source="0" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.024313917"/>
+        </attvalues>
+      </edge>
+      <edge id="3197" source="0" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.021070072"/>
+        </attvalues>
+      </edge>
+      <edge id="3198" source="0" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.014897816"/>
+        </attvalues>
+      </edge>
+      <edge id="3199" source="0" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.05006007"/>
+        </attvalues>
+      </edge>
+      <edge id="3200" source="0" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.048630891"/>
+        </attvalues>
+      </edge>
+      <edge id="3201" source="0" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.06669703"/>
+        </attvalues>
+      </edge>
+      <edge id="3202" source="0" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005099006"/>
+        </attvalues>
+      </edge>
+      <edge id="3203" source="0" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.021922594"/>
+        </attvalues>
+      </edge>
+      <edge id="3204" source="0" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005179069"/>
+        </attvalues>
+      </edge>
+      <edge id="3205" source="0" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.042250972"/>
+        </attvalues>
+      </edge>
+      <edge id="3206" source="0" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.00580141"/>
+        </attvalues>
+      </edge>
+      <edge id="3207" source="0" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.024509997"/>
+        </attvalues>
+      </edge>
+      <edge id="3208" source="0" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.00415178"/>
+        </attvalues>
+      </edge>
+      <edge id="3209" source="0" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.003439925"/>
+        </attvalues>
+      </edge>
+      <edge id="3210" source="0" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.00148765"/>
+        </attvalues>
+      </edge>
+      <edge id="3211" source="0" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="9.81325E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3212" source="0" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.039075329"/>
+        </attvalues>
+      </edge>
+      <edge id="3213" source="0" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.18806201"/>
+        </attvalues>
+      </edge>
+      <edge id="3214" source="0" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.088717664"/>
+        </attvalues>
+      </edge>
+      <edge id="3215" source="0" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.028299619"/>
+        </attvalues>
+      </edge>
+      <edge id="3216" source="1" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.008854888"/>
+        </attvalues>
+      </edge>
+      <edge id="3217" source="1" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.0372927"/>
+        </attvalues>
+      </edge>
+      <edge id="3218" source="1" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="2.12858E-5"/>
+        </attvalues>
+      </edge>
+      <edge id="3219" source="1" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.030289676"/>
+        </attvalues>
+      </edge>
+      <edge id="3220" source="1" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001277147"/>
+        </attvalues>
+      </edge>
+      <edge id="3221" source="1" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.034589405"/>
+        </attvalues>
+      </edge>
+      <edge id="3222" source="1" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.03850599"/>
+        </attvalues>
+      </edge>
+      <edge id="3223" source="1" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.012750187"/>
+        </attvalues>
+      </edge>
+      <edge id="3224" source="1" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.053597613"/>
+        </attvalues>
+      </edge>
+      <edge id="3225" source="1" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.058279002"/>
+        </attvalues>
+      </edge>
+      <edge id="3226" source="1" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.07988556"/>
+        </attvalues>
+      </edge>
+      <edge id="3227" source="1" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005908287"/>
+        </attvalues>
+      </edge>
+      <edge id="3228" source="1" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.02122193"/>
+        </attvalues>
+      </edge>
+      <edge id="3229" source="1" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001937007"/>
+        </attvalues>
+      </edge>
+      <edge id="3230" source="1" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.039208421"/>
+        </attvalues>
+      </edge>
+      <edge id="3231" source="1" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.009514747"/>
+        </attvalues>
+      </edge>
+      <edge id="3232" source="1" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.014516907"/>
+        </attvalues>
+      </edge>
+      <edge id="3233" source="1" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002767152"/>
+        </attvalues>
+      </edge>
+      <edge id="3234" source="1" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.004065585"/>
+        </attvalues>
+      </edge>
+      <edge id="3235" source="1" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001639006"/>
+        </attvalues>
+      </edge>
+      <edge id="3236" source="1" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="6.11898E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3237" source="1" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.058280486"/>
+        </attvalues>
+      </edge>
+      <edge id="3238" source="1" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.097531478"/>
+        </attvalues>
+      </edge>
+      <edge id="3239" source="1" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.09231646"/>
+        </attvalues>
+      </edge>
+      <edge id="3240" source="1" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.026256952"/>
+        </attvalues>
+      </edge>
+      <edge id="3241" source="2" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.008943203"/>
+        </attvalues>
+      </edge>
+      <edge id="3242" source="2" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.035712016"/>
+        </attvalues>
+      </edge>
+      <edge id="3243" source="2" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="1.38764E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3244" source="2" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.032068585"/>
+        </attvalues>
+      </edge>
+      <edge id="3245" source="2" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001156969"/>
+        </attvalues>
+      </edge>
+      <edge id="3246" source="2" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.035294663"/>
+        </attvalues>
+      </edge>
+      <edge id="3247" source="2" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.033155067"/>
+        </attvalues>
+      </edge>
+      <edge id="3248" source="2" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.013396103"/>
+        </attvalues>
+      </edge>
+      <edge id="3249" source="2" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.05481977"/>
+        </attvalues>
+      </edge>
+      <edge id="3250" source="2" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.059819265"/>
+        </attvalues>
+      </edge>
+      <edge id="3251" source="2" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.0626221"/>
+        </attvalues>
+      </edge>
+      <edge id="3252" source="2" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.00582696"/>
+        </attvalues>
+      </edge>
+      <edge id="3253" source="2" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.021637222"/>
+        </attvalues>
+      </edge>
+      <edge id="3254" source="2" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005007259"/>
+        </attvalues>
+      </edge>
+      <edge id="3255" source="2" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.036524016"/>
+        </attvalues>
+      </edge>
+      <edge id="3256" source="2" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.009145012"/>
+        </attvalues>
+      </edge>
+      <edge id="3257" source="2" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.02075054"/>
+        </attvalues>
+      </edge>
+      <edge id="3258" source="2" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.003173323"/>
+        </attvalues>
+      </edge>
+      <edge id="3259" source="2" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005225953"/>
+        </attvalues>
+      </edge>
+      <edge id="3260" source="2" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001546834"/>
+        </attvalues>
+      </edge>
+      <edge id="3261" source="2" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="6.89072E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3262" source="2" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.051679616"/>
+        </attvalues>
+      </edge>
+      <edge id="3263" source="2" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.131509973"/>
+        </attvalues>
+      </edge>
+      <edge id="3264" source="2" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.08358916"/>
+        </attvalues>
+      </edge>
+      <edge id="3265" source="2" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.02493151"/>
+        </attvalues>
+      </edge>
+      <edge id="3266" source="3" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.004749188"/>
+        </attvalues>
+      </edge>
+      <edge id="3267" source="3" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.02986212"/>
+        </attvalues>
+      </edge>
+      <edge id="3268" source="3" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="1.6391E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3269" source="3" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.037258178"/>
+        </attvalues>
+      </edge>
+      <edge id="3270" source="3" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001003814"/>
+        </attvalues>
+      </edge>
+      <edge id="3271" source="3" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.024836174"/>
+        </attvalues>
+      </edge>
+      <edge id="3272" source="3" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.023883627"/>
+        </attvalues>
+      </edge>
+      <edge id="3273" source="3" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.011173601"/>
+        </attvalues>
+      </edge>
+      <edge id="3274" source="3" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.060274378"/>
+        </attvalues>
+      </edge>
+      <edge id="3275" source="3" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.051492561"/>
+        </attvalues>
+      </edge>
+      <edge id="3276" source="3" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.047287849"/>
+        </attvalues>
+      </edge>
+      <edge id="3277" source="3" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.008389193"/>
+        </attvalues>
+      </edge>
+      <edge id="3278" source="3" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.025644135"/>
+        </attvalues>
+      </edge>
+      <edge id="3279" source="3" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.007588655"/>
+        </attvalues>
+      </edge>
+      <edge id="3280" source="3" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.051612028"/>
+        </attvalues>
+      </edge>
+      <edge id="3281" source="3" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005642824"/>
+        </attvalues>
+      </edge>
+      <edge id="3282" source="3" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.033420814"/>
+        </attvalues>
+      </edge>
+      <edge id="3283" source="3" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002583425"/>
+        </attvalues>
+      </edge>
+      <edge id="3284" source="3" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.003923458"/>
+        </attvalues>
+      </edge>
+      <edge id="3285" source="3" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001257608"/>
+        </attvalues>
+      </edge>
+      <edge id="3286" source="3" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002032959"/>
+        </attvalues>
+      </edge>
+      <edge id="3287" source="3" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.038835903"/>
+        </attvalues>
+      </edge>
+      <edge id="3288" source="3" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.159570961"/>
+        </attvalues>
+      </edge>
+      <edge id="3289" source="3" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.100168341"/>
+        </attvalues>
+      </edge>
+      <edge id="3290" source="3" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.023417797"/>
+        </attvalues>
+      </edge>
+      <edge id="3291" source="4" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.030336974"/>
+        </attvalues>
+      </edge>
+      <edge id="3292" source="4" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.044206491"/>
+        </attvalues>
+      </edge>
+      <edge id="3293" source="4" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="8.78005E-5"/>
+        </attvalues>
+      </edge>
+      <edge id="3294" source="4" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.027542712"/>
+        </attvalues>
+      </edge>
+      <edge id="3295" source="4" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001287316"/>
+        </attvalues>
+      </edge>
+      <edge id="3296" source="4" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.031117242"/>
+        </attvalues>
+      </edge>
+      <edge id="3297" source="4" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.05139685"/>
+        </attvalues>
+      </edge>
+      <edge id="3298" source="4" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.014646701"/>
+        </attvalues>
+      </edge>
+      <edge id="3299" source="4" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.050945201"/>
+        </attvalues>
+      </edge>
+      <edge id="3300" source="4" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.063971432"/>
+        </attvalues>
+      </edge>
+      <edge id="3301" source="4" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.075322874"/>
+        </attvalues>
+      </edge>
+      <edge id="3302" source="4" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005402235"/>
+        </attvalues>
+      </edge>
+      <edge id="3303" source="4" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.017872934"/>
+        </attvalues>
+      </edge>
+      <edge id="3304" source="4" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005713073"/>
+        </attvalues>
+      </edge>
+      <edge id="3305" source="4" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.032180161"/>
+        </attvalues>
+      </edge>
+      <edge id="3306" source="4" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005379105"/>
+        </attvalues>
+      </edge>
+      <edge id="3307" source="4" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.025288113"/>
+        </attvalues>
+      </edge>
+      <edge id="3308" source="4" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005239626"/>
+        </attvalues>
+      </edge>
+      <edge id="3309" source="4" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002840251"/>
+        </attvalues>
+      </edge>
+      <edge id="3310" source="4" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001221853"/>
+        </attvalues>
+      </edge>
+      <edge id="3311" source="4" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="8.19194E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3312" source="4" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.042411901"/>
+        </attvalues>
+      </edge>
+      <edge id="3313" source="4" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.111574362"/>
+        </attvalues>
+      </edge>
+      <edge id="3314" source="4" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.060196424"/>
+        </attvalues>
+      </edge>
+      <edge id="3315" source="4" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.036516661"/>
+        </attvalues>
+      </edge>
+      <edge id="3316" source="5" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.007543086"/>
+        </attvalues>
+      </edge>
+      <edge id="3317" source="5" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.021679142"/>
+        </attvalues>
+      </edge>
+      <edge id="3318" source="5" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="1.59715E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3319" source="5" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.027207166"/>
+        </attvalues>
+      </edge>
+      <edge id="3320" source="5" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="9.19526E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3321" source="5" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.017070994"/>
+        </attvalues>
+      </edge>
+      <edge id="3322" source="5" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.022016215"/>
+        </attvalues>
+      </edge>
+      <edge id="3323" source="5" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.013495209"/>
+        </attvalues>
+      </edge>
+      <edge id="3324" source="5" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.057627979"/>
+        </attvalues>
+      </edge>
+      <edge id="3325" source="5" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.039547456"/>
+        </attvalues>
+      </edge>
+      <edge id="3326" source="5" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.037390705"/>
+        </attvalues>
+      </edge>
+      <edge id="3327" source="5" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005138955"/>
+        </attvalues>
+      </edge>
+      <edge id="3328" source="5" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.030866537"/>
+        </attvalues>
+      </edge>
+      <edge id="3329" source="5" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.00282731"/>
+        </attvalues>
+      </edge>
+      <edge id="3330" source="5" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.061660616"/>
+        </attvalues>
+      </edge>
+      <edge id="3331" source="5" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.010101918"/>
+        </attvalues>
+      </edge>
+      <edge id="3332" source="5" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.03106194"/>
+        </attvalues>
+      </edge>
+      <edge id="3333" source="5" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002743927"/>
+        </attvalues>
+      </edge>
+      <edge id="3334" source="5" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.016009162"/>
+        </attvalues>
+      </edge>
+      <edge id="3335" source="5" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001434508"/>
+        </attvalues>
+      </edge>
+      <edge id="3336" source="5" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="7.44005E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3337" source="5" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.021994682"/>
+        </attvalues>
+      </edge>
+      <edge id="3338" source="5" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.207880371"/>
+        </attvalues>
+      </edge>
+      <edge id="3339" source="5" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.109532074"/>
+        </attvalues>
+      </edge>
+      <edge id="3340" source="5" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.028319799"/>
+        </attvalues>
+      </edge>
+      <edge id="3341" source="11" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="5.82724E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3342" source="11" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.042420731"/>
+        </attvalues>
+      </edge>
+      <edge id="3343" source="11" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="3.00624E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3344" source="11" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.008730725"/>
+        </attvalues>
+      </edge>
+      <edge id="3345" source="11" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002176273"/>
+        </attvalues>
+      </edge>
+      <edge id="3346" source="11" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.088223175"/>
+        </attvalues>
+      </edge>
+      <edge id="3347" source="11" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.065944361"/>
+        </attvalues>
+      </edge>
+      <edge id="3348" source="11" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.010199681"/>
+        </attvalues>
+      </edge>
+      <edge id="3349" source="11" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.058766487"/>
+        </attvalues>
+      </edge>
+      <edge id="3350" source="11" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.248182195"/>
+        </attvalues>
+      </edge>
+      <edge id="3351" source="11" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.040280049"/>
+        </attvalues>
+      </edge>
+      <edge id="3352" source="11" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.003958275"/>
+        </attvalues>
+      </edge>
+      <edge id="3353" source="11" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.024547819"/>
+        </attvalues>
+      </edge>
+      <edge id="3354" source="11" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.003856992"/>
+        </attvalues>
+      </edge>
+      <edge id="3355" source="11" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.031476749"/>
+        </attvalues>
+      </edge>
+      <edge id="3356" source="11" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001199321"/>
+        </attvalues>
+      </edge>
+      <edge id="3357" source="11" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.025256008"/>
+        </attvalues>
+      </edge>
+      <edge id="3358" source="11" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.004614145"/>
+        </attvalues>
+      </edge>
+      <edge id="3359" source="11" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.00618152"/>
+        </attvalues>
+      </edge>
+      <edge id="3360" source="11" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002147805"/>
+        </attvalues>
+      </edge>
+      <edge id="3361" source="11" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.030813629"/>
+        </attvalues>
+      </edge>
+      <edge id="3362" source="11" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.026151718"/>
+        </attvalues>
+      </edge>
+      <edge id="3363" source="11" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.085388102"/>
+        </attvalues>
+      </edge>
+      <edge id="3364" source="11" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.059780107"/>
+        </attvalues>
+      </edge>
+      <edge id="3365" source="11" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.021433127"/>
+        </attvalues>
+      </edge>
+      <edge id="3366" source="12" target="13">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:b"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002583919"/>
+        </attvalues>
+      </edge>
+      <edge id="3367" source="12" target="14">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd4-t-cell"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.030737539"/>
+        </attvalues>
+      </edge>
+      <edge id="3368" source="12" target="15">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd57-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="3.17045E-5"/>
+        </attvalues>
+      </edge>
+      <edge id="3369" source="12" target="16">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd66-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002758294"/>
+        </attvalues>
+      </edge>
+      <edge id="3370" source="12" target="17">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd7-immune"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001204772"/>
+        </attvalues>
+      </edge>
+      <edge id="3371" source="12" target="18">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cd8-t"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.051313777"/>
+        </attvalues>
+      </edge>
+      <edge id="3372" source="12" target="19">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:cycling-ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.032481288"/>
+        </attvalues>
+      </edge>
+      <edge id="3373" source="12" target="20">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:dc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.007054257"/>
+        </attvalues>
+      </edge>
+      <edge id="3374" source="12" target="21">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:endothelial"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.063694395"/>
+        </attvalues>
+      </edge>
+      <edge id="3375" source="12" target="22">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.215076735"/>
+        </attvalues>
+      </edge>
+      <edge id="3376" source="12" target="23">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:goblet"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.044433895"/>
+        </attvalues>
+      </edge>
+      <edge id="3377" source="12" target="24">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:icc"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.006409574"/>
+        </attvalues>
+      </edge>
+      <edge id="3378" source="12" target="25">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:lymphatic"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.040740318"/>
+        </attvalues>
+      </edge>
+      <edge id="3379" source="12" target="26">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m1-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="9.51136E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3380" source="12" target="27">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:m2-macrophage"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.053961105"/>
+        </attvalues>
+      </edge>
+      <edge id="3381" source="12" target="28">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:muc1-enterocyte"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="9.66988E-4"/>
+        </attvalues>
+      </edge>
+      <edge id="3382" source="12" target="29">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nerve"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.027963393"/>
+        </attvalues>
+      </edge>
+      <edge id="3383" source="12" target="30">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neuroendocrine"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.005151986"/>
+        </attvalues>
+      </edge>
+      <edge id="3384" source="12" target="31">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:neutrophil"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.002821703"/>
+        </attvalues>
+      </edge>
+      <edge id="3385" source="12" target="32">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:nk"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.001014545"/>
+        </attvalues>
+      </edge>
+      <edge id="3386" source="12" target="33">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:paneth"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.027697651"/>
+        </attvalues>
+      </edge>
+      <edge id="3387" source="12" target="34">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:plasma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.021844419"/>
+        </attvalues>
+      </edge>
+      <edge id="3388" source="12" target="35">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:smooth-muscle"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.138358557"/>
+        </attvalues>
+      </edge>
+      <edge id="3389" source="12" target="36">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:stroma"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.104260338"/>
+        </attvalues>
+      </edge>
+      <edge id="3390" source="12" target="37">
+        <viz:color r="187" g="190" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="ASCTB-TEMP:ta"/>
+          <attvalue for="weight_recs" value="1"/>
+          <attvalue for="weight_tfidf" value="0.024171904"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

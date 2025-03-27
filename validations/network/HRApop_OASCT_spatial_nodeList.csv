@@ -1,0 +1,33 @@
+"id","id_lab","label","type","partOf","records","cell_count"
+0,"Ascending Colon","Ascending Colon","Anatomical Structure","Large Intestine",8,209839
+1,"Transverse Colon","Transverse Colon","Anatomical Structure","Large Intestine",8,229737
+2,"Descending Colon","Descending Colon","Anatomical Structure","Large Intestine",8,329603
+3,"Sigmoid Colon","Sigmoid Colon","Anatomical Structure","Large Intestine",8,245164
+4,"Duodenum","Duodenum","Anatomical Structure","Small Intestine",8,377540
+5,"Jejunum","Jejunum","Anatomical Structure","Small Intestine",16,844688
+6,"Ileum","Ileum","Anatomical Structure","Small Intestine",8,366534
+7,"B","B","Cell Type","Organ(s): 2",64,35529
+8,"CD4+ T cell","CD4+ T cell","Cell Type","Organ(s): 2",64,120286
+9,"CD57+ Enterocyte","CD57+ Enterocyte","Cell Type","Organ(s): 2",64,1927
+10,"CD66+ Enterocyte","CD66+ Enterocyte","Cell Type","Organ(s): 2",64,50621
+11,"CD7+ Immune","CD7+ Immune","Cell Type","Organ(s): 2",64,7657
+12,"CD8+ T","CD8+ T","Cell Type","Organ(s): 2",64,214453
+13,"Cycling TA","Cycling TA","Cell Type","Organ(s): 2",64,83535
+14,"DC","DC","Cell Type","Organ(s): 2",64,32580
+15,"Endothelial","Endothelial","Cell Type","Organ(s): 2",64,187409
+16,"Enterocyte","Enterocyte","Cell Type","Organ(s): 2",64,512335
+17,"Goblet","Goblet","Cell Type","Organ(s): 2",64,166357
+18,"ICC","ICC","Cell Type","Organ(s): 2",64,34938
+19,"Lymphatic","Lymphatic","Cell Type","Organ(s): 2",64,65766
+20,"M1 Macrophage","M1 Macrophage","Cell Type","Organ(s): 2",64,22616
+21,"M2 Macrophage","M2 Macrophage","Cell Type","Organ(s): 2",64,115342
+22,"MUC1+ Enterocyte","MUC1+ Enterocyte","Cell Type","Organ(s): 2",64,18152
+23,"Nerve","Nerve","Cell Type","Organ(s): 2",64,79091
+24,"Neuroendocrine","Neuroendocrine","Cell Type","Organ(s): 2",64,15524
+25,"Neutrophil","Neutrophil","Cell Type","Organ(s): 2",64,14945
+26,"NK","NK","Cell Type","Organ(s): 2",64,5509
+27,"Paneth","Paneth","Cell Type","Organ(s): 2",64,22587
+28,"Plasma","Plasma","Cell Type","Organ(s): 2",64,132653
+29,"Smooth muscle","Smooth muscle","Cell Type","Organ(s): 2",64,384608
+30,"Stroma","Stroma","Cell Type","Organ(s): 2",64,220905
+31,"TA","TA","Cell Type","Organ(s): 2",64,57780

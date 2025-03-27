@@ -1,0 +1,10 @@
+source,target,distance
+VH_M_ileum,VH_M_jejunum,-1
+VH_M_duodenum_descending,VH_M_duodenum_superior,-1
+VH_M_duodenum_ascending,VH_M_duodenum_horizonal,-1
+VH_M_duodenum_descending,VH_M_papilla_of_santorini,-1
+VH_M_duodenum_descending,VH_M_sphincter_of_hepatopancreatic_ampulla,-1
+VH_M_duodenum_ascending,VH_M_jejunum,-1
+VH_M_duodenum_descending,VH_M_duodenum_horizonal,-1
+VH_M_duodenal_ampulla,VH_M_duodenum_superior,-1
+VH_M_ileum,VH_M_ileum_terminal,-1

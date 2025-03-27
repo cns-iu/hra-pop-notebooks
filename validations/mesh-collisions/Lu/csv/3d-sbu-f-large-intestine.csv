@@ -1,0 +1,13 @@
+source,target,distance
+VH_F_ascending_colon,VH_F_transverse_colon,-1
+VH_F_ascending_colon,VH_F_hepatic_flexure_of_colon,-1
+VH_F_rectum,VH_F_sigmoid_colon,-1
+VH_F_ascending_colon,VH_F_caecum,-1
+VH_F_descending_colon,VH_F_splenic_flexure_of_colon,-1
+VH_F_hepatic_flexure_of_colon,VH_F_transverse_colon,-1
+VH_F_descending_colon,VH_F_transverse_colon,-1
+VH_F_ascending_colon,VH_F_ileocecal_valve,-1
+VH_F_splenic_flexure_of_colon,VH_F_transverse_colon,-1
+VH_F_descending_colon,VH_F_sigmoid_colon,-1
+VH_F_caecum,VH_F_vermiform_appendix,-1
+VH_F_caecum,VH_F_ileocecal_valve,-1

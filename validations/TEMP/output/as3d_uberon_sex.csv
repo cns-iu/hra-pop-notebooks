@@ -1,0 +1,1174 @@
+as_label,uberon_id,sex,ref_organ
+female abdominal ostium of uterine tube,FMA:77049,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+female anterior wall of uterus,FMA:224876,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+female body of uterus,UBERON:0009853,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+female cervix,UBERON:0000002,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+female external cervical os,UBERON:0013760,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+female fundus of uterus,FMA:17561,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+female internal cervical os,UBERON:0013759,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+female lower uterine segment,FMA:17752,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+female posterior wall of uterus,FMA:224878,Female,https://purl.humanatlas.io/ref-organ/uterus-female/v1.2#primary
+female fundus of urinary bladder base,UBERON:0006082,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+female fundus of urinary bladder dome,UBERON:0006082,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+female trigone of urinary bladder,UBERON:0001257,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+female ureteral orifice,FMA:15940,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+female ureteral orifice,FMA:15939,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+female urinary bladder neck smooth muscle,UBERON:0004230,Female,https://purl.humanatlas.io/ref-organ/urinary-bladder-female/v1.2#primary
+male fundus of urinary bladder,UBERON:0006082,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+male fundus of urinary bladder base 1,UBERON:0006082,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+male fundus of urinary bladder dome,UBERON:0006082,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+male trigone of urinary bladder,UBERON:0001257,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+male ureteral orifice,FMA:15940,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+male ureteral orifice,FMA:15939,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+male urinary bladder neck smooth muscle,UBERON:0004230,Male,https://purl.humanatlas.io/ref-organ/urinary-bladder-male/v1.2#primary
+female median sacral vein,UBERON:0006687,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female middle cardiac vein,UBERON:0009687,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female middle colic artery,UBERON:0001196,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female middle colic vein,UBERON:0001218,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female middle hepatic vein,FMA:14340,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female middle rectal vein,FMA:18893,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female middle rectal vein,FMA:18895,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female middle rectal vein,FMA:18894,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female oblique vein of left atrium,FMA:4715,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female ophthalmic vein,UBERON:0011191,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female opthalmic artery,UBERON:0001619,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female posterior left ventricular branch,FMA:13905,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female posterior vein of left ventricle,FMA:4712,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female proper hepatic artery,FMA:14772,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female pulmonary artery,UBERON:0002012,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female pulmonary artery,UBERON:0001652,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female pulmonary artery,UBERON:0001651,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female pulmonary trunk,UBERON:0002333,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female pulmonary vein,UBERON:0002016,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female pulmonary vein i,FMA:49911,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female pulmonary vein s,FMA:49916,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female pulmonary vein i,FMA:49913,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female pulmonary vein s,FMA:49914,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female renal artery,UBERON:0001184,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female renal vein,UBERON:0001140,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female right colic artery,FMA:14811,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female right colic vein,FMA:15407,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female right common iliac vein,FMA:21387,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female right coronary artery,UBERON:0001625,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female right hepatic artery,FMA:14778,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female right hepatic vein,FMA:14338,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female right marginal artery,FMA:3818,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female right renal artery,UBERON:0001185,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female right renal vein,UBERON:0001141,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female right uterine artery,FMA:18830,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female right uterine vein,FMA:18897,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female sigmoid artery,UBERON:0035180,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female sigmoid artery a,UBERON:0035180,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female sigmoid artery b,UBERON:0035180,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female sigmoid artery c,UBERON:0035180,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female sigmoid vein,FMA:15395,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female sigmoid vein a,FMA:15395,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female sigmoid vein b,FMA:15395,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female sigmoid vein c,FMA:15395,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female small cardiac vein,UBERON:0035374,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female splenic artery,UBERON:0001194,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female splenic vein,UBERON:0003713,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female superior mesenteric artery,UBERON:0001182,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female superior mesenteric vein,UBERON:0001138,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female superior ophthalmic vein,FMA:51249,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female superior ophthalmic vein,FMA:51248,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female superior rectal artery,UBERON:0035040,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female superior rectal vein,UBERON:0035040,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female superior vena cava,FMA:4720,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female vena cava,UBERON:0004087,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female pontine tegmentum L,UBERON:0003023,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female pontine tegmentum R,UBERON:0003023,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female postcentral gyrus L,UBERON:0002581,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female postcentral gyrus R,UBERON:0002581,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female posterior intermediate orbital gyrus L,UBERON:0002644,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female posterior intermediate orbital gyrus R,UBERON:0002644,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female posterior parahippocampal gyrus L,UBERON:0002657,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female posterior parahippocampal gyrus R,UBERON:0002657,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female precuneus L,UBERON:0006093,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female precuneus R,UBERON:0006093,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female primary motor cortex L,UBERON:0002703,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female primary motor cortex R,UBERON:0002703,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female putamen L,UBERON:0008884,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female putamen R,UBERON:0008885,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female red nucleus L,UBERON:0001947,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female red nucleus R,UBERON:0001947,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female subcallosal gyrus parolfactory gyrus L,UBERON:0003020,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female subcallosal gyrus parolfactory gyrus R,UBERON:0003020,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female substantia nigra L,UBERON:0002038,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female substantia nigra R,UBERON:0002038,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female superior colliculus L,UBERON:0001945,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female superior colliculus R,UBERON:0001945,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female superior frontal gyrus L,UBERON:0002661,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female superior frontal gyrus R,UBERON:0002661,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female superior occipital gyrus L,UBERON:0002948,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female superior occipital gyrus R,UBERON:0002948,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female superior temporal gyrus L,UBERON:0002769,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female superior temporal gyrus R,UBERON:0002769,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female temporal pole L,UBERON:0002576,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female temporal pole R,UBERON:0002576,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female optic chiasm,UBERON:0000959,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female anterior cardiac vein,FMA:76767,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female aorta,UBERON:0000947,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female aortic arch,UBERON:0001508,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female ascending aorta,UBERON:0001496,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female blood vasculature of eye,UBERON:0002203,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female brachiocephalic artery a,UBERON:0001529,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female brachiocephalic artery b,UBERON:0001529,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female cardiac vein,UBERON:0004148,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female celiac trunk,FMA:14812,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female central retinal artery,FMA:49881,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female central retinal artery,FMA:49880,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female central retinal vein,FMA:51885,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female central retinal vein,FMA:51884,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female common hepatic artery,UBERON:0005436,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female common iliac vein,UBERON:0001139,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female coronary sinus,UBERON:0005438,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female cystic artery,UBERON:0039222,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female cystic vein,UBERON:0035392,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female descending aorta,UBERON:0001514,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female descending aorta a,UBERON:0001514,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female descending aorta b,UBERON:0001514,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female diagonal branch of left anterior descending artery,FMA:3860,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female great cardiac vein,UBERON:0006958,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female hepatic portal vein,UBERON:0001639,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female ileocolic artery,UBERON:0035548,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female ileocolic vein,UBERON:0001219,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female inferior mesenteric artery,UBERON:0001183,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female inferior mesenteric vein,UBERON:0001182,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female inferior ophthalmic vein,FMA:51251,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female inferior ophthalmic vein,FMA:51250,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female inferior pancreaticoduodenal vein,FMA:0329299,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female inferior rectal vein,FMA:21242,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female inferior vena cava,FMA:10951,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female inferior vena cava a,FMA:10951,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female inferior vena cava b,FMA:10951,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female internal iliac vein,UBERON:0001317,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female internal pudendal vein,UBERON:0018252,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left anterior descending artery,FMA:8636,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left circumflex artery,UBERON:0035422,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left colic artery,FMA:14826,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left colic vein,FMA:15394,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left common carotid artery,UBERON:0001536,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left common carotid artery a,UBERON:0001536,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left common carotid artery b,UBERON:0001536,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left common iliac vein,FMA:21388,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left coronary artery,UBERON:0001626,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left hepatic artery,FMA:14779,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left hepatic vein,FMA:14339,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left marginal branch,FMA:3902,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left marginal vein,FMA:4708,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left posterior descending branch of circumflex branch of left coronary artery,FMA:322904,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left renal artery,UBERON:0001186,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left renal vein,UBERON:0001142,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left subclavian artery,UBERON:0001584,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left subclavian artery a,UBERON:0001584,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left subclavian artery b,UBERON:0001584,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left uterine artery,FMA:18831,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female left uterine vein,FMA:18898,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female long posterior ciliary artery,FMA:49958,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female long posterior ciliary artery,FMA:49957,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female marginal artery of D,FMA:14824,Female,https://purl.humanatlas.io/ref-organ/blood-vasculature-female/v1.3#primary
+female carina,UBERON:0006679,Female,https://purl.humanatlas.io/ref-organ/trachea-female/v1.1#primary
+female tracheal cartilage,UBERON:0003604,Female,https://purl.humanatlas.io/ref-organ/trachea-female/v1.1#primary
+female thymus lobe,UBERON:0005457,Female,https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary
+female thymus lobe,UBERON:0005469,Female,https://purl.humanatlas.io/ref-organ/thymus-female/v1.3#primary
+female colic surface of spleen,FMA:15838,Female,https://purl.humanatlas.io/ref-organ/spleen-female/v1.3#primary
+female diaphragmatic surface of spleen,FMA:15828,Female,https://purl.humanatlas.io/ref-organ/spleen-female/v1.3#primary
+female gastric surface of spleen,FMA:15837,Female,https://purl.humanatlas.io/ref-organ/spleen-female/v1.3#primary
+female hilum of spleen,UBERON:0001248,Female,https://purl.humanatlas.io/ref-organ/spleen-female/v1.3#primary
+female renal surface of spleen,FMA:15839,Female,https://purl.humanatlas.io/ref-organ/spleen-female/v1.3#primary
+female,UBERON:0006469,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female,UBERON:0006489,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female,UBERON:0006488,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female,UBERON:0006490,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female,UBERON:0006491,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female,UBERON:0006492,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female,UBERON:0006493,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female,UBERON:0006470,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female eigth thoracic spinal cord segment,UBERON:0006456,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female eleventh thoracic spinal cord segment,UBERON:0006467,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female fifth lumbar spinal cord segment,UBERON:0006447,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female fifth thoracic spinal cord segment,UBERON:0006453,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female first lumbar spinal cord segment,UBERON:0006448,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female first sacral spinal cord segment,UBERON:0006460,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female first thoracic spinal cord segment,UBERON:0006457,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female fourth lumbar spinal cord segment,UBERON:0006451,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female fourth sacral spinal cord segment,UBERON:0006463,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female fourth thoracic spinal cord segment,UBERON:0006452,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female ninth thoracic spinal cord segment,UBERON:0006465,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female second lumbar spinal cord segment,UBERON:0006450,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female second sacral spinal cord segment,UBERON:0006461,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female second thoracic spinal cord segment,UBERON:0006458,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female seventh thoracic spinal cord segment,UBERON:0006455,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female sixth thoracic spinal cord segment,UBERON:0006454,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female tenth thoracic spinal cord segment,UBERON:0006466,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female third lumbar spinal cord segment,UBERON:0006449,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female third sacral spinal cord segment,UBERON:0006462,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female third thoracic spinal cord segment,UBERON:0006459,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female twelfth thoracic spinal cord segment,UBERON:0006468,Female,https://purl.humanatlas.io/ref-organ/spinal-cord-female/v1.1#primary
+female duodenal ampulla,UBERON:0013644,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+female duodenum,UBERON:0002114,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+female duodenum ascending,FMA:14930,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+female duodenum descending,FMA:14928,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+female duodenum horizontal,FMA:14929,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+female duodenum superior,FMA:7206,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+female ileum,UBERON:0002116,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+female ileum terminal,FMA:14966,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+female jejenum,UBERON:0002115,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+female sphincter of heptopancreatic ampulla,FMA:15077,Female,https://purl.humanatlas.io/ref-organ/small-intestine-female/v1.2#primary
+female amnion,UBERON:0000305,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+female chorionic plate,UBERON:0004027,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+female umbilical artery 1,UBERON:0001310,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+female umbilical artery 2,UBERON:0001310,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+female umbilical cord,UBERON:0002331,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+female umbilical vein,UBERON:0002066,Female,https://purl.humanatlas.io/ref-organ/placenta-full-term-female/v1.1#primary
+female coccyx,UBERON:0001350,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+female ilium,UBERON:0001273,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+female ilium compact bone,UBERON:0001439,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+female ilium spongy bone,UBERON:0002483,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+female ischium,UBERON:0001274,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+female ischium compact bone,UBERON:0001439,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+female ischium spongy bone,UBERON:0002483,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+female pubis,UBERON:0001275,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+female pubis compact bone,UBERON:0001439,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+female pubis spongy bone,UBERON:0002483,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+male carina,UBERON:0006679,Male,https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary
+male tracheal cartilage,UBERON:0003604,Male,https://purl.humanatlas.io/ref-organ/trachea-male/v1.1#primary
+male thymus lobe,UBERON:0005457,Male,https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary
+male thymus lobe,UBERON:0005469,Male,https://purl.humanatlas.io/ref-organ/thymus-male/v1.3#primary
+male colic surface of spleen,FMA:15838,Male,https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary
+male diaphragmatic surface of spleen,FMA:15828,Male,https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary
+male gastric surface of spleen,FMA:15837,Male,https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary
+male hilum of spleen,UBERON:0001248,Male,https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary
+male renal surface of spleen,FMA:15839,Male,https://purl.humanatlas.io/ref-organ/spleen-male/v1.3#primary
+male,UBERON:0006469,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male,UBERON:0006489,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male,UBERON:0006488,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male,UBERON:0006490,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male,UBERON:0006491,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male,UBERON:0006492,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male,UBERON:0006493,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male,UBERON:0006470,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male eighth thoracic spinal cord segment,UBERON:0006456,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male eleventh thoracic spinal cord segment,UBERON:0006467,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male fifth lumbar spinal cord segment,UBERON:0006447,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male fifth sacral spinal cord segment,UBERON:0006464,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male fifth thoracic spinal cord segment,UBERON:0006453,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male first lumbar spinal cord segment,UBERON:0006448,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male first sacral spinal cord segment,UBERON:0006460,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male first thoracic spinal cord segment,UBERON:0006457,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male fourth lumbar spinal cord segment,UBERON:0006451,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male fourth sacral spinal cord segment,UBERON:0006463,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male fourth thoracic spinal cord segment,UBERON:0006452,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male ninth thoracic spinal cord segment,UBERON:0006465,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male second lumbar spinal cord segment,UBERON:0006450,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male second sacral spinal cord segment,UBERON:0006461,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male second thoracic spinal cord segment,UBERON:0006458,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male seventh thoracic spinal cord segment,UBERON:0006455,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male sixth thoracic spinal cord segment,UBERON:0006454,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male tenth thoracic spinal cord segment,UBERON:0006466,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male third lumbar spinal cord segment,UBERON:0006449,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male third sacral spinal cord segment,UBERON:0006462,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male third thoracic spinal cord segment,UBERON:0006459,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male twelfth thoracic spinal cord segment,UBERON:0006468,Male,https://purl.humanatlas.io/ref-organ/spinal-cord-male/v1.1#primary
+male duodenal ampulla,UBERON:0013644,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+male duodenum,UBERON:0002114,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+male duodenum ascending,FMA:14930,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+male duodenum descending,FMA:14928,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+male duodenum horizonal,FMA:14929,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+male duodenum superior,FMA:7206,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+male ileum,UBERON:0002116,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+male ileum terminal,FMA:14966,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+male jejunum,UBERON:0002115,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+male papilla of santorini,UBERON:0004914,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+male sphincter of hepatopancreatic ampulla,FMA:15077,Male,https://purl.humanatlas.io/ref-organ/small-intestine-male/v1.2#primary
+male anterior fibromuscular stroma,FMA:74238,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male apex of prostate,UBERON:0035441,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male base of prostate,UBERON:0035331,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male central zone of prostate,UBERON:8410027,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male ejaculatory duct,UBERON:0000999,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male male genital duct,UBERON:0010140,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male peripheral zone of prostate,UBERON:8410026,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male prostate duct,UBERON:0002485,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male prostate gland,UBERON:0002367,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male prostatic utricle,UBERON:0011199,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male seminal colliculus,FMA:19719,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+female sacrum,UBERON:0003690,Female,https://purl.humanatlas.io/ref-organ/pelvis-female/v1.3#primary
+female body of pancreas,UBERON:0001150,Female,https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary
+female head of pancreas,UBERON:0001069,Female,https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary
+female neck of pancreas,FMA:14517,Female,https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary
+female tail of pancreas,UBERON:0001151,Female,https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary
+female ucinate process 1,UBERON:0010373,Female,https://purl.humanatlas.io/ref-organ/pancreas-female/v1.3#primary
+female right areola,FMA:223677,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+female right areolar tubercles,UBERON:0011828,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+female right fat,FMA:73165,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+female right main lactiferous ducts,UBERON:0015134,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+female right main lactiferous sinuses,FMA:58088,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+female right mammary lobes,UBERON:0018140,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+female right nipple,UBERON:0013773,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+female right suspensory ligaments,FMA:73118,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-right/v1.1#primary
+female left areola,FMA:223679,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+female left areolar tubercles,UBERON:0011828,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+female left fat,FMA:73166,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+female left main lactiferous ducts,UBERON:0015134,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+female left main lactiferous sinuses,FMA:58088,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+female left mammary lobes,UBERON:0018140,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+female left nipple,UBERON:0013772,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+female left suspensory ligaments,FMA:73119,Female,https://purl.humanatlas.io/ref-organ/mammary-gland-female-left/v1.1#primary
+female cartilage of main bronchus,FMA:13144,Female,https://purl.humanatlas.io/ref-organ/main-bronchus-female/v1.1#primary
+female cartilage of main bronchus,FMA:13143,Female,https://purl.humanatlas.io/ref-organ/main-bronchus-female/v1.1#primary
+female left main bronchus,UBERON:0002178,Female,https://purl.humanatlas.io/ref-organ/main-bronchus-female/v1.1#primary
+female right main bronchus,UBERON:0002177,Female,https://purl.humanatlas.io/ref-organ/main-bronchus-female/v1.1#primary
+female afferent lymphatic vessel,UBERON:0010396,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+female blood vasculature,UBERON:0004536,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+female capsule of lymph node,UBERON:0002194,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+female efferent lymph node,UBERON:0010397,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+female follicles,UBERON:0010748,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+female medulla of lymph node,UBERON:0002007,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+female paracortex,UBERON:0010417,Female,https://purl.humanatlas.io/ref-organ/lymph-node-female/v1.3#primary
+female bronchi,UBERON:0002185,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female cartilage of lobar bronchus,FMA:62659,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female cartilage of tertiary bronchus,FMA:62662,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female hilum,UBERON:0004887,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female hilum lower,UBERON:0004887,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female hilum lower,UBERON:0004888,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female hilum middle,UBERON:0004888,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female hilum,UBERON:0004888,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female hilum upper,UBERON:0004887,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female hilum upper,UBERON:0004888,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female lung lower lobe,UBERON:0008953,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female lung upper lobe,UBERON:0008952,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left anterior basal bronchopulmonary segment,FMA:7378,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left anterior basal bronchus,FMA:7506,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left anterior bronchopulmonary segment,FMA:7373,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left anterior bronchus,FMA:7428,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left apical bronchopulmonary segment,FMA:7385,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left apical bronchus,FMA:7426,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left inferior lobar bronchus,UBERON:0012066,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left lateral basal bronchopulmonary segment,FMA:7379,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left lateral basal bronchus,FMA:7507,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left lingula inferior bronchi,FMA:7431,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left lingula superior bronchus,FMA:7430,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left lungs,UBERON:0002168,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female lung lower lobe,UBERON:0002171,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female lung middle lobe,UBERON:0002174,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female lung upper lobe,UBERON:0002170,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left medial basal bronchopulmonary segment,FMA:7377,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left medial basal bronchus,FMA:7505,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left posterior basal bronchopulmonary segment,FMA:7380,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left posterior basal bronchus,FMA:7508,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left posterior bronchopulmonary segment,FMA:7386,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left posterior bronchus,FMA:7427,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left superior bronchopulmonary segment,FMA:7376,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left superior bronchus,FMA:7504,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female left superior lobar bronchus,UBERON:0012065,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female lingula inferior bronchopulmonary segment,FMA:7375,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female lingula superior bronchopulmonary segment,FMA:7374,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female lobar bronchi,UBERON:0003405,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female lobar bronchus,UBERON:0003404,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female lungs,UBERON:0002048,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female lungs,UBERON:0002167,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right anterior basal bronchopulmonary segment,FMA:7364,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right anterior basal bronchus,FMA:7418,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right anterior bronchopulmonary segm,FMA:7359,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right anterior bronchus,FMA:7400,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right apical bronchopulmonary segment,FMA:7338,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right apical bronchus,FMA:7398,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right inferior lobar bronchus,FMA:7404,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right lateral basal bronchopulmonary segment,FMA:7363,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right lateral basal bronchus,FMA:7419,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right lateral bronchopulmonary segmennt,FMA:7361,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right lateral bronchus,FMA:7402,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right medial basal bronchopulmonary segment,FMA:7365,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right medial basal bronchus,FMA:7417,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+male seminal vesicle,UBERON:0000998,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male transition zone  of prostate,UBERON:8410025,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male transition zone of prostate,UBERON:8410025,Male,https://purl.humanatlas.io/ref-organ/prostate-male/v1.2#primary
+male coccyx,UBERON:0001350,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+male ilium,UBERON:0001273,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+male ilium compact bone,UBERON:0001439,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+male ilium spongy bone,UBERON:0002483,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+male ischium,UBERON:0001274,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+male ischium compact bone,UBERON:0001439,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+male ischium spongy bone,UBERON:0002483,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+male pubis,UBERON:0001275,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+male pubis compact bone,UBERON:0001439,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+male pubis spongy bone,UBERON:0002483,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+male sacrum,UBERON:0003690,Male,https://purl.humanatlas.io/ref-organ/pelvis-male/v1.3#primary
+male body of pancreas,UBERON:0001150,Male,https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary
+male head of pancreas,UBERON:0001069,Male,https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary
+male neck of pancreas,FMA:14517,Male,https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary
+male tail of pancreas,UBERON:0001151,Male,https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary
+male uncinate process of the pancreas,UBERON:0010373,Male,https://purl.humanatlas.io/ref-organ/pancreas-male/v1.3#primary
+male cartilage of the main bronchus,FMA:13144,Male,https://purl.humanatlas.io/ref-organ/main-bronchus-male/v1.1#primary
+male cartilage of the main bronchus,FMA:13143,Male,https://purl.humanatlas.io/ref-organ/main-bronchus-male/v1.1#primary
+male left main bronchus,UBERON:0002178,Male,https://purl.humanatlas.io/ref-organ/main-bronchus-male/v1.1#primary
+male right main bronchus,UBERON:0002177,Male,https://purl.humanatlas.io/ref-organ/main-bronchus-male/v1.1#primary
+male afferent lymphatic vessel,UBERON:0010396,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+male blood vasculature,UBERON:0004536,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+male capsule of lymph node,UBERON:0002194,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+male efferent lymph node,UBERON:0010397,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+male follicles,UBERON:0010748,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+male medulla of lymph node,UBERON:0002007,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+male paracortex,UBERON:0010417,Male,https://purl.humanatlas.io/ref-organ/lymph-node-male/v1.3#primary
+male bronchi,UBERON:0002185,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male bronchus,UBERON:0002185,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male cartilage of the lobar bronchus,FMA:62659,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male cartilage of the tertiary bronchus,FMA:62662,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male hilum,UBERON:0004887,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male hilum lower,UBERON:0004887,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male hilum lower,UBERON:0004888,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male hilum middle,UBERON:0004888,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male hilum,UBERON:0004888,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male hilum upper,UBERON:0004887,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male hilum upper,UBERON:0004888,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left anterior basal bronchopulmonary segment,FMA:7378,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left anterior basal bronchus,FMA:7506,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left anterior bronchopulmonary segment,FMA:7373,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left anterior bronchus,FMA:7428,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left apical bronchopulmonary segment,FMA:7385,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left apical bronchus,FMA:7426,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left inferior lobar bronchus,UBERON:0012066,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left lateral basal bronchopulmonary segment,FMA:7379,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left lateral basal bronchus,FMA:7507,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left lingula inferior bronchopulmonary segment,FMA:7375,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left lingula inferior bronchus,FMA:7431,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left lingula superior bronchopulmonary segment,FMA:7374,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left lingula superior bronchus,FMA:7430,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left medial basal bronchopulmonary segment,FMA:7377,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left medial basal bronchus,FMA:7505,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left posetrior basal bronchopulmonary segment,FMA:7508,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left posterior basal bronchus,FMA:7508,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left posterior bronchopulmonary segment,FMA:7386,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left superior bronchopulmonary segment,FMA:7376,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left superior bronchus,FMA:7504,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male left superior lobar bronchus,UBERON:0012065,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male lobar bronchi,UBERON:0003404,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male lobar bronchus,UBERON:0003405,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male lungs,UBERON:0002048,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male lungs,UBERON:0002168,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male lungs l,UBERON:0008953,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male lungs u,UBERON:0008952,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male lungs,UBERON:0002167,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male lungs l,UBERON:0002171,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male lungs m,UBERON:0002174,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male lungs u,UBERON:0002170,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right anterior basal bronchopulmonary segment,FMA:7364,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right anterior basal bronchus,FMA:7399,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right anterior bronchopulmonary segment,FMA:7359,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right anterior bronchus,FMA:7400,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right apical bronchopulmonary segment,FMA:7338,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right apical bronchus,FMA:7416,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right intermediate bronchus,FMA:7415,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+female right medial bronchopulmonary segment,FMA:7360,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right medial bronchus,FMA:7403,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right middle lobar bronchus,FMA:7401,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right posterior basal bronchopulmonary segment,FMA:7362,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right posterior basal bronchus,FMA:7420,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right posterior bronchopulmonary segment,FMA:7339,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right posterior bronchus,FMA:7399,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right superior bronchopulmonary segment,FMA:7366,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right superior bronchus,FMA:7416,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female right superior lobar bronchus,FMA:7397,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female tertiary bronchi,UBERON:0002184,Female,https://purl.humanatlas.io/ref-organ/lung-female/v1.4#primary
+female bare area of liver,UBERON:0001149,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female capsule of the liver,UBERON:0016479,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female caudate lobe,UBERON:0001117,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female colic impression of liver,FMA:14484,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female coronary ligament of liver,UBERON:0013138,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female diaphragmatic surface of liver,FMA:15729,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female duodenal impression of liver,FMA:14485,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female esophageal impression of liver,FMA:14486,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female falciform ligament,UBERON:0001247,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female gastric impression of liver,FMA:14487,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female hepataduodenal ligament,UBERON:0012472,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female left lobe of liver,UBERON:0001115,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female ligamentum venosum,UBERON:0006587,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female liver left lateral lobe,UBERON:0006727,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female liver left medial lobe,UBERON:0006728,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female porta hepatis,FMA:15758,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female quadrate lobe,UBERON:0001116,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female renal impression of liver,FMA:14488,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female right lobe of liver,UBERON:0001114,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female round ligament of liver,UBERON:0006588,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female suprarenal impression of liver,FMA:14489,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female triangular ligament of liver,UBERON:0035444,Female,https://purl.humanatlas.io/ref-organ/liver-female/v1.2#primary
+female arytenoid cartilage,UBERON:0001740,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+female arytenoid cartilage,FMA:55114,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+female arytenoid cartilage,FMA:55113,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+female corniculate cartilage,UBERON:0001741,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+female corniculate cartilage,FMA:55116,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+female corniculate cartilage,FMA:55115,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+female cricoid cartilage,UBERON:0002375,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+female epiglotic cartilage,UBERON:0001742,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+female laryngeal cartilage,UBERON:0001739,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+female thyroid cartilage,UBERON:0001738,Female,https://purl.humanatlas.io/ref-organ/larynx-female/v1.1#primary
+female ascending colon,UBERON:0001156,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+female caecum,UBERON:0001153,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+female descending colon,UBERON:0001158,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+female hepatic flexure of colon,UBERON:0022277,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+female ileocecal valve,UBERON:0000569,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+female rectum,UBERON:0001052,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+female sigmoid colon,UBERON:0001159,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+female splenic flexure of colon,UBERON:0022276,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+female transverse colon,UBERON:0001157,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+female vermiform appendix,UBERON:0001154,Female,https://purl.humanatlas.io/ref-organ/large-intestine-female/v1.3#primary
+female right articular cartilage of knee,FMA:33189,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female right distal most point of medial condyle,UBERON:7500033,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female right femur,FMA:24474,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female right fibula,FMA:24480,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female right intercondylar fossa,FMA:43749,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female right knee joint,FMA:35176,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female right lateral condyle of femur frontal,FMA:32860,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female right lateral condyle of femur inf,FMA:32860,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female right lateral condyle of femur sup,FMA:32860,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female medial condyle of right femur inf,FMA:32862,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female medial condyle of right femur sup,FMA:32862,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female right patella,FMA:24486,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female right tibia,FMA:24477,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female right trochlear groove,FMA:43746,Female,https://purl.humanatlas.io/ref-organ/knee-female-right/v1.2#primary
+female left articular cartilage of knee,FMA:33190,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female left distal most point of medial condyle,UBERON:7500033,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female left femur,FMA:24475,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female left fibula,FMA:24481,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female left intercondylar fossa,FMA:43750,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female left knee joint,FMA:35177,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female left lateral condyle of femur frontal,FMA:32861,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female left lateral condyle of femur inf,FMA:32861,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female left lateral condyle of femur sup,FMA:32861,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female medial condyle of left femur inf,FMA:32863,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female medial condyle of left femur sup,FMA:32863,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female left patella,FMA:24487,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female left tibia,FMA:24478,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female left trochlear groove,FMA:43747,Female,https://purl.humanatlas.io/ref-organ/knee-female-left/v1.2#primary
+female right cortex of kidney,UBERON:0001225,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right hilum of kidney,UBERON:0008716,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right kidney capsule,UBERON:0002015,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right outer cortex of kidney,UBERON:0002189,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal column,UBERON:0001284,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal medulla,UBERON:0000362,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal papilla,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal papilla a,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal papilla b,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal papilla c,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+male right lateral basal bronchopulmonary segment,FMA:7363,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right lateral basal bronchus,FMA:7419,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right lateral bronchopulmonary segment,FMA:7361,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right lateral bronchus,FMA:7402,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right lower lobar bronchus,FMA:7404,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right medial basal bronchopulmonary segment,FMA:7365,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right medial basal bronchus,FMA:7417,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right medial bronchopulmonary segment,FMA:7360,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right medial bronchus,FMA:7403,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right middle lobar bronchus,FMA:7401,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right posterior basal,FMA:7420,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right posterior basal bronchopulmonary segment,FMA:7362,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right posterior bronchopulmonary segment,FMA:7339,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right posterior bronchus,FMA:7399,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right superior bronchopulmonary segment,FMA:7366,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right superior bronchus,FMA:7416,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male right superior lobar bronchus,FMA:7397,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male tertiary bronchi,UBERON:0002184,Male,https://purl.humanatlas.io/ref-organ/lung-male/v1.4#primary
+male bare area of liver,UBERON:0001149,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male caudate lobe of liver,UBERON:0001117,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male colic impression of liver,FMA:14484,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male coronary ligament of liver,UBERON:0013138,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male diaphragmatic surface,FMA:15729,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male duodenal impression of liver,FMA:14485,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male esophageal impression of liver,FMA:14486,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male falciform ligament,UBERON:0001247,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male gastric impression of liver,FMA:14487,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male hepataduodenal ligament,UBERON:0012472,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male left lateral lobe,UBERON:0006727,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male left lobe of liver,UBERON:0001115,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male left medial lobe,UBERON:0006728,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male ligamentum venosum,UBERON:0006587,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male liver capsule,UBERON:0016479,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male porta hepatis,FMA:15758,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male quadrate lobe of liver,UBERON:0001116,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male renal impression of liver,FMA:14488,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male right lobe of liver,UBERON:0001114,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male round ligament of liver,UBERON:0006588,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male suprarenal impression of liver,FMA:14489,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male triangular ligament of liver,UBERON:0035444,Male,https://purl.humanatlas.io/ref-organ/liver-male/v1.2#primary
+male arytenoid cartilage,UBERON:0001740,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+male arytenoid cartilage,FMA:55114,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+male arytenoid cartilage,FMA:55113,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+male corniculate cartilage,UBERON:0001741,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+male corniculate cartilage,FMA:55116,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+male corniculate cartilage,FMA:55115,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+male cricoid cartilage,UBERON:0002375,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+male epiglottic cartilage,UBERON:0001742,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+male laryngeal cartilage,UBERON:0001739,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+male thyroid cartilage,UBERON:0001738,Male,https://purl.humanatlas.io/ref-organ/larynx-male/v1.1#primary
+male ascending colon,UBERON:0001156,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+male caecum,UBERON:0001153,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+male descending colon,UBERON:0001158,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+male hepatic flexure of colon,UBERON:0022277,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+male ileocecal valve,UBERON:0000569,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+male rectum,UBERON:0001052,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+male sigmoid colon,UBERON:0001159,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+male splenic flexure of colon,UBERON:0022276,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+male transverse colon,UBERON:0001157,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+male vermiform appendix,UBERON:0001154,Male,https://purl.humanatlas.io/ref-organ/large-intestine-male/v1.3#primary
+male right articular cartilage of knee,FMA:33189,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right distal most point of medial condyle of femur,UBERON:7500033,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right femur,FMA:24474,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right fibula,FMA:24480,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right intercondylar fossa,FMA:43749,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right knee joint,FMA:35176,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right lateral condyle of femur frontal,FMA:32860,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right lateral condyle of femur inf,FMA:32860,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right lateral condyle of femur sup,FMA:32860,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male medial condyle of right femur inf,FMA:32862,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male medial condyle of right femur sup,FMA:32862,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right meniscus,FMA:64019,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right patella,FMA:24486,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right patellar surface,FMA:43746,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male right tibia,FMA:24477,Male,https://purl.humanatlas.io/ref-organ/knee-male-right/v1.2#primary
+male left articular cartilage of knee,FMA:33190,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left distal most point of medial condyle of femur,UBERON:7500033,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left femur,FMA:24475,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left fibula,FMA:24481,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left intercondylar fossa,FMA:43750,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left knee joint,FMA:35177,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left lateral condyle of femur frontal,FMA:32861,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left lateral condyle of femur inf,FMA:32861,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left lateral condyle of femur sup,FMA:32861,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male medial condyle of left femur inf,FMA:32863,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male medial condyle of left femur sup,FMA:32863,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left meniscus,FMA:64019,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left patella,FMA:24487,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left patellar surface,FMA:43747,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male left tibia,FMA:24478,Male,https://purl.humanatlas.io/ref-organ/knee-male-left/v1.2#primary
+male right cortex of kidney,UBERON:0001225,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right hilum of kidney,UBERON:0008716,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right kidney capsule,UBERON:0002015,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+female right renal papilla d,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal papilla e,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal papilla f,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal papilla g,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal papilla h,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal papilla i,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal papilla j,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal pyramid,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal pyramid a,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal pyramid b,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal pyramid c,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal pyramid d,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal pyramid e,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal pyramid f,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal pyramid g,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal pyramid h,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal pyramid i,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female right renal pyramid j,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-right/v1.3#primary
+female left cortex of kidney,UBERON:0001225,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left hilum of kidney,UBERON:0008716,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left kidney capsule,UBERON:0002015,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left outer cortex of kidney,UBERON:0002189,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal column,UBERON:0001284,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal medulla,UBERON:0000362,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla a,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla b,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla c,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla d,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla e,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla f,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla g,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla h,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla i,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla j,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal papilla k,UBERON:0001228,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid a,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid b,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid c,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid d,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid e,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid f,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid g,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid h,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid i,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid j,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female left renal pyramid k,UBERON:0004200,Female,https://purl.humanatlas.io/ref-organ/kidney-female-left/v1.3#primary
+female aortic valve,UBERON:0002137,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female interventricular septum,UBERON:0002094,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female left cardiac atrium,UBERON:0002079,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female left ventricle,UBERON:0002084,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female mitral valve,UBERON:0002135,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female papillary muscle of heart,UBERON:0002494,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female papillary muscle of heart ant,FMA:7264,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female papillary muscle of heart antlat,FMA:7265,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female papillary muscle of heart med,FMA:7262,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female papillary muscle of heart pos,FMA:7261,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female papillary muscle of heart posmed,FMA:7267,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female pulmonary valve,UBERON:0002146,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female right cardiac atrium,UBERON:0002078,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female right ventricle,UBERON:0002080,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female tricuspid valve,UBERON:0002134,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female valve,UBERON:0003978,Female,https://purl.humanatlas.io/ref-organ/heart-female/v1.3#primary
+female right ampulla of uterine tube,FMA:18491,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary
+female right fibria of uterine tube,FMA:18497,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary
+female right isthmus of fallopian tube,FMA:18493,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary
+female right uterine tube infundibulum,FMA:18489,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-right/v1.2#primary
+female left ampulla of uterine tube,FMA:18492,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary
+female left fibria of uterine tube,FMA:18498,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary
+female left isthmus of fallopian tube,FMA:18494,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary
+female left uterine tube infundibulum,FMA:18490,Female,https://purl.humanatlas.io/ref-organ/fallopian-tube-female-left/v1.2#primary
+female right aqueous humor,FMA:58820,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right bulbar conjunctiva,FMA:59028,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right ciliary body,FMA:58296,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right ciliary muscle,FMA:49152,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right ciliary processes,UBERON:0010427,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right cornea,FMA:58239,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right corneo scleral junction,FMA:58343,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right fovea,FMA:58661,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right iris,FMA:58236,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right lens,FMA:58242,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right macula lutea,FMA:58638,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right optic choroid,FMA:58299,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right optic disc,FMA:58635,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right ora serrata of retina,FMA:58601,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female palpebral conjunctiva of right lower eyelid,FMA:223074,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female palpebral conjunctiva of right upper eyelid,FMA:223076,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right pupil,UBERON:0010224,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right retina,FMA:58302,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right schlemms canal,FMA:51874,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right sclera,FMA:58271,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right suspensory ligament of lens,FMA:58839,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right trabecular meshwork,UBERON:0005969,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+female right vitreous humor,FMA:261236,Female,https://purl.humanatlas.io/ref-organ/eye-female-right/v1.3#primary
+male right outer cortex of kidney,UBERON:0002189,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal column,UBERON:0001284,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal medulla,UBERON:0000362,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal papilla,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal papilla a,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal papilla b,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal papilla c,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal papilla d,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal papilla e,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal papilla f,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal papilla g,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal papilla h,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal papilla i,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal papilla j,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal pyramid a,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal pyramid b,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal pyramid c,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal pyramid d,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal pyramid e,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal pyramid f,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal pyramid g,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal pyramid h,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal pyramid i,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal pyramid j,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male right renal pyramid,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-right/v1.3#primary
+male left cortex of kidney,UBERON:0001225,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left hilum of kidney,UBERON:0008716,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left kidney capsule,UBERON:0002015,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left outer cortex of kidney,UBERON:0002189,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal column,UBERON:0001284,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal medulla,UBERON:0000362,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal papilla,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal papilla a,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal papilla b,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal papilla c,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal papilla d,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal papilla e,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal papilla f,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal papilla g,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal papilla h,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal papilla i,UBERON:0001228,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal pyramid,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal pyramid a,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal pyramid b,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal pyramid c,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal pyramid d,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal pyramid e,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal pyramid f,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal pyramid g,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal pyramid h,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male left renal pyramid i,UBERON:0004200,Male,https://purl.humanatlas.io/ref-organ/kidney-male-left/v1.3#primary
+male aortic valve,UBERON:0002137,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male heart left ventricle,UBERON:0002084,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male heart right ventricle,UBERON:0002080,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male heart valve,UBERON:0003978,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male interventricular septum,UBERON:0002094,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male left cardiac atrium,UBERON:0002079,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male mitral valve,UBERON:0002135,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male papillary muscle of heart,UBERON:0002494,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male papillary muscle of heart anterior,FMA:7264,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male papillary muscle of heart anterolateral,FMA:7265,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male papillary muscle of heart medial,FMA:7262,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male papillary muscle of heart posterior,FMA:7261,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male papillary muscle of heart posteromedial,FMA:7267,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male pulmonary valve,UBERON:0002146,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male right cardiac atrium,UBERON:0002078,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male tricuspid valve,UBERON:0002134,Male,https://purl.humanatlas.io/ref-organ/heart-male/v1.3#primary
+male right aqueous humor,FMA:58820,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right bulbar conjunctiva,FMA:59028,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right ciliary body,FMA:58296,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right ciliary muscle,FMA:49152,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right ciliary processes,UBERON:0010427,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right cornea,FMA:58239,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right corneo scleral junction,FMA:58343,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right fovea,FMA:58661,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right iris,FMA:58236,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right lens,FMA:58242,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right macula lutea,FMA:58638,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right optic choroid,FMA:58299,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right optic disc,FMA:58635,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right ora serrata of retina,FMA:58601,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right palpebral conjunctiva of lower eyelid,FMA:223074,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right palpebral conjunctiva of upper eyelid,FMA:223076,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right pupil,UBERON:0010224,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right retina,FMA:58302,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right schlemms canal,FMA:51874,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right sclera,FMA:58271,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right suspensory ligament of lens,FMA:58839,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right trabecular meshwork,UBERON:0005969,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male right vitreous humor,FMA:261236,Male,https://purl.humanatlas.io/ref-organ/eye-male-right/v1.3#primary
+male left aqueous humor,FMA:58821,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left bulbar conjunctiva,FMA:59029,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left ciliary body,FMA:58297,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left ciliary muscle,FMA:49153,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left ciliary processes,UBERON:0010427,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left cornea,FMA:58240,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+female left aqueous humor,FMA:58821,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left bulbar conjunctiva,FMA:59029,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left ciliary body,FMA:58297,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left ciliary muscle,FMA:49153,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left ciliary processes,UBERON:0010427,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left cornea,FMA:58240,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left corneo scleral junction,FMA:58344,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left fovea,FMA:58663,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left iris,FMA:58237,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left lens,FMA:58243,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left macula lutea,FMA:58639,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left optic choroid,FMA:58300,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left optic disc,FMA:58636,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left ora serrata of retina,FMA:58602,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female palpebral conjunctiva of left lower eyelid,FMA:223075,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female palpebral conjunctiva of left upper eyelid,FMA:223078,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left pupil,UBERON:0010223,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left retina,FMA:58303,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left schlemms canal,FMA:51875,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left sclera,FMA:58272,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left suspensory ligament of lens,FMA:58840,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left trabecular meshwork,UBERON:0005969,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female left vitreous humor,FMA:261238,Female,https://purl.humanatlas.io/ref-organ/eye-female-left/v1.3#primary
+female anterior commissure L,UBERON:0000935,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female anterior commissure R,UBERON:0000935,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female anterior intermediate orbital gyrus L,UBERON:0002644,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female anterior intermediate orbital gyrus R,UBERON:0002644,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female anterior olfactory nucleus L,UBERON:0002266,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female anterior parahippocampal gyrus L,UBERON:0022383,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female anterior parahippocampal gyrus R,UBERON:0022383,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female basilar part of pons L,UBERON:0002151,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female basilar part of pons R,UBERON:0002151,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female brain hemisphere L,UBERON:0002812,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female brain hemisphere R,UBERON:0002813,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female cerebellar vermis L,UBERON:0004720,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female cerebral peduncle crus cerebri L,UBERON:0002623,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female cerebral peduncle crus cerebri R,UBERON:0002623,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female cingulate gyrus caudal posterior part L,UBERON:0002740,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female cingulate gyrus caudal posterior part R,UBERON:0002740,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female cingulate gyrus rostral anterior part L,UBERON:0002756,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female cingulate gyrus rostral anterior part R,UBERON:0002756,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female corpus callosum L,UBERON:0002336,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female corpus callosum R,UBERON:0002336,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female cuneus L,UBERON:0006092,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female cuneus R,UBERON:0006092,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female fornix L,UBERON:0000052,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female fornix R,UBERON:0000052,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female fourth ventricle L,UBERON:0002422,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female fourth ventricle R,UBERON:0002422,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female frontal operculum L,UBERON:0002947,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female frontal operculum R,UBERON:0002947,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female gyrus rectus straight gyrus L,UBERON:0004671,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female gyrus rectus straight gyrus R,UBERON:0004671,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female hippocampus L,UBERON:0002421,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female hippocampus R,UBERON:0002421,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female hypothalamus L,UBERON:0001898,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female hypothalamus R,UBERON:0001898,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female inferior colliculus L,UBERON:0001946,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female inferior colliculus R,UBERON:0001946,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female inferior frontal gyrus opercular part L,UBERON:0002980,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female inferior frontal gyrus opercular part R,UBERON:0002980,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female inferior frontal gyrus triangular part L,UBERON:0002629,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female inferior frontal gyrus triangular part R,UBERON:0002629,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female inferior occipital gyrus L,UBERON:0014608,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female inferior occipital gyrus R,UBERON:0014608,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female inferior temporal gyrus L,UBERON:0002751,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female inferior temporal gyrus R,UBERON:0002751,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female ingulo parahippocampal isthmus L,UBERON:0002738,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female ingulo parahippocampal isthmus R,UBERON:0002738,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female lateral occipitotemporal fusiform gyrus occipital part L,UBERON:0022364,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female lateral occipitotemporal fusiform gyrus occipital part R,UBERON:0022364,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female lateral orbital gyrus L,UBERON:0002564,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female lateral orbital gyrus R,UBERON:0002564,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female lingual gyrus medial occipitotemporal gyrus L,UBERON:0002943,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female lingual gyrus medial occipitotemporal gyrus R,UBERON:0002943,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female medial orbital gyrus L,UBERON:0002570,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female medial orbital gyrus R,UBERON:0002570,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female middle frontal gyrus L,UBERON:0002702,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female middle frontal gyrus R,UBERON:0002702,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female middle temporal gyrus L,UBERON:0002771,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female middle temporal gyrus R,UBERON:0002771,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female occipital pole L,UBERON:0002902,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female occipital pole R,UBERON:0002902,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female olfactory bulb L,UBERON:0002264,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female optic radiation L,UBERON:0022264,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female optic radiation R,UBERON:0022264,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female optic tract L,UBERON:0001908,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female optic tract R,UBERON:0001908,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female paracentral lobule rostral part L,UBERON:0035932,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female paracentral lobule rostral part R,UBERON:0035932,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female parietal operculum L,UBERON:0002911,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female parietal operculum R,UBERON:0002911,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female pineal body L,UBERON:0001905,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female pineal body R,UBERON:0001905,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female piriform region L,UBERON:0004725,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female planum polare L,UBERON:0023861,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female planum polare R,UBERON:0023861,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female planum temporale L,UBERON:0022268,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+female planum temporale R,UBERON:0022268,Female,https://purl.humanatlas.io/ref-organ/brain-female/v1.4#primary
+male left corneo scleral junction,FMA:58344,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left fovea,FMA:58663,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left iris,FMA:58237,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left lens,FMA:58243,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left macula lutea,FMA:58639,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left optic choroid,FMA:58300,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left optic disc,FMA:58636,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left ora serrata of retina,FMA:58602,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left palpebral conjunctiva of lower eyelid,FMA:223075,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left palpebral conjunctiva of upper eyelid,FMA:223078,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left pupil,UBERON:0010223,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left retina,FMA:58303,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left schlemms canal,FMA:51875,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left sclera,FMA:58272,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left suspensory ligament of lens,FMA:58840,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left trabecular meshwork,UBERON:0005969,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male left vitreous humor,FMA:261238,Male,https://purl.humanatlas.io/ref-organ/eye-male-left/v1.3#primary
+male anterior commissure L,UBERON:0000935,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male anterior commissure R,UBERON:0000935,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male anterior intermediate orbital gyrus L,UBERON:0002644,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male anterior intermediate orbital gyrus R,UBERON:0002644,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male anterior olfactory nucleus L,UBERON:0002266,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male anterior parahippocampal gyrus L,UBERON:0022383,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male anterior parahippocampal gyrus R,UBERON:0022383,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male basilar part of pons L,UBERON:0002151,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male basilar part of pons R,UBERON:0002151,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male brain H,UBERON:0002812,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male brain H,UBERON:0002813,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male cerebellar vermis L,UBERON:0004720,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male cerebral peduncle crus cerebri L,UBERON:0002623,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male cerebral peduncle crus cerebri R,UBERON:0002623,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male cingulate gyrus caudal posterior part L,UBERON:0002740,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male cingulate gyrus caudal posterior part R,UBERON:0002740,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male cingulate gyrus rostral anterior part L,UBERON:0002756,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male cingulate gyrus rostral anterior part R,UBERON:0002756,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male corpus callosum L,UBERON:0002336,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male corpus callosum R,UBERON:0002336,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male cuneus L,UBERON:0006092,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male cuneus R,UBERON:0006092,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male fornix L,UBERON:0000052,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male fornix R,UBERON:0000052,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male fourth ventricle L,UBERON:0002422,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male fourth ventricle R,UBERON:0002422,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male frontal operculum L,UBERON:0002947,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male frontal operculum R,UBERON:0002947,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male gyrus rectus straight gyrus L,UBERON:0004671,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male gyrus rectus straight gyrus R,UBERON:0004671,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male hippocampus L,UBERON:0002421,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male hippocampus R,UBERON:0002421,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male hypothalamus L,UBERON:0001898,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male hypothalamus R,UBERON:0001898,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male inferior colliculus L,UBERON:0001946,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male inferior colliculus R,UBERON:0001946,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male inferior frontal gyrus opercular part L,UBERON:0002980,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male inferior frontal gyrus opercular part R,UBERON:0002980,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male inferior frontal gyrus triangular part L,UBERON:0002629,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male inferior frontal gyrus triangular part R,UBERON:0002629,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male inferior occipital gyrus L,UBERON:0014608,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male inferior occipital gyrus R,UBERON:0014608,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male inferior temporal gyrus L,UBERON:0002751,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male inferior temporal gyrus R,UBERON:0002751,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male ingulo parahippocampal isthmus L,UBERON:0002738,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male ingulo parahippocampal isthmus R,UBERON:0002738,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male lateral occipitotemporal fusiform gyrus occipital part L,UBERON:0022364,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male lateral occipitotemporal fusiform gyrus occipital part R,UBERON:0022364,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male lateral orbital gyrus L,UBERON:0002564,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male lateral orbital gyrus R,UBERON:0002564,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male lingual gyrus medial occipitotemporal gyrus L,UBERON:0002943,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male lingual gyrus medial occipitotemporal gyrus R,UBERON:0002943,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male medial orbital gyrus L,UBERON:0002570,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male medial orbital gyrus R,UBERON:0002570,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male middle frontal gyrus L,UBERON:0002702,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male middle frontal gyrus R,UBERON:0002702,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male middle temporal gyrus L,UBERON:0002771,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male middle temporal gyrus R,UBERON:0002771,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male occipital pole L,UBERON:0002902,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male occipital pole R,UBERON:0002902,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male olfactory bulb L,UBERON:0002264,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male optic radiation L,UBERON:0022264,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male optic radiation R,UBERON:0022264,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male optic tract L,UBERON:0001908,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male optic tract R,UBERON:0001908,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male paracentral lobule rostral part L,UBERON:0035932,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male paracentral lobule rostral part R,UBERON:0035932,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male parietal operculum L,UBERON:0002911,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male parietal operculum R,UBERON:0002911,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male pineal body L,UBERON:0001905,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male pineal body R,UBERON:0001905,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male piriform region L,UBERON:0004725,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male planum polare L,UBERON:0023861,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male planum polare R,UBERON:0023861,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male planum temporale L,UBERON:0022268,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male planum temporale R,UBERON:0022268,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male pontine tegmentum L,UBERON:0003023,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male pontine tegmentum R,UBERON:0003023,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male postcentral gyrus L,UBERON:0002581,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male postcentral gyrus R,UBERON:0002581,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male posterior intermediate orbital gyrus L,UBERON:0002644,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male posterior intermediate orbital gyrus R,UBERON:0002644,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male posterior parahippocampal gyrus L,UBERON:0002657,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male middle colic vein,UBERON:0001218,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male middle hepatic vein,FMA:14340,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male middle rectal vein,FMA:18893,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male middle rectal vein,FMA:18895,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male middle rectal vein,FMA:18894,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male oblique vein of left atrium,FMA:4715,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male ophthalmic vein,UBERON:0011191,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male opthalmic artery,UBERON:0001619,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male posterior vein of left ventricle,FMA:4712,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male proper hepatic artery,FMA:14772,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male pulmonary artery,UBERON:0002012,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male pulmonary artery,UBERON:0001652,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male pulmonary artery,UBERON:0001651,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male pulmonary trunk,UBERON:0002333,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male pulmonary vein,UBERON:0002016,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male pulmonary vein i,FMA:49913,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male pulmonary vein s,FMA:49916,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male pulmonary vein i,FMA:49911,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male pulmonary vein s,FMA:49914,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male renal artery,UBERON:0001184,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male renal vein,UBERON:0001140,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male renal vein,UBERON:0001142,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male renal vein,UBERON:0001141,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male right colic artery,FMA:14811,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male right colic vein,FMA:15407,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male right coronary artery,UBERON:0001625,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male right hepatic artery,FMA:14778,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male right hepatic vein,FMA:14338,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male right marginal artery,FMA:3818,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male right posterior descending artery,FMA:3840,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male right renal artery,UBERON:0001185,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male sigmoid artery,UBERON:0035180,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male sigmoid artery a,UBERON:0035180,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male sigmoid artery b,UBERON:0035180,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male sigmoid artery c,UBERON:0035180,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male sigmoid vein,FMA:15395,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male small cardiac vein,UBERON:0035374,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male splenic artery,UBERON:0001194,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male splenic vein,UBERON:0003713,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male superior mesenteric artery,UBERON:0001182,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male superior mesenteric vein,UBERON:0001182,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male superior ophthalmic vein,FMA:51249,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male superior ophthalmic vein,FMA:51248,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male superior rectal vein,UBERON:0035040,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male superior vena cava,FMA:4720,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male vena cava,UBERON:0004087,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male posterior parahippocampal gyrus R,UBERON:0002657,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male precuneus L,UBERON:0006093,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male precuneus R,UBERON:0006093,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male primary motor cortex L,UBERON:0002703,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male primary motor cortex R,UBERON:0002703,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male putamen L,UBERON:0008884,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male putamen R,UBERON:0008885,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male red nucleus L,UBERON:0001947,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male red nucleus R,UBERON:0001947,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male subcallosal gyrus parolfactory gyrus L,UBERON:0003020,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male subcallosal gyrus parolfactory gyrus R,UBERON:0003020,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male substantia nigra L,UBERON:0002038,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male substantia nigra R,UBERON:0002038,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male superior colliculus L,UBERON:0001945,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male superior colliculus R,UBERON:0001945,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male superior frontal gyrus L,UBERON:0002661,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male superior frontal gyrus R,UBERON:0002661,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male superior occipital gyrus L,UBERON:0002948,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male superior occipital gyrus R,UBERON:0002948,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male superior temporal gyrus L,UBERON:0002769,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male superior temporal gyrus R,UBERON:0002769,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male temporal pole L,UBERON:0002576,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male temporal pole R,UBERON:0002576,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male optic chiasm,UBERON:0000959,Male,https://purl.humanatlas.io/ref-organ/brain-male/v1.4#primary
+male anterior cardiac vein,FMA:76767,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male aorta,UBERON:0000947,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male aortic arch,UBERON:0001508,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male ascending aorta,UBERON:0001496,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male blood vasculature of eye,UBERON:0002203,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male brachiocephalic artery,UBERON:0001529,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male brachiocephalic artery a,UBERON:0001529,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male brachiocephalic artery b,UBERON:0001529,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male brachiocephalic vein,FMA:4723,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male brachiocephalic vein,FMA:4761,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male brachiocephalic vein,FMA:4751,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male cardiac vein,UBERON:0004148,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male celiac trunk,FMA:14812,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male central retinal artery,FMA:49881,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male central retinal artery,FMA:49880,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male central retinal vein,FMA:51885,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male central retinal vein,FMA:51884,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male colic artery,UBERON:0035548,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male common hepatic artery,UBERON:0005436,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male common iliac vein,UBERON:0001139,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male common iliac vein,FMA:21388,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male common iliac vein,FMA:21387,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male coronary sinus,UBERON:0005438,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male cystic artery,UBERON:0039222,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male cystic vein,UBERON:0035392,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male descending aorta,UBERON:0001514,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male descending aorta a,UBERON:0001514,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male descending aorta b,UBERON:0001514,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male diagonal branch of anterior descending branch of left coronary artery,FMA:3860,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male diagonal branch of left anterior descending artery,FMA:3860,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male external iliac vein,UBERON:0001316,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male great cardiac vein,UBERON:0006958,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male hepatic portal vein,UBERON:0001639,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male ileocolic artery,UBERON:0035548,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male ileocolic vein,UBERON:0001219,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male inferior mesenteric artery,UBERON:0001183,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male inferior mesenteric vein,UBERON:0001215,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male inferior ophthalmic vein,FMA:51251,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male inferior ophthalmic vein,FMA:51250,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male inferior pancreaticoduodenal vein,FMA:0329299,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male inferior rectal vein,FMA:21242,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male inferior rectal vein,FMA:21314,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male inferior rectal vein,FMA:21313,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male inferior vena cava,FMA:10951,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male inferior vena cava a,FMA:10951,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male inferior vena cava b,FMA:10951,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male internal iliac vein,UBERON:0001317,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male internal pudendal vein,UBERON:0018252,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left anterior descending artery,FMA:8636,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left colic artery,FMA:14826,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left colic vein,FMA:15394,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left common carotid artery,UBERON:0001536,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left common carotid artery a,UBERON:0001536,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left common carotid artery b,UBERON:0001536,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left coronary artery,UBERON:0001626,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left hepatic artery,FMA:14779,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left hepatic vein,FMA:14339,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left marginal branch,FMA:3902,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left renal artery,UBERON:0001186,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left subclavian artery,UBERON:0001584,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left subclavian artery a,UBERON:0001584,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male left subclavian artery b,UBERON:0001584,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male long posterior ciliary artery,FMA:49958,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male long posterior ciliary artery,FMA:49957,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male marginal artery of D,FMA:14824,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male median sacral vein,UBERON:0006687,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male middle cardiac vein,UBERON:0009687,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary
+male middle colic artery,UBERON:0001196,Male,https://purl.humanatlas.io/ref-organ/blood-vasculature-male/v1.3#primary

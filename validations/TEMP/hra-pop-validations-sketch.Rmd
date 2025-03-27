@@ -1,0 +1,55 @@
+---
+title: "HRApop Validations"
+author: "Andreas Bueckle"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Import libraries
+```{r}
+library(tidyverse)
+```
+# Load data
+```{r}
+data = read_csv("../../../hra-pop/output-data/v0.10.2/reports/atlas/validation-v2p3.csv")
+```
+
+# Extract relevant columns and visualize
+``` {r}
+for_visualization = data %>% filter(tool == "azimuth", corridor_tool=="azimuth")
+
+a = ggplot(for_visualization, aes(x = distance, y = similarity, color = sex))+
+  geom_point()+
+  scale_color_brewer(palette = "Dark2")+
+  geom_smooth(method=lm, se=FALSE, fullrange=TRUE)+
+  ggtitle("Azimuth")
+a
+
+
+for_visualization = data %>% filter(tool == "celltypist", corridor_tool=="celltypist")
+
+c = ggplot(for_visualization, aes(x = distance, y = similarity, color = sex))+
+  geom_point()+
+  scale_color_brewer(palette = "Dark2")+
+  geom_smooth(method=lm, se=FALSE, fullrange=TRUE)+
+  ggtitle("CellTypist")
+c 
+
+for_visualization = data %>% filter(tool == "popv", corridor_tool=="popv")
+
+p = ggplot(for_visualization, aes(x = distance, y = similarity, color = sex))+
+  geom_point()+
+  scale_color_brewer(palette = "Dark2")+
+  geom_smooth(method=lm, se=FALSE, fullrange=TRUE)+
+  ggtitle("popV")
+p 
+
+for_visualization = data %>% filter(tool == "sc_proteomics", corridor_tool=="sc_proteomics")
+
+c = ggplot(for_visualization, aes(x = distance, y = similarity, color = sex))+
+  geom_point()+
+  scale_color_brewer(palette = "Dark2")+
+  geom_smooth(method=lm, se=FALSE, fullrange=TRUE)+
+  ggtitle("sc-proteomics")
+c 
+```

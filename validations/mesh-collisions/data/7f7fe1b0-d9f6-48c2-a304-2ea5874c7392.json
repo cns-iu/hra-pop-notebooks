@@ -1,0 +1,41 @@
+{
+    "@context": "https://hubmapconsortium.github.io/ccf-ontology/ccf-context.jsonld",
+    "@id": "http://purl.org/ccf/1.5/7f7fe1b0-d9f6-48c2-a304-2ea5874c7392",
+    "placement": {
+        "@id": "http://purl.org/ccf/1.5/7f7fe1b0-d9f6-48c2-a304-2ea5874c7392_placement",
+        "@type": "SpatialPlacement",
+        "source": "http://purl.org/ccf/1.5/7f7fe1b0-d9f6-48c2-a304-2ea5874c7392",
+        "target": "http://purl.org/ccf/latest/ccf.owl#VHMLeftKidney",
+        "rotation_order": "XYZ",
+        "rotation_units": "degree",
+        "scaling_units": "ratio",
+        "translation_units": "millimeter",
+        "x_rotation": -44,
+        "x_scaling": 1,
+        "x_translation": 9.489,
+        "y_rotation": 36,
+        "y_scaling": 1,
+        "y_translation": 83.715,
+        "z_rotation": 19,
+        "z_scaling": 1,
+        "z_translation": 41.715,
+        "placement_date": "2022-06-09"
+    },
+    "@type": "SpatialEntity",
+    "ccf_annotations": [
+        "http://purl.obolibrary.org/obo/UBERON_0000362",
+        "http://purl.obolibrary.org/obo/UBERON_0001284",
+        "http://purl.obolibrary.org/obo/UBERON_0002113",
+        "http://purl.obolibrary.org/obo/UBERON_0004200",
+        "http://purl.obolibrary.org/obo/UBERON_0004538",
+        "http://purl.obolibrary.org/obo/UBERON_0008716"
+    ],
+    "creator_first_name": "Amanda",
+    "creator_last_name": "Knoten",
+    "dimension_units": "millimeter",
+    "x_dimension": 3,
+    "y_dimension": 5,
+    "z_dimension": 2,
+    "creation_date": "2022-06-09",
+    "creator": "Amanda Knoten"
+}

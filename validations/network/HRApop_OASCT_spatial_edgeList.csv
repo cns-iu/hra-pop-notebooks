@@ -1,0 +1,176 @@
+"source","target","source_id_lab","target_id_lab","weight","weight_recs","percentage"
+0,7,"Ascending Colon","B",1,8,0.0129
+0,8,"Ascending Colon","CD4+ T cell",1,8,0.04594
+0,9,"Ascending Colon","CD57+ Enterocyte",1,8,0.00031
+0,10,"Ascending Colon","CD66+ Enterocyte",1,8,0.04705
+0,11,"Ascending Colon","CD7+ Immune",1,8,0.00135
+0,12,"Ascending Colon","CD8+ T",1,8,0.04598
+0,13,"Ascending Colon","Cycling TA",1,8,0.03407
+0,14,"Ascending Colon","DC",1,8,0.01835
+0,15,"Ascending Colon","Endothelial",1,8,0.06942
+0,16,"Ascending Colon","Enterocyte",1,8,0.15727
+0,17,"Ascending Colon","Goblet",1,8,0.06419
+0,18,"Ascending Colon","ICC",1,8,0.01476
+0,19,"Ascending Colon","Lymphatic",1,8,0.03048
+0,20,"Ascending Colon","M1 Macrophage",1,8,0.00914
+0,21,"Ascending Colon","M2 Macrophage",1,8,0.04356
+0,22,"Ascending Colon","MUC1+ Enterocyte",1,8,0.01164
+0,23,"Ascending Colon","Nerve",1,8,0.02872
+0,24,"Ascending Colon","Neuroendocrine",1,8,0.00458
+0,25,"Ascending Colon","Neutrophil",1,8,0.00837
+0,26,"Ascending Colon","NK",1,8,0.00213
+0,27,"Ascending Colon","Paneth",1,8,0.0001
+0,28,"Ascending Colon","Plasma",1,8,0.05857
+0,29,"Ascending Colon","Smooth muscle",1,8,0.17487
+0,30,"Ascending Colon","Stroma",1,8,0.08789
+0,31,"Ascending Colon","TA",1,8,0.02837
+2,7,"Descending Colon","B",1,8,0.01928
+2,8,"Descending Colon","CD4+ T cell",1,8,0.04206
+2,9,"Descending Colon","CD57+ Enterocyte",1,8,0.00014
+2,10,"Descending Colon","CD66+ Enterocyte",1,8,0.02779
+2,11,"Descending Colon","CD7+ Immune",1,8,0.00203
+2,12,"Descending Colon","CD8+ T",1,8,0.03536
+2,13,"Descending Colon","Cycling TA",1,8,0.05138
+2,14,"Descending Colon","DC",1,8,0.01463
+2,15,"Descending Colon","Endothelial",1,8,0.06065
+2,16,"Descending Colon","Enterocyte",1,8,0.14658
+2,17,"Descending Colon","Goblet",1,8,0.09162
+2,18,"Descending Colon","ICC",1,8,0.01351
+2,19,"Descending Colon","Lymphatic",1,8,0.02177
+2,20,"Descending Colon","M1 Macrophage",1,8,0.00833
+2,21,"Descending Colon","M2 Macrophage",1,8,0.04086
+2,22,"Descending Colon","MUC1+ Enterocyte",1,8,0.0077
+2,23,"Descending Colon","Nerve",1,8,0.04027
+2,24,"Descending Colon","Neuroendocrine",1,8,0.00489
+2,25,"Descending Colon","Neutrophil",1,8,0.00254
+2,26,"Descending Colon","NK",1,8,0.00218
+2,27,"Descending Colon","Paneth",1,8,0.00001
+2,28,"Descending Colon","Plasma",1,8,0.05263
+2,29,"Descending Colon","Smooth muscle",1,8,0.19938
+2,30,"Descending Colon","Stroma",1,8,0.08834
+2,31,"Descending Colon","TA",1,8,0.02607
+4,7,"Duodenum","B",1,8,0.00127
+4,8,"Duodenum","CD4+ T cell",1,8,0.04703
+4,9,"Duodenum","CD57+ Enterocyte",1,8,0.00349
+4,10,"Duodenum","CD66+ Enterocyte",1,8,0.00707
+4,11,"Duodenum","CD7+ Immune",1,8,0.00408
+4,12,"Duodenum","CD8+ T",1,8,0.07095
+4,13,"Duodenum","Cycling TA",1,8,0.0426
+4,14,"Duodenum","DC",1,8,0.00897
+4,15,"Duodenum","Endothelial",1,8,0.07882
+4,16,"Duodenum","Enterocyte",1,8,0.26609
+4,17,"Duodenum","Goblet",1,8,0.05769
+4,18,"Duodenum","ICC",1,8,0.0111
+4,19,"Duodenum","Lymphatic",1,8,0.02264
+4,20,"Duodenum","M1 Macrophage",1,8,0.01151
+4,21,"Duodenum","M2 Macrophage",1,8,0.04371
+4,22,"Duodenum","MUC1+ Enterocyte",1,8,0.01534
+4,23,"Duodenum","Nerve",1,8,0.02436
+4,24,"Duodenum","Neuroendocrine",1,8,0.00902
+4,25,"Duodenum","Neutrophil",1,8,0.00597
+4,26,"Duodenum","NK",1,8,0.00202
+4,27,"Duodenum","Paneth",1,8,0.01261
+4,28,"Duodenum","Plasma",1,8,0.0632
+4,29,"Duodenum","Smooth muscle",1,8,0.09259
+4,30,"Duodenum","Stroma",1,8,0.07464
+4,31,"Duodenum","TA",1,8,0.02327
+6,7,"Ileum","B",1,8,0.03297
+6,8,"Ileum","CD4+ T cell",1,8,0.05526
+6,9,"Ileum","CD57+ Enterocyte",1,8,0.0002
+6,10,"Ileum","CD66+ Enterocyte",1,8,0.00898
+6,11,"Ileum","CD7+ Immune",1,8,0.00209
+6,12,"Ileum","CD8+ T",1,8,0.09479
+6,13,"Ileum","Cycling TA",1,8,0.01934
+6,14,"Ileum","DC",1,8,0.01396
+6,15,"Ileum","Endothelial",1,8,0.0759
+6,16,"Ileum","Enterocyte",1,8,0.17351
+6,17,"Ileum","Goblet",1,8,0.0703
+6,18,"Ileum","ICC",1,8,0.01812
+6,19,"Ileum","Lymphatic",1,8,0.02671
+6,20,"Ileum","M1 Macrophage",1,8,0.00972
+6,21,"Ileum","M2 Macrophage",1,8,0.04621
+6,22,"Ileum","MUC1+ Enterocyte",1,8,0.00275
+6,23,"Ileum","Nerve",1,8,0.02969
+6,24,"Ileum","Neuroendocrine",1,8,0.00566
+6,25,"Ileum","Neutrophil",1,8,0.00513
+6,26,"Ileum","NK",1,8,0.00245
+6,27,"Ileum","Paneth",1,8,0.01801
+6,28,"Ileum","Plasma",1,8,0.04081
+6,29,"Ileum","Smooth muscle",1,8,0.13929
+6,30,"Ileum","Stroma",1,8,0.08639
+6,31,"Ileum","TA",1,8,0.02178
+5,7,"Jejunum","B",1,16,0.01009
+5,8,"Jejunum","CD4+ T cell",1,16,0.04688
+5,9,"Jejunum","CD57+ Enterocyte",1,16,0.00038
+5,10,"Jejunum","CD66+ Enterocyte",1,16,0.00846
+5,11,"Jejunum","CD7+ Immune",1,16,0.00444
+5,12,"Jejunum","CD8+ T",1,16,0.13714
+5,13,"Jejunum","Cycling TA",1,16,0.02456
+5,14,"Jejunum","DC",1,16,0.00892
+5,15,"Jejunum","Endothelial",1,16,0.07332
+5,16,"Jejunum","Enterocyte",1,16,0.24394
+5,17,"Jejunum","Goblet",1,16,0.05095
+5,18,"Jejunum","ICC",1,16,0.01185
+5,19,"Jejunum","Lymphatic",1,16,0.02339
+5,20,"Jejunum","M1 Macrophage",1,16,0.00711
+5,21,"Jejunum","M2 Macrophage",1,16,0.03835
+5,22,"Jejunum","MUC1+ Enterocyte",1,16,0.00349
+5,23,"Jejunum","Nerve",1,16,0.02722
+5,24,"Jejunum","Neuroendocrine",1,16,0.00649
+5,25,"Jejunum","Neutrophil",1,16,0.00606
+5,26,"Jejunum","NK",1,16,0.00233
+5,27,"Jejunum","Paneth",1,16,0.01285
+5,28,"Jejunum","Plasma",1,16,0.04774
+5,29,"Jejunum","Smooth muscle",1,16,0.11495
+5,30,"Jejunum","Stroma",1,16,0.06915
+5,31,"Jejunum","TA",1,16,0.01993
+3,7,"Sigmoid Colon","B",1,8,0.01574
+3,8,"Sigmoid Colon","CD4+ T cell",1,8,0.04414
+3,9,"Sigmoid Colon","CD57+ Enterocyte",1,8,0.00025
+3,10,"Sigmoid Colon","CD66+ Enterocyte",1,8,0.03131
+3,11,"Sigmoid Colon","CD7+ Immune",1,8,0.00161
+3,12,"Sigmoid Colon","CD8+ T",1,8,0.0316
+3,13,"Sigmoid Colon","Cycling TA",1,8,0.02619
+3,14,"Sigmoid Colon","DC",1,8,0.01852
+3,15,"Sigmoid Colon","Endothelial",1,8,0.06423
+3,16,"Sigmoid Colon","Enterocyte",1,8,0.12315
+3,17,"Sigmoid Colon","Goblet",1,8,0.06532
+3,18,"Sigmoid Colon","ICC",1,8,0.01117
+3,19,"Sigmoid Colon","Lymphatic",1,8,0.02911
+3,20,"Sigmoid Colon","M1 Macrophage",1,8,0.00557
+3,21,"Sigmoid Colon","M2 Macrophage",1,8,0.05677
+3,22,"Sigmoid Colon","MUC1+ Enterocyte",1,8,0.00819
+3,23,"Sigmoid Colon","Nerve",1,8,0.03351
+3,24,"Sigmoid Colon","Neuroendocrine",1,8,0.00474
+3,25,"Sigmoid Colon","Neutrophil",1,8,0.00877
+3,26,"Sigmoid Colon","NK",1,8,0.00169
+3,27,"Sigmoid Colon","Paneth",1,8,0.00002
+3,28,"Sigmoid Colon","Plasma",1,8,0.04705
+3,29,"Sigmoid Colon","Smooth muscle",1,8,0.23546
+3,30,"Sigmoid Colon","Stroma",1,8,0.11618
+3,31,"Sigmoid Colon","TA",1,8,0.01972
+1,7,"Transverse Colon","B",1,8,0.00663
+1,8,"Transverse Colon","CD4+ T cell",1,8,0.03635
+1,9,"Transverse Colon","CD57+ Enterocyte",1,8,0.00019
+1,10,"Transverse Colon","CD66+ Enterocyte",1,8,0.04702
+1,11,"Transverse Colon","CD7+ Immune",1,8,0.00108
+1,12,"Transverse Colon","CD8+ T",1,8,0.03498
+1,13,"Transverse Colon","Cycling TA",1,8,0.03966
+1,14,"Transverse Colon","DC",1,8,0.01448
+1,15,"Transverse Colon","Endothelial",1,8,0.07656
+1,16,"Transverse Colon","Enterocyte",1,8,0.13371
+1,17,"Transverse Colon","Goblet",1,8,0.07005
+1,18,"Transverse Colon","ICC",1,8,0.01659
+1,19,"Transverse Colon","Lymphatic",1,8,0.03031
+1,20,"Transverse Colon","M1 Macrophage",1,8,0.01162
+1,21,"Transverse Colon","M2 Macrophage",1,8,0.05653
+1,22,"Transverse Colon","MUC1+ Enterocyte",1,8,0.00619
+1,23,"Transverse Colon","Nerve",1,8,0.03703
+1,24,"Transverse Colon","Neuroendocrine",1,8,0.0036
+1,25,"Transverse Colon","Neutrophil",1,8,0.00414
+1,26,"Transverse Colon","NK",1,8,0.00132
+1,27,"Transverse Colon","Paneth",1,8,0.0015
+1,28,"Transverse Colon","Plasma",1,8,0.05372
+1,29,"Transverse Colon","Smooth muscle",1,8,0.18005
+1,30,"Transverse Colon","Stroma",1,8,0.11581
+1,31,"Transverse Colon","TA",1,8,0.02087

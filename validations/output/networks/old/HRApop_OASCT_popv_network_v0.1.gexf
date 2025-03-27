@@ -1,0 +1,3717 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2024-06-12">
+    <creator>Gephi 0.10.1</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="id_lab" title="id_lab" type="string"/>
+      <attribute id="tool" title="tool" type="string"/>
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="records" title="records" type="integer"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="source_id_lab" title="source_id_lab" type="string"/>
+      <attribute id="target_id_lab" title="target_id_lab" type="string"/>
+      <attribute id="weight_recs" title="weight_recs" type="integer"/>
+    </attributes>
+    <nodes>
+      <node id="0" label="Large Intestine">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0000059 Large Intestine"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Organ"/>
+          <attvalue for="records" value="232"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-359.53333" y="-34.499382"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="1" label="Heart">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0000948 Heart"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Organ"/>
+          <attvalue for="records" value="102"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1196.7181" y="-649.6479"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="2" label="Lung">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001004 Lung"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Organ"/>
+          <attvalue for="records" value="228"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="425.29752" y="-222.27327"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="3" label="Small Intestine">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0002108 Small Intestine"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Organ"/>
+          <attvalue for="records" value="248"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-183.72203" y="282.1337"/>
+        <viz:color r="40" g="179" b="106"/>
+      </node>
+      <node id="4" label="Superior part of Duodenum">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="16"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-73.913826" y="301.4189"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="5" label="Descending part of Duodenum">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="40"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-242.08707" y="338.88956"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="6" label="Horizontal part of Duodenum">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="44"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-276.75568" y="254.57204"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="7" label="Ascending part of Duodenum">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="44"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-338.92465" y="325.4196"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="8" label="Distal part of Ileum">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="42"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-204.46503" y="201.88199"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="9" label="Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="6"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1285.8523" y="-522.9729"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="10" label="Medial Bronchopulmonary Segment">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="65"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="457.3171" y="-129.02206"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="11" label="Lateral Bronchopulmonary Segment">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="67"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="519.5122" y="-272.02893"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="12" label="Left Apical Bronchopulmonary Segment">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="31"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="325.934" y="-189.26704"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="13" label="Lateral Segmental Bronchus">
+        <attvalues>
+          <attvalue for="id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="65"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="405.02115" y="-318.06195"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="14" label="Rectum">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="22"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-275.09235" y="-23.546886"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="15" label="Caecum">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="24"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-433.65433" y="39.717552"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="16" label="Ascending Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="48"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-340.0156" y="43.404152"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="17" label="Transverse Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="46"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-347.54797" y="-112.10509"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="18" label="Descending Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="46"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-254.4876" y="-113.36592"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="19" label="Sigmoid Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="46"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-436.81" y="-52.655685"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="20" label="Right Cardiac Atrium">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0002078 Right Cardiac Atrium"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="20"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1236.8751" y="-581.3178"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="21" label="Left Cardiac Atrium">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0002079 Left Cardiac Atrium"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="20"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1151.7604" y="-569.5015"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="22" label="Right Ventricle">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0002080 Right Ventricle"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="20"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1267.6261" y="-640.869"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="23" label="Left Ventricle">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0002084 Left Ventricle"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="20"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1145.042" y="-704.4865"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="24" label="Interventricular Septum">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0002094 Interventricular Septum"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="16"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1119.348" y="-630.4798"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="25" label="Jejunum">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="42"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-149.61438" y="354.95276"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="26" label="Ileum">
+        <attvalues>
+          <attvalue for="id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="records" value="20"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-117.28144" y="224.54971"/>
+        <viz:color r="249" g="119" b="67"/>
+      </node>
+      <node id="27" label="fibroblast">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000057"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="50"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-111.168976" y="-49.966774"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="28" label="blood vessel endothelial cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000071"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="6"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="703.1599" y="-343.339"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="29" label="mast cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000097"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="41"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-400.75412" y="139.20706"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="30" label="gut endothelial cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000131"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="22"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-307.56317" y="152.2615"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="31" label="club cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000158"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="623.10364" y="-304.07294"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="32" label="hepatocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000182"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="11"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1314.5167" y="-694.1136"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="33" label="smooth muscle cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000192"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="24"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1103.4166" y="-500.1124"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="34" label="macrophage">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000235"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="28"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1060.6781" y="-575.99304"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="35" label="B cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000236"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="36"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-226.97728" y="94.24255"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="36" label="vascular associated smooth muscle cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000359"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="404.7024" y="-423.8039"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="37" label="dendritic cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000451"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="564.416" y="-147.31398"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="38" label="monocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000576"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="22"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-382.61057" y="223.9912"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="39" label="CD4-positive, alpha-beta T cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000624"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="29"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-131.82765" y="111.584595"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="40" label="CD8-positive, alpha-beta T cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000625"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="29"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-37.349865" y="134.41264"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="41" label="basal cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000646"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="557.8119" y="-437.15848"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="42" label="pericyte">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000669"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="239.7207" y="-368.19922"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="43" label="cardiac muscle cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000746"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="21"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1321.3687" y="-592.28784"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="44" label="basophil">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000767"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="227.4068" y="-258.2404"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="45" label="neutrophil">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000775"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="40"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-171.51187" y="19.96027"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="46" label="plasmacytoid dendritic cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000784"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="2"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="570.3404" y="-523.9006"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="47" label="plasma cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000786"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="50"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-59.262875" y="36.288696"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="48" label="mature NK T cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000814"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="321.56183" y="-386.5446"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="49" label="classical monocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000860"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="622.94183" y="-34.36939"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="50" label="non-classical monocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0000875"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="622.55304" y="-207.06062"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="51" label="effector CD4-positive, alpha-beta T cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0001044"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="636.34534" y="-115.686554"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="52" label="effector CD8-positive, alpha-beta T cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0001050"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="690.46454" y="-256.1319"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="53" label="type I pneumocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0002062"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="697.90027" y="-170.81534"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="54" label="type II pneumocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0002063"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="546.9999" y="-64.27187"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="55" label="enterocyte of epithelium of large intestine">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0002071"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="20"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-504.2469" y="-115.14555"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="56" label="endothelial cell of lymphatic vessel">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0002138"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="394.8913" y="-21.115171"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="57" label="capillary endothelial cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0002144"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="328.47025" y="-75.1484"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="58" label="respiratory goblet cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0002370"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="296.81625" y="-303.83536"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="59" label="intermediate monocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0002393"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="402.86505" y="-504.58762"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="60" label="vein endothelial cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0002543"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="555.6775" y="-354.75735"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="61" label="fibroblast of cardiac tissue">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0002548"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="11"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1235.0736" y="-719.2942"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="62" label="bronchial smooth muscle cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0002598"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="478.38394" y="-8.812594"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="63" label="intestinal enteroendocrine cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0009006"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="12"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-208.54262" y="419.44864"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="64" label="paneth cell of colon">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0009009"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="20"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-427.62115" y="-138.80043"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="65" label="transit amplifying cell of colon">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0009011"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="20"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-517.50653" y="4.4281306"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="66" label="transit amplifying cell of small intestine">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0009012"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="12"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-295.08395" y="405.94635"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="67" label="intestinal crypt stem cell of large intestine">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0009016"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="12"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-561.9556" y="-62.466877"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="68" label="intestinal crypt stem cell of small intestine">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0009017"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="9"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-362.3556" y="447.7969"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="69" label="intestinal tuft cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0009080"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="22"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-53.67296" y="391.5351"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="70" label="cardiac endothelial cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0010008"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="19"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="1213.524" y="-486.07205"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="71" label="pulmonary ionocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0017000"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="3"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="555.59576" y="28.883112"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="72" label="intestinal tuft cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:0019032"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="20"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-310.42776" y="-198.46558"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="73" label="lung ciliated cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:1000271"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="482.1122" y="-473.39087"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="74" label="large intestine goblet cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:1000320"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="10"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-480.5172" y="-195.90718"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="75" label="serous cell of epithelium of bronchus">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:1000331"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="2"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="721.3531" y="-74.35842"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="76" label="enterocyte of epithelium of small intestine">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:1000334"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="12"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-179.3551" y="493.9069"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="77" label="paneth cell of epithelium of small intestine">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:1000343"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="12"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-119.00125" y="440.26886"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="78" label="endothelial cell of artery">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:1000413"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="484.35724" y="-390.46405"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="79" label="small intestine goblet cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:1000495"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="12"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-265.1709" y="480.0813"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="80" label="intestinal enteroendocrine cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:1001516"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="10"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="-391.9666" y="-210.31493"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="81" label="lung microvascular endothelial cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:2000016"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="320.05035" y="-466.5968"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+      <node id="82" label="adventitial cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CL:4028006"/>
+          <attvalue for="tool" value="popV"/>
+          <attvalue for="type" value="Cell type"/>
+          <attvalue for="records" value="7"/>
+        </attvalues>
+        <viz:size value="30.0"/>
+        <viz:position x="629.9791" y="-392.63135"/>
+        <viz:color r="154" g="150" b="229"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="14">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000059 Large Intestine"/>
+          <attvalue for="target_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="weight_recs" value="22"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="15">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000059 Large Intestine"/>
+          <attvalue for="target_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="weight_recs" value="24"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="16">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000059 Large Intestine"/>
+          <attvalue for="target_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="weight_recs" value="48"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="17">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000059 Large Intestine"/>
+          <attvalue for="target_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="weight_recs" value="46"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="18">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000059 Large Intestine"/>
+          <attvalue for="target_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="weight_recs" value="46"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="19">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000059 Large Intestine"/>
+          <attvalue for="target_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="weight_recs" value="46"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="1" target="9">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000948 Heart"/>
+          <attvalue for="target_id_lab" value="FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle"/>
+          <attvalue for="weight_recs" value="6"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="1" target="20">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000948 Heart"/>
+          <attvalue for="target_id_lab" value="UBERON:0002078 Right Cardiac Atrium"/>
+          <attvalue for="weight_recs" value="20"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="1" target="21">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000948 Heart"/>
+          <attvalue for="target_id_lab" value="UBERON:0002079 Left Cardiac Atrium"/>
+          <attvalue for="weight_recs" value="20"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="1" target="22">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000948 Heart"/>
+          <attvalue for="target_id_lab" value="UBERON:0002080 Right Ventricle"/>
+          <attvalue for="weight_recs" value="20"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="1" target="23">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000948 Heart"/>
+          <attvalue for="target_id_lab" value="UBERON:0002084 Left Ventricle"/>
+          <attvalue for="weight_recs" value="20"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="1" target="24">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0000948 Heart"/>
+          <attvalue for="target_id_lab" value="UBERON:0002094 Interventricular Septum"/>
+          <attvalue for="weight_recs" value="16"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="2" target="10">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001004 Lung"/>
+          <attvalue for="target_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="weight_recs" value="65"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="2" target="11">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001004 Lung"/>
+          <attvalue for="target_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="weight_recs" value="67"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="2" target="12">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001004 Lung"/>
+          <attvalue for="target_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="weight_recs" value="31"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="2" target="13">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001004 Lung"/>
+          <attvalue for="target_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="weight_recs" value="65"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="3" target="4">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002108 Small Intestine"/>
+          <attvalue for="target_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="weight_recs" value="16"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="3" target="5">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002108 Small Intestine"/>
+          <attvalue for="target_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="weight_recs" value="40"/>
+        </attvalues>
+      </edge>
+      <edge id="18" source="3" target="6">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002108 Small Intestine"/>
+          <attvalue for="target_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="weight_recs" value="44"/>
+        </attvalues>
+      </edge>
+      <edge id="19" source="3" target="7">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002108 Small Intestine"/>
+          <attvalue for="target_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="weight_recs" value="44"/>
+        </attvalues>
+      </edge>
+      <edge id="20" source="3" target="8">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002108 Small Intestine"/>
+          <attvalue for="target_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="weight_recs" value="42"/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="3" target="25">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002108 Small Intestine"/>
+          <attvalue for="target_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="weight_recs" value="42"/>
+        </attvalues>
+      </edge>
+      <edge id="22" source="3" target="26">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002108 Small Intestine"/>
+          <attvalue for="target_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="weight_recs" value="20"/>
+        </attvalues>
+      </edge>
+      <edge id="23" source="4" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="24" source="4" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="25" source="4" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="26" source="4" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="27" source="4" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="28" source="4" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="29" source="4" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="30" source="4" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="31" source="4" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="4" target="63">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009006"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="4" target="66">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009012"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="34" source="4" target="68">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009017"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="35" source="4" target="69">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009080"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="36" source="4" target="76">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000334"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="37" source="4" target="77">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000343"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="38" source="4" target="79">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14926 Superior part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000495"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="39" source="5" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="40" source="5" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="41" source="5" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="42" source="5" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="43" source="5" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="44" source="5" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="45" source="5" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="46" source="5" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="47" source="5" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="48" source="5" target="63">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009006"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="49" source="5" target="66">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009012"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="50" source="5" target="68">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009017"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="51" source="5" target="69">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009080"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="52" source="5" target="76">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000334"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="53" source="5" target="77">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000343"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="54" source="5" target="79">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14928 Descending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000495"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="55" source="6" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="56" source="6" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="57" source="6" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="58" source="6" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="59" source="6" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="60" source="6" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="61" source="6" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="62" source="6" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="63" source="6" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="64" source="6" target="63">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009006"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="65" source="6" target="66">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009012"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="66" source="6" target="68">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009017"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="67" source="6" target="69">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009080"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="68" source="6" target="76">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000334"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="69" source="6" target="77">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000343"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="70" source="6" target="79">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14929 Horizontal part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000495"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="71" source="7" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="72" source="7" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="73" source="7" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="74" source="7" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="75" source="7" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="76" source="7" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="77" source="7" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="78" source="7" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="79" source="7" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="80" source="7" target="63">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009006"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="81" source="7" target="66">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009012"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="82" source="7" target="68">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009017"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="83" source="7" target="69">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:0009080"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="84" source="7" target="76">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000334"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="85" source="7" target="77">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000343"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="86" source="7" target="79">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14930 Ascending part of Duodenum"/>
+          <attvalue for="target_id_lab" value="CL:1000495"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="87" source="8" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="88" source="8" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="89" source="8" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="90" source="8" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="91" source="8" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="92" source="8" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="93" source="8" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="94" source="8" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="95" source="8" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="96" source="8" target="63">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0009006"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="97" source="8" target="66">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0009012"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="98" source="8" target="69">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0009080"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="99" source="8" target="76">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:1000334"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="100" source="8" target="77">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:1000343"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="101" source="8" target="79">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:14966 Distal part of Ileum"/>
+          <attvalue for="target_id_lab" value="CL:1000495"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="102" source="9" target="32">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000182"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="103" source="9" target="33">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000192"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="104" source="9" target="34">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000235"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="105" source="9" target="43">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000746"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="106" source="9" target="61">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0002548"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="107" source="9" target="70">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7267 Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0010008"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="108" source="10" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="109" source="10" target="28">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000071"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="110" source="10" target="31">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000158"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="111" source="10" target="33">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000192"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="112" source="10" target="34">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000235"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="113" source="10" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="114" source="10" target="36">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000359"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="115" source="10" target="37">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000451"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="116" source="10" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="117" source="10" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="118" source="10" target="41">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000646"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="119" source="10" target="42">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000669"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="120" source="10" target="44">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000767"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="121" source="10" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="122" source="10" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="123" source="10" target="48">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000814"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="124" source="10" target="49">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000860"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="125" source="10" target="50">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000875"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="126" source="10" target="51">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0001044"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="127" source="10" target="52">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0001050"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="128" source="10" target="53">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002062"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="129" source="10" target="54">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002063"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="130" source="10" target="56">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002138"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="131" source="10" target="57">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002144"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="132" source="10" target="58">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002370"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="133" source="10" target="59">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002393"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="134" source="10" target="60">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002543"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="135" source="10" target="62">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002598"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="136" source="10" target="71">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0017000"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="137" source="10" target="73">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:1000271"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="138" source="10" target="75">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:1000331"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="139" source="10" target="78">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:1000413"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="140" source="10" target="81">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:2000016"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="141" source="10" target="82">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7360 Medial Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:4028006"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="142" source="11" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="143" source="11" target="28">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000071"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="144" source="11" target="31">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000158"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="145" source="11" target="33">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000192"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="146" source="11" target="34">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000235"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="147" source="11" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="148" source="11" target="36">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000359"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="149" source="11" target="37">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000451"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="150" source="11" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="151" source="11" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="152" source="11" target="41">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000646"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="153" source="11" target="42">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000669"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="154" source="11" target="44">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000767"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="155" source="11" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="156" source="11" target="46">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000784"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="157" source="11" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="158" source="11" target="48">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000814"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="159" source="11" target="49">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000860"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="160" source="11" target="50">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000875"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="161" source="11" target="51">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0001044"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="162" source="11" target="52">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0001050"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="163" source="11" target="53">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002062"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="164" source="11" target="54">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002063"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="165" source="11" target="56">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002138"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="166" source="11" target="57">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002144"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="167" source="11" target="58">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002370"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="168" source="11" target="59">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002393"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="169" source="11" target="60">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002543"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="170" source="11" target="62">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002598"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="171" source="11" target="71">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0017000"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="172" source="11" target="73">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:1000271"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="173" source="11" target="75">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:1000331"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="174" source="11" target="78">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:1000413"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="175" source="11" target="81">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:2000016"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="176" source="11" target="82">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7361 Lateral Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:4028006"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="177" source="12" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="178" source="12" target="31">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000158"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="179" source="12" target="34">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000235"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="180" source="12" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="181" source="12" target="36">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000359"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="182" source="12" target="37">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000451"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="183" source="12" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="184" source="12" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="185" source="12" target="41">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000646"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="186" source="12" target="42">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000669"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="187" source="12" target="44">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000767"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="188" source="12" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="189" source="12" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="190" source="12" target="48">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000814"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="191" source="12" target="49">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000860"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="192" source="12" target="50">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0000875"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="193" source="12" target="51">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0001044"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="194" source="12" target="52">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0001050"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="195" source="12" target="53">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002062"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="196" source="12" target="54">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002063"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="197" source="12" target="56">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002138"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="198" source="12" target="57">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002144"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="199" source="12" target="58">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002370"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="200" source="12" target="59">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002393"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="201" source="12" target="60">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002543"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="202" source="12" target="62">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0002598"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="203" source="12" target="71">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:0017000"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="204" source="12" target="73">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:1000271"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="205" source="12" target="78">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:1000413"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="206" source="12" target="81">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:2000016"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="207" source="12" target="82">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7385 Left Apical Bronchopulmonary Segment"/>
+          <attvalue for="target_id_lab" value="CL:4028006"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="208" source="13" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="209" source="13" target="28">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000071"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="210" source="13" target="31">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000158"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="211" source="13" target="33">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000192"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="212" source="13" target="34">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000235"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="213" source="13" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="214" source="13" target="36">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000359"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="215" source="13" target="37">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000451"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="216" source="13" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="217" source="13" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="218" source="13" target="41">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000646"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="219" source="13" target="42">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000669"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="220" source="13" target="44">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000767"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="221" source="13" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="222" source="13" target="46">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000784"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="223" source="13" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="224" source="13" target="48">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000814"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="225" source="13" target="49">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000860"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="226" source="13" target="50">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0000875"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="227" source="13" target="51">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0001044"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="228" source="13" target="52">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0001050"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="229" source="13" target="53">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0002062"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="230" source="13" target="54">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0002063"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="231" source="13" target="56">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0002138"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="232" source="13" target="57">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0002144"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="233" source="13" target="58">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0002370"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="234" source="13" target="59">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0002393"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="235" source="13" target="60">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0002543"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="236" source="13" target="62">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:0002598"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="237" source="13" target="73">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:1000271"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="238" source="13" target="78">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:1000413"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="239" source="13" target="81">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:2000016"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="240" source="13" target="82">
+        <attvalues>
+          <attvalue for="source_id_lab" value="FMA:7402 Lateral Segmental Bronchus"/>
+          <attvalue for="target_id_lab" value="CL:4028006"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="241" source="14" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="242" source="14" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="243" source="14" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="244" source="14" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="245" source="14" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="246" source="14" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="247" source="14" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="248" source="14" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="249" source="14" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="250" source="14" target="55">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0002071"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="251" source="14" target="64">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0009009"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="252" source="14" target="65">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0009011"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="253" source="14" target="72">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:0019032"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="254" source="14" target="74">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:1000320"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="255" source="14" target="80">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001052 Rectum"/>
+          <attvalue for="target_id_lab" value="CL:1001516"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="256" source="15" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="257" source="15" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="258" source="15" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="259" source="15" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="260" source="15" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="261" source="15" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="262" source="15" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="263" source="15" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="264" source="15" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="265" source="15" target="55">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0002071"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="266" source="15" target="64">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0009009"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="267" source="15" target="65">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0009011"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="268" source="15" target="67">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0009016"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="269" source="15" target="72">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:0019032"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="270" source="15" target="74">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:1000320"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="271" source="15" target="80">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001153 Caecum"/>
+          <attvalue for="target_id_lab" value="CL:1001516"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="272" source="16" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="273" source="16" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="274" source="16" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="275" source="16" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="276" source="16" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="277" source="16" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="278" source="16" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="279" source="16" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="280" source="16" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="281" source="16" target="55">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0002071"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="282" source="16" target="64">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009009"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="283" source="16" target="65">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009011"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="284" source="16" target="67">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009016"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="285" source="16" target="72">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0019032"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="286" source="16" target="74">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:1000320"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="287" source="16" target="80">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001156 Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CL:1001516"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="288" source="17" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="289" source="17" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="290" source="17" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="291" source="17" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="292" source="17" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="293" source="17" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="294" source="17" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="295" source="17" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="296" source="17" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="297" source="17" target="55">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0002071"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="298" source="17" target="64">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009009"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="299" source="17" target="65">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009011"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="300" source="17" target="67">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009016"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="301" source="17" target="72">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:0019032"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="302" source="17" target="74">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:1000320"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="303" source="17" target="80">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001157 Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CL:1001516"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="304" source="18" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="305" source="18" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="306" source="18" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="307" source="18" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="308" source="18" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="309" source="18" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="310" source="18" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="311" source="18" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="312" source="18" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="313" source="18" target="55">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0002071"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="314" source="18" target="64">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009009"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="315" source="18" target="65">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009011"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="316" source="18" target="67">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009016"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="317" source="18" target="72">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:0019032"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="318" source="18" target="74">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:1000320"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="319" source="18" target="80">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001158 Descending Colon"/>
+          <attvalue for="target_id_lab" value="CL:1001516"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="320" source="19" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="321" source="19" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="322" source="19" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="323" source="19" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="324" source="19" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="325" source="19" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="326" source="19" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="327" source="19" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="328" source="19" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="329" source="19" target="55">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0002071"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="330" source="19" target="64">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009009"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="331" source="19" target="65">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009011"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="332" source="19" target="67">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0009016"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="333" source="19" target="72">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:0019032"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="334" source="19" target="74">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:1000320"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="335" source="19" target="80">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0001159 Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CL:1001516"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="336" source="20" target="32">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002078 Right Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0000182"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="337" source="20" target="33">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002078 Right Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0000192"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="338" source="20" target="34">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002078 Right Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0000235"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="339" source="20" target="43">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002078 Right Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0000746"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="340" source="20" target="61">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002078 Right Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0002548"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="341" source="20" target="70">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002078 Right Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0010008"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="342" source="21" target="32">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002079 Left Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0000182"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="343" source="21" target="33">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002079 Left Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0000192"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="344" source="21" target="34">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002079 Left Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0000235"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="345" source="21" target="43">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002079 Left Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0000746"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="346" source="21" target="61">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002079 Left Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0002548"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="347" source="21" target="70">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002079 Left Cardiac Atrium"/>
+          <attvalue for="target_id_lab" value="CL:0010008"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="348" source="22" target="32">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002080 Right Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000182"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="349" source="22" target="33">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002080 Right Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000192"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="350" source="22" target="34">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002080 Right Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000235"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="351" source="22" target="43">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002080 Right Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000746"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="352" source="22" target="61">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002080 Right Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0002548"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="353" source="22" target="70">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002080 Right Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0010008"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="354" source="23" target="32">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002084 Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000182"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="355" source="23" target="33">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002084 Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000192"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="356" source="23" target="34">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002084 Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000235"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="357" source="23" target="43">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002084 Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0000746"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="358" source="23" target="61">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002084 Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0002548"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="359" source="23" target="70">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002084 Left Ventricle"/>
+          <attvalue for="target_id_lab" value="CL:0010008"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="360" source="24" target="32">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002094 Interventricular Septum"/>
+          <attvalue for="target_id_lab" value="CL:0000182"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="361" source="24" target="33">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002094 Interventricular Septum"/>
+          <attvalue for="target_id_lab" value="CL:0000192"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="362" source="24" target="34">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002094 Interventricular Septum"/>
+          <attvalue for="target_id_lab" value="CL:0000235"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="363" source="24" target="43">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002094 Interventricular Septum"/>
+          <attvalue for="target_id_lab" value="CL:0000746"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="364" source="24" target="61">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002094 Interventricular Septum"/>
+          <attvalue for="target_id_lab" value="CL:0002548"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="365" source="24" target="70">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002094 Interventricular Septum"/>
+          <attvalue for="target_id_lab" value="CL:0010008"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="366" source="25" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="367" source="25" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="368" source="25" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="369" source="25" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="370" source="25" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="371" source="25" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="372" source="25" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="373" source="25" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="374" source="25" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="375" source="25" target="63">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0009006"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="376" source="25" target="66">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0009012"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="377" source="25" target="68">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0009017"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="378" source="25" target="69">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:0009080"/>
+          <attvalue for="weight_recs" value="4"/>
+        </attvalues>
+      </edge>
+      <edge id="379" source="25" target="76">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:1000334"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="380" source="25" target="77">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:1000343"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="381" source="25" target="79">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002115 Jejunum"/>
+          <attvalue for="target_id_lab" value="CL:1000495"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="382" source="26" target="27">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000057"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="383" source="26" target="29">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000097"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="384" source="26" target="30">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000131"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="385" source="26" target="35">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000236"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="386" source="26" target="38">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000576"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="387" source="26" target="39">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000624"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="388" source="26" target="40">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000625"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="389" source="26" target="45">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000775"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="390" source="26" target="47">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0000786"/>
+          <attvalue for="weight_recs" value="2"/>
+        </attvalues>
+      </edge>
+      <edge id="391" source="26" target="63">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0009006"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="392" source="26" target="66">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0009012"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="393" source="26" target="69">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:0009080"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="394" source="26" target="76">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:1000334"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="395" source="26" target="77">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:1000343"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+      <edge id="396" source="26" target="79">
+        <attvalues>
+          <attvalue for="source_id_lab" value="UBERON:0002116 Ileum"/>
+          <attvalue for="target_id_lab" value="CL:1000495"/>
+          <attvalue for="weight_recs" value="1"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

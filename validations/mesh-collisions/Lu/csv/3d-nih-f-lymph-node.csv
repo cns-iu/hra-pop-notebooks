@@ -1,0 +1,13 @@
+source,target,distance
+Yao_blood_vasculature,Yao_follicles,-1
+Yao_blood_vasculature,Yao_medulla_of_lymph_node,-1
+Yao_follicles,Yao_medulla_of_lymph_node,-1
+Yao_efferent_lymph_node,Yao_paracortex,-1
+Yao_blood_vasculature,Yao_capsule_of_lymph_node,-1
+Yao_afferent_lymphatic_vessel,Yao_capsule_of_lymph_node,-1
+Yao_efferent_lymph_node,Yao_medulla_of_lymph_node,-1
+Yao_blood_vasculature,Yao_efferent_lymph_node,-1
+Yao_medulla_of_lymph_node,Yao_paracortex,-1
+Yao_capsule_of_lymph_node,Yao_efferent_lymph_node,-1
+Yao_follicles,Yao_paracortex,-1
+Yao_blood_vasculature,Yao_paracortex,-1

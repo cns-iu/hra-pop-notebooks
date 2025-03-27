@@ -1,0 +1,45 @@
+---
+title: "HRApop CTann RUI Validation"
+author: "Andreas Bueckle"
+date: "2024-08-15"
+output: html_document
+---
+
+# A notebook to to get true and predicted CTann and RUI for HRApop atlas datasets
+
+## Goal
+See [this GitHub issue](https://github.com/x-atlas-consortia/hra-pop/issues/100)
+
+## Import libraries
+```{r}
+library(tidyverse)
+library(RColorBrewer)
+library(corrr)
+```
+## Load data
+```{r}
+df = read_csv("../rui_ctann/data/validation-v7-ctann-rui.csv")
+```
+## Get statistics
+```{r}
+r_azimuth = df %>% filter(tool=="sc_proteomics") %>% correlate
+
+r_azimuth
+
+rplot(r_azimuth, shape = 20, colors = c("red", "green"), legend = TRUE)
+```
+
+
+## Prepare data for visualization and visualize
+```{r}
+g = ggplot(df, aes(x = datasetVsTopPredictedDatasetSim, y=datasetVsTopPredictedRuiSim, color=organ))+
+  facet_wrap(~tool)+
+  geom_point()+
+  scale_color_brewer(palette = "Paired")+
+  theme(
+   
+  )
+
+g
+```
+

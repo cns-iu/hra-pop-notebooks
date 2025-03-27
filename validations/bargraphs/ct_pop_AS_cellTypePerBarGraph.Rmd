@@ -1,0 +1,867 @@
+---
+title: "Anatomical Structures & Cell Type Population - Stacked Bar Graphs - Notebook"
+output:
+  html_document
+---
+
+# Environment 
+
+```{r environment, message=FALSE, warning=FALSE}
+library(tidyr)
+library(dplyr)
+library(plyr)
+library(magrittr)
+library(ggplot2)
+library(stringr)
+
+options(scipen = 999)
+```
+
+# Load Data
+
+```{r load}
+# Data - bar graph 
+# Includes organ, anatomical structure, cell types measures by tool and donor gender
+df <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v6.csv", 
+                 header=T, fileEncoding = "UTF8")
+
+# Cell Type Crosswalks - Data Cleaning
+# https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
+# New version June 2024
+
+## Azimuth
+azimuth <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/azimuth/v1.0/assets/azimuth-crosswalk.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+
+## Cell Typist
+celltypist <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/celltypist/v1.0/assets/celltypist-crosswalk.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+
+## PopV
+popv <- read.csv("https://cdn.humanatlas.io/digital-objects/ctann/popv/v1.0/assets/popv-crosswalk.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+```
+
+# Prepare data
+
+```{r prep}
+# Prepare crosswalk field names
+names(celltypist) <- names(popv) <- names(azimuth) <- c("organ_level","organ_id",
+                                                        "annotation_label","annotation_label_id",
+                                                        "cell_label","cell_id","cell_match")
+
+# Title Case for Annotation Labels
+popv$annotation_label <- str_to_title(popv$annotation_label)
+azimuth$annotation_label <- str_to_title(azimuth$annotation_label)
+celltypist$annotation_label <- str_to_title(celltypist$annotation_label)
+
+# Add record number to data 
+df$rec <- as.numeric(row.names(df))
+
+# Prepare Sex
+df$sex <- factor(df$sex)
+
+# Prepare Tool
+df$tool <- factor(df$tool, 
+                  levels=c("azimuth","celltypist","popv","sc_proteomics"),
+                  labels=c("Azimuth","CellTypist","popV","SC Proteomics"))
+
+# Prepare organ labels
+df$organ <- df$organ %>% 
+  str_replace("left ", "") %>%
+  str_replace("right ", "") %>%
+  str_replace("Set of ", "") %>%
+  str_replace("left ", "") %>%
+  str_replace(" of body", "") %>% 
+  str_replace("respiratory system","lung") %>%
+  str_replace("male reproductive system","prostate") %>%
+  str_to_title()
+df$organ <- factor(df$organ)
+
+# Prepare anatomical structure labels
+df$as <- df$as %>% 
+  str_to_title() %>%
+  str_replace(" Part "," part ") %>%
+  str_replace(" Of "," of ") %>% 
+  str_replace(" In "," in ") %>%
+  str_replace("Heart ","")
+
+df$cell_label <- df$cell_label %>%
+  str_replace("_"," ")
+
+# Common labels for data frames.
+labels <-  c("sex", "tool", "modality", "organ", "organId", 
+             "as", "as_id",  "cell_id", "cell_label", "cell_count",
+             "percentage", "asct_relation_in_asctb_table",
+             "indirect_asct_relation_in_asctb_table", 
+             "annotation_label", "annotation_label_id", "cell_label2")
+
+## Identify the unique set of cell ids and cell labels
+cell_ids_unique <- 
+  unique(df[,c(8,9)]) %>%
+  arrange(cell_id)
+cell_ids_count <-
+  cell_ids_unique %>%
+  ddply(.(cell_id), summarise,
+        count = length(cell_label))
+cell_ids_unique <- 
+  right_join(cell_ids_unique, cell_ids_count, by="cell_id") %>%
+  arrange(desc(count), cell_id)
+
+## Identify Unique Pairs of AS-Cell Type combinations
+as_cell_ids_unique <- 
+  unique(df[,c(4,6,7,8)]) %>%
+  arrange(as_id,cell_id)
+
+# Export results
+write.csv(cell_ids_unique, file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_cellLabels.csv"),
+          row.names = FALSE)
+write.csv(cell_ids_count, file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_countLabels.csv"),
+          row.names = FALSE)
+write.csv(as_cell_ids_unique, file=paste0("../bargraphs/HRApop_Organ-AS-CellTypes_List.csv"),
+          row.names = FALSE)
+
+rm(cell_ids_unique, cell_ids_count, as_cell_ids_unique)
+```
+
+## Cleaning-up Cell Labels
+
+In this section, data for individual HRA organs selected to clean up the cell labels used for the analysis. Cell labeling varies based on the cell analysis tool used to process the tissue samples, which means that cell labeling clean up is tied to both the organ and cell type analysis used. Organs tissue samples are annotated by 1 to 3 different tools. 
+
+To get consistent set of names, data for each organ and tool pairing is joined to a corresponding organ-tool cell type annotation crosswalk. Cell type labels are made at the finest level of annotation made for a organ by a cell type analysis tool, where there is also an exact match in the identification.
+
+Results of the cell label cleaning from each organ-tool pairing are re-combined into a new "cell_label" variable for each organ data subset for visualization.
+
+```{r cell_type_labels}
+## Heart - 1086
+heart <- df[df$organ==levels(df$organ)[1],]
+# Updating cell labels using crosswalks
+tmp1 <- join(heart[heart$tool=="Azimuth",c(1:11)],
+             azimuth[azimuth$organ_level=="Heart_L2" &
+                     azimuth$cell_match=="skos:exactMatch" | 
+                     azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp2 <- join(heart[heart$tool=="popV",c(1:11)],
+             popv[popv$organ_level=="heart" &
+                  popv$cell_match=="skos:exactMatch" | 
+                  popv$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left") 
+tmp3 <- join(heart[heart$tool=="CellTypist",c(1:11)],
+             celltypist[celltypist$organ_level=="Healthy_Adult_Heart_pkl" &
+                        celltypist$cell_match=="skos:exactMatch" | 
+                        celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+# Clean up names
+names(tmp1) <- names(tmp2) <- names(tmp3) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
+# Combine temp files
+heart <- rbind(tmp1,tmp2,tmp3) 
+# Add back missing cell labels when annotation label is missing
+heart[is.na(heart$annotation_label),]$cell_label2 <- 
+  heart[is.na(heart$annotation_label),]$cell_label
+
+
+## Lungs - 826
+lung <- df[df$organ==levels(df$organ)[6],]
+# Updating cell labels using crosswalks
+tmp1 <- join(lung[lung$tool=="Azimuth",c(1:11)],
+             azimuth[azimuth$organ_level=="Lung_v2_finest_level" &
+                     azimuth$cell_match=="skos:exactMatch" | 
+                     azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp2 <- join(lung[lung$tool=="popV",c(1:11)],
+             popv[popv$organ_level=="lung" &
+                  popv$cell_match=="skos:exactMatch" | 
+                  popv$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp3 <- join(lung[lung$tool=="CellTypist",c(1:11)],
+             celltypist[celltypist$organ_level=="Human_Lung_Atlas_pkl" &
+                        celltypist$cell_match=="skos:exactMatch" | 
+                        celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+#Clean up names
+names(tmp1) <- names(tmp2) <- names(tmp3) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
+# Combine temp files
+lung <- rbind(tmp1,tmp2,tmp3) 
+# Add back missing cell labels when annotation label is missing
+lung[is.na(lung$annotation_label),]$cell_label2 <- 
+  lung[is.na(lung$annotation_label),]$cell_label
+# write.csv(lung,
+#           file=paste0("../bargraphs/HRApop_Lung_AS-CTBarGraph-cellID_annotationIDs.csv"),
+#           row.names = FALSE)
+
+
+## Kidney - 920
+kidney <- df[df$organ==levels(df$organ)[2],]
+# Updating cell labels using crosswalks
+kidney <- join(kidney[kidney$tool=="Azimuth",c(1:11)],
+             azimuth[azimuth$organ_level=="Kidney_L3" &
+                     azimuth$cell_match=="skos:exactMatch" | 
+                     azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+#Clean up names
+names(kidney) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
+# Add back missing cell labels when annotation label is missing
+kidney[is.na(kidney$annotation_label),]$cell_label2 <- 
+  kidney[is.na(kidney$annotation_label),]$cell_label
+# write.csv(kidney,
+#           file=paste0("../bargraphs/HRApop_Kidney_AS-CTBarGraph-cellID_annotationIDs.csv"),
+#           row.names = FALSE)
+
+
+## Large Intestine - 1790
+largeIntestine <- df[df$organ==levels(df$organ)[4],]
+# Updating cell labels using crosswalks
+tmp1 <- largeIntestine[largeIntestine$tool=="SC Proteomics",c(1:11)] %>%
+  mutate(annotation_label=NA,
+         annotation_label_ids=NA,
+         cell_label2=NA)
+tmp2 <- join(largeIntestine[largeIntestine$tool=="popV",c(1:11)],
+             popv[popv$organ_level=="large intestine" &
+                  popv$cell_match=="skos:exactMatch" | 
+                  popv$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp3 <- join(largeIntestine[largeIntestine$tool=="CellTypist",c(1:11)],
+             celltypist[celltypist$organ_level=="intestine_L1" &
+                        celltypist$cell_match=="skos:exactMatch" | 
+                        celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+#Clean up names
+names(tmp1) <- names(tmp2) <- names(tmp3) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
+# Combine temp files
+largeIntestine <- rbind(tmp1,tmp2,tmp3) 
+# Add back missing cell labels when annotation label is missing
+largeIntestine[is.na(largeIntestine$annotation_label),]$cell_label2 <- 
+  largeIntestine[is.na(largeIntestine$annotation_label),]$cell_label
+
+
+## Small Intestine
+smallIntestine <- df[df$organ==levels(df$organ)[9],]
+# Updating cell labels using crosswalks
+tmp1 <- smallIntestine[smallIntestine$tool=="SC Proteomics",c(1:11)] %>%
+  mutate(annotation_label=NA,
+         annotation_label_ids=NA,
+         cell_label2=NA)
+tmp2 <- join(smallIntestine[smallIntestine$tool=="popV",c(1:11)],
+             popv[popv$organ_level=="small intestine" &
+                  popv$cell_match=="skos:exactMatch" | 
+                  popv$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left") 
+tmp3 <- join(smallIntestine[smallIntestine$tool=="CellTypist",c(1:11)],
+             celltypist[celltypist$organ_level=="intestine_L1" &
+                        celltypist$cell_match=="skos:exactMatch" | 
+                        celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+#Clean up names
+names(tmp1) <- names(tmp2) <- names(tmp3) <- 
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "annotation_label","annotation_label_id","cell_label2")
+# Combine temp files
+smallIntestine <- rbind(tmp1,tmp2,tmp3) 
+# Add back missing cell labels when annotation label is missing
+smallIntestine[is.na(smallIntestine$annotation_label),]$cell_label2 <- 
+  smallIntestine[is.na(smallIntestine$annotation_label),]$cell_label
+
+
+## Combine data frames into a single data frame
+df2 <- rbind(heart,lung,kidney,largeIntestine,smallIntestine) %>%
+  arrange(organ,tool,sex,percentage)
+df2$annotation_label <- gsub("[φ]", "ph", df2$annotation_label)
+
+# Add in missing cell labels for cell_label2 
+df2[is.na(df2$cell_label2),]$cell_label2 <- 
+  df2[is.na(df2$cell_label2),]$cell_label
+ 
+## Export annotation look-up
+organ_as_ct_lookup <- 
+  rbind(heart,lung,kidney,largeIntestine,smallIntestine)
+write.csv(organ_as_ct_lookup, 
+          file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_annotationIDs.csv"),
+          row.names = FALSE)
+
+# Clean up
+rm(tmp1,tmp2,tmp3)
+rm(heart,lung,kidney,largeIntestine,smallIntestine)
+```
+
+
+### Descriptive Analysis - Common Cell Types 
+
+The goal of this pivot table is to generate descriptive statistics for cell types associated with given organ anatomical structures, and the tools that generated the cell type analysis results. 
+
+* In first pivot table, for each cell type analysis, organ and anatomical structures and cell type combination, we calculate the number of measurements and the mean & median cell count and cell type percentage.
+* In second pivot table, for each cell type analysis, organ and cell type combination, we calculate the number of unique anatomical structures, count measurements and the mean & median cell count and cell type percentage.
+* In third pivot table, for each cell type analysis and cell type combination, we calculate the the number of unique organs, total number of unique anatomical structures, total count measurements and the mean & median cell count and cell type percentages. 
+
+The third pivot results are used to identify the set of cells that appear across multiple organs. Cells that appear in over three HRA organs tend to be circulating cells from the immune system.
+
+```{r pivot}
+# Cell Type Counts and Percentages
+piv10 <- df2 %>% 
+  select(tool, organ, as, cell_id, cell_count, percentage) %>%
+  distinct() %>%
+  ddply(.(tool, organ, as, cell_id), summarise,
+        measure_count = length(cell_count),
+        mean_cell_count = mean(cell_count),
+        mean_cell_percentage = mean(percentage)) %>%
+  arrange(organ,as,cell_id,mean_cell_percentage)
+
+# Anatomical Structure Counts 
+piv20 <- piv10 %>% 
+  select(tool, organ, as, cell_id, measure_count, 
+         mean_cell_count, mean_cell_percentage) %>% 
+  ddply(.(tool, organ, cell_id), summarise,
+        as_count = length(as),
+        measure_count = sum(measure_count),
+        mean_cell_count = mean(mean_cell_count),
+        mean_cell_percentage = mean(mean_cell_percentage)) %>%
+  arrange(organ,cell_id,mean_cell_percentage) 
+
+# Organ Count
+piv30 <- piv20 %>% 
+  select(tool, organ, cell_id, as_count, measure_count, 
+         mean_cell_count, mean_cell_percentage) %>% 
+  ddply(.(tool, cell_id), summarise,
+        og_count = length(organ),
+        as_count = sum(as_count),
+        measure_count = sum(measure_count),
+        mean_cell_count = mean(mean_cell_count),
+        mean_cell_percentage = mean(mean_cell_percentage)) %>%
+  arrange(desc(og_count))
+
+# Filter of cells with at least 3 organs.
+cell_filter <-
+  piv30 %>%
+  filter(og_count > 2) %>%
+  select(cell_id)
+```
+
+```{r data_exports, eval=FALSE, include=FALSE}
+## Lungs - 826
+lung <- df[df$organ==levels(df$organ)[6],]
+# Updating cell labels using crosswalks
+tmp1 <- join(lung[lung$tool=="Azimuth",c(1:13)],
+             azimuth[azimuth$organ_level=="Lung_v2_finest_level" &
+                     azimuth$cell_match=="skos:exactMatch" | 
+                     azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp2 <- join(lung[lung$tool=="popV",c(1:13)],
+             popv[popv$organ_level=="lung" &
+                  popv$cell_match=="skos:exactMatch" | 
+                  popv$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+tmp3 <- join(lung[lung$tool=="CellTypist",c(1:13)],
+             celltypist[celltypist$organ_level=="Human_Lung_Atlas_pkl" &
+                        celltypist$cell_match=="skos:exactMatch" | 
+                        celltypist$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+#Clean up names
+names(tmp1) <- names(tmp2) <- names(tmp3) <-
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "asct_relation_in_asctb_table","indirect_asct_relation_in_asctb_table",
+    "annotation_label","annotation_label_id","cell_label2")
+# Combine temp files
+lung <- rbind(tmp1,tmp2,tmp3)
+# Add back missing cell labels when annotation label is missing
+lung[is.na(lung$annotation_label),]$cell_label2 <-
+  lung[is.na(lung$annotation_label),]$cell_label
+lung <- lung %>% mutate(cell_label2 = paste0(cell_id,": ",cell_label2))
+#Remove common cell types
+lung2 <-
+  lung %>%
+  filter(!cell_id %in% cell_filter$cell_id)
+
+lung <- lung %>%
+          ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
+                  indirect_asct_relation_in_asctb_table), summarise,
+                count = length(cell_label2),
+                median_cell_count = median(cell_count),
+                median_percentage = median(percentage))
+
+lung2 <- lung2 %>%
+          ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
+                  indirect_asct_relation_in_asctb_table), summarise,
+                count = length(cell_label2),
+                median_cell_count = median(cell_count),
+                median_percentage = median(percentage))
+write.csv(lung,
+          file=paste0("../bargraphs/HRApop_Lung_AS-CTBarGraph-cellID_pivot.csv"),
+          row.names = FALSE)
+write.csv(lung2,
+          file=paste0("../bargraphs/HRApop_Lung_AS-CTBarGraph-cellID_pivot_commonCTRemoved.csv"),
+          row.names = FALSE)
+
+
+## Kidney - 920
+kidney <- df[df$organ==levels(df$organ)[2],]
+# Updating cell labels using crosswalks
+kidney <- join(kidney[kidney$tool=="Azimuth",c(1:13)],
+             azimuth[azimuth$organ_level=="Kidney_L3" &
+                     azimuth$cell_match=="skos:exactMatch" | 
+                     azimuth$cell_match=="skos:narrowMatch", c(3:6)], 
+             by="cell_id", type="left")
+# Clean up names
+names(kidney) <-
+  c("sex","tool","modality","organ","organId","as","as_id",
+    "cell_id","cell_label","cell_count", "percentage",
+    "asct_relation_in_asctb_table","indirect_asct_relation_in_asctb_table",
+    "annotation_label","annotation_label_id","cell_label2")
+# Add back missing cell labels when annotation label is missing
+kidney[is.na(kidney$annotation_label),]$cell_label2 <-
+  kidney[is.na(kidney$annotation_label),]$cell_label
+
+kidney <- kidney %>% mutate(cell_label2 = paste0(cell_id,": ",cell_label2))
+# Remove common cell types
+kidney2 <-
+  kidney %>%
+  filter(!cell_id %in% cell_filter$cell_id)
+
+# Aggregation 1 - tool, sex, organ, as, cell label.
+# Calculates median cell count and median percentages, calculates count of records.
+kidney <- kidney %>%
+          ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
+                  indirect_asct_relation_in_asctb_table), summarise,
+                count = length(cell_label2),
+                median_cell_count = median(cell_count),
+                median_percentage = median(percentage))
+# Aggregation - tool, sex, organ, as, cell label.
+kidney2 <- kidney2 %>%
+          ddply(.(tool,sex,organ,as,cell_label2,asct_relation_in_asctb_table,
+                  indirect_asct_relation_in_asctb_table), summarise,
+                count = length(cell_label2),
+                median_cell_count = median(cell_count),
+                median_percentage = median(percentage))
+write.csv(kidney,
+          file=paste0("../bargraphs/HRApop_Kidney_AS-CTBarGraph-cellID_pivot.csv"),
+          row.names = FALSE)
+write.csv(kidney2,
+          file=paste0("../bargraphs/HRApop_Kidney_AS-CTBarGraph-cellID_pivot_commonCTRemoved.csv"),
+          row.names = FALSE)
+
+
+# Organ AS-CT Look-up file
+organ_as_ct_lookup <-
+  organ_as_ct_lookup %>%
+  filter(!cell_id %in% cell_filter$cell_id)
+write.csv(organ_as_ct_lookup,
+          file=paste0("../bargraphs/HRApop_AS-CTBarGraph-cellID_annotationIDs_commonCTremoved.csv"),
+          row.names = FALSE)
+
+#rm(organ_as_ct_lookup)
+#rm(lung,kidney,lung2,kidney2)
+rm(tmp1,tmp2,tmp3)
+```
+
+### Identification of Representative Cell Types Using Term Frequency - Inverse Document Frequency  (TF-IDF) Analysis
+
+The goal of this analysis is to identify cell types that are most descriptive of
+an tool-organ-anatomical structure set. 
+
+This section implements a term-frequency & inverse document frequency analysis to the
+data set to identify cell types most representative of the combinations of organs, & anatomical structures. In this analysis the sets of tools, organs, & anatomical structures are equivalent to documents, and cell types are equivalent to terms in a document. 
+
+In a TF-IDF analysis TF is the frequency of a term divided by the total number of terms
+in a document. In this case, cell type frequency (cTF) would be equivalent to the cell type *percentage* measurement, which is the number of cells (cell count) divided by the total cells found in a given tool-organ-as tissue sample.
+
+```{r tfidf}
+# Initial data selection - cell type term frequencies
+tf <- 
+  df2 %>% 
+  # removes duplicate data rows
+  distinct() %>%
+  # combines sex and tools as a record sum of cell count and avg percentage
+  ddply(.(organ, as, cell_id, cell_label2), summarise,
+        records = length(cell_count),
+        cell_count = sum(cell_count),
+        tf = mean(percentage))
+
+tf[is.na(tf$cell_label2),]$cell_label2 <- tf[is.na(tf$cell_label2),]$cell_label
+
+# Calculate IDF based on TF data.
+## Number of documents (unique combinations of tools, organ, anatomical structures)
+docs <- tf %>% 
+          select(organ, as) %>%
+          distinct() %>%
+          nrow()
+
+## Calculate IDF 
+idf <- tf %>% 
+          group_by(organ, as) %>%
+          ddply(.(cell_id, cell_label2), summarise,
+                term_docs = length(records)) %>%
+          mutate(idf = log(docs/term_docs)) %>%
+          arrange(desc(idf))
+
+# Join IDF results to the TF data
+tf_idf <- 
+  left_join(tf, idf,by=c("cell_id","cell_label2")) %>%
+  mutate(tfidf = tf*idf) %>% 
+  select(organ, as, cell_id, cell_label2, 
+         cell_count, tf, idf, tfidf) %>%
+  arrange(organ,as,desc(tfidf))
+
+# Add TF IDF results to data for bar graphs.
+df2 <- 
+  left_join(df2, tf_idf[,c(1:4,6:8)],
+            by=c("organ","as","cell_id","cell_label2"))
+
+rm(tf,idf,docs)
+```
+
+## Visualization
+
+Base design for 100% stacked bar graphs representing the cell types commonly identified in anatomical structures within donated organs.
+
+Bar graph definition:
+
+Stacked bar represent top cell types associated with an organ anatomical structure * Data threshold: 8% minimum cell percentage values (or mean cell percentage values PER AS) * Bars - anatomical structure categories. * Bar segment-area-Cell Type percentage measures * Bar/Bar segments should total to at most 1 or 100%. * Mean cell type percentage calculation-tool, sex organ, as * Bar segment-color-cell types categories. * Facets represent combination of analytic tool and gender.
+Heart - Anatomical Structure - Cell Types
+
+The code chunk documents the general process used to prepare data for visualizations. In the first step, we subset data related to an single organ. Next, assign the best cell type name associated with an organ, based on the cell type annotation tool used. These tool subsets are re-combined and clean cell label is created. After cleaning the cell identifiers, the data is aggregated to determine the mean count and percentage of a cell types associated with tissue registration data, based on donor sex, analysis tools, and anatomical structure of an organ. After aggregation, cell types that make up at least 8% of cell type populations are selected for visualization.
+
+### Heart 
+
+```{r bar_heart, fig.height=14, fig.width=19, warning=FALSE}
+# Subset df2 to relevant organ - heart
+barGraph <- df2[df2$organ==levels(df$organ)[1],]
+
+# Filter cell types to remove multi-organ cell types.
+# Calculate the cell count and mean percentage of cell types by AS-CT, by tool.
+barGraph <- barGraph %>%
+  filter(!cell_id %in% cell_filter$cell_id) %>%
+  #filter(tfidf >= .001) %>%
+  select(organ,as,cell_id,cell_label,cell_label2,
+         cell_count,percentage,tool,sex) %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label2)) %>%
+  ddply(.(sex,tool,as,cell_lab), summarise,
+        ct = length(cell_count),
+        mean_cell_count = mean(cell_count),
+        mean_percentage = mean(percentage)) %>%
+  arrange(sex, tool, as, desc(mean_percentage)) %>%
+  group_by(sex, tool, as) %>%
+  dplyr::mutate(rank = row_number()) %>%
+  ungroup()
+
+# Factoring AS and Cell Types for Heart
+barGraph$as <- factor(barGraph$as, 
+                 levels=c("Left Ventricle","Right Ventricle",
+                          "Posteromedial Head of Posterior Papillary Muscle Of Left Ventricle",
+                          "Interventricular Septum","Left Cardiac Atrium","Right Cardiac Atrium"),
+                 labels=c("Left Ventricle","Right Ventricle","Left Ventricle",
+                          "Interventricular Septum","Left Cardiac Atrium","Right Cardiac Atrium"))
+barGraph$cell_lab <- factor(barGraph$cell_lab)
+#levels(barGraph$cell_lab)
+
+# Set color palette for cell types 
+color_pal_kid2 <- c("#B3E5FC","#03A9F4","#0288D1","#01579B","#E8F5E9","#C8E6C9",
+                    "#A5D6A7","#81C784","#66BB6A","#4CAF50","#43A047","#B2DFDB",
+                    "#4DB6AC","#009688","#4FC3F7","#03A9F4","#512DA8","#673AB7",
+                    "#9575CD","#D1C4E9","#B2EBF2","#4DD0E1","#00BCD4","#0097A7",
+                    "#F48FB1","#FCE4EC","#FFE082","#6D4C41","#FFCA28",
+                    "#C2185B","#880E4F","#8BC34A","#558B2F","#FF5722","#283593",
+                    "#3949AB","#5C6BC0","#9FA8DA","#E8EAF6","#FF8A65","#FFCCBC",
+                    "#EFEBE9","#BCAAA4","#8D6E63","#4E342E","#3E2723")
+color_pal_kid3 <- c("#B3E5FC","#4CAF50","#512DA8","#FCE4EC","#FF8A65","#009688",
+                    "#FFE082","#81C784","#9575CD","#F48FB1","#01579B","#B3E5FC",
+                    "#4CAF50","#512DA8","#FCE4EC","#FF8A65","#009688","#FFE082",
+                    "#81C784","#9575CD","#F48FB1","#01579B","#B3E5FC","#4CAF50",
+                    "#512DA8","#FCE4EC","#FF8A65","#009688","#FFE082","#81C784",
+                    "#9575CD","#F48FB1","#01579B","#B3E5FC","#4CAF50","#512DA8",
+                    "#FCE4EC","#FF8A65","#009688","#FFE082","#81C784","#9575CD",
+                    "#F48FB1","#01579B","#B3E5FC","#4CAF50","#512DA8","#FCE4EC",
+                    "#FF8A65","#009688","#FFE082","#81C784","#9575CD","#F48FB1",
+                    "#01579B","#B3E5FC","#4CAF50","#512DA8","#FCE4EC","#FF8A65",
+                    "#009688","#FFE082","#81C784","#9575CD","#F48FB1","#01579B",
+                    "#B3E5FC","#4CAF50","#512DA8","#FCE4EC","#FF8A65","#009688",
+                    "#FFE082","#81C784","#9575CD","#F48FB1","#01579B","#B3E5FC",
+                    "#4CAF50","#512DA8","#FCE4EC","#FF8A65","#009688","#FFE082",
+                    "#81C784","#9575CD","#F48FB1","#01579B","#B3E5FC","#4CAF50",
+                    "#512DA8","#FCE4EC","#FF8A65","#009688","#FFE082","#81C784",
+                    "#9575CD","#F48FB1","#01579B","#B3E5FC","#4CAF50","#512DA8",
+                    "#FCE4EC","#FF8A65","#009688","#FFE082","#81C784","#9575CD",
+                    "#F48FB1","#01579B","#B3E5FC","#4CAF50","#512DA8","#FCE4EC",
+                    "#FF8A65","#009688","#FFE082","#81C784","#9575CD","#F48FB1",
+                    "#01579B","#B3E5FC","#4CAF50","#512DA8","#FCE4EC","#FF8A65",
+                    "#009688","#FFE082","#81C784","#9575CD","#F48FB1","#01579B","#B3E5FC")
+
+# Plot
+barGraph_plot <- 
+  barGraph %>% 
+  ggplot(aes(x=as,y=mean_percentage)) +
+    geom_bar(aes(fill=cell_lab), stat="identity") +
+    facet_wrap(facets=vars(tool, sex), ncol=2) +
+    labs(x="Anatomical Structure", y="Percentage (%)",
+         title="Heart Anatomical Structures - Cell Types by Donor Sex and Analysis Tool") +
+    scale_fill_manual(name="Cell Type", values=color_pal_kid3) +
+    scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+    theme_light() +
+    theme(legend.position = "bottom",
+          legend.title = element_text(face="bold", size=10),
+          legend.key.spacing.y = unit(.3,"pt"),
+          strip.background = element_rect(fill = "#cdcecf"),
+          strip.text = element_text(color="black", size=10, hjust=0))
+
+# Export PDF & PNG files
+ggsave(file=paste0("../output/barplots/heart_as_celltype_bargraph_0.3.pdf"),
+       barGraph_plot, width=19, height=14, units="in")
+ggsave(file=paste0("../output/barplots/heart_as_celltype_bargraph_0.3.png"),
+       barGraph_plot, width=19, height=14, units="in")
+
+barGraph_plot
+```
+
+### Lung
+```{r bar_lung, fig.height=16, fig.width=20, warning=FALSE}
+barGraph <- df2[df2$organ==levels(df$organ)[6],]
+
+# Filter cell types to remove multi-organ cell types.
+# Calculate the cell count and mean percentage of cell types by AS-CT, by tool.
+barGraph <- barGraph %>%
+  filter(!cell_id %in% cell_filter$cell_id) %>%
+  filter(tfidf >= .001) %>%
+  select(organ,as,cell_id,cell_label,cell_label2,
+         cell_count,percentage,tool,sex) %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label2)) %>%
+  ddply(.(sex,tool,as,cell_lab), summarise,
+        ct = length(cell_count),
+        mean_cell_count = mean(cell_count),
+        mean_percentage = mean(percentage)) %>%
+  arrange(sex, tool, as, desc(mean_percentage)) %>%
+  group_by(sex, tool, as) %>%
+  dplyr::mutate(rank = row_number()) %>%
+  ungroup()
+
+# Factoring AS and Cell Types for Heart
+barGraph$as <- factor(barGraph$as, 
+                 levels=c("Lateral Bronchopulmonary Segment",
+                          "Lateral Segmental Bronchus",
+                          "Left Apical Bronchopulmonary Segment",
+                          "Medial Bronchopulmonary Segment"),
+                 labels=c("Lateral\nBronchopulmonary\nSegment",
+                          "Lateral\nSegmental\nBronchus",
+                          "Left Apical\nBronchopulmonary\nSegment",
+                          "Medial\nBronchopulmonary\nSegment"))
+barGraph$cell_lab <- factor(barGraph$cell_lab)
+#levels(barGraph$cell_lab)
+
+# Plot
+barGraph_plot <- 
+  barGraph %>% 
+  arrange(sex,tool,as,mean_percentage) %>%
+  ggplot(aes(x=as,y=mean_percentage)) +
+    geom_bar(aes(fill=cell_lab), stat="identity") +
+    facet_wrap(facets=vars(tool, sex), ncol=2) +
+    labs(x="Anatomical Structure", y="Percentage (%)",
+         title="Lung Anatomical Structures - Cell Types by Donor Sex and Analysis Tool") +
+    scale_fill_manual(name="Cell Type", values=color_pal_kid3) +
+    scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+    theme_light() +
+    theme(legend.position = "bottom",
+          legend.title = element_text(face="bold", size=10),
+          legend.key.spacing.y = unit(.3,"pt"),
+          strip.background = element_rect(fill = "#cdcecf"),
+          strip.text = element_text(color="black", size=10, hjust=0))
+
+# Export PDF & PNG files
+ggsave(file=paste0("../output/barplots/lung_as_celltype_bargraph_0.3.pdf"),
+       barGraph_plot, width=20, height=14, units="in")
+ggsave(file=paste0("../output/barplots/lung_as_celltype_bargraph_0.3.png"),
+       barGraph_plot, width=20, height=14, units="in")
+
+barGraph_plot
+```
+
+
+### Kidney
+```{r bar_kidney, fig.height=8, fig.width=22}
+# Subset df2 to relevant organ
+barGraph <- df2[df2$organ==levels(df$organ)[2],]
+
+# Filter cell types to remove multi-organ cell types.
+# Calculate the cell count and mean percentage of cell types by AS-CT, by tool.
+barGraph <- barGraph %>%
+  filter(!cell_id %in% cell_filter$cell_id) %>%
+  filter(tfidf >= .001) %>%
+  select(organ,as,cell_id,cell_label,cell_label2,
+         cell_count,percentage,tool,sex) %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label2)) %>%
+  ddply(.(sex,tool,as,cell_lab), summarise,
+        ct = length(cell_count),
+        mean_cell_count = mean(cell_count),
+        mean_percentage = mean(percentage)) %>%
+  arrange(sex, tool, as, desc(mean_percentage)) %>%
+  group_by(sex, tool, as) %>%
+  dplyr::mutate(rank = row_number()) %>%
+  ungroup()
+
+# Factoring AS and Cell Types for Kidney
+barGraph$as <- factor(barGraph$as)
+barGraph$cell_lab <- factor(barGraph$cell_lab)
+
+#levels(barGraph$cell_lab)
+
+# Plot
+barGraph_plot <- 
+  barGraph %>% 
+  arrange(sex,tool,as,mean_percentage) %>%
+  ggplot(aes(x=as,y=mean_percentage)) +
+    geom_bar(aes(fill=cell_lab), stat="identity") +
+    facet_wrap(facets=vars(tool, sex), ncol=2) +
+    labs(x="Anatomical Structure", y="Percentage (%)",
+         title="Kidney - Anatomical Structures & Cell Types by Donor Sex and Analysis Tool") +
+    scale_fill_manual(name="Cell Type", values=color_pal_kid3) +
+    scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+    theme_light() +
+    theme(legend.position = "bottom",
+          legend.title = element_text(face="bold", size=10),
+          legend.key.spacing.y = unit(.3,"pt"),
+          strip.background = element_rect(fill = "#cdcecf"),
+          strip.text = element_text(color="black", size=10, hjust=0))
+
+# Export PDF & PNG files
+ggsave(file=paste0("../output/barplots/kidney_as_celltype_bargraph_0.3.pdf"),
+       barGraph_plot, width=22, height=8, units="in")
+ggsave(file=paste0("../output/barplots/kidney_as_celltype_bargraph_0.3.png"),
+       barGraph_plot, width=22, height=8, units="in")
+
+barGraph_plot
+```
+
+### Large Intestine
+```{r bar_largeIntestine, fig.height=18, fig.width=21}
+# Subset df2 to relevant organ
+barGraph <- df2[df2$organ==levels(df$organ)[4],]
+
+# Filter cell types to remove multi-organ cell types.
+# Calculate the cell count and mean percentage of cell types by AS-CT, by tool.
+barGraph <- barGraph %>%
+  filter(!cell_id %in% cell_filter$cell_id) %>%
+  filter(tfidf >= .001) %>%
+  select(organ,as,cell_id,cell_label,cell_label2,
+         cell_count,percentage,tool,sex) %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label2)) %>%
+  ddply(.(sex,tool,as,cell_lab), summarise,
+        ct = length(cell_count),
+        mean_cell_count = mean(cell_count),
+        mean_percentage = mean(percentage)) %>%
+  arrange(sex, tool, as, desc(mean_percentage)) %>%
+  group_by(sex, tool, as) %>%
+  dplyr::mutate(rank = row_number()) %>%
+  ungroup()
+
+# Factoring AS and Cell Types for Large Intestine
+barGraph$as <- factor(barGraph$as, 
+                      levels=c("Caecum","Ascending Colon","Transverse Colon",
+                               "Descending Colon","Sigmoid Colon","Rectum"))
+barGraph$cell_lab <- factor(barGraph$cell_lab)
+#levels(barGraph$cell_lab)
+
+# Plot
+barGraph_plot <- 
+  barGraph %>% 
+  arrange(sex,tool,as,mean_percentage) %>%
+  ggplot(aes(x=as,y=mean_percentage)) +
+    geom_bar(aes(fill=cell_lab), stat="identity") +
+    facet_wrap(facets=vars(tool, sex), ncol=2) +
+    labs(x="Anatomical Structure", y="Percentage (%)",
+         title="Large Intestine - Anatomical Structures & Cell Types by Donor Sex and Analysis Tool") +
+    scale_fill_manual(name="Cell Type", values=color_pal_kid3) +
+    scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+    theme_light() +
+    theme(legend.position = "bottom",
+          legend.title = element_text(face="bold", size=10),
+          legend.key.spacing.y = unit(.3,"pt"),
+          strip.background = element_rect(fill = "#cdcecf"),
+          strip.text = element_text(color="black", size=10, hjust=0))
+
+# Export PDF & PNG files
+ggsave(file=paste0("../output/barplots/largeIntestine_as_celltype_bargraph_0.3.pdf"),
+       barGraph_plot, width=18, height=21, units="in")
+ggsave(file=paste0("../output/barplots/largeIntestine_as_celltype_bargraph_0.3.png"),
+       barGraph_plot, width=18, height=21, units="in")
+
+barGraph_plot
+```
+
+### Small Intestine
+
+```{r bar_smallIntestine, fig.height=18, fig.width=21}
+# Subset df2 to relevant organ
+barGraph <- df2[df2$organ==levels(df$organ)[9],]
+
+# Filter cell types to remove multi-organ cell types.
+# Calculate the cell count and mean percentage of cell types by AS-CT, by tool.
+barGraph <- barGraph %>%
+  filter(!cell_id %in% cell_filter$cell_id) %>%
+  filter(tfidf >= .001) %>%
+  select(organ,as,cell_id,cell_label,cell_label2,
+         cell_count,percentage,tool,sex) %>%
+  mutate(cell_lab = paste0(cell_id,": ",cell_label2)) %>%
+  ddply(.(sex,tool,as,cell_lab), summarise,
+        ct = length(cell_count),
+        mean_cell_count = mean(cell_count),
+        mean_percentage = mean(percentage)) %>%
+  arrange(sex, tool, as, desc(mean_percentage)) %>%
+  group_by(sex, tool, as) %>%
+  dplyr::mutate(rank = row_number()) %>%
+  ungroup()
+
+# Factoring AS and Cell Types for Heart
+barGraph$as <- factor(barGraph$as, 
+                     levels=c("Superior part of Duodenum", 
+                              "Descending part of Duodenum",
+                              "Horizontal part of Duodenum",
+                              "Ascending part of Duodenum",
+                              "Jejunum",
+                              "Ileum",
+                              "Distal part of Ileum"),
+                     labels=c("Superior\nDuodenum", 
+                              "Descending\nDuodenum",
+                              "Horizontal\nDuodenum",
+                              "Ascending\nDuodenum",
+                              "Jejunum",
+                              "Ileum",
+                              "Distal\nIleum"))
+
+barGraph$cell_lab <- factor(barGraph$cell_lab)
+#levels(barGraph$cell_lab)
+
+# Plot
+barGraph_plot <- 
+  barGraph %>% 
+  arrange(sex,tool,as,mean_percentage) %>%
+  ggplot(aes(x=as,y=mean_percentage)) +
+    geom_bar(aes(fill=cell_lab), stat="identity") +
+    facet_wrap(facets=vars(tool, sex), ncol=2) +
+    labs(x="Anatomical Structure", y="Percentage (%)",
+         title="Small Intestine - Anatomical Structures & Cell Types by Donor Sex and Analysis Tool") +
+    scale_fill_manual(name="Cell Type", values=color_pal_kid3) +
+    scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+    theme_light() +
+    theme(legend.position = "bottom",
+          legend.title = element_text(face="bold", size=10),
+          legend.key.spacing.y = unit(.3,"pt"),
+          strip.background = element_rect(fill = "#cdcecf"),
+          strip.text = element_text(color="black", size=10, hjust=0))
+
+# Export PDF & PNG files
+ggsave(file=paste0("../output/barplots/smallIntestine_as_celltype_bargraph_0.3.pdf"),
+       barGraph_plot, width=18, height=21, units="in")
+ggsave(file=paste0("../output/barplots/smallIntestine_as_celltype_bargraph_0.3.png"),
+       barGraph_plot, width=18, height=21, units="in")
+
+barGraph_plot
+```

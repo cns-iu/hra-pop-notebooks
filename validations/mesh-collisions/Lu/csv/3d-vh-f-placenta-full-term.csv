@@ -1,0 +1,15 @@
+source,target,distance
+VH_F_umbilical_artery_1,VH_F_umbilical_cord,-1
+VH_F_placenta_vessels,VH_F_umbilical_vein,-1
+VH_F_umbilical_artery_2,VH_F_umbilical_cord,-1
+VH_F_amnion,VH_F_umbilical_vein,-1
+VH_F_basal_plate,VH_F_chorionic_plate,-1
+VH_F_amnion,VH_F_umbilical_artery_2,-1
+VH_F_placenta_vessels,VH_F_umbilical_artery_2,-1
+VH_F_amnion,VH_F_umbilical_artery_1,-1
+VH_F_umbilical_artery_1,VH_F_umbilical_artery_2,-1
+VH_F_umbilical_artery_2,VH_F_umbilical_vein,-1
+VH_F_umbilical_artery_1,VH_F_umbilical_vein,-1
+VH_F_amnion,VH_F_umbilical_cord,-1
+VH_F_umbilical_cord,VH_F_umbilical_vein,-1
+VH_F_chorionic_plate,VH_F_placenta_vessels,-1

@@ -1,0 +1,42 @@
+---
+title: "HRApop Validations"
+author: Andreas Bueckle
+output: html_notebook
+---
+
+# Load libraries
+```{r load libraries}
+library(tidyverse)
+library(glue)
+```
+
+# Set global variables
+```{r global variables}
+
+hra_pop_version = "v0.10.2"
+```
+
+
+# Load data
+```{r load data}
+sankey = read_csv(glue("../../../hra-pop/output-data/{hra_pop_version}/reports/universe-ad-hoc/sankey.csv"))
+```
+# Isolate colliding anatomical structures per dataset
+```{r isolate}
+datasets_and_collisions = sankey %>% group_by(unique_dataset_id, collisions_mesh, collisions_bb) %>% filter(is_atlas_dataset == TRUE) %>% select(unique_dataset_id, collisions_mesh, collisions_bb) %>% unique()
+datasets_and_collisions
+```
+# Isolate NAs
+```{r validate}
+with_na_collisions = datasets_and_collisions %>% filter(is.na(collisions_mesh) || is.na(collisions_bb))
+```
+
+
+# Export to CSV
+```{r export}
+write_csv(datasets_and_collisions, "output/datasets_and_collisions.csv")
+write_csv(with_na_collisions, "output/with_na_collisions.csv")
+```
+
+
+

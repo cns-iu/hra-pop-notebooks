@@ -1,0 +1,350 @@
+---
+title: "CT-Pop Cell Type Stacked Bar Graphs Notebook"
+output:
+  # html_document:
+  # df_print: paged
+  pdf_document: 
+    dev: pdf
+    fig_caption: no
+    number_sections: yes
+    toc: yes
+    toc_depth: 3
+documentclass: article
+urlcolor: blue
+classoption: a4paper
+header-includes:
+- \usepackage{graphicx}
+- \usepackage{float}
+---
+
+# Environment 
+
+```{r environment, message=FALSE, warning=FALSE}
+library(tidyr)
+library(plyr)
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+library(stringr)
+
+options(scipen = 999)
+
+knitr::opts_chunk$set(
+    echo = FALSE,
+    message = FALSE,
+    warning = FALSE,
+    fig.align='center',
+    fig.pos='H',
+    fig.path = "../output/barplots/",
+    dev = c("pdf"),
+    dpi=500
+)
+```
+
+# Load Data
+
+```{r load}
+df <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v5.csv", header=T)
+```
+
+# Prepare data
+
+```{r prep}
+# Remove "sc_proteomics"
+df <- df[df$tool != "sc_proteomics",]
+
+# Prepare dataset
+#df$dataset <- factor(df$dataset)
+
+# Prepare organ labels
+df$organ <- df$organ %>% 
+  str_replace("right ", "") %>%
+  str_replace("left ", "") %>%
+  str_replace("Set of ", "") %>%
+  str_replace(" of body", "") %>%
+  str_to_title() %>% 
+  str_trim()
+  
+df$organ <- factor(df$organ)
+
+# Prepare Cell Labels
+df$cell_label <- df$cell_label %>%
+  str_to_upper()
+
+# Prepare tool
+df$tool <- df$tool %>%
+  str_to_title() 
+
+df$tool <- factor(df$tool)
+
+#ct <- unique(df$cell_label)
+#write.csv(ct, file=paste0(getwd(),"/ct_pop_cellTypeList.csv"), row.names=F)
+```
+
+# Creating labels for bar plots
+```{r strings}
+# Extract anatomical structures from dataset URI
+df$structure <- NA
+df$structure[!grepl("https://doi.org/",df$dataset) & 
+             grepl('#',df$dataset)] <-
+  df$dataset[!grepl("https://doi.org/",df$dataset) & 
+             grepl('#',df$dataset)] %>%
+  str_split_i(pattern="\\$", i=-1) %>%
+  str_replace_all(pattern="\\%20"," ") %>%
+  str_replace(pattern="heart ","") %>%
+  str_to_title()
+  
+
+# Labels for datasets
+df$label <- NA
+
+## Labels datasets without structures
+df[is.na(df$structure),]$label <-
+  paste0(df[is.na(df$structure),]$organ,"-",
+         df[is.na(df$structure),]$dataset)
+
+## Labels for datasets with structures 
+df[!is.na(df$structure),]$label <-
+  paste0(df[!is.na(df$structure),]$organ,"-",
+         df[!is.na(df$structure),]$structure,"-",
+         df[!is.na(df$structure),]$dataset)
+
+# Factor label and dataset vars
+df$label <- as.factor(df$label)
+df$dataset <- as.factor(df$dataset)
+```
+
+# Pivot table
+
+```{r pivot}
+# Organ Cell Type Percentages
+piv <- df %>% 
+  select(organ, cell_label, percentage) %>%
+  ddply(.(organ,cell_label), summarise,
+        mean_per = mean(percentage),
+        sd_per = sd(percentage))
+
+#write.csv(piv, file=paste0(getwd(),"/ct_pop_organ_celltype_meanPercent.csv"),
+#          row.names = F)
+
+# Cell counts for each organ
+piv2 <- piv %>%
+  count(organ) %>%
+  arrange(desc(n))
+names(piv2)[2] <- "cells"
+```
+
+# Ranking dataset cell types by organ and tool
+
+```{r rank}
+df <- df %>% 
+  select(label, tool, organ, cell_label, percentage) %>%
+  arrange(organ, label, tool, desc(percentage)) %>% 
+  group_by(label, organ, tool) %>%
+  mutate(rank=row_number()) %>% 
+  filter(rank <= 10)
+
+#write.csv(df,file=paste0(getwd(),"/ct_pop_dataset_organ_top10CellTypes_tools.csv"),
+#          row.names = F)
+
+si <- df %>% 
+  filter(organ=="Small Intestine") %>%
+  mutate(cell_label = factor(cell_label))
+
+li <- df %>% 
+  filter(organ=="Large Intestine") %>%
+  mutate(cell_label = factor(cell_label))
+
+lng <- df %>% 
+  filter(organ=="Respiratory System") %>%
+  mutate(cell_label = factor(cell_label))
+
+hrt <- df %>% 
+  filter(organ=="Heart") %>%
+  mutate(cell_label = factor(cell_label))
+
+kid <- df %>% 
+  filter(organ=="Kidney") %>%
+  mutate(cell_label = factor(cell_label))
+
+skin <- df %>% 
+  filter(organ=="Skin") %>%
+  mutate(cell_label = factor(cell_label))
+
+ute <- df %>% 
+  filter(organ=="Ureter") %>%
+  mutate(cell_label = factor(cell_label))
+
+liv <- df %>% 
+  filter(organ=="Liver") %>%
+  mutate(cell_label = factor(cell_label))
+
+spl <- df %>% 
+  filter(organ=="Spleen") %>%
+  mutate(cell_label = factor(cell_label))
+
+lgb <- df %>% 
+  filter(organ=="Lactiferous Glands In Breast") %>%
+  mutate(cell_label = factor(cell_label))
+
+mrs <- df %>% 
+  filter(organ=="Male Reproductive System") %>%
+  mutate(cell_label = factor(cell_label))
+```
+
+# Stacked Bar Graphs
+
+## Heart Datasets
+
+```{r barplot-heart_v0.1, fig.height=40, fig.width=15, warning=FALSE}
+hrt %>% 
+  ggplot(aes(y=label, x=percentage)) +
+  geom_col(aes(fill=cell_label)) +
+  facet_grid(rows = vars(tool)) +
+  scale_y_discrete(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) + 
+  guides(fill="none") +
+  labs(title="Heart Datasets - Top 10 Cell Types, by Percentage & Tool",
+       x="Percent",y="Dataset")
+```
+
+## Respiratory System Datasets
+
+```{r barplot-lung_v0.1, fig.height=18, fig.width=15, warning=FALSE}
+lng %>% 
+  ggplot(aes(y=label, x=percentage)) +
+  geom_col(aes(fill=cell_label)) +
+  facet_grid(rows = vars(tool)) +
+  scale_y_discrete(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) + 
+  guides(fill="none") +
+  labs(title="Respiratory System Datasets - Top 10 Cell Types, by Percentage & Tool",
+       x="Percent",y="Dataset")
+```
+
+
+## Liver Datasets
+
+```{r barplot-liver_v0.1, fig.height=4, fig.width=15, warning=FALSE}
+liv %>% 
+  ggplot(aes(y=label, x=percentage)) +
+  geom_col(aes(fill=cell_label)) +
+  facet_grid(rows = vars(tool)) +
+  scale_y_discrete(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) + 
+  guides(fill="none") +
+  labs(title="Liver Datasets - Top 10 Cell Types, by Percentage & Tool",
+       x="Percent",y="Dataset")
+```
+
+## Lactiferous Glands In Breast Datasets
+
+```{r barplot-lgb_v0.1, fig.height=4, fig.width=15, warning=FALSE}
+lgb %>% 
+  ggplot(aes(y=label, x=percentage)) +
+  geom_col(aes(fill=cell_label)) +
+  facet_grid(rows = vars(tool)) +
+  scale_y_discrete(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) + 
+  guides(fill="none") +
+  labs(title="Lactiferous Glands In Breast Datasets - Top 10 Cell Types, by Percentage & Tool",
+       x="Percent",y="Dataset")
+```
+
+## Kidney Datasets
+
+```{r barplot-kidney_v0.1, fig.height=20, fig.width=15, warning=FALSE}
+kid %>% 
+  ggplot(aes(y=label, x=percentage)) +
+  geom_col(aes(fill=cell_label)) +
+  facet_grid(rows = vars(tool)) +
+  scale_y_discrete(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) + 
+  guides(fill="none") +
+  labs(title="Kidney Datasets - Top 10 Cell Types, by Percentage & Tool",
+       x="Percent",y="Dataset")
+```
+
+## Large Intestine Datasets
+
+```{r barplot-largeIntestine_v0.1, fig.height=11, fig.width=15, warning=FALSE}
+li %>% 
+  ggplot(aes(y=label, x=percentage)) +
+  geom_col(aes(fill=cell_label)) +
+  facet_grid(rows = vars(tool)) +
+  scale_y_discrete(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) + 
+  guides(fill="none") +
+  labs(title="Large Intestine Datasets - Top 10 Cell Types, by Percentage & Tool",
+       x="Percent",y="Dataset")
+```
+
+## Small Intestine Datasets
+
+```{r barplot-smallIntestine_v0.1, fig.height=11, fig.width=15, warning=FALSE}
+si %>% 
+  ggplot(aes(y=label, x=percentage)) +
+  geom_col(aes(fill=cell_label)) +
+  facet_grid(rows = vars(tool)) +
+  scale_y_discrete(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) + 
+  guides(fill="none") +
+  labs(title="Small Intestine Datasets - Top 10 Cell Types, by Percentage & Tool",
+       x="Percent",y="Dataset")
+```
+
+## Skin Datasets
+
+```{r barplot-skin_v0.1, fig.height=4, fig.width=15, warning=FALSE}
+skin %>% 
+  ggplot(aes(y=label, x=percentage)) +
+  geom_col(aes(fill=cell_label)) +
+  facet_grid(rows = vars(tool)) +
+  scale_y_discrete(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) + 
+  guides(fill="none") +
+  labs(title="Skin Datasets - Top 10 Cell Types, by Percentage & Tool",
+       x="Percent",y="Dataset")
+```
+
+## Spleen Datasets
+
+```{r barplot-spleen_v0.1, fig.height=5, fig.width=15, warning=FALSE}
+spl %>% 
+  ggplot(aes(y=label, x=percentage)) +
+  geom_col(aes(fill=cell_label)) +
+  facet_grid(rows = vars(tool)) +
+  scale_y_discrete(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) + 
+  guides(fill="none") +
+  labs(title="Spleen Datasets - Top 10 Cell Types, by Percentage & Tool",
+       x="Percent",y="Dataset")
+```
+
+## Ureter Datasets
+
+```{r barplot-ureter_v0.1, fig.height=5, fig.width=15, warning=FALSE}
+ute %>% 
+  ggplot(aes(y=label, x=percentage)) +
+  geom_col(aes(fill=cell_label)) +
+  facet_grid(rows = vars(tool)) +
+  scale_y_discrete(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) + 
+  guides(fill="none") +
+  labs(title="Ureter Datasets - Top 10 Cell Types, by Percentage & Tool",
+       x="Percent",y="Dataset")
+```
+
+## Male Reproductive System Datasets
+
+```{r barplot-mrs_v0.1, fig.height=4, fig.width=15, warning=FALSE}
+mrs %>% 
+  ggplot(aes(y=label, x=percentage)) +
+  geom_col(aes(fill=cell_label)) +
+  facet_grid(rows = vars(tool)) +
+  scale_y_discrete(expand=c(0,0)) + 
+  scale_x_continuous(expand=c(0,0)) + 
+  guides(fill="none") +
+  labs(title="Male Reproductive System - Top 10 Cell Types, by Percentage & Tool",
+       x="Percent",y="Dataset")
+```

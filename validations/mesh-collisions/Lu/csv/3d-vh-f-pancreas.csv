@@ -1,0 +1,5 @@
+source,target,distance
+VH_F_head_of_pancreas,VH_F_ucinate_process1,-1
+VH_F_body_of_pancreas,VH_F_neck_of_pancreas,-1
+VH_F_head_of_pancreas,VH_F_neck_of_pancreas,-1
+VH_F_body_of_pancreas,VH_F_tail_of_pancreas,-1

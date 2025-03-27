@@ -1,0 +1,2162 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://gexf.net/1.3" version="1.3" xmlns:viz="http://gexf.net/1.3/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://gexf.net/1.3 http://gexf.net/1.3/gexf.xsd">
+  <meta lastmodifieddate="2024-07-24">
+    <creator>Gephi 0.10.1</creator>
+    <title></title>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="id_lab" title="id_lab" type="string"/>
+      <attribute id="type" title="type" type="string"/>
+      <attribute id="partof" title="partof" type="string"/>
+      <attribute id="records" title="records" type="integer"/>
+      <attribute id="cell_count" title="cell_count" type="integer"/>
+    </attributes>
+    <attributes class="edge" mode="static">
+      <attribute id="source_id_lab" title="source_id_lab" type="string"/>
+      <attribute id="target_id_lab" title="target_id_lab" type="string"/>
+      <attribute id="weight_recs" title="weight_recs" type="integer"/>
+      <attribute id="percentage" title="percentage" type="double"/>
+      <attribute id="w2" title="w2" type="float"/>
+    </attributes>
+    <nodes>
+      <node id="0" label="Ascending Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="Ascending Colon"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Large Intestine"/>
+          <attvalue for="records" value="8"/>
+          <attvalue for="cell_count" value="209839"/>
+        </attvalues>
+        <viz:size value="67.137375"/>
+        <viz:position x="92.29785" y="103.093376"/>
+        <viz:color r="227" g="204" b="55"/>
+      </node>
+      <node id="1" label="Descending Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="Descending Colon"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Large Intestine"/>
+          <attvalue for="records" value="8"/>
+          <attvalue for="cell_count" value="329603"/>
+        </attvalues>
+        <viz:size value="82.76938"/>
+        <viz:position x="258.49756" y="450.18402"/>
+        <viz:color r="227" g="204" b="55"/>
+      </node>
+      <node id="2" label="Sigmoid Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="Sigmoid Colon"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Large Intestine"/>
+          <attvalue for="records" value="8"/>
+          <attvalue for="cell_count" value="245164"/>
+        </attvalues>
+        <viz:size value="71.74811"/>
+        <viz:position x="-53.179962" y="537.82904"/>
+        <viz:color r="227" g="204" b="55"/>
+      </node>
+      <node id="3" label="Transverse Colon">
+        <attvalues>
+          <attvalue for="id_lab" value="Transverse Colon"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Large Intestine"/>
+          <attvalue for="records" value="8"/>
+          <attvalue for="cell_count" value="229737"/>
+        </attvalues>
+        <viz:size value="69.73453"/>
+        <viz:position x="-289.15787" y="374.96634"/>
+        <viz:color r="227" g="204" b="55"/>
+      </node>
+      <node id="4" label="Duodenum">
+        <attvalues>
+          <attvalue for="id_lab" value="Duodenum"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Small Intestine"/>
+          <attvalue for="records" value="8"/>
+          <attvalue for="cell_count" value="377540"/>
+        </attvalues>
+        <viz:size value="89.026276"/>
+        <viz:position x="-68.624794" y="-275.7378"/>
+        <viz:color r="227" g="108" b="100"/>
+      </node>
+      <node id="5" label="Ileum">
+        <attvalues>
+          <attvalue for="id_lab" value="Ileum"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Small Intestine"/>
+          <attvalue for="records" value="8"/>
+          <attvalue for="cell_count" value="366534"/>
+        </attvalues>
+        <viz:size value="87.58974"/>
+        <viz:position x="234.91283" y="-144.33902"/>
+        <viz:color r="227" g="108" b="100"/>
+      </node>
+      <node id="6" label="Jejunum">
+        <attvalues>
+          <attvalue for="id_lab" value="Jejunum"/>
+          <attvalue for="type" value="Anatomical Structure"/>
+          <attvalue for="partof" value="Small Intestine"/>
+          <attvalue for="records" value="16"/>
+          <attvalue for="cell_count" value="844688"/>
+        </attvalues>
+        <viz:size value="150.0"/>
+        <viz:position x="-486.63635" y="-140.433"/>
+        <viz:color r="227" g="108" b="100"/>
+      </node>
+      <node id="7" label="B">
+        <attvalues>
+          <attvalue for="id_lab" value="B"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="35529"/>
+        </attvalues>
+        <viz:size value="44.385845"/>
+        <viz:position x="889.5514" y="-74.53737"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="8" label="CD4+ T cell">
+        <attvalues>
+          <attvalue for="id_lab" value="CD4+ T cell"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="120286"/>
+        </attvalues>
+        <viz:size value="55.448616"/>
+        <viz:position x="172.89778" y="-395.29346"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="9" label="CD57+ Enterocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="CD57+ Enterocyte"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="1927"/>
+        </attvalues>
+        <viz:size value="40.0"/>
+        <viz:position x="-959.2591" y="-1874.3738"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="10" label="CD66+ Enterocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="CD66+ Enterocyte"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="50621"/>
+        </attvalues>
+        <viz:size value="46.355705"/>
+        <viz:position x="38.395657" y="868.9932"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="11" label="CD7+ Immune">
+        <attvalues>
+          <attvalue for="id_lab" value="CD7+ Immune"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="7657"/>
+        </attvalues>
+        <viz:size value="40.7479"/>
+        <viz:position x="421.64844" y="-1825.4463"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="12" label="CD8+ T">
+        <attvalues>
+          <attvalue for="id_lab" value="CD8+ T"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="214453"/>
+        </attvalues>
+        <viz:size value="67.73961"/>
+        <viz:position x="-280.9068" y="-394.87173"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="13" label="Cycling TA">
+        <attvalues>
+          <attvalue for="id_lab" value="Cycling TA"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="83535"/>
+        </attvalues>
+        <viz:size value="50.65175"/>
+        <viz:position x="-257.72235" y="711.0886"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="14" label="DC">
+        <attvalues>
+          <attvalue for="id_lab" value="DC"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="32580"/>
+        </attvalues>
+        <viz:size value="44.00093"/>
+        <viz:position x="509.8221" y="976.65454"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="15" label="Endothelial">
+        <attvalues>
+          <attvalue for="id_lab" value="Endothelial"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="187409"/>
+        </attvalues>
+        <viz:size value="64.20973"/>
+        <viz:position x="-297.02103" y="122.08462"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="16" label="Enterocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="Enterocyte"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="512335"/>
+        </attvalues>
+        <viz:size value="106.62017"/>
+        <viz:position x="-122.46284" y="-16.302465"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="17" label="Goblet">
+        <attvalues>
+          <attvalue for="id_lab" value="Goblet"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="166357"/>
+        </attvalues>
+        <viz:size value="61.461956"/>
+        <viz:position x="268.52408" y="216.63077"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="18" label="ICC">
+        <attvalues>
+          <attvalue for="id_lab" value="ICC"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="34938"/>
+        </attvalues>
+        <viz:size value="44.30871"/>
+        <viz:position x="409.37772" y="-730.38873"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="19" label="Lymphatic">
+        <attvalues>
+          <attvalue for="id_lab" value="Lymphatic"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="65766"/>
+        </attvalues>
+        <viz:size value="48.33248"/>
+        <viz:position x="-689.21814" y="351.24963"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="20" label="M1 Macrophage">
+        <attvalues>
+          <attvalue for="id_lab" value="M1 Macrophage"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="22616"/>
+        </attvalues>
+        <viz:size value="42.700397"/>
+        <viz:position x="1130.3063" y="520.0943"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="21" label="M2 Macrophage">
+        <attvalues>
+          <attvalue for="id_lab" value="M2 Macrophage"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="115342"/>
+        </attvalues>
+        <viz:size value="54.803307"/>
+        <viz:position x="-475.4607" y="227.60493"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="22" label="MUC1+ Enterocyte">
+        <attvalues>
+          <attvalue for="id_lab" value="MUC1+ Enterocyte"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="18152"/>
+        </attvalues>
+        <viz:size value="42.11774"/>
+        <viz:position x="939.7116" y="-730.82446"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="23" label="Nerve">
+        <attvalues>
+          <attvalue for="id_lab" value="Nerve"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="79091"/>
+        </attvalues>
+        <viz:size value="50.071705"/>
+        <viz:position x="-478.17874" y="598.00085"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="24" label="Neuroendocrine">
+        <attvalues>
+          <attvalue for="id_lab" value="Neuroendocrine"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="15524"/>
+        </attvalues>
+        <viz:size value="41.774727"/>
+        <viz:position x="-1252.6876" y="-815.83673"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="25" label="Neutrophil">
+        <attvalues>
+          <attvalue for="id_lab" value="Neutrophil"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="14945"/>
+        </attvalues>
+        <viz:size value="41.699154"/>
+        <viz:position x="-1489.124" y="399.96204"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="26" label="NK">
+        <attvalues>
+          <attvalue for="id_lab" value="NK"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="5509"/>
+        </attvalues>
+        <viz:size value="40.467533"/>
+        <viz:position x="1846.1163" y="-684.3191"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="27" label="Paneth">
+        <attvalues>
+          <attvalue for="id_lab" value="Paneth"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="22587"/>
+        </attvalues>
+        <viz:size value="42.696613"/>
+        <viz:position x="-229.96652" y="-1228.7324"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="28" label="Plasma">
+        <attvalues>
+          <attvalue for="id_lab" value="Plasma"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="132653"/>
+        </attvalues>
+        <viz:size value="57.062798"/>
+        <viz:position x="381.9716" y="76.451126"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="29" label="Smooth muscle">
+        <attvalues>
+          <attvalue for="id_lab" value="Smooth muscle"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="384608"/>
+        </attvalues>
+        <viz:size value="89.94881"/>
+        <viz:position x="25.268448" y="314.4103"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="30" label="Stroma">
+        <attvalues>
+          <attvalue for="id_lab" value="Stroma"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="220905"/>
+        </attvalues>
+        <viz:size value="68.58174"/>
+        <viz:position x="-137.12012" y="206.79422"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+      <node id="31" label="TA">
+        <attvalues>
+          <attvalue for="id_lab" value="TA"/>
+          <attvalue for="type" value="Cell Type"/>
+          <attvalue for="partof" value="Organ(s): 2"/>
+          <attvalue for="records" value="64"/>
+          <attvalue for="cell_count" value="57780"/>
+        </attvalues>
+        <viz:size value="47.290123"/>
+        <viz:position x="651.3981" y="237.5902"/>
+        <viz:color r="156" g="179" b="255"/>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="0" target="7" weight="0.0129">
+        <viz:color r="231" g="236" b="244"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="B"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.0129"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="1" source="0" target="8" weight="0.04594">
+        <viz:color r="218" g="207" b="229"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CD4+ T cell"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04594"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="2" source="0" target="9" weight="3.1E-4">
+        <viz:color r="236" g="247" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CD57+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="3.1E-4"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="3" source="0" target="10" weight="0.04705">
+        <viz:color r="217" g="206" b="228"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CD66+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04705"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="4" source="0" target="11" weight="0.00135">
+        <viz:color r="236" g="246" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CD7+ Immune"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00135"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="5" source="0" target="12" weight="0.04598">
+        <viz:color r="218" g="207" b="229"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="CD8+ T"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04598"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="6" source="0" target="13" weight="0.03407">
+        <viz:color r="223" g="218" b="234"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Cycling TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.03407"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="7" source="0" target="14" weight="0.01835">
+        <viz:color r="229" g="231" b="242"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="DC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01835"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="8" source="0" target="15" weight="0.06942">
+        <viz:color r="208" g="187" b="217"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Endothelial"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.06942"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="9" source="0" target="16" weight="0.15727">
+        <viz:color r="173" g="110" b="175"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.15727"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="10" source="0" target="17" weight="0.06419">
+        <viz:color r="210" g="191" b="220"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Goblet"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.06419"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="11" source="0" target="18" weight="0.01476">
+        <viz:color r="231" g="235" b="243"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="ICC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01476"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="12" source="0" target="19" weight="0.03048">
+        <viz:color r="224" g="221" b="236"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Lymphatic"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.03048"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="13" source="0" target="20" weight="0.00914">
+        <viz:color r="233" g="240" b="246"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="M1 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00914"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="14" source="0" target="21" weight="0.04356">
+        <viz:color r="219" g="209" b="230"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="M2 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04356"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="15" source="0" target="22" weight="0.01164">
+        <viz:color r="232" g="237" b="245" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="MUC1+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01164"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="16" source="0" target="23" weight="0.02872">
+        <viz:color r="225" g="222" b="237" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Nerve"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02872"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="17" source="0" target="24" weight="0.00458">
+        <viz:color r="235" g="243" b="248"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Neuroendocrine"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00458"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="18" source="0" target="25" weight="0.00837">
+        <viz:color r="233" g="240" b="247"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Neutrophil"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00837"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="19" source="0" target="26" weight="0.00213">
+        <viz:color r="236" g="246" b="249"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="NK"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00213"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="20" source="0" target="27" weight="1.0E-4">
+        <viz:color r="236" g="247" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Paneth"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="1.0E-4"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="21" source="0" target="28" weight="0.05857">
+        <viz:color r="213" g="196" b="223"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Plasma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.05857"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="22" source="0" target="29" weight="0.17487">
+        <viz:color r="166" g="94" b="167"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Smooth muscle"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.17487"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="23" source="0" target="30" weight="0.08789">
+        <viz:color r="201" g="171" b="209"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="Stroma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.08789"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="24" source="0" target="31" weight="0.02837">
+        <viz:color r="225" g="223" b="237"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ascending Colon"/>
+          <attvalue for="target_id_lab" value="TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02837"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="25" source="1" target="7" weight="0.01928">
+        <viz:color r="229" g="231" b="241" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="B"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01928"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="26" source="1" target="8" weight="0.04206">
+        <viz:color r="219" g="211" b="230"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="CD4+ T cell"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04206"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="27" source="1" target="9" weight="1.4E-4">
+        <viz:color r="236" g="247" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="CD57+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="1.4E-4"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="28" source="1" target="10" weight="0.02779">
+        <viz:color r="225" g="223" b="237"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="CD66+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02779"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="29" source="1" target="11" weight="0.00203">
+        <viz:color r="236" g="246" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="CD7+ Immune"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00203"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="30" source="1" target="12" weight="0.03536">
+        <viz:color r="222" g="217" b="234"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="CD8+ T"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.03536"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="31" source="1" target="13" weight="0.05138">
+        <viz:color r="216" g="203" b="226"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Cycling TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.05138"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="32" source="1" target="14" weight="0.01463">
+        <viz:color r="231" g="235" b="244"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="DC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01463"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="33" source="1" target="15" weight="0.06065">
+        <viz:color r="212" g="194" b="222"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Endothelial"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.06065"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="34" source="1" target="16" weight="0.14658">
+        <viz:color r="177" g="119" b="181"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.14658"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="35" source="1" target="17" weight="0.09162">
+        <viz:color r="199" g="167" b="207"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Goblet"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.09162"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="36" source="1" target="18" weight="0.01351">
+        <viz:color r="231" g="236" b="244"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="ICC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01351"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="37" source="1" target="19" weight="0.02177">
+        <viz:color r="228" g="228" b="240"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Lymphatic"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02177"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="38" source="1" target="20" weight="0.00833">
+        <viz:color r="233" g="240" b="247"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="M1 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00833"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="39" source="1" target="21" weight="0.04086">
+        <viz:color r="220" g="212" b="231"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="M2 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04086"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="40" source="1" target="22" weight="0.0077">
+        <viz:color r="233" g="241" b="247"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="MUC1+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.0077"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="41" source="1" target="23" weight="0.04027">
+        <viz:color r="220" g="212" b="231"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Nerve"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04027"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="42" source="1" target="24" weight="0.00489">
+        <viz:color r="235" g="243" b="248"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Neuroendocrine"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00489"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="43" source="1" target="25" weight="0.00254">
+        <viz:color r="235" g="245" b="249"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Neutrophil"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00254"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="44" source="1" target="26" weight="0.00218">
+        <viz:color r="236" g="246" b="249" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="NK"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00218"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="45" source="1" target="27" weight="1.0E-5">
+        <viz:color r="237" g="248" b="251"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Paneth"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="1.0E-5"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="46" source="1" target="28" weight="0.05263">
+        <viz:color r="215" g="201" b="225" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Plasma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.05263"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="47" source="1" target="29" weight="0.19938">
+        <viz:color r="156" g="73" b="155"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Smooth muscle"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.19938"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="48" source="1" target="30" weight="0.08834">
+        <viz:color r="201" g="170" b="208"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="Stroma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.08834"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="49" source="1" target="31" weight="0.02607">
+        <viz:color r="226" g="225" b="238"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Descending Colon"/>
+          <attvalue for="target_id_lab" value="TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02607"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="50" source="4" target="7" weight="0.00127">
+        <viz:color r="236" g="246" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="B"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00127"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="51" source="4" target="8" weight="0.04703">
+        <viz:color r="217" g="206" b="228"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="CD4+ T cell"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04703"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="52" source="4" target="9" weight="0.00349">
+        <viz:color r="235" g="244" b="249"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="CD57+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00349"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="53" source="4" target="10" weight="0.00707">
+        <viz:color r="234" g="241" b="247"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="CD66+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00707"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="54" source="4" target="11" weight="0.00408">
+        <viz:color r="235" g="244" b="249" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="CD7+ Immune"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00408"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="55" source="4" target="12" weight="0.07095">
+        <viz:color r="208" g="185" b="217"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="CD8+ T"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.07095"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="56" source="4" target="13" weight="0.0426">
+        <viz:color r="219" g="210" b="230"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Cycling TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.0426"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="57" source="4" target="14" weight="0.00897">
+        <viz:color r="233" g="240" b="246"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="DC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00897"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="58" source="4" target="15" weight="0.07882">
+        <viz:color r="205" g="178" b="213"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Endothelial"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.07882"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="59" source="4" target="16" weight="0.26609">
+        <viz:color r="129" g="15" b="124"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.26609"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="60" source="4" target="17" weight="0.05769">
+        <viz:color r="213" g="197" b="223"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Goblet"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.05769"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="61" source="4" target="18" weight="0.0111">
+        <viz:color r="232" g="238" b="245" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="ICC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.0111"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="62" source="4" target="19" weight="0.02264">
+        <viz:color r="227" g="228" b="240"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Lymphatic"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02264"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="63" source="4" target="20" weight="0.01151">
+        <viz:color r="232" g="237" b="245" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="M1 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01151"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="64" source="4" target="21" weight="0.04371">
+        <viz:color r="219" g="209" b="230"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="M2 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04371"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="65" source="4" target="22" weight="0.01534">
+        <viz:color r="230" g="234" b="243"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="MUC1+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01534"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="66" source="4" target="23" weight="0.02436">
+        <viz:color r="227" g="226" b="239"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Nerve"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02436"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="67" source="4" target="24" weight="0.00902">
+        <viz:color r="233" g="240" b="246"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Neuroendocrine"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00902"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="68" source="4" target="25" weight="0.00597">
+        <viz:color r="234" g="242" b="248"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Neutrophil"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00597"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="69" source="4" target="26" weight="0.00202">
+        <viz:color r="236" g="246" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="NK"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00202"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="70" source="4" target="27" weight="0.01261">
+        <viz:color r="231" g="236" b="244"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Paneth"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01261"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="71" source="4" target="28" weight="0.0632">
+        <viz:color r="211" g="192" b="220"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Plasma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.0632"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="72" source="4" target="29" weight="0.09259">
+        <viz:color r="199" g="166" b="206"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Smooth muscle"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.09259"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="73" source="4" target="30" weight="0.07464">
+        <viz:color r="206" g="182" b="215"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="Stroma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.07464"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="74" source="4" target="31" weight="0.02327">
+        <viz:color r="227" g="227" b="239"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Duodenum"/>
+          <attvalue for="target_id_lab" value="TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02327"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="75" source="5" target="7" weight="0.03297">
+        <viz:color r="223" g="219" b="235"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="B"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.03297"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="76" source="5" target="8" weight="0.05526">
+        <viz:color r="214" g="199" b="224"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="CD4+ T cell"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.05526"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="77" source="5" target="9" weight="2.0E-4">
+        <viz:color r="236" g="247" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="CD57+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="2.0E-4"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="78" source="5" target="10" weight="0.00898">
+        <viz:color r="233" g="240" b="246"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="CD66+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00898"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="79" source="5" target="11" weight="0.00209">
+        <viz:color r="236" g="246" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="CD7+ Immune"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00209"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="80" source="5" target="12" weight="0.09479">
+        <viz:color r="198" g="165" b="205" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="CD8+ T"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.09479"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="81" source="5" target="13" weight="0.01934">
+        <viz:color r="229" g="231" b="241"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Cycling TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01934"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="82" source="5" target="14" weight="0.01396">
+        <viz:color r="231" g="235" b="244"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="DC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01396"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="83" source="5" target="15" weight="0.0759">
+        <viz:color r="206" g="181" b="214"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Endothelial"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.0759"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="84" source="5" target="16" weight="0.17351">
+        <viz:color r="166" g="96" b="168"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.17351"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="85" source="5" target="17" weight="0.0703">
+        <viz:color r="208" g="186" b="217"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Goblet"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.0703"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="86" source="5" target="18" weight="0.01812">
+        <viz:color r="229" g="232" b="242"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="ICC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01812"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="87" source="5" target="19" weight="0.02671">
+        <viz:color r="226" g="224" b="238"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Lymphatic"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02671"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="88" source="5" target="20" weight="0.00972">
+        <viz:color r="233" g="239" b="246"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="M1 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00972"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="89" source="5" target="21" weight="0.04621">
+        <viz:color r="218" g="207" b="228" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="M2 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04621"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="90" source="5" target="22" weight="0.00275">
+        <viz:color r="235" g="245" b="249"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="MUC1+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00275"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="91" source="5" target="23" weight="0.02969">
+        <viz:color r="224" g="222" b="236"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Nerve"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02969"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="92" source="5" target="24" weight="0.00566">
+        <viz:color r="234" g="243" b="248"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Neuroendocrine"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00566"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="93" source="5" target="25" weight="0.00513">
+        <viz:color r="234" g="243" b="248"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Neutrophil"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00513"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="94" source="5" target="26" weight="0.00245">
+        <viz:color r="236" g="245" b="249"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="NK"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00245"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="95" source="5" target="27" weight="0.01801">
+        <viz:color r="229" g="232" b="242"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Paneth"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01801"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="96" source="5" target="28" weight="0.04081">
+        <viz:color r="220" g="212" b="231"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Plasma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04081"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="97" source="5" target="29" weight="0.13929">
+        <viz:color r="180" g="126" b="184"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Smooth muscle"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.13929"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="98" source="5" target="30" weight="0.08639">
+        <viz:color r="201" g="172" b="209"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="Stroma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.08639"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="99" source="5" target="31" weight="0.02178">
+        <viz:color r="228" g="228" b="240"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Ileum"/>
+          <attvalue for="target_id_lab" value="TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02178"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="100" source="6" target="7" weight="0.01009">
+        <viz:color r="232" g="239" b="246"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="B"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.01009"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="101" source="6" target="8" weight="0.04688">
+        <viz:color r="217" g="206" b="228"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="CD4+ T cell"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.04688"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="102" source="6" target="9" weight="3.8E-4">
+        <viz:color r="236" g="247" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="CD57+ Enterocyte"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="3.8E-4"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="103" source="6" target="10" weight="0.00846">
+        <viz:color r="233" g="240" b="246"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="CD66+ Enterocyte"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.00846"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="104" source="6" target="11" weight="0.00444">
+        <viz:color r="235" g="244" b="248"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="CD7+ Immune"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.00444"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="105" source="6" target="12" weight="0.13714">
+        <viz:color r="181" g="127" b="185"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="CD8+ T"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.13714"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="106" source="6" target="13" weight="0.02456">
+        <viz:color r="227" g="226" b="239"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Cycling TA"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.02456"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="107" source="6" target="14" weight="0.00892">
+        <viz:color r="233" g="240" b="246"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="DC"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.00892"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="108" source="6" target="15" weight="0.07332">
+        <viz:color r="207" g="183" b="216"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Endothelial"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.07332"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="109" source="6" target="16" weight="0.24394">
+        <viz:color r="137" g="34" b="134"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Enterocyte"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.24394"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="110" source="6" target="17" weight="0.05095">
+        <viz:color r="216" g="203" b="226"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Goblet"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.05095"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="111" source="6" target="18" weight="0.01185">
+        <viz:color r="232" g="237" b="245"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="ICC"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.01185"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="112" source="6" target="19" weight="0.02339">
+        <viz:color r="227" g="227" b="239"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Lymphatic"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.02339"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="113" source="6" target="20" weight="0.00711">
+        <viz:color r="234" g="241" b="247"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="M1 Macrophage"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.00711"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="114" source="6" target="21" weight="0.03835">
+        <viz:color r="221" g="214" b="232"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="M2 Macrophage"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.03835"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="115" source="6" target="22" weight="0.00349">
+        <viz:color r="235" g="244" b="249"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="MUC1+ Enterocyte"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.00349"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="116" source="6" target="23" weight="0.02722">
+        <viz:color r="225" g="224" b="238"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Nerve"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.02722"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="117" source="6" target="24" weight="0.00649">
+        <viz:color r="234" g="242" b="247"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Neuroendocrine"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.00649"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="118" source="6" target="25" weight="0.00606">
+        <viz:color r="234" g="242" b="248"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Neutrophil"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.00606"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="119" source="6" target="26" weight="0.00233">
+        <viz:color r="236" g="245" b="249" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="NK"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.00233"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="120" source="6" target="27" weight="0.01285">
+        <viz:color r="231" g="236" b="244"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Paneth"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.01285"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="121" source="6" target="28" weight="0.04774">
+        <viz:color r="217" g="206" b="228"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Plasma"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.04774"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="122" source="6" target="29" weight="0.11495">
+        <viz:color r="190" g="147" b="196"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Smooth muscle"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.11495"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="123" source="6" target="30" weight="0.06915">
+        <viz:color r="208" g="187" b="217"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="Stroma"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.06915"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="124" source="6" target="31" weight="0.01993">
+        <viz:color r="228" g="230" b="241"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Jejunum"/>
+          <attvalue for="target_id_lab" value="TA"/>
+          <attvalue for="weight_recs" value="16"/>
+          <attvalue for="percentage" value="0.01993"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="125" source="2" target="7" weight="0.01574">
+        <viz:color r="230" g="234" b="243"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="B"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01574"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="126" source="2" target="8" weight="0.04414">
+        <viz:color r="219" g="209" b="229"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CD4+ T cell"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04414"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="127" source="2" target="9" weight="2.5E-4">
+        <viz:color r="236" g="247" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CD57+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="2.5E-4"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="128" source="2" target="10" weight="0.03131">
+        <viz:color r="224" g="220" b="236"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CD66+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.03131"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="129" source="2" target="11" weight="0.00161">
+        <viz:color r="236" g="246" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CD7+ Immune"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00161"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="130" source="2" target="12" weight="0.0316">
+        <viz:color r="224" g="220" b="235"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="CD8+ T"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.0316"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="131" source="2" target="13" weight="0.02619">
+        <viz:color r="226" g="225" b="238"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Cycling TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02619"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="132" source="2" target="14" weight="0.01852">
+        <viz:color r="229" g="231" b="242"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="DC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01852"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="133" source="2" target="15" weight="0.06423">
+        <viz:color r="210" g="191" b="220"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Endothelial"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.06423"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="134" source="2" target="16" weight="0.12315">
+        <viz:color r="187" g="140" b="192"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.12315"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="135" source="2" target="17" weight="0.06532">
+        <viz:color r="210" g="190" b="219"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Goblet"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.06532"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="136" source="2" target="18" weight="0.01117">
+        <viz:color r="232" g="238" b="245"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="ICC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01117"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="137" source="2" target="19" weight="0.02911">
+        <viz:color r="225" g="222" b="237"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Lymphatic"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02911"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="138" source="2" target="20" weight="0.00557">
+        <viz:color r="234" g="243" b="248"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="M1 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00557"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="139" source="2" target="21" weight="0.05677">
+        <viz:color r="213" g="198" b="223"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="M2 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.05677"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="140" source="2" target="22" weight="0.00819">
+        <viz:color r="233" g="240" b="247"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="MUC1+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00819"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="141" source="2" target="23" weight="0.03351">
+        <viz:color r="223" g="218" b="235"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Nerve"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.03351"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="142" source="2" target="24" weight="0.00474">
+        <viz:color r="235" g="243" b="248"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Neuroendocrine"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00474"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="143" source="2" target="25" weight="0.00877">
+        <viz:color r="233" g="240" b="246"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Neutrophil"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00877"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="144" source="2" target="26" weight="0.00169">
+        <viz:color r="236" g="246" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="NK"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00169"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="145" source="2" target="27" weight="2.0E-5">
+        <viz:color r="236" g="247" b="250" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Paneth"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="2.0E-5"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="146" source="2" target="28" weight="0.04705">
+        <viz:color r="217" g="206" b="228"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Plasma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04705"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="147" source="2" target="29" weight="0.23546">
+        <viz:color r="141" g="41" b="138"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Smooth muscle"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.23546"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="148" source="2" target="30" weight="0.11618">
+        <viz:color r="189" g="146" b="195"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="Stroma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.11618"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="149" source="2" target="31" weight="0.01972">
+        <viz:color r="228" g="230" b="241"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Sigmoid Colon"/>
+          <attvalue for="target_id_lab" value="TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01972"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="150" source="3" target="7" weight="0.00663">
+        <viz:color r="234" g="242" b="247"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="B"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00663"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="151" source="3" target="8" weight="0.03635">
+        <viz:color r="222" g="216" b="233"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CD4+ T cell"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.03635"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="152" source="3" target="9" weight="1.9E-4">
+        <viz:color r="236" g="247" b="250" a="0.99607843"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CD57+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="1.9E-4"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="153" source="3" target="10" weight="0.04702">
+        <viz:color r="217" g="206" b="228"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CD66+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.04702"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="154" source="3" target="11" weight="0.00108">
+        <viz:color r="236" g="247" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CD7+ Immune"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00108"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="155" source="3" target="12" weight="0.03498">
+        <viz:color r="222" g="217" b="234"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="CD8+ T"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.03498"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="156" source="3" target="13" weight="0.03966">
+        <viz:color r="220" g="213" b="232"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Cycling TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.03966"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="157" source="3" target="14" weight="0.01448">
+        <viz:color r="231" g="235" b="244"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="DC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01448"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="158" source="3" target="15" weight="0.07656">
+        <viz:color r="205" g="180" b="214"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Endothelial"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.07656"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="159" source="3" target="16" weight="0.13371">
+        <viz:color r="182" g="130" b="187"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.13371"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="160" source="3" target="17" weight="0.07005">
+        <viz:color r="208" g="186" b="217"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Goblet"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.07005"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="161" source="3" target="18" weight="0.01659">
+        <viz:color r="230" g="233" b="243"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="ICC"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01659"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="162" source="3" target="19" weight="0.03031">
+        <viz:color r="224" g="221" b="236"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Lymphatic"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.03031"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="163" source="3" target="20" weight="0.01162">
+        <viz:color r="232" g="237" b="245"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="M1 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.01162"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="164" source="3" target="21" weight="0.05653">
+        <viz:color r="214" g="198" b="224"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="M2 Macrophage"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.05653"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="165" source="3" target="22" weight="0.00619">
+        <viz:color r="234" g="242" b="248"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="MUC1+ Enterocyte"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00619"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="166" source="3" target="23" weight="0.03703">
+        <viz:color r="221" g="215" b="233"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Nerve"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.03703"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="167" source="3" target="24" weight="0.0036">
+        <viz:color r="235" g="244" b="249"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Neuroendocrine"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.0036"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="168" source="3" target="25" weight="0.00414">
+        <viz:color r="235" g="244" b="249"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Neutrophil"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00414"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="169" source="3" target="26" weight="0.00132">
+        <viz:color r="236" g="246" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="NK"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.00132"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="170" source="3" target="27" weight="0.0015">
+        <viz:color r="236" g="246" b="250"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Paneth"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.0015"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="171" source="3" target="28" weight="0.05372">
+        <viz:color r="215" g="200" b="225"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Plasma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.05372"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="172" source="3" target="29" weight="0.18005">
+        <viz:color r="163" g="90" b="165"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Smooth muscle"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.18005"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="173" source="3" target="30" weight="0.11581">
+        <viz:color r="189" g="146" b="195"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="Stroma"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.11581"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+      <edge id="174" source="3" target="31" weight="0.02087">
+        <viz:color r="228" g="229" b="241"/>
+        <attvalues>
+          <attvalue for="source_id_lab" value="Transverse Colon"/>
+          <attvalue for="target_id_lab" value="TA"/>
+          <attvalue for="weight_recs" value="8"/>
+          <attvalue for="percentage" value="0.02087"/>
+          <attvalue for="w2" value="1.0"/>
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

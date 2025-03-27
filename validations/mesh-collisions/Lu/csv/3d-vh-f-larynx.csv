@@ -1,0 +1,6 @@
+source,target,distance
+VH_F_arytenoid_cartilage_L,VH_F_corniculate_cartilage_L,-1
+VH_F_arytenoid_cartilage_R,VH_F_cricoid_cartilage,-1
+VH_F_cricoid_cartilage,VH_F_thyroid_cartilage,-1
+VH_F_arytenoid_cartilage_L,VH_F_cricoid_cartilage,-1
+VH_F_arytenoid_cartilage_R,VH_F_corniculate_cartilage_R,-1

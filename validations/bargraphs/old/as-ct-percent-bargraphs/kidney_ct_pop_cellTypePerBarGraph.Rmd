@@ -1,0 +1,245 @@
+---
+title: "Kidney Anatomical Structures - CT-Pop Cell Types Stacked Bar Graphs Example"
+output: html_notebook
+---
+
+### Environment 
+
+```{r environment, echo=TRUE, message=FALSE, warning=FALSE}
+library(tidyr)
+library(plyr)
+library(dplyr)
+library(magrittr)
+library(ggplot2)
+library(stringr)
+
+options(scipen = 999)
+
+knitr::opts_chunk$set(
+    echo = FALSE,
+    message = FALSE,
+    warning = FALSE,
+    fig.align='center',
+    fig.pos='H',
+    fig.path = "../output/barplots/",
+    dev = c("pdf"),
+    dpi=500
+)
+```
+
+### Load Data
+
+```{r load, echo=TRUE}
+# Data - bar graph 
+# Includes organ, anatomical structure, cell types measures by tool and donor gender
+df <- read.csv("https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/main/output-data/v0.10.2/reports/atlas/validation-v6.csv", 
+                 header=T, fileEncoding = "UTF8")
+
+# Cell Type Crosswalks - Data Cleaning
+# https://github.com/hubmapconsortium/hra-workflows-runner/tree/main/crosswalking-tables
+# New version June 2024
+## Azimuth
+azi <- read.csv("https://raw.githubusercontent.com/hubmapconsortium/hra-workflows-runner/main/crosswalking-tables/azimuth.csv",
+                header=T, fileEncoding = "UTF8", skip=10)
+```
+
+### Preparing Data
+
+```{r prep, echo=TRUE}
+# Prepare crosswalk field names
+names(azi) <- c("organ_level","organ_id",
+                "annotation_label","annotation_label_id",
+                "cell_label","cell_id","cell_match")
+
+# Title Case for Annotation Labels
+azi$annotation_label <- str_to_title(azi$annotation_label)
+
+# Add record number to data 
+df$rec <- as.numeric(row.names(df))
+
+# Prepare Sex
+df$sex <- factor(df$sex)
+
+# Prepare Tool
+df$tool <- factor(df$tool, 
+                  levels=c("azimuth","celltypist","popv","sc_proteomics"),
+                  labels=c("Azimuth","CellTypist","popV","SC Proteomics"))
+
+# Prepare organ labels
+df$organ <- df$organ %>% 
+  str_replace("left ", "") %>%
+  str_replace("right ", "") %>%
+  str_replace("Set of ", "") %>%
+  str_replace("left ", "") %>%
+  str_replace(" of body", "") %>% 
+  str_replace("respiratory system","lung") %>%
+  str_replace("male reproductive system","prostate") %>%
+  str_to_title()
+df$organ <- factor(df$organ)
+
+# Prepare anatomical structure labels
+df$as <- df$as %>% 
+  str_to_title() %>%
+  str_replace(" Part "," part ") %>%
+  str_replace(" Of "," of ") %>% 
+  str_replace(" In "," in ") %>%
+  str_replace("Heart ","")
+
+df$cell_label <- df$cell_label %>%
+  str_replace("_"," ")
+```
+
+### Visualization
+
+Base design for 100% stacked bar graphs representing the cell types commonly identified in anatomical structures within donated organs.
+
+Bar graph definition:
+
+Stacked bar represent top cell types associated with an organ anatomical structure
+* Data threshold: 8% minimum cell percentage values (or mean cell percentage values PER AS)
+* Bars - anatomical structure categories.
+  * Bar segment-area-Cell Type percentage measures
+    * Bar/Bar segments should total to at most 1 or 100%.
+    * Mean cell type percentage calculation-tool, sex organ, as
+  * Bar segment-color-cell types categories.
+* Facets represent combination of analytic tool and gender.
+
+#### Kidney - Anatomical Structure - Cell Types
+
+```{r bar_kidney_as_1, fig.height=6, fig.width=14}
+# Select initial data
+kid <- df[df$organ==levels(df$organ)[2],] %>%  #kidney
+       #df[df$organ==levels(df$organ)[6],] %>%  #lung
+       #df[df$organ==levels(df$organ)[1],] %>%  #heart
+  filter(sex == "Male") %>%
+  filter(asct_relation_in_asctb_table == "true" | 
+         indirect_asct_relation_in_asctb_table == "true") %>%
+  arrange(as, desc(percentage)) %>%
+  distinct() %>%
+  group_by(as) %>%
+  mutate(rec = row_number()) %>%
+  ungroup() %>%
+  arrange(cell_id)
+ 
+#Prepare cell type labels - Kidney
+kid <- join(kid, azi[azi$organ_level=="Kidney_L2" &
+                 azi$cell_match=="skos:exactMatch" &
+                 azi$annotation_label_id != "AZ:0000033", c(3:6)],
+             by="cell_id", type="left")
+
+# # Prepare cell type labels - Lung
+# tmp1 <- join(kid[kid$tool=="Azimuth",],
+#              azi[azi$organ_level=="Lung_v2_L5" &
+#                  azi$cell_match=="skos:exactMatch", c(3:6)],
+#              by="cell_id", type="left")
+# tmp2 <- join(kid[kid$tool=="popV",],
+#              pop[pop$organ_level=="lung" &
+#                  pop$cell_match=="skos:exactMatch", c(3:6)],
+#              by="cell_id", type="left")
+# tmp3 <- join(kid[kid$tool=="CellTypist",],
+#              ctp[ctp$organ_level=="Human_Lung_Atlas_pkl" &
+#                  ctp$cell_match=="skos:exactMatch", c(3:6)],
+#              by="cell_id", type="left")
+
+# # Prepare cell type labels - heart
+# tmp1 <- join(kid[kid$tool=="Azimuth",],
+#              azi[azi$organ_level=="Heart_L2" &
+#                  azi$cell_match=="skos:exactMatch", c(3:6)],
+#              by="cell_id", type="left")
+# tmp2 <- join(kid[kid$tool=="popV",],
+#              pop[pop$organ_level=="heart" &
+#                  pop$cell_match=="skos:exactMatch", c(3:6)],
+#              by="cell_id", type="left")
+# tmp3 <- join(kid[kid$tool=="CellTypist",],
+#              ctp[ctp$organ_level=="heart_L1" &
+#                  ctp$cell_match=="skos:exactMatch", c(3:6)],
+#              by="cell_id", type="left")
+# tmp3[is.na(tmp3$annotation_label),]$annotation_label <-
+#   tmp3[is.na(tmp3$annotation_label),]$cell_label
+
+# Combine temp files
+#kid <- rbind(tmp1,tmp2,tmp3) 
+
+# Add in missing values for annotation labels
+names(kid)[17] <- "cell_label2"
+kid[is.na(kid$annotation_label),]$annotation_label <-
+  kid[is.na(kid$annotation_label),]$cell_label
+
+# Aggregate data
+kid <- kid %>%
+  select(organ,as,cell_id,annotation_label,
+         cell_count,percentage,tool,sex,
+         asct_relation_in_asctb_table,
+         indirect_asct_relation_in_asctb_table) %>%
+  mutate(cell_lab = paste0(cell_id,": ",annotation_label)) %>%
+  ddply(.(asct_relation_in_asctb_table,
+         indirect_asct_relation_in_asctb_table,
+         organ,sex,tool,as,cell_lab), summarise,
+        ct = length(cell_count),
+        med_cell_ct = median(cell_count),
+        med_cell_pt = median(percentage)) %>%
+  arrange(sex, tool, as, desc(med_cell_pt)) %>%
+  group_by(sex, tool, as) %>%
+  mutate(rank = row_number()) # %>%
+  #filter(mean_cell_pt >= .08)
+
+# Reorganize columns
+kid <- kid %>% select(tool,sex,organ,as,cell_lab,
+                      ct,med_cell_ct,med_cell_pt,
+                      asct_relation_in_asctb_table,
+                      indirect_asct_relation_in_asctb_table)
+
+write.csv(kid,"HRApop-m-kidney-as-ct-medianPercentage.csv", row.names = FALSE)
+
+# Factor Kidney AS
+kid$as <- levels(factor(kid$as))
+
+# Factor Kidney Cell Types
+#View(as.data.frame(levels(factor(kid$cell_lab))))
+kid$cell_lab <- factor(kid$cell_lab, 
+                       levels=c("CL:1000714: Cortical Collecting Duct Principal",
+                                "CL:1000716: Outer Medullary Collecting Duct Principal",
+                                "CL:1000718: Inner Medullary Collecting Duct",
+                                "CL:1001108: Medullary Thick Ascending Limb",
+                                "CL:1001109: Cortical Thick Ascending Limb",
+                                "CL:1001107: Ascending Thin Limb",
+                                "CL:4030012: Descending Thin Limb Type 1",
+                                "CL:4030014: Descending Thin Limb Type 3",
+                                "CL:1000768: Connecting Tubule",
+                                "CL:4030016: Distal Convoluted Tubule Type 1",
+                                "CL:4030009: Proximal Tubule Epithelial Segment 1",
+                                "CL:4030022: Medullary Fibroblast"))
+
+
+
+color_pal_kid <- c("#CD8490","#A26771","#C0BCC8","#AADCDF","#88B1B3","#556E6F",
+                   "#8DC599","#6F9A78","#BAD2E7","#9AADBE","#7E8E9C","#626F7A",
+                   "#D6B6D7","#AB92AC","#675868","#E97B74","#E07770","#BE655F",
+                   "#7A413D","#582F2C","#A1ACD2","#E9E4F3","#CD8490")
+
+color_pal_kid2 <- c("#7495AF","#70A5A8","#AADCDF","#D6B6D7","#A295C9",
+                    "#9C534E","#E97B74","#EDB8AC","#8DC599","#6F9A78","#F9CE8D","#A1ACD2",
+                    "#556E6F","#FF0043","#BAD2E7","#D8D7DB","#4B4B5E","#C4C5C6",
+                    "#A2A3A4","#818182","#5F6060","#3D3E3E","#cdcecf")
+
+kid_bg <- kid %>% arrange(sex,tool,as,mean_cell_pt) %>%
+              ggplot(aes(x=as,y=mean_cell_pt)) +
+                geom_bar(aes(fill=cell_lab), stat="identity") +
+                facet_wrap(facets=vars(tool, sex)) +
+                labs(x="Anatomical Structure", y="Percentage (%)",
+                     title="Kidney Anatomical Structures - Cell Types greater than 8% share, by Donor Sex and Analysis Tool") +
+                scale_fill_manual(name="Cell Type",values=color_pal_kid2) +
+                scale_y_continuous(expand = c(0,0),limits=c(0,1.05)) +
+                theme_light() +
+                theme(legend.position = "bottom",
+                      legend.title = element_text(face="bold", size=10),
+                     # legend.key.spacing.y = unit(.1)
+                      strip.background = element_rect(fill = "#cdcecf"),
+                      strip.text = element_text(color="black", size=10, hjust=0))
+
+# Export pdf
+ggsave(file=paste0("../output/barplots/kidney_as_celltype_bargraph_0.2.pdf"),
+       kid_bg, width=14, height=6, units="in")
+
+kid_bg
+```

@@ -1,0 +1,468 @@
+"cell_id","cell_label","count"
+"CL:0000235","LYVE1+IGF1+MP",8
+"CL:0000235","macrophage",8
+"CL:0000235","LYVE1+TIMD4+MP",8
+"CL:0000235","Macrophage",8
+"CL:0000235","Macrophages",8
+"CL:0000235","LYVE1+MP cycling",8
+"CL:0000235","MoMP",8
+"CL:0000235","Mono mac",8
+"CL:0000057","fibroblast",7
+"CL:0000057","FB4 activated",7
+"CL:0000057","Fibroblast",7
+"CL:0000057","FB2",7
+"CL:0000057","FB1",7
+"CL:0000057","Fibroblasts",7
+"CL:0000057","F2",7
+"CL:0000669","Pericytes",7
+"CL:0000669","pericyte",7
+"CL:0000669","PC2 atria",7
+"CL:0000669","Pericyte",7
+"CL:0000669","PC1 vent",7
+"CL:0000669","Pericyte 1",7
+"CL:0000669","PC3 str",7
+"CL:0002138","Lymphatic EC differentiating",7
+"CL:0002138","EC8 ln",7
+"CL:0002138","Lymphatic Endothelial",7
+"CL:0002138","endothelial cell of lymphatic vessel",7
+"CL:0002138","Lymphatic EC mature",7
+"CL:0002138","LE2",7
+"CL:0002138","Lymphatic EC proliferating",7
+"CL:0000115","Endothelial",5
+"CL:0000115","endothelial cell",5
+"CL:0000115","EC4 immune",5
+"CL:0000115","Endothelial cells",5
+"CL:0000115","EC10 CMC-like",5
+"CL:0002129","aCM1",5
+"CL:0002129","Atrial Cardiomyocyte",5
+"CL:0002129","aCM4",5
+"CL:0002129","aCM3",5
+"CL:0002129","aCM5",5
+"CL:0002144","capillary endothelial cell",5
+"CL:0002144","EC general capillary",5
+"CL:0002144","EC1 cap",5
+"CL:0002144","Capillary Endothelial",5
+"CL:0002144","EC2 cap",5
+"CL:0000084","T cell",4
+"CL:0000084","T cells proliferating",4
+"CL:0000084","T",4
+"CL:0000084","T cells",4
+"CL:0000097","mast cell",4
+"CL:0000097","Mast cells",4
+"CL:0000097","Mast cell",4
+"CL:0000097","Mast",4
+"CL:0000158","Club (nasal)",4
+"CL:0000158","club cell",4
+"CL:0000158","Club (non-nasal)",4
+"CL:0000158","Hillock-like",4
+"CL:0000192","Smooth muscle",4
+"CL:0000192","Smooth Muscle",4
+"CL:0000192","smooth muscle cell",4
+"CL:0000192","Smooth muscle FAM83D+",4
+"CL:0000623","NK cells",4
+"CL:0000623","ILC1 NK",4
+"CL:0000623","Resident NK",4
+"CL:0000623","NK",4
+"CL:0000775","neutrophil",4
+"CL:0000775","Neutrophil",4
+"CL:0000775","Neutrophils",4
+"CL:0000775","Neut",4
+"CL:0000786","plasma cell",4
+"CL:0000786","Plasma cells",4
+"CL:0000786","Plasma",4
+"CL:0000786","B plasma",4
+"CL:0000814","mature NK T cell",4
+"CL:0000814","Natural Killer T",4
+"CL:0000814","Circulating NK/NKT",4
+"CL:0000814","T/NK cycling",4
+"CL:0002131","vCM1",4
+"CL:0002131","Ventricular Cardiomycoyte",4
+"CL:0002131","vCM3 stressed",4
+"CL:0002131","vCM4",4
+"CL:0011031","Mono+mono derived cells",4
+"CL:0011031","Monocyte/cDC",4
+"CL:0011031","Monocyte-derived",4
+"CL:0011031","moDC",4
+"CL:1000413","EC arterial",4
+"CL:1000413","Arterial Endothelial",4
+"CL:1000413","EC5 art",4
+"CL:1000413","endothelial cell of artery",4
+"CL:0000236","B cells",3
+"CL:0000236","B",3
+"CL:0000236","B cell",3
+"CL:0000359","SMC1 basic",3
+"CL:0000359","SMC2 art",3
+"CL:0000359","vascular associated smooth muscle cell",3
+"CL:0000492","CD4+T Tfh",3
+"CL:0000492","CD4 T cells",3
+"CL:0000492","CD4-positive helper T cell",3
+"CL:0000784","plasmacytoid dendritic cell",3
+"CL:0000784","Plasmacytoid DCs",3
+"CL:0000784","pDCs",3
+"CL:0000875","non-classical monocyte",3
+"CL:0000875","Non-classical monocytes",3
+"CL:0000875","Non-classical monocyte",3
+"CL:0002394","DC1",3
+"CL:0002394","cDC1s",3
+"CL:0002394","CD141-positive myeloid dendritic cell",3
+"CL:0002399","DC2",3
+"CL:0002399","cDC2s",3
+"CL:0002399","CD1c-positive myeloid dendritic cell",3
+"CL:0002573","Neuronal",3
+"CL:0002573","Schwann / Neural",3
+"CL:0002573","Schwann 1",3
+"CL:1000414","EC venous pulmonary",3
+"CL:1000414","Venous Endothelial",3
+"CL:1000414","EC venous systemic",3
+"ASCTB-TEMP:lti-like-ncr-ilc3","LTi-like NCR+ ILC3",2
+"ASCTB-TEMP:lti-like-ncr-ilc3","LTi-like NCR- ILC3",2
+"CL:0000037","Hematopoietic stem cells",2
+"CL:0000037","hematopoietic stem cell",2
+"CL:0000071","blood vessel endothelial cell",2
+"CL:0000071","VE2",2
+"CL:0000077","Mesothelial",2
+"CL:0000077","Meso",2
+"CL:0000136","Adip1",2
+"CL:0000136","Adipocyte",2
+"CL:0000182","hepatocyte",2
+"CL:0000182","Hepatocytes",2
+"CL:0000186","Myofibroblasts",2
+"CL:0000186","myofibroblast cell",2
+"CL:0000313","SMG serous (nasal)",2
+"CL:0000313","SM activated stress response",2
+"CL:0000451","DC",2
+"CL:0000451","dendritic cell",2
+"CL:0000576","Classical monocytes",2
+"CL:0000576","monocyte",2
+"CL:0000583","Alveolar macrophages",2
+"CL:0000583","Alveolar Mph proliferating",2
+"CL:0000625","CD8+T trans",2
+"CL:0000625","CD8-positive, alpha-beta T cell",2
+"CL:0000767","basophil",2
+"CL:0000767","Basophils",2
+"CL:0000794","CD8+T cytox",2
+"CL:0000794","CD8-positive, alpha-beta cytotoxic T cell",2
+"CL:0000815","regulatory T cell",2
+"CL:0000815","Treg",2
+"CL:0000895","CD4+T naive",2
+"CL:0000895","naive thymus-derived CD4-positive, alpha-beta T cell",2
+"CL:0000913","CD8+T em",2
+"CL:0000913","CD8 T cells",2
+"CL:0001050","CD8+T te",2
+"CL:0001050","effector CD8-positive, alpha-beta T cell",2
+"CL:0001056","Migratory DCs",2
+"CL:0001056","MigDC",2
+"CL:0001058","Plasmacytoid DCs",2
+"CL:0001058","Plasmacytoid Dendritic",2
+"CL:0001065","ILC",2
+"CL:0001065","innate lymphoid cell",2
+"CL:0002062","AT1",2
+"CL:0002062","type I pneumocyte",2
+"CL:0002063","type II pneumocyte",2
+"CL:0002063","AT2",2
+"CL:0002350","Endocardial",2
+"CL:0002350","EC7 endocardial",2
+"CL:0002543","vein endothelial cell",2
+"CL:0002543","EC6 ven",2
+"CL:0005012","Multiciliated (non-nasal)",2
+"CL:0005012","Multiciliated (nasal)",2
+"CL:1001318","Vascular Smooth Muscle / Pericyte",2
+"CL:1001318","Cortical Vascular Smooth Muscle / Pericyte",2
+"CL:4028006","Adventitial fibroblasts",2
+"CL:4028006","adventitial cell",2
+"ASCTB-TEMP:-cells-ins-","β cells (INS+)",1
+"ASCTB-TEMP:activated-cd4-t","Activated CD4 T",1
+"ASCTB-TEMP:activated-cd8-t","Activated CD8 T",1
+"ASCTB-TEMP:activated-t","Activated T",1
+"ASCTB-TEMP:adult-glia","Adult Glia",1
+"ASCTB-TEMP:alveolar-m-proliferating","Alveolar Mφ proliferating",1
+"ASCTB-TEMP:angiogenic-pericyte","angiogenic pericyte",1
+"ASCTB-TEMP:arterial-capillary","arterial capillary",1
+"ASCTB-TEMP:b","B",1
+"ASCTB-TEMP:best2-goblet-cell","BEST2+ Goblet cell",1
+"ASCTB-TEMP:best4-epithelial","BEST4+ epithelial",1
+"ASCTB-TEMP:branch-a1-imn-","Branch A1 (iMN)",1
+"ASCTB-TEMP:branch-a2-ipan-in-","Branch A2 (IPAN/IN)",1
+"ASCTB-TEMP:branch-a3-ipan-in-","Branch A3 (IPAN/IN)",1
+"ASCTB-TEMP:branch-a4-in-","Branch A4 (IN)",1
+"ASCTB-TEMP:branch-b1-emn-","Branch B1 (eMN)",1
+"ASCTB-TEMP:branch-b2-emn-","Branch B2 (eMN)",1
+"ASCTB-TEMP:branch-b3-ipan-","Branch B3 (IPAN)",1
+"ASCTB-TEMP:cd4-t-cell","CD4+ T cell",1
+"ASCTB-TEMP:cd57-enterocyte","CD57+ Enterocyte",1
+"ASCTB-TEMP:cd66-enterocyte","CD66+ Enterocyte",1
+"ASCTB-TEMP:cd68-macrophage","CD68 / Macrophage",1
+"ASCTB-TEMP:cd7-immune","CD7+ Immune",1
+"ASCTB-TEMP:cd8-t","CD8+ T",1
+"ASCTB-TEMP:cd8-tmem","CD8 Tmem",1
+"ASCTB-TEMP:cdc1","cDC1",1
+"ASCTB-TEMP:cdc2","cDC2",1
+"ASCTB-TEMP:clc-mast-cell","CLC+ Mast cell",1
+"ASCTB-TEMP:cldn10-cells","CLDN10+ cells",1
+"ASCTB-TEMP:clp","CLP",1
+"ASCTB-TEMP:colonocyte","Colonocyte",1
+"ASCTB-TEMP:contractile-pericyte-pln-","Contractile pericyte (PLN+)",1
+"ASCTB-TEMP:cx3cr1-cd8-tmem","CX3CR1+ CD8 Tmem",1
+"ASCTB-TEMP:cycling-b-cell","Cycling B cell",1
+"ASCTB-TEMP:cycling-ec","cycling EC",1
+"ASCTB-TEMP:cycling-encc-glia","cycling ENCC/glia",1
+"ASCTB-TEMP:cycling-neuroblast","cycling neuroblast",1
+"ASCTB-TEMP:cycling-plasma-cell","Cycling plasma cell",1
+"ASCTB-TEMP:cycling-stromal","cycling stromal",1
+"ASCTB-TEMP:cycling-ta","Cycling TA",1
+"ASCTB-TEMP:d-cells-sst-","D cells (SST+)",1
+"ASCTB-TEMP:dc","DC",1
+"ASCTB-TEMP:descending-vasa-recta-endothelial","Descending Vasa Recta Endothelial ",1
+"ASCTB-TEMP:differentiating-glia","Differentiating glia",1
+"ASCTB-TEMP:distal-progenitor","Distal progenitor",1
+"ASCTB-TEMP:dz-gc-cell","DZ GC cell",1
+"ASCTB-TEMP:ec-cells-npw-","EC cells (NPW+)",1
+"ASCTB-TEMP:ec-cells-tac1-","EC cells (TAC1+)",1
+"ASCTB-TEMP:eecs","EECs",1
+"ASCTB-TEMP:encc-glia-progenitor","ENCC/glia Progenitor",1
+"ASCTB-TEMP:endothelial","Endothelial",1
+"ASCTB-TEMP:enterocyte","Enterocyte",1
+"ASCTB-TEMP:fcrl4-memory-b","FCRL4+ Memory B",1
+"ASCTB-TEMP:fdc","FDC",1
+"ASCTB-TEMP:fetal-arterial-ec","Fetal arterial EC",1
+"ASCTB-TEMP:fetal-venous-ec","Fetal venous EC",1
+"ASCTB-TEMP:gc-b-cell","GC B cell",1
+"ASCTB-TEMP:gdt","gdT",1
+"ASCTB-TEMP:germ","Germ",1
+"ASCTB-TEMP:glia-1-dhh-","Glia 1 (DHH+)",1
+"ASCTB-TEMP:glia-2-eln-","Glia 2 (ELN+)",1
+"ASCTB-TEMP:glia-3-bcan-","Glia 3 (BCAN+)",1
+"ASCTB-TEMP:goblet","Goblet",1
+"ASCTB-TEMP:goblet-cell","Goblet cell",1
+"ASCTB-TEMP:i-cells-cck-","I cells (CCK+)",1
+"ASCTB-TEMP:icc","ICC",1
+"ASCTB-TEMP:iga-plasma-cell","IgA plasma cell",1
+"ASCTB-TEMP:igg-plasma-cell","IgG plasma cell",1
+"ASCTB-TEMP:igm-plasma-cell","IgM plasma cell",1
+"ASCTB-TEMP:ilc2","ILC2",1
+"ASCTB-TEMP:ilc3","ILC3",1
+"ASCTB-TEMP:ilcp","ILCP",1
+"ASCTB-TEMP:immature-b","Immature B",1
+"ASCTB-TEMP:immature-pericyte","Immature pericyte",1
+"ASCTB-TEMP:interstitial-m-perivascular","Interstitial Mφ perivascular",1
+"ASCTB-TEMP:k-cells-gip-","K cells (GIP+)",1
+"ASCTB-TEMP:l-cells-pyy-","L cells (PYY+)",1
+"ASCTB-TEMP:lec1-ackr4-","LEC1 (ACKR4+)",1
+"ASCTB-TEMP:lec2-madcam1-","LEC2 (MADCAM1+)",1
+"ASCTB-TEMP:lec3-adgrg3-","LEC3 (ADGRG3+)",1
+"ASCTB-TEMP:lec4-stab2-","LEC4 (STAB2+)",1
+"ASCTB-TEMP:lec5-cldn11-","LEC5 (CLDN11+)",1
+"ASCTB-TEMP:lec6-adamts4-","LEC6 (ADAMTS4+)",1
+"ASCTB-TEMP:lymphatic","Lymphatic",1
+"ASCTB-TEMP:lymphoid-dc","Lymphoid DC",1
+"ASCTB-TEMP:lyve1-macrophage","LYVE1+ Macrophage",1
+"ASCTB-TEMP:lz-gc-cell","LZ GC cell",1
+"ASCTB-TEMP:m-x-cells-mln-ghrl-","M/X cells (MLN/GHRL+)",1
+"ASCTB-TEMP:m1-macrophage","M1 Macrophage",1
+"ASCTB-TEMP:m2-macrophage","M2 Macrophage",1
+"ASCTB-TEMP:macrophages","Macrophages",1
+"ASCTB-TEMP:mait-cell","MAIT cell",1
+"ASCTB-TEMP:mast-cell","Mast cell",1
+"ASCTB-TEMP:mature-arterial-ec","Mature arterial EC",1
+"ASCTB-TEMP:mature-venous-ec","Mature venous EC",1
+"ASCTB-TEMP:megakaryocyte","Megakaryocyte",1
+"ASCTB-TEMP:memory-b","Memory B",1
+"ASCTB-TEMP:mesoderm-1-hand1-","Mesoderm 1 (HAND1+)",1
+"ASCTB-TEMP:mesoderm-2-zeb2-","Mesoderm 2 (ZEB2+)",1
+"ASCTB-TEMP:mesothelium","Mesothelium",1
+"ASCTB-TEMP:mesothelium-prg4-","Mesothelium (PRG4+)",1
+"ASCTB-TEMP:mesothelium-rgs5-","Mesothelium (RGS5+)",1
+"ASCTB-TEMP:microfold-cell","Microfold cell",1
+"ASCTB-TEMP:mln-stroma-fmo2-","mLN Stroma (FMO2+)",1
+"ASCTB-TEMP:mlto","mLTo",1
+"ASCTB-TEMP:mmp9-inflammatory-macrophage","MMP9+ Inflammatory macrophage",1
+"ASCTB-TEMP:monocyte-derived-m","Monocyte-derived Mφ",1
+"ASCTB-TEMP:monocytes","Monocytes",1
+"ASCTB-TEMP:mpo-mono-neutrophil","MPO+ mono-neutrophil",1
+"ASCTB-TEMP:muc1-enterocyte","MUC1+ Enterocyte",1
+"ASCTB-TEMP:myofibroblast","myofibroblast",1
+"ASCTB-TEMP:myofibroblast-rspo2-","myofibroblast (RSPO2+)",1
+"ASCTB-TEMP:n-cells-nts-","N cells (NTS+)",1
+"ASCTB-TEMP:naive-b","Naive B",1
+"ASCTB-TEMP:nerve","Nerve",1
+"ASCTB-TEMP:neuroblast","Neuroblast",1
+"ASCTB-TEMP:neuroendocrine","Neuroendocrine",1
+"ASCTB-TEMP:neutrophil","Neutrophil",1
+"ASCTB-TEMP:nk","NK",1
+"ASCTB-TEMP:nk-cell","NK cell",1
+"ASCTB-TEMP:nk-t-cell","NK T cell",1
+"ASCTB-TEMP:non-classical-monocytes","Non-classical monocytes",1
+"ASCTB-TEMP:paneth","Paneth",1
+"ASCTB-TEMP:pdc","pDC",1
+"ASCTB-TEMP:pericyte","Pericyte",1
+"ASCTB-TEMP:peritubular-capilary-endothelial","Peritubular Capilary Endothelial ",1
+"ASCTB-TEMP:plasma","Plasma",1
+"ASCTB-TEMP:pre-b","Pre-B",1
+"ASCTB-TEMP:pro-b","Pro-B",1
+"ASCTB-TEMP:progenitor-neurog3-","Progenitor (NEUROG3+)",1
+"ASCTB-TEMP:proximal-progenitor","Proximal progenitor",1
+"ASCTB-TEMP:rbc","RBC",1
+"ASCTB-TEMP:sell-cd4-t","SELL+ CD4 T",1
+"ASCTB-TEMP:sell-cd8-t","SELL+ CD8 T",1
+"ASCTB-TEMP:smc-part1-capn3-","SMC (PART1/CAPN3+)",1
+"ASCTB-TEMP:smc-plpp2-","SMC (PLPP2+)",1
+"ASCTB-TEMP:smooth-muscle","Smooth muscle",1
+"ASCTB-TEMP:stat1-naive-b","STAT1+ Naive B",1
+"ASCTB-TEMP:stem-cells","Stem cells",1
+"ASCTB-TEMP:stroma","Stroma",1
+"ASCTB-TEMP:stromal-1-adamdec1-","Stromal 1 (ADAMDEC1+)",1
+"ASCTB-TEMP:stromal-1-ccl11-","Stromal 1 (CCL11+)",1
+"ASCTB-TEMP:stromal-2-ch25h-","Stromal 2 (CH25H+)",1
+"ASCTB-TEMP:stromal-2-npy-","Stromal 2 (NPY+)",1
+"ASCTB-TEMP:stromal-3-c7-","Stromal 3 (C7+)",1
+"ASCTB-TEMP:stromal-3-kcnn3-","Stromal 3 (KCNN3+)",1
+"ASCTB-TEMP:stromal-4-mmp1-","Stromal 4 (MMP1+)",1
+"ASCTB-TEMP:t-helper","T-helper",1
+"ASCTB-TEMP:t-killer","T-Killer",1
+"ASCTB-TEMP:t-reg","T-reg",1
+"ASCTB-TEMP:t-reticular","T reticular",1
+"ASCTB-TEMP:ta","TA",1
+"ASCTB-TEMP:tfh","Tfh",1
+"ASCTB-TEMP:th1","Th1",1
+"ASCTB-TEMP:th17","Th17",1
+"ASCTB-TEMP:transitional-club-at2","Transitional Club-AT2",1
+"ASCTB-TEMP:transitional-stromal-3-c3-","Transitional Stromal 3 (C3+)",1
+"ASCTB-TEMP:trdv2-trgv9-gdt","TRDV2/TRGV9 gdT",1
+"ASCTB-TEMP:treg","Treg",1
+"ASCTB-TEMP:trgv2-gdt","TRGV2 gdT",1
+"ASCTB-TEMP:trgv4-gdt","TRGV4 gdT",1
+"ASCTB-TEMP:trgv5-7-gdt","TRGV5/7 gdT",1
+"ASCTB-TEMP:tuft","Tuft",1
+"ASCTB-TEMP:venous-capillary","venous capillary",1
+"CL:0000066","epithelial cell",1
+"CL:0000113","Cycling Mononuclear Phagocyte",1
+"CL:0000131","gut endothelial cell",1
+"CL:0000148","melanocyte",1
+"CL:0000165","Neuroendocrine",1
+"CL:0000187","muscle cell",1
+"CL:0000232","erythrocyte",1
+"CL:0000233","platelet",1
+"CL:0000453","Langerhans cell",1
+"CL:0000499","stromal cell",1
+"CL:0000545","CD4+T Th1",1
+"CL:0000546","CD4+T Th2",1
+"CL:0000624","CD4-positive, alpha-beta T cell",1
+"CL:0000646","basal cell",1
+"CL:0000648","Renin-positive Juxtaglomerular Granular",1
+"CL:0000650","Mesangial",1
+"CL:0000653","Podocyte",1
+"CL:0000746","cardiac muscle cell",1
+"CL:0000787","memory B cell",1
+"CL:0000788","naive B cell",1
+"CL:0000791","MAIT-like",1
+"CL:0000792","CD4+T reg",1
+"CL:0000798","gdT",1
+"CL:0000860","classical monocyte",1
+"CL:0000863","Inf mac",1
+"CL:0000890","M2 Macrophage",1
+"CL:0000897","CD4-positive, alpha-beta memory T cell",1
+"CL:0000899","CD4+T Th17",1
+"CL:0000900","naive thymus-derived CD8-positive, alpha-beta T cell",1
+"CL:0000909","CD8-positive, alpha-beta memory T cell",1
+"CL:0000910","Tc",1
+"CL:0000912","Th",1
+"CL:0000921","type I NK T cell",1
+"CL:0000938","NK CD56hi",1
+"CL:0000939","NK CD16hi",1
+"CL:0000990","Classical Dendritic",1
+"CL:0001043","CD4+T act",1
+"CL:0001044","effector CD4-positive, alpha-beta T cell",1
+"CL:0001078","ILC1 3",1
+"CL:0002057","CD14+Mo",1
+"CL:0002068","Purkinje cell",1
+"CL:0002071","enterocyte of epithelium of large intestine",1
+"CL:0002072","AVN P_cell",1
+"CL:0002075","Tuft",1
+"CL:0002153","Differentiated KC",1
+"CL:0002187","Undifferentiated KC",1
+"CL:0002201","Intercalated Type B",1
+"CL:0002241","Peribronchial fibroblasts",1
+"CL:0002326","luminal epithelial cell of mammary gland",1
+"CL:0002340","luminal cell of prostate epithelium",1
+"CL:0002341","basal cell of prostate epithelium",1
+"CL:0002370","respiratory goblet cell",1
+"CL:0002393","intermediate monocyte",1
+"CL:0002396","CD16+Mo",1
+"CL:0002457","LC",1
+"CL:0002480","Goblet (nasal)",1
+"CL:0002538","intrahepatic cholangiocyte",1
+"CL:0002548","fibroblast of cardiac tissue",1
+"CL:0002598","bronchial smooth muscle cell",1
+"CL:0002633","Basal resting",1
+"CL:0005006","Ionocyte",1
+"CL:0009006","intestinal enteroendocrine cell",1
+"CL:0009009","paneth cell of colon",1
+"CL:0009011","transit amplifying cell of colon",1
+"CL:0009012","transit amplifying cell of small intestine",1
+"CL:0009016","intestinal crypt stem cell of large intestine",1
+"CL:0009017","intestinal crypt stem cell of small intestine",1
+"CL:0009080","intestinal tuft cell",1
+"CL:0009089","Pericytes",1
+"CL:0010003","AT0",1
+"CL:0010005","AVN bundle_cell",1
+"CL:0010008","cardiac endothelial cell",1
+"CL:0010020","NC1 glial",1
+"CL:0017000","pulmonary ionocyte",1
+"CL:0019001","pre-TB secretory",1
+"CL:0019003","Goblet (bronchial)",1
+"CL:0019032","intestinal tuft cell",1
+"CL:1000271","lung ciliated cell",1
+"CL:1000312","Goblet (subsegmental)",1
+"CL:1000320","large intestine goblet cell",1
+"CL:1000331","serous cell of epithelium of bronchus",1
+"CL:1000334","enterocyte of epithelium of small intestine",1
+"CL:1000343","paneth cell of epithelium of small intestine",1
+"CL:1000398","endothelial cell of hepatic sinusoid",1
+"CL:1000412","Afferent / Efferent Arteriole Endothelial",1
+"CL:1000452","Parietal Epithelial",1
+"CL:1000458","Melanocyte",1
+"CL:1000477","SAN P_cell",1
+"CL:1000488","Cholangiocytes",1
+"CL:1000491","Mesothelium",1
+"CL:1000495","small intestine goblet cell",1
+"CL:1000597","Papillary Tip Epithelial",1
+"CL:1000692","Fibroblast",1
+"CL:1000714","Cortical Collecting Duct Principal",1
+"CL:1000715","Cortical Collecting Duct Intercalated Type A",1
+"CL:1000716","Outer Medullary Collecting Duct Principal",1
+"CL:1000717","Outer Medullary Collecting Duct Intercalated Type A",1
+"CL:1000718","Inner Medullary Collecting Duct",1
+"CL:1000768","Connecting Tubule",1
+"CL:1000850","Macula Densa",1
+"CL:1001005","Glomerular Capillary Endothelial",1
+"CL:1001107","Ascending Thin Limb",1
+"CL:1001108","Medullary Thick Ascending Limb",1
+"CL:1001109","Cortical Thick Ascending Limb",1
+"CL:1001131","Ascending Vasa Recta Endothelial",1
+"CL:1001428","bladder urothelial cell",1
+"CL:1001516","intestinal enteroendocrine cell",1
+"CL:1001603","Monocyte-derived Mph",1
+"CL:2000016","lung microvascular endothelial cell",1
+"CL:2000055","liver dendritic cell",1
+"CL:4006000","fibroblast of breast",1
+"CL:4023054","Subpleural fibroblasts",1
+"CL:4028003","EC aerocyte capillary",1
+"CL:4028004","Alveolar fibroblasts",1
+"CL:4030009","Proximal Tubule Epithelial Segment 1",1
+"CL:4030010","Proximal Tubule Epithelial Segment 2",1
+"CL:4030011","Proximal Tubule Epithelial Segment 3",1
+"CL:4030012","Descending Thin Limb Type 1",1
+"CL:4030013","Descending Thin Limb Type 2",1
+"CL:4030014","Descending Thin Limb Type 3",1
+"CL:4030016","Distal Convoluted Tubule Type 1",1
+"CL:4030017","Distal Convoluted Tubule Type 2",1
+"CL:4030018","Connecting Tubule Principal",1
+"CL:4030020","Connecting Tubule Intercalated Type A",1
+"CL:4030022","Medullary Fibroblast",1
+"CL:4033005","SMG serous (bronchial)",1
+"CL:4033022","SMG mucous",1
+"CL:4033023","SMG duct",1
+"CL:4033041","Alveolar Mph CCL3+",1
+"CL:4033042","Alveolar Mph MT-positive",1
+"CL:4033043","Interstitial Mph perivascular",1
+"CL:4033044","Deuterosomal",1

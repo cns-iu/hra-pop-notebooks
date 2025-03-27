@@ -1,0 +1,586 @@
+"tool","sex","organ","as","cell_label2","asct_relation_in_asctb_table","indirect_asct_relation_in_asctb_table","count","median_cell_count","median_percentage"
+"Azimuth","Female","Kidney","Hilum of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,141.21,0.00270251333740379
+"Azimuth","Female","Kidney","Hilum of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,93.617,0.00179166624961214
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000084: T cell","false","true",2,672.055,0.0128619616243106
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000084: T cell:cycling","false","true",4,672.055,0.0128619616243106
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000084: T cell:proliferating","false","true",6,672.055,0.0128619616243106
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000097: mast cell","false","true",2,72.697,0.0013912939033301
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000236: B cell","false","true",2,714.941,0.0136827249341888
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000236: B cell:activated","false","true",2,714.941,0.0136827249341888
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000648: kidney granular cell","false","true",2,1.569,0.0000300279259711532
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000650: mesangial cell","false","false",2,789.207,0.01510404676349
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000653: podocyte","false","true",2,176.774,0.00338314632608326
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000786: plasma cell","false","true",2,5.23,0.000100093086570511
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000786: plasma cell: early precursor","false","true",2,5.23,0.000100093086570511
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000786: plasma cell:committed light zone germinal center B cell","false","true",2,5.23,0.000100093086570511
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000786: plasma cell:doublet","false","true",2,5.23,0.000100093086570511
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000814: mature NK T cell","false","true",2,2.615,0.0000500465432852553
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000814: mature NK T cell:proliferating","false","true",2,2.615,0.0000500465432852553
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000875: non-classical monocyte","false","true",2,1.569,0.0000300279259711532
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000875: non-classical monocyte:tonsil C1Q slan-like","false","true",2,1.569,0.0000300279259711532
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000890: alternatively activated macrophage","false","false",2,80.019,0.00153142422452881
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0000990: conventional dendritic cell","false","true",2,527.707,0.0100993924349645
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0001058: plasmacytoid dendritic cell, human","false","true",2,2.092,0.0000400372346282042
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0001058: plasmacytoid dendritic cell, human:Interferon 1 positive","false","true",2,2.092,0.0000400372346282042
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel","false","true",2,6.276,0.000120111703884613
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel:1","false","true",2,6.276,0.000120111703884613
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel:2","false","true",2,6.276,0.000120111703884613
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel:differentiating","false","true",2,6.276,0.000120111703884613
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel:mature","false","true",2,6.276,0.000120111703884613
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel:proliferating","false","true",2,6.276,0.000120111703884613
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0002201: renal beta-intercalated cell","false","true",2,471.223,0.009018387100003
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0002573: Schwann cell","false","true",2,0.523,0.0000100093086570511
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:0011031: monocyte-derived dendritic cell","false","true",2,17.782,0.000340316494339736
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000412: endothelial cell of arteriole:afferent/efferent","false","true",4,97.278,0.0018617314102115
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000452: parietal epithelial cell","false","true",2,961.274,0.0183971093116598
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000597: papillary tips cell","false","true",2,0.523,0.0000100093086570511
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000692: kidney interstitial fibroblast","false","true",2,777.701,0.0148838419730349
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000714: kidney cortex collecting duct principal cell","false","true",2,666.825,0.0127618685377401
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000715: kidney cortex collecting duct intercalated cell","false","true",2,874.456,0.0167355640745894
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000716: kidney outer medulla collecting duct principal cell","false","true",2,486.39,0.00930865705105748
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000717: kidney outer medulla collecting duct intercalated cell","false","true",2,2.615,0.0000500465432852553
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000718: kidney inner medulla collecting duct principal cell","false","true",2,6712.705,0.12846947661325
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000768: kidney connecting tubule epithelial cell","false","true",2,4540.686,0.0869008177605173
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1000850: macula densa epithelial cell","false","true",2,288.173,0.00551512907003513
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001005: glomerular capillary endothelial cell","false","true",2,8.368,0.000160148938512817
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001107: kidney loop of Henle thin ascending limb epithelial cell","false","true",2,5246.736,0.100413384447536
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001108: kidney loop of Henle medullary thick ascending limb epithelial cell","false","true",2,3058.504,0.0585344370264346
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001109: kidney loop of Henle cortical thick ascending limb epithelial cell","false","true",2,500.511,0.00957890838479786
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001131: vasa recta ascending limb cell","false","true",2,200.309,0.00383356521565055
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:1001318: renal interstitial pericyte","false","true",4,388.589,0.00743691633218894
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030009: epithelial cell of proximal tubule segment 1","false","true",2,11462.068,0.219364008527931
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030011: epithelial cell of proximal tubule segment 3","false","true",2,404.279,0.00773719559190047
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030012: kidney loop of Henle short descending thin limb epithelial cell","false","true",2,4846.641,0.0927562633248921
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030013: kidney loop of Henle long descending thin limb outer medulla epithelial cell","false","true",2,3177.748,0.0608165594002422
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030014: kidney loop of Henle long descending thin limb inner medulla epithelial cell","false","true",2,520.385,0.0099592621137658
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030016: epithelial cell of early distal convoluted tubule","false","true",2,2496.802,0.0477844395287617
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030018: kidney connecting tubule principal cell","false","true",2,299.156,0.00572532455183321
+"Azimuth","Female","Kidney","Hilum of Kidney","CL:4030022: renal medullary fibroblast","false","true",2,455.533,0.00871810784029147
+"Azimuth","Female","Kidney","Kidney Capsule","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,261.448,0.00526890419497058
+"Azimuth","Female","Kidney","Kidney Capsule","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,650.567,0.0131107340481068
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000084: T cell","false","true",2,137.853,0.00277812127072794
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000084: T cell:cycling","false","true",4,137.853,0.00277812127072794
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000084: T cell:proliferating","false","true",6,137.853,0.00277812127072794
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000097: mast cell","false","true",2,16.922,0.000341025354132723
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000236: B cell","false","true",2,268.924,0.00541956638309824
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000236: B cell:activated","false","true",2,268.924,0.00541956638309824
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000648: kidney granular cell","false","true",2,7.564,0.00015243563282472
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000650: mesangial cell","false","false",2,71.384,0.00143858609380749
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000653: podocyte","false","true",2,235.94,0.00475484706619044
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000786: plasma cell","false","true",2,100.389,0.00202311749651518
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000786: plasma cell: early precursor","false","true",2,100.389,0.00202311749651518
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000786: plasma cell:committed light zone germinal center B cell","false","true",2,100.389,0.00202311749651518
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000786: plasma cell:doublet","false","true",2,100.389,0.00202311749651518
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000814: mature NK T cell","false","true",2,1.464,0.0000295036708693007
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000814: mature NK T cell:proliferating","false","true",2,1.464,0.0000295036708693007
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000875: non-classical monocyte","false","true",2,0.705,0.0000142077103571428
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000875: non-classical monocyte:tonsil C1Q slan-like","false","true",2,0.705,0.0000142077103571428
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000890: alternatively activated macrophage","false","false",2,147.41,0.00297072139538498
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0000990: conventional dendritic cell","false","true",2,1.414,0.0000284960318368792
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0001058: plasmacytoid dendritic cell, human","false","true",2,4.218,0.0000850044287750753
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0001058: plasmacytoid dendritic cell, human:Interferon 1 positive","false","true",2,4.218,0.0000850044287750753
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0002138: endothelial cell of lymphatic vessel","false","true",2,29.486,0.00059422489019959
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0002138: endothelial cell of lymphatic vessel:1","false","true",2,29.486,0.00059422489019959
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0002138: endothelial cell of lymphatic vessel:2","false","true",2,29.486,0.00059422489019959
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0002138: endothelial cell of lymphatic vessel:differentiating","false","true",2,29.486,0.00059422489019959
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0002138: endothelial cell of lymphatic vessel:mature","false","true",2,29.486,0.00059422489019959
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0002138: endothelial cell of lymphatic vessel:proliferating","false","true",2,29.486,0.00059422489019959
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0002201: renal beta-intercalated cell","false","true",2,109.608,0.00220890598131305
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0002573: Schwann cell","false","true",2,53.866,0.0010855496824083
+"Azimuth","Female","Kidney","Kidney Capsule","CL:0011031: monocyte-derived dendritic cell","false","true",2,6.132,0.000123576850936169
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000412: endothelial cell of arteriole:afferent/efferent","false","true",4,4.826,0.0000972573194093204
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000452: parietal epithelial cell","false","true",2,140.31,0.00282763665278113
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000692: kidney interstitial fibroblast","false","true",2,1052.967,0.0212202129810348
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000714: kidney cortex collecting duct principal cell","false","true",2,1376.043,0.0277310927418068
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000715: kidney cortex collecting duct intercalated cell","false","true",2,404.543,0.00815266634185759
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000716: kidney outer medulla collecting duct principal cell","false","true",2,474.378,0.00956003577844065
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000717: kidney outer medulla collecting duct intercalated cell","false","true",2,165.839,0.00334211698995489
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000718: kidney inner medulla collecting duct principal cell","false","true",2,10744.826,0.216538121483541
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000768: kidney connecting tubule epithelial cell","false","true",2,3389.71,0.0683120820917877
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1000850: macula densa epithelial cell","false","true",2,1052.011,0.0212009469227349
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001005: glomerular capillary endothelial cell","false","true",2,91.15,0.00183692595610434
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001107: kidney loop of Henle thin ascending limb epithelial cell","false","true",2,3128.057,0.0630390465767842
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001108: kidney loop of Henle medullary thick ascending limb epithelial cell","false","true",2,3580.251,0.0721520130693201
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001109: kidney loop of Henle cortical thick ascending limb epithelial cell","false","true",2,2689.926,0.0542094886385072
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001131: vasa recta ascending limb cell","false","true",2,294.814,0.00594132187408607
+"Azimuth","Female","Kidney","Kidney Capsule","CL:1001318: renal interstitial pericyte","false","true",4,295.078,0.00594664220817726
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030009: epithelial cell of proximal tubule segment 1","false","true",2,2560.659,0.0516043991424266
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030010: epithelial cell of proximal tubule segment 2","false","true",2,642.973,0.0129576938318626
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030011: epithelial cell of proximal tubule segment 3","false","true",2,2450.245,0.0493792500199109
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030012: kidney loop of Henle short descending thin limb epithelial cell","false","true",2,1482.225,0.0298709552966183
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030013: kidney loop of Henle long descending thin limb outer medulla epithelial cell","false","true",2,2276.723,0.0458822992162342
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030014: kidney loop of Henle long descending thin limb inner medulla epithelial cell","false","true",2,941.264,0.0189690869242633
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030016: epithelial cell of early distal convoluted tubule","false","true",2,6735.06,0.135730186834011
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030017: epithelial cell of late distal convoluted tubule","false","true",2,20.938,0.000421958921216816
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030018: kidney connecting tubule principal cell","false","true",2,270.159,0.00544445506719905
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030020: kidney connecting tubule alpha-intercalated cell","false","true",2,4.505,0.0000907882768211746
+"Azimuth","Female","Kidney","Kidney Capsule","CL:4030022: renal medullary fibroblast","false","true",2,1246.17,0.0251137906606533
+"Azimuth","Female","Kidney","Kidney Pyramid","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,29730.1,0.0151337261070282
+"Azimuth","Female","Kidney","Kidney Pyramid","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,13211.123,0.00672495272630298
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000084: T cell","false","false",2,4506.317,0.00229388287390372
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000084: T cell:cycling","false","false",4,4506.317,0.00229388287390372
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000084: T cell:proliferating","false","false",6,4506.317,0.00229388287390372
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000097: mast cell","false","false",2,741.808,0.000377607848476875
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000113: mononuclear phagocyte","false","false",2,6.998,0.00000356224214842813
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000236: B cell","false","false",2,8301.785,0.00422591718122155
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000236: B cell:activated","false","false",2,8301.785,0.00422591718122155
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000648: kidney granular cell","false","false",2,549.475,0.000279703201558666
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000650: mesangial cell","false","false",2,10412.233,0.00530021366845588
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000653: podocyte","false","false",2,2997.263,0.00152571828930039
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000775: neutrophil","false","false",2,6.996,0.00000356122407407876
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000786: plasma cell","false","false",2,633.782,0.000322618598644624
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000786: plasma cell: early precursor","false","false",2,633.782,0.000322618598644624
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000786: plasma cell:committed light zone germinal center B cell","false","false",2,633.782,0.000322618598644624
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000786: plasma cell:doublet","false","false",2,633.782,0.000322618598644624
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000814: mature NK T cell","false","false",2,65.543,0.000033363823540215
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000814: mature NK T cell:proliferating","false","false",2,65.543,0.000033363823540215
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000875: non-classical monocyte","false","false",2,79.86,0.0000406517087701444
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000875: non-classical monocyte:tonsil C1Q slan-like","false","false",2,79.86,0.0000406517087701444
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000890: alternatively activated macrophage","false","false",2,4110.993,0.00209264826185953
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0000990: conventional dendritic cell","false","false",2,3601.512,0.00183330349306512
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0001058: plasmacytoid dendritic cell, human","false","false",2,19.363,0.00000985648681337723
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0001058: plasmacytoid dendritic cell, human:Interferon 1 positive","false","false",2,19.363,0.00000985648681337723
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel","false","false",2,879.589,0.000447743499441805
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel:1","false","false",2,879.589,0.000447743499441805
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel:2","false","false",2,879.589,0.000447743499441805
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel:differentiating","false","false",2,879.589,0.000447743499441805
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel:mature","false","false",2,879.589,0.000447743499441805
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel:proliferating","false","false",2,879.589,0.000447743499441805
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0002201: renal beta-intercalated cell","false","false",2,13704.425,0.00697606178264821
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0002573: Schwann cell","false","false",2,863.047,0.000439323006498207
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:0011031: monocyte-derived dendritic cell","false","false",2,3866.572,0.00196822888658646
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000412: endothelial cell of arteriole:afferent/efferent","false","false",4,3685.56,0.00187608704952283
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000452: parietal epithelial cell","false","false",2,37212.471,0.0189425311007944
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000597: papillary tips cell","false","false",2,1852.254,0.000942866142954358
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000692: kidney interstitial fibroblast","false","false",2,35909.884,0.0182794658945363
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000714: kidney cortex collecting duct principal cell","false","false",2,98891.346,0.0503393713683895
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000715: kidney cortex collecting duct intercalated cell","false","false",2,28854.218,0.0146878696083929
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000716: kidney outer medulla collecting duct principal cell","false","false",2,21499.56,0.0109440752793169
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000717: kidney outer medulla collecting duct intercalated cell","false","false",2,17354.317,0.00883399249422446
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000718: kidney inner medulla collecting duct principal cell","false","false",2,303486.876,0.154486101912258
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000768: kidney connecting tubule epithelial cell","false","false",2,153115.3,0.0779413797126633
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1000850: macula densa epithelial cell","false","false",2,29744.395,0.0151410027934402
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001005: glomerular capillary endothelial cell","false","false",2,3922.67,0.0019967848540118
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001107: kidney loop of Henle thin ascending limb epithelial cell","false","false",2,90454.56,0.0460447336595486
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001108: kidney loop of Henle medullary thick ascending limb epithelial cell","false","false",2,155264.391,0.0790353469234389
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001109: kidney loop of Henle cortical thick ascending limb epithelial cell","false","false",2,255534.49,0.130076554823533
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001131: vasa recta ascending limb cell","false","false",2,15556.677,0.00791892690752822
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001131: vasa recta ascending limb cell","false","true",2,15556.677,0.00791892690752822
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:1001318: renal interstitial pericyte","false","false",4,17740.495,0.009030571452269
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030009: epithelial cell of proximal tubule segment 1","false","false",2,33386.468,0.0169949533433477
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030010: epithelial cell of proximal tubule segment 2","false","false",2,410.9,0.000209163375077039
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030011: epithelial cell of proximal tubule segment 3","false","false",2,9777.792,0.00497725961431314
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030012: kidney loop of Henle short descending thin limb epithelial cell","false","false",2,149773.913,0.0762404895146624
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030013: kidney loop of Henle long descending thin limb outer medulla epithelial cell","false","false",2,97485.269,0.0496236259049234
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030014: kidney loop of Henle long descending thin limb inner medulla epithelial cell","false","false",2,22158.125,0.0112793093462617
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030016: epithelial cell of early distal convoluted tubule","false","false",2,196474.72,0.100012936365335
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030017: epithelial cell of late distal convoluted tubule","false","false",2,154.201,0.000078494041373216
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030018: kidney connecting tubule principal cell","false","false",2,7682.421,0.0039106378805615
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030020: kidney connecting tubule alpha-intercalated cell","false","false",2,42.926,0.000021850929760421
+"Azimuth","Female","Kidney","Kidney Pyramid","CL:4030022: renal medullary fibroblast","false","false",2,78778.083,0.0401009727972234
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,3987.829,0.00824056820534261
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,3064.461,0.00633249316435394
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000084: T cell","false","false",2,1255.73,0.00259487774237433
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000084: T cell:cycling","false","false",4,1255.73,0.00259487774237433
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000084: T cell:proliferating","false","false",6,1255.73,0.00259487774237433
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000097: mast cell","false","false",2,1192.221,0.00246364085981163
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000236: B cell","false","false",2,2509.955,0.00518664550807988
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000236: B cell:activated","false","false",2,2509.955,0.00518664550807988
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000648: kidney granular cell","false","false",2,110.601,0.000228549189064801
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000650: mesangial cell","false","false",2,2515.486,0.00519807493064132
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000653: podocyte","true","false",2,3226.407,0.00666714318535093
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000653: podocyte","true","true",2,3226.407,0.00666714318535093
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000786: plasma cell","false","false",2,264.154,0.000545855665755495
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000786: plasma cell: early precursor","false","false",2,264.154,0.000545855665755495
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000786: plasma cell:committed light zone germinal center B cell","false","false",2,264.154,0.000545855665755495
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000786: plasma cell:doublet","false","false",2,264.154,0.000545855665755495
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000814: mature NK T cell","false","false",2,47.837,0.0000988517966138905
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000814: mature NK T cell:proliferating","false","false",2,47.837,0.0000988517966138905
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000875: non-classical monocyte","false","false",2,38.974,0.0000805370303578771
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000875: non-classical monocyte:tonsil C1Q slan-like","false","false",2,38.974,0.0000805370303578771
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000890: alternatively activated macrophage","false","false",2,907.113,0.00187448522653628
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0000990: conventional dendritic cell","false","false",2,42.439,0.0000876972091999268
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0001058: plasmacytoid dendritic cell, human","false","false",2,26.787,0.0000553534518447286
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0001058: plasmacytoid dendritic cell, human:Interferon 1 positive","false","false",2,26.787,0.0000553534518447286
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel","false","false",2,234.918,0.000485441527623846
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel:1","false","false",2,234.918,0.000485441527623846
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel:2","false","false",2,234.918,0.000485441527623846
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel:differentiating","false","false",2,234.918,0.000485441527623846
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel:mature","false","false",2,234.918,0.000485441527623846
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel:proliferating","false","false",2,234.918,0.000485441527623846
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0002201: renal beta-intercalated cell","false","false",2,1667.722,0.00344623023919791
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0002573: Schwann cell","false","false",2,298.353,0.000616525494390201
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:0011031: monocyte-derived dendritic cell","false","false",2,390.266,0.00080645724559058
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000412: endothelial cell of arteriole:afferent/efferent","false","false",4,980.442,0.00202601444855898
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000452: parietal epithelial cell","false","false",2,6364.921,0.0131526616668161
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000452: parietal epithelial cell","false","true",2,6364.921,0.0131526616668161
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000597: papillary tips cell","false","false",2,7.745,0.0000160044978734992
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000692: kidney interstitial fibroblast","false","false",2,8298.5,0.0171482667015149
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000714: kidney cortex collecting duct principal cell","false","false",2,10043.383,0.0207539447212703
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000715: kidney cortex collecting duct intercalated cell","false","false",2,6599.72,0.013637857289308
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000716: kidney outer medulla collecting duct principal cell","false","false",2,6564.201,0.0135644597734953
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000717: kidney outer medulla collecting duct intercalated cell","false","false",2,1323.192,0.00273428322146303
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000718: kidney inner medulla collecting duct principal cell","false","false",2,85992.275,0.177696989331809
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000768: kidney connecting tubule epithelial cell","false","false",2,30584.69,0.0632011111770991
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1000850: macula densa epithelial cell","false","false",2,8275.927,0.0171016211843428
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001005: glomerular capillary endothelial cell","false","false",2,978.207,0.00202139597822363
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001107: kidney loop of Henle thin ascending limb epithelial cell","false","false",2,20758.051,0.0428950526904439
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001108: kidney loop of Henle medullary thick ascending limb epithelial cell","false","false",2,25473.149,0.0526384711429088
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001109: kidney loop of Henle cortical thick ascending limb epithelial cell","false","false",2,35062.533,0.0724542588557774
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001131: vasa recta ascending limb cell","false","false",2,2470.678,0.00510548234952889
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:1001318: renal interstitial pericyte","false","false",4,3360.875,0.00694501185159415
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030009: epithelial cell of proximal tubule segment 1","false","false",2,20350.79,0.0420534764724376
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030010: epithelial cell of proximal tubule segment 2","false","false",2,1773.529,0.00366487296437562
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030011: epithelial cell of proximal tubule segment 3","false","false",2,14008.121,0.0289467969988663
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030012: kidney loop of Henle short descending thin limb epithelial cell","false","false",2,85973.163,0.17765749572776
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030013: kidney loop of Henle long descending thin limb outer medulla epithelial cell","false","false",2,26293.962,0.0543346234880399
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030014: kidney loop of Henle long descending thin limb inner medulla epithelial cell","false","false",2,9914.84,0.0204883196508825
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030016: epithelial cell of early distal convoluted tubule","false","false",2,37618.536,0.0777360593177732
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030017: epithelial cell of late distal convoluted tubule","false","false",2,283.123,0.000585053770360067
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030018: kidney connecting tubule principal cell","false","false",2,2743.538,0.0056693283520806
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030020: kidney connecting tubule alpha-intercalated cell","false","false",2,135.545,0.000280094211008838
+"Azimuth","Female","Kidney","Outer Cortex of Kidney","CL:4030022: renal medullary fibroblast","false","false",2,9911.571,0.0204815644922578
+"Azimuth","Female","Kidney","Renal Column","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,217,0.00531870279927005
+"Azimuth","Female","Kidney","Renal Column","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,284.292,0.00696803989036903
+"Azimuth","Female","Kidney","Renal Column","CL:0000084: T cell","false","false",2,507.88,0.0124482155654068
+"Azimuth","Female","Kidney","Renal Column","CL:0000084: T cell:cycling","false","false",4,507.88,0.0124482155654068
+"Azimuth","Female","Kidney","Renal Column","CL:0000084: T cell:proliferating","false","false",6,507.88,0.0124482155654068
+"Azimuth","Female","Kidney","Renal Column","CL:0000097: mast cell","false","false",2,110.723,0.00271383746563861
+"Azimuth","Female","Kidney","Renal Column","CL:0000236: B cell","false","false",2,379.331,0.00929746014539127
+"Azimuth","Female","Kidney","Renal Column","CL:0000236: B cell:activated","false","false",2,379.331,0.00929746014539127
+"Azimuth","Female","Kidney","Renal Column","CL:0000648: kidney granular cell","false","false",2,2.184,0.0000535301701087824
+"Azimuth","Female","Kidney","Renal Column","CL:0000650: mesangial cell","false","false",2,416.013,0.0101965415098283
+"Azimuth","Female","Kidney","Renal Column","CL:0000653: podocyte","true","false",2,146.908,0.00360073728495467
+"Azimuth","Female","Kidney","Renal Column","CL:0000653: podocyte","true","true",2,146.908,0.00360073728495467
+"Azimuth","Female","Kidney","Renal Column","CL:0000786: plasma cell","false","false",2,45.722,0.00112065313082131
+"Azimuth","Female","Kidney","Renal Column","CL:0000786: plasma cell: early precursor","false","false",2,45.722,0.00112065313082131
+"Azimuth","Female","Kidney","Renal Column","CL:0000786: plasma cell:committed light zone germinal center B cell","false","false",2,45.722,0.00112065313082131
+"Azimuth","Female","Kidney","Renal Column","CL:0000786: plasma cell:doublet","false","false",2,45.722,0.00112065313082131
+"Azimuth","Female","Kidney","Renal Column","CL:0000814: mature NK T cell","false","false",2,1.637,0.0000401231174304381
+"Azimuth","Female","Kidney","Renal Column","CL:0000814: mature NK T cell:proliferating","false","false",2,1.637,0.0000401231174304381
+"Azimuth","Female","Kidney","Renal Column","CL:0000875: non-classical monocyte","false","false",2,2.915,0.0000714470905984893
+"Azimuth","Female","Kidney","Renal Column","CL:0000875: non-classical monocyte:tonsil C1Q slan-like","false","false",2,2.915,0.0000714470905984893
+"Azimuth","Female","Kidney","Renal Column","CL:0000890: alternatively activated macrophage","false","false",2,307.636,0.00754020485878452
+"Azimuth","Female","Kidney","Renal Column","CL:0000990: conventional dendritic cell","false","false",2,287.425,0.00704483019391794
+"Azimuth","Female","Kidney","Renal Column","CL:0001058: plasmacytoid dendritic cell, human","false","false",2,1.068,0.0000261768414268222
+"Azimuth","Female","Kidney","Renal Column","CL:0001058: plasmacytoid dendritic cell, human:Interferon 1 positive","false","false",2,1.068,0.0000261768414268222
+"Azimuth","Female","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel","false","false",2,34.984,0.000857463127786467
+"Azimuth","Female","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel:1","false","false",2,34.984,0.000857463127786467
+"Azimuth","Female","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel:2","false","false",2,34.984,0.000857463127786467
+"Azimuth","Female","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel:differentiating","false","false",2,34.984,0.000857463127786467
+"Azimuth","Female","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel:mature","false","false",2,34.984,0.000857463127786467
+"Azimuth","Female","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel:proliferating","false","false",2,34.984,0.000857463127786467
+"Azimuth","Female","Kidney","Renal Column","CL:0002201: renal beta-intercalated cell","false","false",2,262.705,0.00643893925752183
+"Azimuth","Female","Kidney","Renal Column","CL:0002573: Schwann cell","false","false",2,5.973,0.000146399132811244
+"Azimuth","Female","Kidney","Renal Column","CL:0011031: monocyte-derived dendritic cell","false","false",2,42.331,0.00103753920827604
+"Azimuth","Female","Kidney","Renal Column","CL:1000412: endothelial cell of arteriole:afferent/efferent","false","false",4,64.885,0.00159034115728404
+"Azimuth","Female","Kidney","Renal Column","CL:1000452: parietal epithelial cell","false","false",2,583.009,0.0142896387110582
+"Azimuth","Female","Kidney","Renal Column","CL:1000452: parietal epithelial cell","false","true",2,583.009,0.0142896387110582
+"Azimuth","Female","Kidney","Renal Column","CL:1000597: papillary tips cell","false","false",2,992.942,0.0243371585019023
+"Azimuth","Female","Kidney","Renal Column","CL:1000692: kidney interstitial fibroblast","false","false",2,1954.709,0.0479102130417436
+"Azimuth","Female","Kidney","Renal Column","CL:1000714: kidney cortex collecting duct principal cell","false","false",2,576.611,0.0141328227640088
+"Azimuth","Female","Kidney","Renal Column","CL:1000715: kidney cortex collecting duct intercalated cell","false","false",2,553.701,0.0135712952011918
+"Azimuth","Female","Kidney","Renal Column","CL:1000716: kidney outer medulla collecting duct principal cell","false","false",2,712.093,0.0174535070619383
+"Azimuth","Female","Kidney","Renal Column","CL:1000717: kidney outer medulla collecting duct intercalated cell","false","false",2,13.51,0.000331132142019071
+"Azimuth","Female","Kidney","Renal Column","CL:1000718: kidney inner medulla collecting duct principal cell","false","false",2,5524.369,0.135403119191247
+"Azimuth","Female","Kidney","Renal Column","CL:1000768: kidney connecting tubule epithelial cell","false","false",2,3012.819,0.073844649073705
+"Azimuth","Female","Kidney","Renal Column","CL:1000850: macula densa epithelial cell","false","false",2,299.564,0.00734235891871213
+"Azimuth","Female","Kidney","Renal Column","CL:1001005: glomerular capillary endothelial cell","false","false",2,40.765,0.000999156311577159
+"Azimuth","Female","Kidney","Renal Column","CL:1001107: kidney loop of Henle thin ascending limb epithelial cell","false","false",2,2876.328,0.0704992340332664
+"Azimuth","Female","Kidney","Renal Column","CL:1001108: kidney loop of Henle medullary thick ascending limb epithelial cell","false","false",2,1800.515,0.0441308947955194
+"Azimuth","Female","Kidney","Renal Column","CL:1001109: kidney loop of Henle cortical thick ascending limb epithelial cell","false","false",2,750.83,0.0184029567869858
+"Azimuth","Female","Kidney","Renal Column","CL:1001131: vasa recta ascending limb cell","false","false",2,116.094,0.00284548148745833
+"Azimuth","Female","Kidney","Renal Column","CL:1001318: renal interstitial pericyte","false","false",4,477.507,0.011703768744567
+"Azimuth","Female","Kidney","Renal Column","CL:4030009: epithelial cell of proximal tubule segment 1","false","false",2,6448.257,0.158047753715727
+"Azimuth","Female","Kidney","Renal Column","CL:4030010: epithelial cell of proximal tubule segment 2","false","false",2,90.055,0.00220726166169707
+"Azimuth","Female","Kidney","Renal Column","CL:4030011: epithelial cell of proximal tubule segment 3","false","false",2,634.365,0.0155483820334514
+"Azimuth","Female","Kidney","Renal Column","CL:4030012: kidney loop of Henle short descending thin limb epithelial cell","false","false",2,3065.589,0.0751380497498224
+"Azimuth","Female","Kidney","Renal Column","CL:4030013: kidney loop of Henle long descending thin limb outer medulla epithelial cell","false","false",2,1820.737,0.0446265390720486
+"Azimuth","Female","Kidney","Renal Column","CL:4030014: kidney loop of Henle long descending thin limb inner medulla epithelial cell","false","false",2,352.797,0.0086471077948114
+"Azimuth","Female","Kidney","Renal Column","CL:4030016: epithelial cell of early distal convoluted tubule","false","false",2,1739.217,0.0426284715504058
+"Azimuth","Female","Kidney","Renal Column","CL:4030017: epithelial cell of late distal convoluted tubule","false","false",2,4.15,0.000101717127267146
+"Azimuth","Female","Kidney","Renal Column","CL:4030018: kidney connecting tubule principal cell","false","false",2,310.825,0.00761836773079775
+"Azimuth","Female","Kidney","Renal Column","CL:4030020: kidney connecting tubule alpha-intercalated cell","false","false",2,11.152,0.000273337205610413
+"Azimuth","Female","Kidney","Renal Column","CL:4030022: renal medullary fibroblast","false","false",2,2915.3,0.0714544436438339
+"Azimuth","Male","Kidney","Hilum of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,540.698,0.049029009829777
+"Azimuth","Male","Kidney","Hilum of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,144.098,0.0130664109326301
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000084: T cell","false","true",2,3.966,0.00035962598897147
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000084: T cell:cycling","false","true",4,3.966,0.00035962598897147
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000084: T cell:proliferating","false","true",6,3.966,0.00035962598897147
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000650: mesangial cell","false","false",2,5.288,0.000479501318628626
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000653: podocyte","false","true",2,13.22,0.00119875329657156
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000814: mature NK T cell","false","true",2,2.644,0.000239750659314313
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000814: mature NK T cell:proliferating","false","true",2,2.644,0.000239750659314313
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0000890: alternatively activated macrophage","false","false",2,33.05,0.00299688324142891
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel","false","true",2,18.508,0.00167825461520019
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel:1","false","true",2,18.508,0.00167825461520019
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel:2","false","true",2,18.508,0.00167825461520019
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel:differentiating","false","true",2,18.508,0.00167825461520019
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel:mature","false","true",2,18.508,0.00167825461520019
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0002138: endothelial cell of lymphatic vessel:proliferating","false","true",2,18.508,0.00167825461520019
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0002201: renal beta-intercalated cell","false","true",2,2.644,0.000239750659314313
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0002573: Schwann cell","false","true",2,3.966,0.00035962598897147
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:0011031: monocyte-derived dendritic cell","false","true",2,1.322,0.000119875329657156
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000412: endothelial cell of arteriole:afferent/efferent","false","true",4,11.898,0.00107887796691441
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000452: parietal epithelial cell","false","true",2,5.288,0.000479501318628626
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000692: kidney interstitial fibroblast","false","true",2,66.1,0.00599376648285783
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000714: kidney cortex collecting duct principal cell","false","true",2,15.864,0.00143850395588588
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000715: kidney cortex collecting duct intercalated cell","false","true",2,115.014,0.0104291536801726
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000716: kidney outer medulla collecting duct principal cell","false","true",2,1050.99,0.0953008870774394
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000717: kidney outer medulla collecting duct intercalated cell","false","true",2,56.846,0.00515463917525773
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000768: kidney connecting tubule epithelial cell","false","true",2,55.524,0.00503476384560058
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1000850: macula densa epithelial cell","false","true",2,70.066,0.0063533924718293
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001005: glomerular capillary endothelial cell","false","true",2,7.932,0.000719251977942939
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001107: kidney loop of Henle thin ascending limb epithelial cell","false","true",2,2.644,0.000239750659314313
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001108: kidney loop of Henle medullary thick ascending limb epithelial cell","false","true",2,3328.796,0.30184608007672
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001109: kidney loop of Henle cortical thick ascending limb epithelial cell","false","true",2,2978.466,0.270079117717574
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001131: vasa recta ascending limb cell","false","true",2,313.314,0.0284104531287461
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:1001318: renal interstitial pericyte","false","true",4,177.148,0.016063294174059
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030011: epithelial cell of proximal tubule segment 3","false","true",2,170.538,0.0154639175257732
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030012: kidney loop of Henle short descending thin limb epithelial cell","false","true",2,715.202,0.0648525533445217
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030013: kidney loop of Henle long descending thin limb outer medulla epithelial cell","false","true",2,441.548,0.0400383601054903
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030014: kidney loop of Henle long descending thin limb inner medulla epithelial cell","false","true",2,1.322,0.000119875329657156
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030016: epithelial cell of early distal convoluted tubule","false","true",2,18.508,0.00167825461520019
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030018: kidney connecting tubule principal cell","false","true",2,399.244,0.0362023495564613
+"Azimuth","Male","Kidney","Hilum of Kidney","CL:4030022: renal medullary fibroblast","false","true",2,256.468,0.0232558139534884
+"Azimuth","Male","Kidney","Kidney Capsule","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,57.19,0.0400264836884555
+"Azimuth","Male","Kidney","Kidney Capsule","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,0.688,0.000481521608282171
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000084: T cell","false","true",2,3.268,0.00228722763934031
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000084: T cell:cycling","false","true",4,3.268,0.00228722763934031
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000084: T cell:proliferating","false","true",6,3.268,0.00228722763934031
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000653: podocyte","false","true",2,0.258,0.000180570603105814
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000814: mature NK T cell","false","true",2,0.516,0.000361141206211629
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000814: mature NK T cell:proliferating","false","true",2,0.516,0.000361141206211629
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000875: non-classical monocyte","false","true",2,0.602,0.0004213314072469
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000875: non-classical monocyte:tonsil C1Q slan-like","false","true",2,0.602,0.0004213314072469
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0000890: alternatively activated macrophage","false","false",2,15.91,0.0111351871915252
+"Azimuth","Male","Kidney","Kidney Capsule","CL:0011031: monocyte-derived dendritic cell","false","true",2,7.74,0.00541711809317443
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000412: endothelial cell of arteriole:afferent/efferent","false","true",4,0.258,0.000180570603105814
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000452: parietal epithelial cell","false","true",2,0.258,0.000180570603105814
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000597: papillary tips cell","false","true",2,9.804,0.00686168291802094
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000692: kidney interstitial fibroblast","false","true",2,12.298,0.00860719874804382
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000714: kidney cortex collecting duct principal cell","false","true",2,83.248,0.0582641146021428
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000715: kidney cortex collecting duct intercalated cell","false","true",2,0.086,0.0000601902010352714
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000716: kidney outer medulla collecting duct principal cell","false","true",2,3.612,0.0025279884434814
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000717: kidney outer medulla collecting duct intercalated cell","false","true",2,10.062,0.00704225352112676
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000718: kidney inner medulla collecting duct principal cell","false","true",2,301.602,0.211087035030697
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000768: kidney connecting tubule epithelial cell","false","true",2,112.746,0.0789093535572409
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1000850: macula densa epithelial cell","false","true",2,0.086,0.0000601902010352714
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1001107: kidney loop of Henle thin ascending limb epithelial cell","false","true",2,163.486,0.114421572168051
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1001108: kidney loop of Henle medullary thick ascending limb epithelial cell","false","true",2,2.666,0.00186589623209341
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1001109: kidney loop of Henle cortical thick ascending limb epithelial cell","false","true",2,0.086,0.0000601902010352714
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1001131: vasa recta ascending limb cell","false","true",2,84.108,0.0588660166124955
+"Azimuth","Male","Kidney","Kidney Capsule","CL:1001318: renal interstitial pericyte","false","true",4,15.738,0.0110148067894547
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030012: kidney loop of Henle short descending thin limb epithelial cell","false","true",2,53.234,0.037257734440833
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030013: kidney loop of Henle long descending thin limb outer medulla epithelial cell","false","true",2,10.664,0.00746358492837366
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030014: kidney loop of Henle long descending thin limb inner medulla epithelial cell","false","true",2,138.976,0.0972673648729987
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030016: epithelial cell of early distal convoluted tubule","false","true",2,0.086,0.0000601902010352714
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030018: kidney connecting tubule principal cell","false","true",2,3.01,0.0021066570362345
+"Azimuth","Male","Kidney","Kidney Capsule","CL:4030022: renal medullary fibroblast","false","true",2,336.518,0.235524256651017
+"Azimuth","Male","Kidney","Kidney Pyramid","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,20038.492,0.0416364163510815
+"Azimuth","Male","Kidney","Kidney Pyramid","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,2372.153,0.0049289113151063
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000084: T cell","false","false",2,2267.662,0.00471179763305174
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000084: T cell:cycling","false","false",4,2267.662,0.00471179763305174
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000084: T cell:proliferating","false","false",6,2267.662,0.00471179763305174
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000097: mast cell","false","false",2,34.687,0.0000720734062208855
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000113: mononuclear phagocyte","false","false",2,4,0.00000831128736655064
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000236: B cell","false","false",2,155.888,0.000323907491249212
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000236: B cell:activated","false","false",2,155.888,0.000323907491249212
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000648: kidney granular cell","false","false",2,38.547,0.0000800937985296069
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000650: mesangial cell","false","false",2,432.708,0.000899090133451349
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000653: podocyte","false","false",2,1047.483,0.00217648305614414
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000775: neutrophil","false","false",2,6,0.000012466931049826
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000786: plasma cell","false","false",2,12.697,0.0000263821039232734
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000786: plasma cell: early precursor","false","false",2,12.697,0.0000263821039232734
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000786: plasma cell:committed light zone germinal center B cell","false","false",2,12.697,0.0000263821039232734
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000786: plasma cell:doublet","false","false",2,12.697,0.0000263821039232734
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000814: mature NK T cell","false","false",2,17.465,0.0000362891584642018
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000814: mature NK T cell:proliferating","false","false",2,17.465,0.0000362891584642018
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000875: non-classical monocyte","false","false",2,7.779,0.0000161633761060994
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000875: non-classical monocyte:tonsil C1Q slan-like","false","false",2,7.779,0.0000161633761060994
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000890: alternatively activated macrophage","false","false",2,1621.687,0.00336957666889985
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0000990: conventional dendritic cell","false","false",2,358,0.000743860219306283
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel","false","false",2,34.004,0.000070654253903047
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel:1","false","false",2,34.004,0.000070654253903047
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel:2","false","false",2,34.004,0.000070654253903047
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel:differentiating","false","false",2,34.004,0.000070654253903047
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel:mature","false","false",2,34.004,0.000070654253903047
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0002138: endothelial cell of lymphatic vessel:proliferating","false","false",2,34.004,0.000070654253903047
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0002201: renal beta-intercalated cell","false","false",2,6873.375,0.0142816487007663
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0002573: Schwann cell","false","false",2,13.858,0.0000287944550814147
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:0011031: monocyte-derived dendritic cell","false","false",2,2963.232,0.00615706817143965
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000412: endothelial cell of arteriole:afferent/efferent","false","false",4,468.172,0.000972778007243187
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000452: parietal epithelial cell","false","false",2,2146.141,0.00445929864503409
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000597: papillary tips cell","false","false",2,1085.889,0.00225628388179408
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000692: kidney interstitial fibroblast","false","false",2,7690.08,0.0159786161879409
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000714: kidney cortex collecting duct principal cell","false","false",2,47478.875,0.0986526434913843
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000715: kidney cortex collecting duct intercalated cell","false","false",2,1426.233,0.00296345807866441
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000716: kidney outer medulla collecting duct principal cell","false","false",2,3715.407,0.00771995381517346
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000717: kidney outer medulla collecting duct intercalated cell","false","false",2,3042.939,0.00632268511697106
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000718: kidney inner medulla collecting duct principal cell","false","false",2,21701.993,0.0450928750624676
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000768: kidney connecting tubule epithelial cell","false","false",2,38345.811,0.0796757636311097
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1000850: macula densa epithelial cell","false","false",2,6597.453,0.0137083319425779
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001005: glomerular capillary endothelial cell","false","false",2,1368.161,0.00284279480867682
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001107: kidney loop of Henle thin ascending limb epithelial cell","false","false",2,29628.599,0.0615629501393238
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001108: kidney loop of Henle medullary thick ascending limb epithelial cell","false","false",2,37595.411,0.0781165661211448
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001109: kidney loop of Henle cortical thick ascending limb epithelial cell","false","false",2,105495.791,0.219201458740642
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001131: vasa recta ascending limb cell","false","false",2,7397.316,0.0153703047542957
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001131: vasa recta ascending limb cell","false","true",2,7397.316,0.0153703047542957
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:1001318: renal interstitial pericyte","false","false",4,3117.525,0.00647766153685145
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030009: epithelial cell of proximal tubule segment 1","false","false",2,2203.518,0.00457851782884174
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030010: epithelial cell of proximal tubule segment 2","false","false",2,115.691,0.000240385286680903
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030011: epithelial cell of proximal tubule segment 3","false","false",2,636.392,0.00132230919744348
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030012: kidney loop of Henle short descending thin limb epithelial cell","false","false",2,48662.028,0.101111024636783
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030013: kidney loop of Henle long descending thin limb outer medulla epithelial cell","false","false",2,6054.983,0.0125811759281447
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030014: kidney loop of Henle long descending thin limb inner medulla epithelial cell","false","false",2,11029.199,0.0229167105779682
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030016: epithelial cell of early distal convoluted tubule","false","false",2,21956.319,0.045621319180164
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030017: epithelial cell of late distal convoluted tubule","false","false",2,38.735,0.0000804844290358348
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030018: kidney connecting tubule principal cell","false","false",2,1745.379,0.0036265866081357
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030020: kidney connecting tubule alpha-intercalated cell","false","false",2,5,0.0000103891092081883
+"Azimuth","Male","Kidney","Kidney Pyramid","CL:4030022: renal medullary fibroblast","false","false",2,32224.459,0.0669566847451573
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,32499.288,0.0112082989520284
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,23368.055,0.00805913490681523
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000084: T cell","false","false",2,2282.61,0.000787222639181802
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000084: T cell:cycling","false","false",4,2282.61,0.000787222639181802
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000084: T cell:proliferating","false","false",6,2282.61,0.000787222639181802
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000097: mast cell","false","false",2,1103,0.000380400756597722
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000113: mononuclear phagocyte","false","false",2,6,0.00000206926975483802
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000236: B cell","false","false",2,3092,0.00106636368032653
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000236: B cell:activated","false","false",2,3092,0.00106636368032653
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000648: kidney granular cell","false","false",2,286.551,0.0000988252195864315
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000650: mesangial cell","false","false",2,11310.348,0.00390069350551545
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000653: podocyte","true","false",2,24100.924,0.00831188551614162
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000653: podocyte","true","true",2,24100.924,0.00831188551614162
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000775: neutrophil","false","false",2,22,0.00000758732243440607
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000786: plasma cell","false","false",2,946,0.000326254864679461
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000786: plasma cell: early precursor","false","false",2,946,0.000326254864679461
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000786: plasma cell:committed light zone germinal center B cell","false","false",2,946,0.000326254864679461
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000786: plasma cell:doublet","false","false",2,946,0.000326254864679461
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000814: mature NK T cell","false","false",2,393.418,0.000135681328068144
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000814: mature NK T cell:proliferating","false","false",2,393.418,0.000135681328068144
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000875: non-classical monocyte","false","false",2,291.725,0.000100609619871687
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000875: non-classical monocyte:tonsil C1Q slan-like","false","false",2,291.725,0.000100609619871687
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000890: alternatively activated macrophage","false","false",2,6845.492,0.0023608615920976
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0000990: conventional dendritic cell","false","false",2,8991,0.00310080072762477
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0001058: plasmacytoid dendritic cell, human","false","false",2,40,0.0000137951316989201
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0001058: plasmacytoid dendritic cell, human:Interferon 1 positive","false","false",2,40,0.0000137951316989201
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel","false","false",2,863.576,0.000297828616300666
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel:1","false","false",2,863.576,0.000297828616300666
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel:2","false","false",2,863.576,0.000297828616300666
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel:differentiating","false","false",2,863.576,0.000297828616300666
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel:mature","false","false",2,863.576,0.000297828616300666
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0002138: endothelial cell of lymphatic vessel:proliferating","false","false",2,863.576,0.000297828616300666
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0002201: renal beta-intercalated cell","false","false",2,21017.041,0.0072483212129151
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0002573: Schwann cell","false","false",2,637.592,0.000219891640254447
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:0011031: monocyte-derived dendritic cell","false","false",2,2351.076,0.000810835076354259
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000412: endothelial cell of arteriole:afferent/efferent","false","false",4,4348.415,0.001499673940164
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000452: parietal epithelial cell","false","false",2,16547.964,0.00570703356822473
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000452: parietal epithelial cell","false","true",2,16547.964,0.00570703356822473
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000597: papillary tips cell","false","false",2,678.95,0.000234155116674546
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000692: kidney interstitial fibroblast","false","false",2,95930.486,0.0330843422077853
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000714: kidney cortex collecting duct principal cell","false","false",2,67972.674,0.0234422997439441
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000715: kidney cortex collecting duct intercalated cell","false","false",2,21700.233,0.00748393930330632
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000716: kidney outer medulla collecting duct principal cell","false","false",2,18888.844,0.00651435226550893
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000717: kidney outer medulla collecting duct intercalated cell","false","false",2,16285.383,0.00561647508130888
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000718: kidney inner medulla collecting duct principal cell","false","false",2,414410.865,0.14292131150346
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000768: kidney connecting tubule epithelial cell","false","false",2,163799.689,0.056490957049929
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1000850: macula densa epithelial cell","false","false",2,63566.649,0.0219227573653507
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001005: glomerular capillary endothelial cell","false","false",2,13569.756,0.00467991427855529
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001107: kidney loop of Henle thin ascending limb epithelial cell","false","false",2,196203.561,0.0676663490948027
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001108: kidney loop of Henle medullary thick ascending limb epithelial cell","false","false",2,90703.701,0.0312817375218618
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001109: kidney loop of Henle cortical thick ascending limb epithelial cell","false","false",2,544209.754,0.187686130706673
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001131: vasa recta ascending limb cell","false","false",2,17473.928,0.0060263784514362
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:1001318: renal interstitial pericyte","false","false",4,18252.273,0.0062948127459911
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030009: epithelial cell of proximal tubule segment 1","false","false",2,275410.094,0.0949829629485493
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030010: epithelial cell of proximal tubule segment 2","false","false",2,3346.303,0.00115406726473729
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030011: epithelial cell of proximal tubule segment 3","false","false",2,161711.157,0.0557706676999937
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030012: kidney loop of Henle short descending thin limb epithelial cell","false","false",2,97498.005,0.0336249454839243
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030013: kidney loop of Henle long descending thin limb outer medulla epithelial cell","false","false",2,152826.748,0.052706627894442
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030014: kidney loop of Henle long descending thin limb inner medulla epithelial cell","false","false",2,38253.41,0.0131927707220697
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030016: epithelial cell of early distal convoluted tubule","false","false",2,207833.574,0.0716772881196816
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030017: epithelial cell of late distal convoluted tubule","false","false",2,5220.755,0.00180052506981989
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030018: kidney connecting tubule principal cell","false","false",2,11213.274,0.00386721479015192
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030020: kidney connecting tubule alpha-intercalated cell","false","false",2,666,0.00022968894278702
+"Azimuth","Male","Kidney","Outer Cortex of Kidney","CL:4030022: renal medullary fibroblast","false","false",2,40603.482,0.0140032595406183
+"Azimuth","Male","Kidney","Renal Column","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,696.936,0.049029009829777
+"Azimuth","Male","Kidney","Renal Column","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,185.736,0.0130664109326301
+"Azimuth","Male","Kidney","Renal Column","CL:0000084: T cell","false","false",2,5.112,0.00035962598897147
+"Azimuth","Male","Kidney","Renal Column","CL:0000084: T cell:cycling","false","false",4,5.112,0.00035962598897147
+"Azimuth","Male","Kidney","Renal Column","CL:0000084: T cell:proliferating","false","false",6,5.112,0.00035962598897147
+"Azimuth","Male","Kidney","Renal Column","CL:0000650: mesangial cell","false","false",2,6.816,0.000479501318628626
+"Azimuth","Male","Kidney","Renal Column","CL:0000653: podocyte","true","false",2,17.04,0.00119875329657157
+"Azimuth","Male","Kidney","Renal Column","CL:0000653: podocyte","true","true",2,17.04,0.00119875329657157
+"Azimuth","Male","Kidney","Renal Column","CL:0000814: mature NK T cell","false","false",2,3.408,0.000239750659314313
+"Azimuth","Male","Kidney","Renal Column","CL:0000814: mature NK T cell:proliferating","false","false",2,3.408,0.000239750659314313
+"Azimuth","Male","Kidney","Renal Column","CL:0000890: alternatively activated macrophage","false","false",2,42.6,0.00299688324142891
+"Azimuth","Male","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel","false","false",2,23.856,0.00167825461520019
+"Azimuth","Male","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel:1","false","false",2,23.856,0.00167825461520019
+"Azimuth","Male","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel:2","false","false",2,23.856,0.00167825461520019
+"Azimuth","Male","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel:differentiating","false","false",2,23.856,0.00167825461520019
+"Azimuth","Male","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel:mature","false","false",2,23.856,0.00167825461520019
+"Azimuth","Male","Kidney","Renal Column","CL:0002138: endothelial cell of lymphatic vessel:proliferating","false","false",2,23.856,0.00167825461520019
+"Azimuth","Male","Kidney","Renal Column","CL:0002201: renal beta-intercalated cell","false","false",2,3.408,0.000239750659314313
+"Azimuth","Male","Kidney","Renal Column","CL:0002573: Schwann cell","false","false",2,5.112,0.00035962598897147
+"Azimuth","Male","Kidney","Renal Column","CL:0011031: monocyte-derived dendritic cell","false","false",2,1.704,0.000119875329657157
+"Azimuth","Male","Kidney","Renal Column","CL:1000412: endothelial cell of arteriole:afferent/efferent","false","false",4,15.336,0.00107887796691441
+"Azimuth","Male","Kidney","Renal Column","CL:1000452: parietal epithelial cell","false","false",2,6.816,0.000479501318628626
+"Azimuth","Male","Kidney","Renal Column","CL:1000452: parietal epithelial cell","false","true",2,6.816,0.000479501318628626
+"Azimuth","Male","Kidney","Renal Column","CL:1000692: kidney interstitial fibroblast","false","false",2,85.2,0.00599376648285783
+"Azimuth","Male","Kidney","Renal Column","CL:1000714: kidney cortex collecting duct principal cell","false","false",2,20.448,0.00143850395588588
+"Azimuth","Male","Kidney","Renal Column","CL:1000715: kidney cortex collecting duct intercalated cell","false","false",2,148.248,0.0104291536801726
+"Azimuth","Male","Kidney","Renal Column","CL:1000716: kidney outer medulla collecting duct principal cell","false","false",2,1354.68,0.0953008870774395
+"Azimuth","Male","Kidney","Renal Column","CL:1000717: kidney outer medulla collecting duct intercalated cell","false","false",2,73.272,0.00515463917525773
+"Azimuth","Male","Kidney","Renal Column","CL:1000768: kidney connecting tubule epithelial cell","false","false",2,71.568,0.00503476384560058
+"Azimuth","Male","Kidney","Renal Column","CL:1000850: macula densa epithelial cell","false","false",2,90.312,0.0063533924718293
+"Azimuth","Male","Kidney","Renal Column","CL:1001005: glomerular capillary endothelial cell","false","false",2,10.224,0.000719251977942939
+"Azimuth","Male","Kidney","Renal Column","CL:1001107: kidney loop of Henle thin ascending limb epithelial cell","false","false",2,3.408,0.000239750659314313
+"Azimuth","Male","Kidney","Renal Column","CL:1001108: kidney loop of Henle medullary thick ascending limb epithelial cell","false","false",2,4290.672,0.30184608007672
+"Azimuth","Male","Kidney","Renal Column","CL:1001109: kidney loop of Henle cortical thick ascending limb epithelial cell","false","false",2,3839.112,0.270079117717574
+"Azimuth","Male","Kidney","Renal Column","CL:1001131: vasa recta ascending limb cell","false","false",2,403.848,0.0284104531287461
+"Azimuth","Male","Kidney","Renal Column","CL:1001318: renal interstitial pericyte","false","false",4,228.336,0.016063294174059
+"Azimuth","Male","Kidney","Renal Column","CL:4030011: epithelial cell of proximal tubule segment 3","false","false",2,219.816,0.0154639175257732
+"Azimuth","Male","Kidney","Renal Column","CL:4030012: kidney loop of Henle short descending thin limb epithelial cell","false","false",2,921.864,0.0648525533445217
+"Azimuth","Male","Kidney","Renal Column","CL:4030013: kidney loop of Henle long descending thin limb outer medulla epithelial cell","false","false",2,569.136,0.0400383601054903
+"Azimuth","Male","Kidney","Renal Column","CL:4030014: kidney loop of Henle long descending thin limb inner medulla epithelial cell","false","false",2,1.704,0.000119875329657157
+"Azimuth","Male","Kidney","Renal Column","CL:4030016: epithelial cell of early distal convoluted tubule","false","false",2,23.856,0.00167825461520019
+"Azimuth","Male","Kidney","Renal Column","CL:4030018: kidney connecting tubule principal cell","false","false",2,514.608,0.0362023495564613
+"Azimuth","Male","Kidney","Renal Column","CL:4030022: renal medullary fibroblast","false","false",2,330.576,0.0232558139534884
+"Azimuth","Male","Kidney","Renal Papilla","ASCTB-TEMP:descending-vasa-recta-endothelial: Descending Vasa Recta Endothelial ","false","false",2,294.272,0.0214531061775369
+"Azimuth","Male","Kidney","Renal Papilla","ASCTB-TEMP:peritubular-capilary-endothelial: Peritubular Capilary Endothelial ","false","false",2,1.904,0.000138805982771145
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000084: T cell","false","false",2,20.456,0.0014912894871673
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000084: T cell:cycling","false","false",4,20.456,0.0014912894871673
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000084: T cell:proliferating","false","false",6,20.456,0.0014912894871673
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000097: mast cell","false","false",2,0.92,0.0000670701177255532
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000236: B cell","false","false",2,1.52,0.000110811498850914
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000236: B cell:activated","false","false",2,1.52,0.000110811498850914
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000786: plasma cell","false","false",2,7.392,0.000538893815464444
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000786: plasma cell: early precursor","false","false",2,7.392,0.000538893815464444
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000786: plasma cell:committed light zone germinal center B cell","false","false",2,7.392,0.000538893815464444
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000786: plasma cell:doublet","false","false",2,7.392,0.000538893815464444
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000814: mature NK T cell","false","false",2,1.236,0.0000901072451182431
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000814: mature NK T cell:proliferating","false","false",2,1.236,0.0000901072451182431
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000875: non-classical monocyte","false","false",2,1.904,0.000138805982771145
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000875: non-classical monocyte:tonsil C1Q slan-like","false","false",2,1.904,0.000138805982771145
+"Azimuth","Male","Kidney","Renal Papilla","CL:0000890: alternatively activated macrophage","false","false",2,152.348,0.0111065198861441
+"Azimuth","Male","Kidney","Renal Papilla","CL:0002201: renal beta-intercalated cell","false","false",2,16.184,0.00117985085355473
+"Azimuth","Male","Kidney","Renal Papilla","CL:0011031: monocyte-derived dendritic cell","false","false",2,11.136,0.000811840033686696
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000597: papillary tips cell","true","true",2,0.952,0.0000694029913855724
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000692: kidney interstitial fibroblast","false","false",2,2.76,0.00020121035317666
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000714: kidney cortex collecting duct principal cell","false","false",2,59.32,0.00432456454726067
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000716: kidney outer medulla collecting duct principal cell","false","false",2,341.32,0.0248830136761802
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000717: kidney outer medulla collecting duct intercalated cell","false","false",2,36.176,0.00263731367265175
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000718: kidney inner medulla collecting duct principal cell","true","false",2,5134.636,0.37432678369333
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000718: kidney inner medulla collecting duct principal cell","true","true",2,5134.636,0.37432678369333
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000768: kidney connecting tubule epithelial cell","false","false",2,647.836,0.047228735637882
+"Azimuth","Male","Kidney","Renal Papilla","CL:1000850: macula densa epithelial cell","false","false",2,12.376,0.000902238888012441
+"Azimuth","Male","Kidney","Renal Papilla","CL:1001107: kidney loop of Henle thin ascending limb epithelial cell","false","false",2,689.904,0.0502955896731848
+"Azimuth","Male","Kidney","Renal Papilla","CL:1001108: kidney loop of Henle medullary thick ascending limb epithelial cell","false","false",2,6.404,0.00046686634121135
+"Azimuth","Male","Kidney","Renal Papilla","CL:1001109: kidney loop of Henle cortical thick ascending limb epithelial cell","false","false",2,0.568,0.0000414085074653415
+"Azimuth","Male","Kidney","Renal Papilla","CL:1001131: vasa recta ascending limb cell","false","false",2,1055.124,0.0769209683641919
+"Azimuth","Male","Kidney","Renal Papilla","CL:1001318: renal interstitial pericyte","false","false",4,72.956,0.00531866033563636
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030010: epithelial cell of proximal tubule segment 2","false","false",2,0.284,0.0000207042537326708
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030012: kidney loop of Henle short descending thin limb epithelial cell","false","false",2,297.08,0.0216578158412036
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030013: kidney loop of Henle long descending thin limb outer medulla epithelial cell","false","false",2,1.204,0.0000877743714582239
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030014: kidney loop of Henle long descending thin limb inner medulla epithelial cell","false","false",2,973.576,0.0709759314508404
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030016: epithelial cell of early distal convoluted tubule","false","false",2,2.856,0.000208208974156717
+"Azimuth","Male","Kidney","Renal Papilla","CL:4030022: renal medullary fibroblast","false","false",2,3872.384,0.282305707346248

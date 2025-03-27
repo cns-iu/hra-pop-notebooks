@@ -1,0 +1,8 @@
+source,target,distance
+VH_M_ischium_spongy_bone_R,VH_M_pubis_compact_bone_R,-1
+VH_M_ilium_compact_bone_R,VH_M_ilium_spongy_bone_R,-1
+VH_M_pubis_compact_bone_R,VH_M_pubis_spongy_bone_R,-1
+VH_M_ischium_compact_bone_R,VH_M_pubis_spongy_bone_R,-1
+VH_M_ischium_compact_bone_R,VH_M_ischium_spongy_bone_R,-1
+VH_M_ischium_compact_bone_R,VH_M_pubis_compact_bone_R,-1
+VH_M_ischium_spongy_bone_R,VH_M_pubis_spongy_bone_R,-1
