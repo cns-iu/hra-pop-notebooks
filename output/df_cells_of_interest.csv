@@ -1,10 +1,10 @@
-dataset,tool,cell_id,cell_label,count,percentage_of_total,Total_Value
-https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0,azimuth,http://purl.obolibrary.org/obo/CL_0002062,pulmonary alveolar type 1 cell,15985,0.1582892678193017,277938
-https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0,azimuth,http://purl.obolibrary.org/obo/CL_0002063,pulmonary alveolar type 2 cell,8397,0.0831501396233141,277938
-https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0,azimuth,http://purl.obolibrary.org/obo/CL_0000236,B cell,481,0.0047630364604994,277938
-https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0,celltypist,http://purl.obolibrary.org/obo/CL_0002063,pulmonary alveolar type 2 cell,15621,0.1546848077951399,277938
-https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0,celltypist,http://purl.obolibrary.org/obo/CL_0002062,pulmonary alveolar type 1 cell,8545,0.0846156893034678,277938
-https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0,celltypist,http://purl.obolibrary.org/obo/CL_0000236,B cell,214,0.0021191056186005,277938
-https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0,popv,http://purl.obolibrary.org/obo/CL_0002063,pulmonary alveolar type 2 cell,15629,0.2057367769791749,277938
-https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0,popv,http://purl.obolibrary.org/obo/CL_0002062,pulmonary alveolar type 1 cell,4896,0.0644498854750809,277938
-https://entity.api.hubmapconsortium.org/entities/4369a119a9c06ea304003a5c3cb3a2e0,popv,http://purl.obolibrary.org/obo/CL_0000236,B cell,43,0.0005660427033146408,277938
+tool,cell_id,cell_label,count,avg_percentage_of_total
+azimuth,http://purl.obolibrary.org/obo/CL_0002062,pulmonary alveolar type 1 cell,692194,0.1494743503690493
+azimuth,http://purl.obolibrary.org/obo/CL_0002063,pulmonary alveolar type 2 cell,330530,0.1504594558093757
+azimuth,http://purl.obolibrary.org/obo/CL_0000236,B cell,20870,0.0104417139916664
+celltypist,http://purl.obolibrary.org/obo/CL_0002063,pulmonary alveolar type 2 cell,630968,0.1873150454968968
+celltypist,http://purl.obolibrary.org/obo/CL_0002062,pulmonary alveolar type 1 cell,319804,0.088457955505344
+celltypist,http://purl.obolibrary.org/obo/CL_0000236,B cell,8902,0.0075274099294899
+popv,http://purl.obolibrary.org/obo/CL_0002063,pulmonary alveolar type 2 cell,492152,0.2164728970539408
+popv,http://purl.obolibrary.org/obo/CL_0002062,pulmonary alveolar type 1 cell,169262,0.084307354483929
+popv,http://purl.obolibrary.org/obo/CL_0000236,B cell,4618,0.0064497445996111
