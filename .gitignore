@@ -4,3 +4,5 @@ GTEx_8_tissues_snRNAseq_atlas_071421.public_obs.h5ad
 hra-worfklows-runner-setup.ipynb
 hwr
 gtex
+eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)".pub
