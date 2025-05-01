@@ -1,3 +1,2 @@
-# Large and/or not needed files
-gtex-ctann-comparison\data\sc-transcriptomics-cell-instances.csv.gz
-gtex-ctann-comparison/data/sc-transcriptomics-cell-instances.csv.gz
+# Large and, not needed, or private files
+gtex-private-cell-instances.csv.gz
