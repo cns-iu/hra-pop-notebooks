@@ -1,4 +1,4 @@
-portal,dataset_id,organ_name,uuid,hubmap
+portal,dataset_id,organ_name,uuid,hubmap_id
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/0027cb59bcb4a34d5db83acaf934a9d9,right kidney,0027cb59bcb4a34d5db83acaf934a9d9,HBM465.RKKK.264
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/00318be0b7cfa3c6ed7fbeab08fe700b,right kidney,00318be0b7cfa3c6ed7fbeab08fe700b,HBM232.FHDF.343
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/007f3dfaaa287d5c7c227651f61a9c5b,heart,007f3dfaaa287d5c7c227651f61a9c5b,HBM927.DZCV.762
