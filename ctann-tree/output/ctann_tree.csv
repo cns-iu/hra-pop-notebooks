@@ -44,7 +44,7 @@ cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T c
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,CD4+ T cell,CD4+ T cell,CL:0000624
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,CD4+T_Tfh,CD4+T_Tfh,CL:0000492
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,CD4+T_Th1,CD4+T_Th1,CL:0000545
-cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,CD4+T_Th17,CD4+T_Th17,CL:0000899
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,CD4+T_Th17,CD4+T_Th17,CL:0000899
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,CD4+T_Th2,CD4+T_Th2,CL:0000546
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,CD4+T_act,CD4+T_act,CL:0001043
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,CD4+T_naive,CD4+T_naive,CL:0000895
@@ -79,12 +79,15 @@ cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Connecting Tu
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Cortical Collecting Duct Intercalated Type A,Cortical Collecting Duct Intercalated Type A,CL:1000715
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Cortical Collecting Duct Principal,Cortical Collecting Duct Principal,CL:1000714
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Cortical Thick Ascending Limb,Cortical Thick Ascending Limb,CL:1001109
-cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,Cycling Mononuclear Phagocyte,Cycling Mononuclear Phagocyte,CL:0000113
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,DC,DC,CL:0000451
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,DC,DC,CL:0000451
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,DC1,DC1,CL:0002394
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,DC2,DC2,CL:0002399
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,DC2,DC2,CL:0002399
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,DN Lymphocyte,DN Lymphocyte,CL:0002489
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,DN1 thymic pro-T cell,DN1 thymic pro-T cell,CL:0000894
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,DN3 thymocyte,DN3 thymocyte,CL:0000807
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,DN4 thymocyte,DN4 thymocyte,CL:0000808
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Descending Thin Limb Type 1,Descending Thin Limb Type 1,CL:4030012
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Descending Thin Limb Type 2,Descending Thin Limb Type 2,CL:4030013
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Descending Thin Limb Type 3,Descending Thin Limb Type 3,CL:4030014
@@ -111,10 +114,11 @@ cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,EC6_ven,EC6
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,EC7_endocardial,EC7_endocardial,CL:0002350
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,EC8_ln,EC8_ln,CL:0002138
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Endocardial,Endocardial,CL:0002350
-cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Endothelial,Endothelial,CL:0000115
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Endothelial,Endothelial,CL:0000071
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Endothelial,Endothelial,CL:0000115
+cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Endothelial,Endothelial,CL:0000115
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Endothelial cells,Endothelial cells,CL:0000115
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Enterocyte,Enterocyte,CL:0000584
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,F3,F3,CL:0000057
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,FB1,FB1,CL:0000057
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,FB2,FB2,CL:0000057
@@ -123,25 +127,29 @@ cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,st
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,Fibroblast,Fibroblast,CL:0000057
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,Fibroblast,Fibroblast,CL:1000692
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,Fibroblasts,Fibroblasts,CL:0000057
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,B cell,B cell,CL:0000236,Fol B cells,Fol B cells,CL:0000843
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Glomerular Capillary Endothelial,Glomerular Capillary Endothelial,CL:1001005
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Goblet,Goblet,CL:0000160
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Goblet (bronchial),Goblet (bronchial),CL:0019003
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Goblet (bronchial),Goblet (bronchial),CL:0019003
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Goblet (nasal),Goblet (nasal),CL:0002480
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Goblet (nasal),Goblet (nasal),CL:0002480
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Goblet (subsegmental),Goblet (subsegmental),CL:1000312
-cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,Hematopoietic stem cells,Hematopoietic stem cells,CL:0000037
+cell,cell,CL:0000000,stem cell,stem cell,CL:0000034,,,,Hematopoietic stem cells,Hematopoietic stem cells,CL:0000037
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Hepatocytes,Hepatocytes,CL:0000182
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Hillock-like,Hillock-like,CL:0000158
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,ICC,ICC,CL:0002088
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,ILC,ILC,CL:0001065
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,ILC,ILC,CL:0001065
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,ILC1_3,ILC1_3,CL:0001078
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,ILC1_NK,ILC1_NK,CL:0000623
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,ILC2,ILC2,CL:0001081
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,macrophage,macrophage,CL:0000235,Inf_mac,Inf_mac,CL:0000863
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Inner Medullary Collecting Duct,Inner Medullary Collecting Duct,CL:1000718
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Intercalated Type B,Intercalated Type B,CL:0002201
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,macrophage,macrophage,CL:0000235,Interstitial Mph perivascular,Interstitial Mph perivascular,CL:4033043
-cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Ionocyte,Ionocyte,CL:0017000
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Ionocyte,Ionocyte,CL:0005006
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Ionocyte,Ionocyte,CL:0017000
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Ki67+ Tumor/Epithelial,Ki67+ Tumor/Epithelial,CL:0000066
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,LE2,LE2,CL:0002138
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,macrophage,macrophage,CL:0000235,LYVE1+IGF1+MP,LYVE1+IGF1+MP,CL:0000235
@@ -149,11 +157,12 @@ cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,macrophage
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,macrophage,macrophage,CL:0000235,LYVE1+TIMD4+MP,LYVE1+TIMD4+MP,CL:0000235
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,Langerhans cell,Langerhans cell,CL:0000453
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Lymphatic,Lymphatic,CL:0002138
-cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Lymphatic EC differentiating,Lymphatic EC differentiating,CL:0002138
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Lymphatic EC differentiating,Lymphatic EC differentiating,CL:0009086
+cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Lymphatic EC differentiating,Lymphatic EC differentiating,CL:0002138
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Lymphatic EC mature,Lymphatic EC mature,CL:0002138
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Lymphatic EC mature,Lymphatic EC mature,CL:0009086
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,Lymphatic Endothelial,Lymphatic Endothelial,CL:0002138
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,Lymphocyte(III),Lymphocyte(III),CL:0000542
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,macrophage,macrophage,CL:0000235,M1 Macrophage,M1 Macrophage,CL:0000863
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,macrophage,macrophage,CL:0000235,M2 Macrophage,M2 Macrophage,CL:0000890
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,macrophage,macrophage,CL:0000235,M2 Macrophage,M2 Macrophage,CL:0000890
@@ -189,6 +198,7 @@ cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Multiciliated
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Multiciliated (nasal),Multiciliated (nasal),CL:0005012
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Multiciliated (non-nasal),Multiciliated (non-nasal),CL:0002145
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Multiciliated (non-nasal),Multiciliated (non-nasal),CL:0005012
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,Myeloid cells,Myeloid cells,CL:0000763
 cell,cell,CL:0000000,neural cell,neural cell,CL:0002319,glial cell,glial cell,CL:0000125,NC1_glial,NC1_glial,CL:0010020
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,NK,NK,CL:0000623
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,NK,NK,CL:0000623
@@ -197,6 +207,8 @@ cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,NK cell
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,NK_CD16hi,NK_CD16hi,CL:0000939
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,NK_CD56hi,NK_CD56hi,CL:0000938
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,Natural Killer T,Natural Killer T,CL:0000814
+cell,cell,CL:0000000,neural cell,neural cell,CL:0002319,neuron,neuron,CL:0000540,Nerve,Nerve,CL:0000540
+cell,cell,CL:0000000,neural cell,neural cell,CL:0002319,neuron,neuron,CL:0000540,Neuroendocrine,Neuroendocrine,CL:1000223
 cell,cell,CL:0000000,neural cell,neural cell,CL:0002319,neuron,neuron,CL:0000540,Neuroendocrine,Neuroendocrine,CL:0000165
 cell,cell,CL:0000000,neural cell,neural cell,CL:0002319,neuron,neuron,CL:0000540,Neuroendocrine,Neuroendocrine,CL:0000165
 cell,cell,CL:0000000,neural cell,neural cell,CL:0002319,glial cell,glial cell,CL:0000125,Neuronal,Neuronal,CL:0002573
@@ -208,6 +220,8 @@ cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,monocyte,m
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,monocyte,monocyte,CL:0000576,Non-classical monocytes,Non-classical monocytes,CL:0000875
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Outer Medullary Collecting Duct Intercalated Type A,Outer Medullary Collecting Duct Intercalated Type A,CL:1000717
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Outer Medullary Collecting Duct Principal,Outer Medullary Collecting Duct Principal,CL:1000716
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,PP,PP,CL:0002275
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Paneth,Paneth,CL:0000510
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Parietal Epithelial,Parietal Epithelial,CL:1000452
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,Peribronchial fibroblasts,Peribronchial fibroblasts,CL:0002241
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,Peribronchial fibroblasts,Peribronchial fibroblasts,CL:0002241
@@ -245,13 +259,14 @@ cell,cell,CL:0000000,muscle cell,muscle cell,CL:0000187,,,,Smooth muscle,Smooth 
 cell,cell,CL:0000000,muscle cell,muscle cell,CL:0000187,,,,Smooth muscle FAM83D+,Smooth muscle FAM83D+,CL:0000192
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,Stroma,Stroma,CL:0000499
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,Subpleural fibroblasts,Subpleural fibroblasts,CL:4023054
-cell,cell,CL:0000000,stem cell,stem cell,CL:0000034,,,,Suprabasal,Suprabasal,CL:0002633
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,Suprabasal,Suprabasal,CL:4033048
+cell,cell,CL:0000000,stem cell,stem cell,CL:0000034,,,,Suprabasal,Suprabasal,CL:0002633
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,T,T,CL:0000084
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,T cell,T cell,CL:0000084
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,T cells,T cells,CL:0000084
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,T cells proliferating,T cells proliferating,CL:0000084
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,T cells proliferating,T cells proliferating,CL:0000084
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,T follicular helper cell,T follicular helper cell,CL:0002038
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,T helper,T helper,CL:0000912
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,T-Helper,T-Helper,CL:0000912
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,T-Killer,T-Killer,CL:0000910
@@ -274,19 +289,29 @@ cell,cell,CL:0000000,muscle cell,muscle cell,CL:0000187,,,,aCM1,aCM1,CL:0002129
 cell,cell,CL:0000000,muscle cell,muscle cell,CL:0000187,,,,aCM3,aCM3,CL:0002129
 cell,cell,CL:0000000,muscle cell,muscle cell,CL:0000187,,,,aCM4,aCM4,CL:0002129
 cell,cell,CL:0000000,muscle cell,muscle cell,CL:0000187,,,,aCM5,aCM5,CL:0002129
+cell,cell,CL:0000000,,,,exocrine cell,exocrine cell,CL:0000152,acinar,acinar,CL:0002064
+cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,activated_stellate,activated_stellate,CL:0002410
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,adventitial cell,adventitial cell,CL:4028006
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,alpha_immature,alpha_immature,CL:0000171
 cell,cell,CL:0000000,stem cell,stem cell,CL:0000034,,,,basal cell,basal cell,CL:0000646
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,basal cell of prostate epithelium,basal cell of prostate epithelium,CL:0002341
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,blood cell,blood cell,CL:0000081,basophil,basophil,CL:0000767
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,beta,beta,CL:0000169
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,beta_immature,beta_immature,CL:0000171
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,bladder urothelial cell,bladder urothelial cell,CL:1001428
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,blood vessel endothelial cell,blood vessel endothelial cell,CL:0000071
 cell,cell,CL:0000000,muscle cell,muscle cell,CL:0000187,,,,bronchial smooth muscle cell,bronchial smooth muscle cell,CL:0002598
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,cDC1s,cDC1s,CL:0002394
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,cDC2s,cDC2s,CL:0002399
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,capillary endothelial cell,capillary endothelial cell,CL:0002144
+cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,cardiac endothelial cell,cardiac endothelial cell,CL:0010008
+cell,cell,CL:0000000,muscle cell,muscle cell,CL:0000187,,,,cardiac muscle cell,cardiac muscle cell,CL:0000746
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,monocyte,monocyte,CL:0000576,classical monocyte,classical monocyte,CL:0000860
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,club cell,club cell,CL:0000158
+cell,cell,CL:0000000,neural cell,neural cell,CL:0002319,neuron,neuron,CL:0000540,delta,delta,CL:0000173
+cell,cell,CL:0000000,neural cell,neural cell,CL:0002319,neuron,neuron,CL:0000540,delta,delta,CL:0000173
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,dendritic cell,dendritic cell,CL:0000451
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,ductal,ductal,CL:0002079
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,"effector CD4-positive, alpha-beta T cell","effector CD4-positive, alpha-beta T cell",CL:0001044
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,"effector CD8-positive, alpha-beta T cell","effector CD8-positive, alpha-beta T cell",CL:0001050
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,endothelial,endothelial,CL:0000115
@@ -298,20 +323,23 @@ cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,enterocyte of
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,enterocyte of epithelium of small intestine,enterocyte of epithelium of small intestine,CL:1000334
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,epithelial cell,epithelial cell,CL:0000066
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,blood cell,blood cell,CL:0000081,erythrocyte,erythrocyte,CL:0000232
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,erythroid progenitor cell,erythroid progenitor cell,CL:0000038
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,fibroblast,fibroblast,CL:0000057
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,fibroblast of breast,fibroblast of breast,CL:4006000
+cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,fibroblast of cardiac tissue,fibroblast of cardiac tissue,CL:0002548
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,gdT,gdT,CL:0000798
 cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,gut endothelial cell,gut endothelial cell,CL:0000131
-cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,hematopoietic stem cell,hematopoietic stem cell,CL:0000037
+cell,cell,CL:0000000,stem cell,stem cell,CL:0000034,,,,hematopoietic stem cell,hematopoietic stem cell,CL:0000037
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,hepatocyte,hepatocyte,CL:0000182
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,immune,immune,CL:0000738
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,innate lymphoid cell,innate lymphoid cell,CL:0001065
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,monocyte,monocyte,CL:0000576,intermediate monocyte,intermediate monocyte,CL:0002393
 cell,cell,CL:0000000,stem cell,stem cell,CL:0000034,,,,intestinal crypt stem cell of large intestine,intestinal crypt stem cell of large intestine,CL:0009016
 cell,cell,CL:0000000,stem cell,stem cell,CL:0000034,,,,intestinal crypt stem cell of small intestine,intestinal crypt stem cell of small intestine,CL:0009017
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,intestinal enteroendocrine cell,intestinal enteroendocrine cell,CL:1001516
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,intestinal enteroendocrine cell,intestinal enteroendocrine cell,CL:0009006
-cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,intestinal tuft cell,intestinal tuft cell,CL:0019032
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,intestinal tuft cell,intestinal tuft cell,CL:0009080
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,intestinal tuft cell,intestinal tuft cell,CL:0019032
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,intrahepatic cholangiocyte,intrahepatic cholangiocyte,CL:0002538
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,large intestine goblet cell,large intestine goblet cell,CL:1000320
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,liver dendritic cell,liver dendritic cell,CL:2000055
@@ -322,6 +350,7 @@ cell,cell,CL:0000000,endothelial cell,endothelial cell,CL:0000115,,,,lung microv
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,macrophage,macrophage,CL:0000235,macrophage,macrophage,CL:0000235
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,mast cell,mast cell,CL:0000097
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,mature NK T cell,mature NK T cell,CL:0000814
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,medullary thymic epithelial cell,medullary thymic epithelial cell,CL:0002365
 cell,cell,CL:0000000,melanocyte,melanocyte,CL:0000148,,,,melanocyte,melanocyte,CL:0000148
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,B cell,B cell,CL:0000236,memory B cell,memory B cell,CL:0000787
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,mesothelial cell,mesothelial cell,CL:0000077
@@ -329,18 +358,25 @@ cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic 
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,moDC,moDC,CL:0011031
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,monocyte,monocyte,CL:0000576,monocyte,monocyte,CL:0000576
 cell,cell,CL:0000000,muscle cell,muscle cell,CL:0000187,,,,muscle cell,muscle cell,CL:0000187
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,myeloid cell,myeloid cell,CL:0000763
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,B cell,B cell,CL:0000236,naive B cell,naive B cell,CL:0000788
+cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,naive regulatory T cell,naive regulatory T cell,CL:0002677
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,"naive thymus-derived CD4-positive, alpha-beta T cell","naive thymus-derived CD4-positive, alpha-beta T cell",CL:0000895
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,"naive thymus-derived CD8-positive, alpha-beta T cell","naive thymus-derived CD8-positive, alpha-beta T cell",CL:0000900
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,blood cell,blood cell,CL:0000081,neutrophil,neutrophil,CL:0000775
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,monocyte,monocyte,CL:0000576,non-classical monocyte,non-classical monocyte,CL:0000875
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,pDCs,pDCs,CL:0000784
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,pancreatic PP cell,pancreatic PP cell,CL:0002275
+cell,cell,CL:0000000,,,,exocrine cell,exocrine cell,CL:0000152,pancreatic acinar cell,pancreatic acinar cell,CL:0002064
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,pancreatic ductal cell,pancreatic ductal cell,CL:0002079
+cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,pancreatic stellate cell,pancreatic stellate cell,CL:0002410
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,paneth cell of colon,paneth cell of colon,CL:0009009
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,paneth cell of epithelium of small intestine,paneth cell of epithelium of small intestine,CL:1000343
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,,,,plasma cell,plasma cell,CL:0000786
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,dendritic cell,dendritic cell,CL:0000451,plasmacytoid dendritic cell,plasmacytoid dendritic cell,CL:0000784
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,blood cell,blood cell,CL:0000081,platelet,platelet,CL:0000233
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,pulmonary ionocyte,pulmonary ionocyte,CL:0017000
+cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,quiescent_stellate,quiescent_stellate,CL:0002410
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,regulatory T cell,regulatory T cell,CL:0000815
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,respiratory goblet cell,respiratory goblet cell,CL:0002370
 cell,cell,CL:0000000,neural cell,neural cell,CL:0002319,glial cell,glial cell,CL:0000125,schwann,schwann,CL:0002573
@@ -348,6 +384,7 @@ cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,small intesti
 cell,cell,CL:0000000,muscle cell,muscle cell,CL:0000187,,,,smooth muscle cell,smooth muscle cell,CL:0000192
 cell,cell,CL:0000000,connective tissue cell,connective tissue cell,CL:0002320,stromal cell,stromal cell,CL:0000499,stromal cell,stromal cell,CL:0000499
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,transit amplifying cell of colon,transit amplifying cell of colon,CL:0009011
+cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,type B pancreatic cell,type B pancreatic cell,CL:0000169
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,T cell,T cell,CL:0000084,type I NK T cell,type I NK T cell,CL:0000921
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,type I pneumocyte,type I pneumocyte,CL:0002062
 cell,cell,CL:0000000,epithelial cell,epithelial cell,CL:0000066,,,,type II pneumocyte,type II pneumocyte,CL:0002063
@@ -363,4 +400,3 @@ cell,cell,CL:0000000,bone cell,bone cell,CL:0001035,,,,,,
 cell,cell,CL:0000000,hematopoietic cell,hematopoietic cell,CL:0000988,blood cell,blood cell,CL:0000081,,,
 cell,cell,CL:0000000,neural cell,neural cell,CL:0002319,glial cell,glial cell,CL:0000125,,,
 cell,cell,CL:0000000,stem cell,stem cell,CL:0000034,,,,,,
-cell,cell,CL:0000000,neural cell,neural cell,CL:0002319,neuron,neuron,CL:0000540,,,

@@ -14,13 +14,17 @@ FROM <https://purl.humanatlas.io/vocab/cl>
 FROM <https://purl.humanatlas.io/vocab/pcl>
 WHERE {
   # Select cell types to map
-  GRAPH HRApop: {
-    [] ccf:has_cell_summary [
-      ccf:has_cell_summary_row [
-        ccf:cell_id ?cell_id ;
-      ]
-    ] .
-    FILTER(!STRSTARTS(STR(?cell_id), 'https://purl.org/ccf/ASCTB-TEMP'))
+  # GRAPH HRApop: {
+  #   [] ccf:has_cell_summary [
+  #     ccf:has_cell_summary_row [
+  #       ccf:cell_id ?cell_id ;
+  #     ]
+  #   ] .
+  #   FILTER(!STRSTARTS(STR(?cell_id), 'https://purl.org/ccf/ASCTB-TEMP'))
+  # }
+
+    VALUES (?cell_id) {
+    #L4_CELLS
   }
 
   ?cell_id rdfs:label ?cell_label .
