@@ -15,7 +15,6 @@ HuBMAP,https://entity.api.hubmapconsortium.org/entities/061b6c8f8e76f9be125f0f93
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/069a6930776ca28f8e10c3781aa13b56,right kidney,069a6930776ca28f8e10c3781aa13b56,HBM495.ZFDT.229
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/07b9f36478e22bf820ac6a084e01bf94,small intestine,07b9f36478e22bf820ac6a084e01bf94,HBM768.FKCS.477
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/0804a7a9e430e6adfbc56f339d787211,right kidney,0804a7a9e430e6adfbc56f339d787211,HBM688.RPFC.258
-HuBMAP,https://entity.api.hubmapconsortium.org/entities/08c1aa2e74700e1170fc9218ae255992,right kidney,08c1aa2e74700e1170fc9218ae255992,HBM648.DKQK.874
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/0910bfd40695181a73e5059909e46cda,small intestine,0910bfd40695181a73e5059909e46cda,HBM693.SRHJ.546
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/0a0eb095c8e7f7c890da20184d7527cb,large intestine,0a0eb095c8e7f7c890da20184d7527cb,HBM839.ZFRD.789
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/0a21f3fa27109790483f2a0729be53de,left kidney,0a21f3fa27109790483f2a0729be53de,HBM735.FSBZ.626
@@ -34,7 +33,6 @@ HuBMAP,https://entity.api.hubmapconsortium.org/entities/0f1ddcb41a484adbda759c0c
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/0f35f3bd23a8f773c7213d558338e74d,urinary bladder,0f35f3bd23a8f773c7213d558338e74d,HBM455.RZPH.997
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/10b22d398b548c141167d4d9c4cbd79e,right kidney,10b22d398b548c141167d4d9c4cbd79e,HBM996.XSNK.694
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/11678046b4e78f95762acc47d3074dc5,small intestine,11678046b4e78f95762acc47d3074dc5,HBM237.TJFZ.599
-HuBMAP,https://entity.api.hubmapconsortium.org/entities/1197c73d127193dd493ff542890a3d3d,right kidney,1197c73d127193dd493ff542890a3d3d,HBM398.JQZB.348
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/11b4f413984624557c2b1a4566b0d71a,small intestine,11b4f413984624557c2b1a4566b0d71a,HBM945.FSHR.864
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/12de9dcdb62640f1687b832f69648a55,left kidney,12de9dcdb62640f1687b832f69648a55,HBM936.MHTZ.834
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/133bc98251c8b80923f550ea2678380e,small intestine,133bc98251c8b80923f550ea2678380e,HBM893.MCGS.487
@@ -78,11 +76,9 @@ HuBMAP,https://entity.api.hubmapconsortium.org/entities/28d7789ef980031fb7278646
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/293d9f9a1a076c616ed91d7251ec831c,respiratory system,293d9f9a1a076c616ed91d7251ec831c,HBM395.WSDD.355
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/2958cd11dad5ee8bcf7bf8d4b3e4a128,large intestine,2958cd11dad5ee8bcf7bf8d4b3e4a128,HBM429.LLRT.546
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/29596bee3f70b2bfc89d184fe38a3daa,left kidney,29596bee3f70b2bfc89d184fe38a3daa,HBM265.HMJZ.658
-HuBMAP,https://entity.api.hubmapconsortium.org/entities/29a538c3ddb396dee26188ae1151da46,spleen,29a538c3ddb396dee26188ae1151da46,HBM698.FWFH.998
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/2a4bc7e02193ed50cc8d692db06f042d,small intestine,2a4bc7e02193ed50cc8d692db06f042d,HBM368.MPRF.249
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/2a590db3d7ab1e1512816b165d95cdcf,right kidney,2a590db3d7ab1e1512816b165d95cdcf,HBM552.PBBF.363
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/2ae126ab16c264352b2d3d2607236b97,small intestine,2ae126ab16c264352b2d3d2607236b97,HBM348.TWMS.895
-HuBMAP,https://entity.api.hubmapconsortium.org/entities/2b57ac6fea7aa96d26d2685a297a4e7a,spleen,2b57ac6fea7aa96d26d2685a297a4e7a,HBM342.FSLD.938
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/2bd350c08997ecfec9c22f453cf4e6af,left kidney,2bd350c08997ecfec9c22f453cf4e6af,HBM333.XMCV.992
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/2c718a10905c5941d4cc134a7027f808,small intestine,2c718a10905c5941d4cc134a7027f808,HBM528.KNNX.327
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/2c84a86ab51ec3a1168d8ba573d32c0a,left kidney,2c84a86ab51ec3a1168d8ba573d32c0a,HBM356.MDPN.792
@@ -118,7 +114,6 @@ HuBMAP,https://entity.api.hubmapconsortium.org/entities/3a4fb23a49fba2647dba2b8f
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/3bb5f743b039cb620d7ef234e0876f7a,right kidney,3bb5f743b039cb620d7ef234e0876f7a,HBM349.QCWZ.339
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/3c1b10bc912c60c9afc36b7423695236,left kidney,3c1b10bc912c60c9afc36b7423695236,HBM467.RQDN.922
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/3d0bf870aaa607cd0bd0146a461ea0ac,heart,3d0bf870aaa607cd0bd0146a461ea0ac,HBM877.JFMS.222
-HuBMAP,https://entity.api.hubmapconsortium.org/entities/3de2804ec3219228758dba8382d33423,spleen,3de2804ec3219228758dba8382d33423,HBM825.PBVN.284
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/3de525fe3e5718f297e8d62e037a042d,small intestine,3de525fe3e5718f297e8d62e037a042d,HBM593.JLCT.283
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/3e1d2641c370e6d6c47ff51d34fe5a58,large intestine,3e1d2641c370e6d6c47ff51d34fe5a58,HBM223.RVJG.329
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/3e6bdf82a2c9fb71ee98dff673b505af,large intestine,3e6bdf82a2c9fb71ee98dff673b505af,HBM787.WSCS.874
@@ -209,7 +204,6 @@ HuBMAP,https://entity.api.hubmapconsortium.org/entities/6cd657565c709c8323003368
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/6df2f796ad72307d04dc94d688b725c5,small intestine,6df2f796ad72307d04dc94d688b725c5,HBM749.SMWP.555
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/6e1db473492095ccc2f1393d7259b9c0,left ureter,6e1db473492095ccc2f1393d7259b9c0,HBM573.JMXM.823
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/6efd19dc32f820a0e6be6a34973359b6,left kidney,6efd19dc32f820a0e6be6a34973359b6,HBM964.BVWP.737
-HuBMAP,https://entity.api.hubmapconsortium.org/entities/6f1b0a72a5e10af1474cec9a8804b8f5,urinary bladder,6f1b0a72a5e10af1474cec9a8804b8f5,HBM355.NTQW.365
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/6f289cf6ba3614682e8d5f6c8e93ebb1,small intestine,6f289cf6ba3614682e8d5f6c8e93ebb1,HBM628.LKGZ.865
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/6fdfde6f88e34294b3cd58e070ebcba2,left kidney,6fdfde6f88e34294b3cd58e070ebcba2,HBM547.SJSK.268
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/7017034c816444f6acb469834e53344f,left kidney,7017034c816444f6acb469834e53344f,HBM874.GLHT.852
@@ -279,7 +273,6 @@ HuBMAP,https://entity.api.hubmapconsortium.org/entities/97c65df1d8fdc8d67c34a55e
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/985b97a1645baa3d7dffd4c0e13adbb6,left kidney,985b97a1645baa3d7dffd4c0e13adbb6,HBM834.SLQN.292
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/98c1bc0a44802108a6dcf8ce281628a7,large intestine,98c1bc0a44802108a6dcf8ce281628a7,HBM742.NHHQ.357
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/98d54824c0eb9843865dfc3a53b4cff4,large intestine,98d54824c0eb9843865dfc3a53b4cff4,HBM334.QWFV.953
-HuBMAP,https://entity.api.hubmapconsortium.org/entities/9a36e5319429ec6aca5a8a9fef401929,spleen,9a36e5319429ec6aca5a8a9fef401929,HBM323.BVBV.658
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/9a7e6be288b27ddbd3366c4ae41bbcd2,left ureter,9a7e6be288b27ddbd3366c4ae41bbcd2,HBM633.LLDZ.679
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/9aed52d22e30b893045fd1f79b3663fb,respiratory system,9aed52d22e30b893045fd1f79b3663fb,HBM744.FNLN.846
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/9b03c4c79ef7bcd1e8992cd50ed3f482,large intestine,9b03c4c79ef7bcd1e8992cd50ed3f482,HBM696.FGSV.776
@@ -348,7 +341,6 @@ HuBMAP,https://entity.api.hubmapconsortium.org/entities/be737d348cf32ff4c38145a9
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/be815eafcdc11825037586353cf34b86,small intestine,be815eafcdc11825037586353cf34b86,HBM832.ZSQJ.442
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/be9a0e3119ea00dc156eff7ca346f46e,large intestine,be9a0e3119ea00dc156eff7ca346f46e,HBM876.ZBTD.373
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/bf1896efe41bb1b17eee3bd77072454d,right kidney,bf1896efe41bb1b17eee3bd77072454d,HBM879.GKJM.445
-HuBMAP,https://entity.api.hubmapconsortium.org/entities/bff180755a5da7c036e5250c94f1ebd7#D115-RLL-10A3-40,respiratory system,bff180755a5da7c036e5250c94f1ebd7#D115-RLL-10A3-40,HBM795.VQSQ.889
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/c05a38c5210b870281b5aea01e290339,left kidney,c05a38c5210b870281b5aea01e290339,HBM268.RGJT.587
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/c0f9540056469f86daa7c7a363dfb0bd,small intestine,c0f9540056469f86daa7c7a363dfb0bd,HBM363.CKHC.928
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/c14b104f9e44511ddf82697bce0d1901,right kidney,c14b104f9e44511ddf82697bce0d1901,HBM734.LFLC.264
@@ -363,7 +355,6 @@ HuBMAP,https://entity.api.hubmapconsortium.org/entities/c7beda8afe491243d634e3fd
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/c81b0dc9d16eb825a7d6bce6e1b3678f,right kidney,c81b0dc9d16eb825a7d6bce6e1b3678f,HBM363.NTWP.766
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/c8ee4bd8f052b50fab2e9e9365793374,large intestine,c8ee4bd8f052b50fab2e9e9365793374,HBM235.VKNJ.237
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/ca35382d67c90d4d9bca1ee16526b1d3,respiratory system,ca35382d67c90d4d9bca1ee16526b1d3,HBM967.LPHM.957
-HuBMAP,https://entity.api.hubmapconsortium.org/entities/cae2beaf3926759549dbf4128d6b5ebd,urinary bladder,cae2beaf3926759549dbf4128d6b5ebd,HBM577.ZNLL.525
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/ccbad4ffd323265937b842ea36ada4ad,right kidney,ccbad4ffd323265937b842ea36ada4ad,HBM823.CNRW.484
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/ccf899abde825d51b03ad91028483ac1,left kidney,ccf899abde825d51b03ad91028483ac1,HBM587.QDFJ.926
 HuBMAP,https://entity.api.hubmapconsortium.org/entities/cd0ad2f9ed2f896e682ecacfbdac01ab,large intestine,cd0ad2f9ed2f896e682ecacfbdac01ab,HBM943.LMMD.654
