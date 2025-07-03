@@ -1,0 +1,66 @@
+#+ summary: atlas cell type level mapping
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX CL: <http://purl.obolibrary.org/obo/CL_>
+PREFIX ccf: <http://purl.org/ccf/>
+PREFIX HRA: <https://purl.humanatlas.io/collection/hra-api>
+PREFIX HRApop: <https://purl.humanatlas.io/graph/hra-pop>
+
+SELECT ?cell_label ?cell_id (SAMPLE(?level_1_cell_id) as ?level_1_cell_id) (SAMPLE(?level_1_cell_label) as ?level_1_cell_label)
+FROM HRA:
+FROM <https://purl.humanatlas.io/vocab/cl>
+FROM <https://purl.humanatlas.io/vocab/pcl>
+WHERE {
+  # Select cell types to map
+  # GRAPH HRApop: {
+  #   [] ccf:has_cell_summary [
+  #     ccf:has_cell_summary_row [
+  #       ccf:cell_id ?cell_id ;
+  #     ]
+  #   ] .
+  #   FILTER(!STRSTARTS(STR(?cell_id), 'https://purl.org/ccf/ASCTB-TEMP'))
+  # }
+
+    VALUES (?cell_id) {
+    #L4_CELLS
+  }
+
+  ?cell_id rdfs:label ?cell_label .
+  
+  # Match to upper level cell types
+  OPTIONAL {
+    # https://github.com/obophenotype/cell-ontology/blob/master/src/templates/general_cell_types_upper_slim.csv
+    VALUES (?l1_cell_id) {
+        # uses leaf nodes in AS/2/ID and AS/3/ID in https://docs.google.com/spreadsheets/d/1JZE9BprxatUUopN25P1G16flGXvbuRipuddRFREkN4A/edit?gid=0#gid=0
+        (CL:0000136)
+        (CL:0000576)
+        (CL:0000152)
+        (CL:0000081)
+        (CL:0000125)
+        (CL:0000235)
+        (CL:0000451)
+        (CL:0000236)
+        (CL:0000499)
+        (CL:0000084)
+        (CL:0000540)
+        (CL:0000148)
+        (CL:0000349)
+        (CL:0000988)
+        (CL:0000039)
+        (CL:0001035)
+        (CL:0000115)
+        (CL:0000034)
+        (CL:0000187)
+        (CL:0000066)
+    }
+    ?cell_id (rdfs:subClassOf|rdf:type)* ?l1_cell_id .
+    ?l1_cell_id rdfs:label ?l1_cell_label .
+  }
+
+  BIND(COALESCE(?l1_cell_id, CL:0000000) as ?level_1_cell_id)
+  BIND(COALESCE(?l1_cell_label, 'unknown cell') as ?level_1_cell_label)
+}
+GROUP BY ?cell_id ?cell_label
+ORDER BY ?cell_id

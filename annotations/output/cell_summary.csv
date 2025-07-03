@@ -1,0 +1,211 @@
+tool,modality,percentage,count,cell_label,cell_id
+azimuth,sc_transcriptomics,0.051958305584267256,17242,regular ventricular cardiac myocyte,CL:0002131
+azimuth,sc_transcriptomics,0.04272803705366694,14179,type II pneumocyte,CL:0002063
+azimuth,sc_transcriptomics,0.0325545513993063,10803,fibroblast,CL:0000057
+azimuth,sc_transcriptomics,0.02645829503711092,8780,type I pneumocyte,CL:0002062
+azimuth,sc_transcriptomics,0.011770626470951624,3906,alveolar capillary type 1 endothelial cell,CL:4028002
+azimuth,sc_transcriptomics,0.010724951257070361,3559,monocyte-derived dendritic cell,CL:0011031
+azimuth,sc_transcriptomics,0.01048990034443999,3481,capillary endothelial cell,CL:0002144
+azimuth,sc_transcriptomics,0.009359847879870903,3106,macrophage,CL:0000235
+azimuth,sc_transcriptomics,0.009194106851734104,3051,ciliated columnar cell of tracheobronchial tree,CL:0002145
+azimuth,sc_transcriptomics,0.007395063328140114,2454,endothelial cell of venule,CL:1000414
+azimuth,sc_transcriptomics,0.006331307274825746,2101,pulmonary ionocyte,CL:0017000
+azimuth,sc_transcriptomics,0.00554177728624681,1839,smooth muscle cell,CL:0000192
+azimuth,sc_transcriptomics,0.005496575187664046,1824,pericyte,CL:0000669
+azimuth,sc_transcriptomics,0.005315766793332992,1764,alveolar type 1 fibroblast cell,CL:4028004
+azimuth,sc_transcriptomics,0.004255024213257474,1412,endothelial cell of artery,CL:1000413
+azimuth,sc_transcriptomics,0.0039024478443119184,1295,vein endothelial cell of respiratory system:bronchial vein,CL:4033008
+azimuth,sc_transcriptomics,0.0036553430387261444,1213,alveolar macrophage,CL:0000583
+azimuth,sc_transcriptomics,0.0035980870471879773,1194,respiratory basal cell:resting,CL:0002633
+azimuth,sc_transcriptomics,0.003450426858484283,1145,"CD8-positive, alpha-beta T cell",CL:0000625
+azimuth,sc_transcriptomics,0.0023233878671540457,771,"CD4-positive, alpha-beta T cell",CL:0000624
+azimuth,sc_transcriptomics,0.0020612156953740174,684,brush cell of trachebronchial tree,CL:0002075
+azimuth,sc_transcriptomics,0.0019045150869537702,632,endothelial cell of lymphatic vessel,CL:0002138
+azimuth,sc_transcriptomics,0.0017146662729061635,569,pulmonary artery endothelial cell,CL:1001568
+azimuth,sc_transcriptomics,0.0015549521912470656,516,alveolar type 2 fibroblast cell,CL:4028006
+azimuth,sc_transcriptomics,0.0014705749405592404,488,airway submucosal gland collecting duct epithelial cell,CL:4033023
+azimuth,sc_transcriptomics,0.001386197689871415,460,club cell:nasal,CL:0000158
+azimuth,sc_transcriptomics,0.0012234701349734664,406,natural killer cell,CL:0000623
+azimuth,sc_transcriptomics,0.0012084027687792119,401,endothelial cell of respiratory system lymphatic vessel:differentiating,CL:0009086
+azimuth,sc_transcriptomics,0.0011179985716136848,371,Schwann cell,CL:0002573
+azimuth,sc_transcriptomics,0.0009974596420596487,331,T cell,CL:0000084
+azimuth,sc_transcriptomics,0.0009402036505214815,312,CD1c-positive myeloid dendritic cell,CL:0002399
+azimuth,sc_transcriptomics,0.000898015025177569,298,Non-classical monocytes,ASCTB-TEMP:non-classical-monocytes
+azimuth,sc_transcriptomics,0.0008799341857444635,292,Monocyte-derived Mφ,ASCTB-TEMP:monocyte-derived-m
+azimuth,sc_transcriptomics,0.0008106243012508927,269,myofibroblast cell,CL:0000186
+azimuth,sc_transcriptomics,0.0007985704082954892,265,alveolar capillary type 2 endothelial cell,CL:4028003
+azimuth,sc_transcriptomics,0.0007895299885789365,262,endocardial cell,CL:0002350
+azimuth,sc_transcriptomics,0.000708166211129962,235,adipocyte,CL:0000136
+azimuth,sc_transcriptomics,0.000554479075948566,184,mast cell,CL:0000097
+azimuth,sc_transcriptomics,0.0005303712900377589,176,Transitional Club-AT2,ASCTB-TEMP:transitional-club-at2
+azimuth,sc_transcriptomics,0.0005062635041269516,168,classical monocyte,CL:0000860
+azimuth,sc_transcriptomics,0.0003947649942894682,131,lung pericyte,CL:0009089
+azimuth,sc_transcriptomics,0.0003224416365570466,107,B cell,CL:0000236
+azimuth,sc_transcriptomics,0.00023806438586922128,79,Interstitial Mφ perivascular,ASCTB-TEMP:interstitial-m-perivascular
+azimuth,sc_transcriptomics,0.0002320374393915195,77,pulmonary interstitial fibroblast,CL:0002241
+azimuth,sc_transcriptomics,0.00021998354643611588,73,fibroblast of lung:fibromyocyte,CL:0002553
+azimuth,sc_transcriptomics,0.00021395659995841407,71,respiratory suprabasal cell,CL:4033048
+azimuth,sc_transcriptomics,0.00017176797461450143,57,regular atrial cardiac myocyte,CL:0002129
+azimuth,sc_transcriptomics,3.917515210506173e-05,13,mesothelial cell of pleura,CL:1000491
+azimuth,sc_transcriptomics,3.6161678866210826e-05,12,endothelial cell,CL:0000115
+azimuth,sc_transcriptomics,2.410778591080722e-05,8,nasal mucosa goblet cell,CL:0002480
+azimuth,sc_transcriptomics,1.8080839433105413e-05,6,mesothelial cell,CL:0000077
+azimuth,sc_transcriptomics,9.040419716552707e-06,3,Alveolar Mφ proliferating,ASCTB-TEMP:alveolar-m-proliferating
+azimuth,sc_transcriptomics,6.026946477701805e-06,2,"plasmacytoid dendritic cell, human",CL:0001058
+azimuth,sc_transcriptomics,6.026946477701805e-06,2,plasma cell,CL:0000786
+celltypist,sc_transcriptomics,0.04113390971031482,13650,type II pneumocyte,CL:0002063
+celltypist,sc_transcriptomics,0.03092426237708796,10262,corneocyte,CL:0002153
+celltypist,sc_transcriptomics,0.029535051213977693,9801,fibroblast:2,CL:0000057
+celltypist,sc_transcriptomics,0.02675060194127946,8877,regular ventricular cardiac myocyte:1,CL:0002131
+celltypist,sc_transcriptomics,0.019988367993298034,6633,type I pneumocyte,CL:0002062
+celltypist,sc_transcriptomics,0.013708289763532755,4549,macrophage:LYVE1+IGF1+,CL:0000235
+celltypist,sc_transcriptomics,0.013280376563615926,4407,respiratory basal cell:resting,CL:0002633
+celltypist,sc_transcriptomics,0.010333199736019745,3429,capillary endothelial cell:1,CL:0002144
+celltypist,sc_transcriptomics,0.007419171114050922,2462,endothelial cell of artery,CL:1000413
+celltypist,sc_transcriptomics,0.007184120201420552,2384,vein endothelial cell,CL:0002543
+celltypist,sc_transcriptomics,0.006750180055026022,2240,pericyte:cardiomyocyte-like,CL:0000669
+celltypist,sc_transcriptomics,0.005315766793332992,1764,club cell:hillock-like,CL:0000158
+celltypist,sc_transcriptomics,0.0048938805398938655,1624,endothelial cell of venule,CL:1000414
+celltypist,sc_transcriptomics,0.004526236804754055,1502,"CD14-low, CD16-positive monocyte",CL:0002396
+celltypist,sc_transcriptomics,0.004444873027305081,1475,non-classical monocyte,CL:0000875
+celltypist,sc_transcriptomics,0.004348441883661852,1443,endothelial cell of lymphatic vessel,CL:0002138
+celltypist,sc_transcriptomics,0.004092296658359525,1358,basal cell of epidermis,CL:0002187
+celltypist,sc_transcriptomics,0.003866286165445708,1283,multi-ciliated epithelial cell:nasal,CL:0005012
+celltypist,sc_transcriptomics,0.003860259218968006,1281,smooth muscle cell:FAM83D+,CL:0000192
+celltypist,sc_transcriptomics,0.0036583565119649953,1214,alveolar type 1 fibroblast cell,CL:4028004
+celltypist,sc_transcriptomics,0.0036282217795764863,1204,alveolar macrophage:proliferating,CL:0000583
+celltypist,sc_transcriptomics,0.003531790635933258,1172,blood vessel endothelial cell:1,CL:0000071
+celltypist,sc_transcriptomics,0.0033811169739907123,1122,tracheobronchial serous cell:precursor,CL:0019001
+celltypist,sc_transcriptomics,0.003299753196541738,1095,helper T cell,CL:0000912
+celltypist,sc_transcriptomics,0.003281672357108633,1089,CD4-positive helper T cell,CL:0000492
+celltypist,sc_transcriptomics,0.002859786103669506,949,lung macrophage:monocyte derived,CL:1001603
+celltypist,sc_transcriptomics,0.0024228324840361256,804,natural killer cell,CL:0000623
+celltypist,sc_transcriptomics,0.002344482179826002,778,vascular associated smooth muscle cell,CL:0000359
+celltypist,sc_transcriptomics,0.0019798519179250428,657,airway submucosal gland collecting duct epithelial cell,CL:4033023
+celltypist,sc_transcriptomics,0.0015007096729477494,498,"effector memory CD8-positive, alpha-beta T cell",CL:0000913
+celltypist,sc_transcriptomics,0.0011632006701964483,386,pulmonary interstitial fibroblast,CL:0002241
+celltypist,sc_transcriptomics,0.0011541602504798957,383,neuroendocrine cell,CL:0000165
+celltypist,sc_transcriptomics,0.0010456752138812632,347,cardiac glial cell:2 NGF+,CL:0010020
+celltypist,sc_transcriptomics,0.0009763653293876923,324,adipocyte:2,CL:0000136
+celltypist,sc_transcriptomics,0.0009733518561488415,323,mast cell,CL:0000097
+celltypist,sc_transcriptomics,0.0009673249096711396,321,melanocyte of skin,CL:1000458
+celltypist,sc_transcriptomics,0.0009371901772826306,311,epithelial cell of alveolus of lung:0,CL:0010003
+celltypist,sc_transcriptomics,0.000895001551938718,297,"CD14-positive, CD16-negative classical monocyte",CL:0002057
+celltypist,sc_transcriptomics,0.0008829476589833145,293,dendritic cell,CL:0000451
+celltypist,sc_transcriptomics,0.0008256916674451473,274,CD1c-positive myeloid dendritic cell,CL:0002399
+celltypist,sc_transcriptomics,0.0007985704082954892,265,endocardial cell,CL:0002350
+celltypist,sc_transcriptomics,0.0007835030421012347,260,"CD16-positive, CD56-dim natural killer cell, human",CL:0000939
+celltypist,sc_transcriptomics,0.0007352874702796202,244,serous secreting cell:nasal,CL:0000313
+celltypist,sc_transcriptomics,0.0007202201040853657,239,alveolar type 2 fibroblast cell,CL:4028006
+celltypist,sc_transcriptomics,0.0006900853716968567,229,"dendritic cell, human:migratory",CL:0001056
+celltypist,sc_transcriptomics,0.0006870718984580057,228,CD141-positive myeloid dendritic cell,CL:0002394
+celltypist,sc_transcriptomics,0.0006659775857860494,221,alveolar capillary type 2 endothelial cell,CL:4028003
+celltypist,sc_transcriptomics,0.0006268024336809877,208,mucus secreting cell of bronchus submucosal gland,CL:4033022
+celltypist,sc_transcriptomics,0.0005574925491874169,185,lung interstitial macrophage:perivascular,CL:4033043
+celltypist,sc_transcriptomics,0.0005454386562320134,181,CCL3-positive alveolar macrophage,CL:4033041
+celltypist,sc_transcriptomics,0.0005122904506046534,170,B cell,CL:0000236
+celltypist,sc_transcriptomics,0.0004791422449772935,159,"naive thymus-derived CD4-positive, alpha-beta T cell",CL:0000895
+celltypist,sc_transcriptomics,0.0004791422449772935,159,inflammatory macrophage,CL:0000863
+celltypist,sc_transcriptomics,0.00046106140554418804,153,bronchial goblet cell:subsegmental,CL:1000312
+celltypist,sc_transcriptomics,0.00040079194076717,133,nasal mucosa goblet cell,CL:0002480
+celltypist,sc_transcriptomics,0.00029833385064623934,99,myofibroblast cell,CL:0000186
+celltypist,sc_transcriptomics,0.0002621721717800285,87,regulatory T cell,CL:0000815
+celltypist,sc_transcriptomics,0.0002561452253023267,85,plasma cell,CL:0000786
+celltypist,sc_transcriptomics,0.0002320374393915195,77,cytotoxic T cell,CL:0000910
+celltypist,sc_transcriptomics,0.00021094312671956318,70,endothelial cell:capillary-like,CL:0000115
+celltypist,sc_transcriptomics,0.00019888923376415956,66,"CD8-positive, alpha-beta T cell:transitional",CL:0000625
+celltypist,sc_transcriptomics,0.00017176797461450143,57,regular atrial cardiac myocyte:4,CL:0002129
+celltypist,sc_transcriptomics,0.00016272755489794873,54,epidermal Langerhans cell,CL:0002457
+celltypist,sc_transcriptomics,0.0001446467154648433,48,"CD16-negative, CD56-bright natural killer cell, human",CL:0000938
+celltypist,sc_transcriptomics,0.0001386197689871415,46,deuterosomal cell,CL:4033044
+celltypist,sc_transcriptomics,0.0001356062957482906,45,"activated CD4-positive, alpha-beta T cell, human",CL:0001043
+celltypist,sc_transcriptomics,0.00011752545631518519,39,monocyte,CL:0000576
+celltypist,sc_transcriptomics,9.341767040437797e-05,31,hematopoietic stem cell,CL:0000037
+celltypist,sc_transcriptomics,8.437725068782527e-05,28,"CD8-positive, alpha-beta cytotoxic T cell",CL:0000794
+celltypist,sc_transcriptomics,8.437725068782527e-05,28,metallothionein-positive alveolar macrophage,CL:4033042
+celltypist,sc_transcriptomics,8.136377744897437e-05,27,mesothelial cell of pleura,CL:1000491
+celltypist,sc_transcriptomics,7.835030421012346e-05,26,plasmacytoid dendritic cell,CL:0000784
+celltypist,sc_transcriptomics,7.232335773242165e-05,24,monocyte-derived dendritic cell,CL:0011031
+celltypist,sc_transcriptomics,6.026946477701805e-05,20,"group 2 innate lymphoid cell, human",CL:0001081
+celltypist,sc_transcriptomics,6.026946477701805e-05,20,mesothelial fibroblast,CL:4023054
+celltypist,sc_transcriptomics,5.7255991538167144e-05,19,mature alpha-beta T cell:Mucosal-associated invariant T-like cell,CL:0000791
+celltypist,sc_transcriptomics,4.821557182161444e-05,16,"group 3 innate lymphoid cell, human",CL:0001078
+celltypist,sc_transcriptomics,4.520209858276353e-05,15,brush cell of trachebronchial tree,CL:0002075
+celltypist,sc_transcriptomics,3.917515210506173e-05,13,"effector CD8-positive, alpha-beta T cell",CL:0001050
+celltypist,sc_transcriptomics,3.6161678866210826e-05,12,T cell:proliferating,CL:0000084
+celltypist,sc_transcriptomics,3.314820562735993e-05,11,serous secreting cell of bronchus submucosal gland,CL:4033005
+celltypist,sc_transcriptomics,2.410778591080722e-05,8,innate lymphoid cell,CL:0001065
+celltypist,sc_transcriptomics,2.410778591080722e-05,8,tracheobronchial goblet cell,CL:0019003
+celltypist,sc_transcriptomics,1.8080839433105413e-05,6,ionocyte,CL:0005006
+celltypist,sc_transcriptomics,1.5067366194254512e-05,5,mesothelial cell,CL:0000077
+celltypist,sc_transcriptomics,1.205389295540361e-05,4,Schwann cell:1,CL:0002573
+celltypist,sc_transcriptomics,9.040419716552707e-06,3,"CD4-positive, CD25-positive, alpha-beta regulatory T cell",CL:0000792
+celltypist,sc_transcriptomics,9.040419716552707e-06,3,cardiac pacemaker cell of sinoatrial node,CL:1000477
+celltypist,sc_transcriptomics,6.026946477701805e-06,2,Purkinje myocyte,CL:0002068
+celltypist,sc_transcriptomics,6.026946477701805e-06,2,neutrophil,CL:0000775
+celltypist,sc_transcriptomics,3.0134732388509023e-06,1,T-helper 2 cell,CL:0000546
+celltypist,sc_transcriptomics,3.0134732388509023e-06,1,nodal myocyte,CL:0002072
+celltypist,sc_transcriptomics,3.0134732388509023e-06,1,mature NK T cell:cycling,CL:0000814
+popv,sc_transcriptomics,0.04648583818251402,15426,type II pneumocyte,CL:0002063
+popv,sc_transcriptomics,0.03746048583215557,12431,macrophage,CL:0000235
+popv,sc_transcriptomics,0.03282576399080288,10893,luminal epithelial cell of mammary gland,CL:0002326
+popv,sc_transcriptomics,0.029309040721063877,9726,fibroblast of cardiac tissue,CL:0002548
+popv,sc_transcriptomics,0.02875757511835416,9543,cardiac muscle cell,CL:0000746
+popv,sc_transcriptomics,0.028121732264956623,9332,luminal cell of prostate epithelium,CL:0002340
+popv,sc_transcriptomics,0.023685899657368094,7860,smooth muscle cell,CL:0000192
+popv,sc_transcriptomics,0.020961719849446878,6956,cardiac endothelial cell,CL:0010008
+popv,sc_transcriptomics,0.02063626473965098,6848,epithelial cell,CL:0000066
+popv,sc_transcriptomics,0.01964181857083018,6518,type I pneumocyte,CL:0002062
+popv,sc_transcriptomics,0.019578535632814312,6497,stromal cell,CL:0000499
+popv,sc_transcriptomics,0.015715262940607457,5215,club cell,CL:0000158
+popv,sc_transcriptomics,0.0140247044536121,4654,basal cell of prostate epithelium,CL:0002341
+popv,sc_transcriptomics,0.012876571149609906,4273,endothelial cell,CL:0000115
+popv,sc_transcriptomics,0.007699424125264056,2555,endothelial cell of artery,CL:1000413
+popv,sc_transcriptomics,0.007539710043604958,2502,fibroblast,CL:0000057
+popv,sc_transcriptomics,0.0073227399704076926,2430,basal cell,CL:0000646
+popv,sc_transcriptomics,0.00654526387478416,2172,fibroblast of breast,CL:4006000
+popv,sc_transcriptomics,0.004719099092040513,1566,"CD4-positive, alpha-beta T cell",CL:0000624
+popv,sc_transcriptomics,0.004550344590664863,1510,T cell,CL:0000084
+popv,sc_transcriptomics,0.0041736604358085,1385,vein endothelial cell,CL:0002543
+popv,sc_transcriptomics,0.003953676889372384,1312,capillary endothelial cell,CL:0002144
+popv,sc_transcriptomics,0.0038150571203852423,1266,endothelial cell of lymphatic vessel,CL:0002138
+popv,sc_transcriptomics,0.002817597478325594,935,lung ciliated cell,CL:1000271
+popv,sc_transcriptomics,0.0024861154220519946,825,"CD8-positive, alpha-beta T cell",CL:0000625
+popv,sc_transcriptomics,0.0023926977516476166,794,mature NK T cell,CL:0000814
+popv,sc_transcriptomics,0.0023354417601094495,775,melanocyte,CL:0000148
+popv,sc_transcriptomics,0.0021817546249280535,724,pericyte,CL:0000669
+popv,sc_transcriptomics,0.002163673785494948,718,hepatocyte,ASCTB-TEMP:hepatocyte
+popv,sc_transcriptomics,0.0016152216560240836,536,monocyte,CL:0000576
+popv,sc_transcriptomics,0.0009974596420596487,331,classical monocyte,CL:0000860
+popv,sc_transcriptomics,0.0009823922758653942,326,muscle cell,CL:0000187
+popv,sc_transcriptomics,0.0009402036505214815,312,B cell,CL:0000236
+popv,sc_transcriptomics,0.0008407590336394018,279,non-classical monocyte,CL:0000875
+popv,sc_transcriptomics,0.0005846138083370751,194,vascular associated smooth muscle cell,CL:0000359
+popv,sc_transcriptomics,0.0002742260647354321,91,basophil,CL:0000767
+popv,sc_transcriptomics,0.0002410778591080722,80,plasma cell,CL:0000786
+popv,sc_transcriptomics,0.00021697007319726496,72,dendritic cell,CL:0000451
+popv,sc_transcriptomics,0.00019587576052530867,65,"CD4-positive, alpha-beta memory T cell",CL:0000897
+popv,sc_transcriptomics,0.00017176797461450143,57,bronchial smooth muscle cell,CL:0002598
+popv,sc_transcriptomics,0.00014766018870369422,49,"CD8-positive, alpha-beta memory T cell",CL:0000909
+popv,sc_transcriptomics,0.00014163324222599241,47,CD1c-positive myeloid dendritic cell,CL:0002399
+popv,sc_transcriptomics,0.00013259282250943971,44,regulatory T cell,CL:0000815
+popv,sc_transcriptomics,0.0001265658760317379,42,mast cell,CL:0000097
+popv,sc_transcriptomics,8.136377744897437e-05,27,"naive thymus-derived CD4-positive, alpha-beta T cell",CL:0000895
+popv,sc_transcriptomics,7.232335773242165e-05,24,neutrophil,CL:0000775
+popv,sc_transcriptomics,6.930988449357075e-05,23,"effector CD8-positive, alpha-beta T cell",CL:0001050
+popv,sc_transcriptomics,6.629641125471986e-05,22,lung microvascular endothelial cell,CL:2000016
+popv,sc_transcriptomics,6.629641125471986e-05,22,respiratory goblet cell,CL:0002370
+popv,sc_transcriptomics,5.122904506046534e-05,17,"naive thymus-derived CD8-positive, alpha-beta T cell",CL:0000900
+popv,sc_transcriptomics,4.520209858276353e-05,15,"effector CD4-positive, alpha-beta T cell",CL:0001044
+popv,sc_transcriptomics,4.2188625343912635e-05,14,Langerhans cell,CL:0000453
+popv,sc_transcriptomics,2.410778591080722e-05,8,"CD8-positive, alpha-beta cytotoxic T cell",CL:0000794
+popv,sc_transcriptomics,1.5067366194254512e-05,5,blood vessel endothelial cell,CL:0000071
+popv,sc_transcriptomics,9.040419716552707e-06,3,intermediate monocyte,CL:0002393
+popv,sc_transcriptomics,9.040419716552707e-06,3,CD4-positive helper T cell,CL:0000492
+popv,sc_transcriptomics,6.026946477701805e-06,2,"CD8-positive, alpha-beta T cell",ASCTB-TEMP:cd8-positive-alpha-beta-t-cell
+popv,sc_transcriptomics,6.026946477701805e-06,2,alveolar type 2 fibroblast cell,CL:4028006
+popv,sc_transcriptomics,3.0134732388509023e-06,1,pneumocyte,ASCTB-TEMP:pneumocyte
+popv,sc_transcriptomics,3.0134732388509023e-06,1,erythroid progenitor cell,CL:0000038
+popv,sc_transcriptomics,3.0134732388509023e-06,1,pulmonary ionocyte,CL:0017000
+popv,sc_transcriptomics,3.0134732388509023e-06,1,CD141-positive myeloid dendritic cell,CL:0002394
+popv,sc_transcriptomics,3.0134732388509023e-06,1,conventional dendritic cell,ASCTB-TEMP:conventional-dendritic-cell
