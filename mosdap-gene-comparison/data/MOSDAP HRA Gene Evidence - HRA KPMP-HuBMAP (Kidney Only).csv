@@ -1,0 +1,226 @@
+gene_label,ct_label,as_label,avg_mean_gene_expr,as,ct,gene
+ACTA2,renal interstitial pericyte,renal papilla,0.963027,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/130
+ACTA2,renal interstitial pericyte,kidney capsule,0.963027,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/130
+ACTA2,renal interstitial pericyte,kidney,0.963027,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/130
+ACTA2,renal interstitial pericyte,kidney blood vessel,0.963027,http://purl.obolibrary.org/obo/UBERON_0003517,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/130
+ACTA2,renal interstitial pericyte,kidney pyramid,0.963027,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/130
+ACTA2,renal interstitial pericyte,renal column,0.963027,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/130
+ACTA2,renal interstitial pericyte,outer cortex of kidney,0.963027,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/130
+ADGRF5,kidney collecting duct intercalated cell,collecting duct of renal tubule,1.749532,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/CL_1001432,http://identifiers.org/hgnc/19030
+BANK1,B cell,kidney capsule,1.973676,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/18233
+BANK1,B cell,kidney,1.973676,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/18233
+BANK1,B cell,kidney pyramid,1.973676,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/18233
+BANK1,B cell,kidney interstitium,1.973676,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/18233
+BANK1,B cell,renal column,1.973676,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/18233
+BANK1,B cell,outer cortex of kidney,1.973676,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/18233
+BLK,B cell,kidney capsule,1.18896,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/1057
+BLK,B cell,kidney,1.18896,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/1057
+BLK,B cell,kidney pyramid,1.18896,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/1057
+BLK,B cell,kidney interstitium,1.18896,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/1057
+BLK,B cell,renal column,1.18896,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/1057
+BLK,B cell,outer cortex of kidney,1.18896,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/1057
+CA12,kidney collecting duct intercalated cell,collecting duct of renal tubule,1.919595,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/CL_1001432,http://identifiers.org/hgnc/1371
+CA12,kidney distal convoluted tubule epithelial cell,distal convoluted tubule,1.551981,http://purl.obolibrary.org/obo/UBERON_0001292,http://purl.obolibrary.org/obo/CL_1000849,http://identifiers.org/hgnc/1371
+CDK15,mast cell,renal papilla,0.525135,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14434
+CDK15,mast cell,kidney capsule,0.525135,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14434
+CDK15,mast cell,kidney,0.525135,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14434
+CDK15,mast cell,kidney pyramid,0.525135,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14434
+CDK15,mast cell,kidney interstitium,0.525135,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14434
+CDK15,mast cell,renal column,0.525135,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14434
+CDK15,mast cell,outer cortex of kidney,0.525135,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14434
+COL1A1,kidney interstitial fibroblast,kidney,0.813762,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2197
+COL1A1,kidney interstitial fibroblast,renal papilla,0.813762,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2197
+COL1A1,kidney interstitial fibroblast,kidney capsule,0.813762,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2197
+COL1A1,kidney interstitial fibroblast,kidney pyramid,0.813762,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2197
+COL1A1,kidney interstitial fibroblast,kidney interstitium,0.813762,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2197
+COL1A1,kidney interstitial fibroblast,renal column,0.813762,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2197
+COL1A1,kidney interstitial fibroblast,outer cortex of kidney,0.813762,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2197
+COL3A1,kidney interstitial fibroblast,renal papilla,0.91235,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2201
+COL3A1,kidney interstitial fibroblast,kidney capsule,0.91235,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2201
+COL3A1,kidney interstitial fibroblast,kidney,0.91235,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2201
+COL3A1,kidney interstitial fibroblast,kidney pyramid,0.91235,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2201
+COL3A1,kidney interstitial fibroblast,kidney interstitium,0.91235,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2201
+COL3A1,kidney interstitial fibroblast,renal column,0.91235,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2201
+COL3A1,kidney interstitial fibroblast,outer cortex of kidney,0.91235,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2201
+COL6A3,kidney interstitial fibroblast,renal papilla,0.6436,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2213
+COL6A3,kidney interstitial fibroblast,kidney capsule,0.6436,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2213
+COL6A3,kidney interstitial fibroblast,kidney,0.6436,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2213
+COL6A3,kidney interstitial fibroblast,kidney pyramid,0.6436,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2213
+COL6A3,kidney interstitial fibroblast,kidney interstitium,0.6436,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2213
+COL6A3,kidney interstitial fibroblast,renal column,0.6436,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2213
+COL6A3,kidney interstitial fibroblast,outer cortex of kidney,0.6436,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2213
+CPA3,mast cell,renal papilla,0.936054,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/2298
+CPA3,mast cell,kidney capsule,0.936054,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/2298
+CPA3,mast cell,kidney,0.936054,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/2298
+CPA3,mast cell,kidney pyramid,0.936054,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/2298
+CPA3,mast cell,kidney interstitium,0.936054,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/2298
+CPA3,mast cell,renal column,0.936054,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/2298
+CPA3,mast cell,outer cortex of kidney,0.936054,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/2298
+DCN,kidney interstitial fibroblast,kidney pyramid,1.289291,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2705
+DCN,kidney interstitial fibroblast,kidney interstitium,1.289291,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2705
+DCN,kidney interstitial fibroblast,renal column,1.289291,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2705
+DCN,kidney interstitial fibroblast,outer cortex of kidney,1.289291,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2705
+DCN,kidney interstitial fibroblast,renal papilla,1.289291,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2705
+DCN,kidney interstitial fibroblast,kidney capsule,1.289291,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2705
+DCN,kidney interstitial fibroblast,kidney,1.289291,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/2705
+DES,renal interstitial pericyte,renal papilla,0.86387,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/2770
+DES,renal interstitial pericyte,kidney capsule,0.86387,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/2770
+DES,renal interstitial pericyte,kidney,0.86387,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/2770
+DES,renal interstitial pericyte,kidney blood vessel,0.86387,http://purl.obolibrary.org/obo/UBERON_0003517,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/2770
+DES,renal interstitial pericyte,kidney pyramid,0.86387,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/2770
+DES,renal interstitial pericyte,renal column,0.86387,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/2770
+DES,renal interstitial pericyte,outer cortex of kidney,0.86387,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/2770
+FCGR3B,neutrophil,kidney capsule,1.684362,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/3620
+FCGR3B,neutrophil,kidney,1.684362,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/3620
+FCGR3B,neutrophil,kidney pyramid,1.684362,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/3620
+FCGR3B,neutrophil,kidney interstitium,1.684362,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/3620
+FCGR3B,neutrophil,renal column,1.684362,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/3620
+FCGR3B,neutrophil,outer cortex of kidney,1.684362,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/3620
+FCN1,monocyte,kidney interstitium,0.89722,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000576,http://identifiers.org/hgnc/3623
+GATA2,mast cell,renal papilla,0.9785,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4171
+GATA2,mast cell,kidney capsule,0.9785,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4171
+GATA2,mast cell,kidney,0.9785,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4171
+GATA2,mast cell,kidney pyramid,0.9785,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4171
+GATA2,mast cell,kidney interstitium,0.9785,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4171
+GATA2,mast cell,renal column,0.9785,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4171
+GATA2,mast cell,outer cortex of kidney,0.9785,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4171
+HDC,mast cell,renal papilla,1.04745,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4855
+HDC,mast cell,kidney capsule,1.04745,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4855
+HDC,mast cell,kidney,1.04745,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4855
+HDC,mast cell,kidney pyramid,1.04745,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4855
+HDC,mast cell,kidney interstitium,1.04745,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4855
+HDC,mast cell,renal column,1.04745,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4855
+HDC,mast cell,outer cortex of kidney,1.04745,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/4855
+IFNG-AS1,plasma cell,renal papilla,1.486294,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_0000786,http://identifiers.org/hgnc/43910
+IFNG-AS1,plasma cell,kidney capsule,1.486294,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000786,http://identifiers.org/hgnc/43910
+IFNG-AS1,plasma cell,kidney,1.486294,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000786,http://identifiers.org/hgnc/43910
+IFNG-AS1,plasma cell,kidney pyramid,1.486294,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000786,http://identifiers.org/hgnc/43910
+IFNG-AS1,plasma cell,kidney interstitium,1.486294,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000786,http://identifiers.org/hgnc/43910
+IFNG-AS1,plasma cell,renal column,1.486294,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000786,http://identifiers.org/hgnc/43910
+IFNG-AS1,plasma cell,outer cortex of kidney,1.486294,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000786,http://identifiers.org/hgnc/43910
+IL18R1,mast cell,renal papilla,1.208439,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/5988
+IL18R1,mast cell,kidney capsule,1.208439,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/5988
+IL18R1,mast cell,kidney,1.208439,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/5988
+IL18R1,mast cell,kidney pyramid,1.208439,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/5988
+IL18R1,mast cell,kidney interstitium,1.208439,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/5988
+IL18R1,mast cell,renal column,1.208439,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/5988
+IL18R1,mast cell,outer cortex of kidney,1.208439,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/5988
+KRT19,papillary tips cell,renal papilla,3.01322,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1000597,http://identifiers.org/hgnc/6436
+KRT19,papillary tips cell,kidney capsule,3.01322,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1000597,http://identifiers.org/hgnc/6436
+KRT19,papillary tips cell,kidney,3.01322,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1000597,http://identifiers.org/hgnc/6436
+KRT19,papillary tips cell,kidney pyramid,3.01322,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1000597,http://identifiers.org/hgnc/6436
+KRT19,papillary tips cell,outer cortex of kidney,3.01322,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1000597,http://identifiers.org/hgnc/6436
+KRT19,papillary tips cell,Papillary Tip Epithelium,3.01322,https://purl.org/ccf/ASCTB-TEMP_papillary-tip-epithelium,http://purl.obolibrary.org/obo/CL_1000597,http://identifiers.org/hgnc/6436
+KRT19,kidney collecting duct principal cell,collecting duct of renal tubule,1.456221,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/CL_1001431,http://identifiers.org/hgnc/6436
+LMOD1,renal interstitial pericyte,renal papilla,0.591363,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/6647
+LMOD1,renal interstitial pericyte,kidney capsule,0.591363,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/6647
+LMOD1,renal interstitial pericyte,kidney,0.591363,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/6647
+LMOD1,renal interstitial pericyte,kidney blood vessel,0.591363,http://purl.obolibrary.org/obo/UBERON_0003517,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/6647
+LMOD1,renal interstitial pericyte,kidney pyramid,0.591363,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/6647
+LMOD1,renal interstitial pericyte,renal column,0.591363,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/6647
+LMOD1,renal interstitial pericyte,outer cortex of kidney,0.591363,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/6647
+MRC1,kidney interstitial alternatively activated macrophage,kidney interstitium,1.920846,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_1000695,http://identifiers.org/hgnc/7228
+MS4A1,B cell,kidney capsule,1.082972,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/7315
+MS4A1,B cell,kidney,1.082972,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/7315
+MS4A1,B cell,kidney pyramid,1.082972,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/7315
+MS4A1,B cell,kidney interstitium,1.082972,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/7315
+MS4A1,B cell,renal column,1.082972,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/7315
+MS4A1,B cell,outer cortex of kidney,1.082972,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/7315
+MS4A2,mast cell,renal papilla,1.34093,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/7316
+MS4A2,mast cell,kidney capsule,1.34093,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/7316
+MS4A2,mast cell,kidney,1.34093,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/7316
+MS4A2,mast cell,kidney pyramid,1.34093,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/7316
+MS4A2,mast cell,kidney interstitium,1.34093,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/7316
+MS4A2,mast cell,renal column,1.34093,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/7316
+MS4A2,mast cell,outer cortex of kidney,1.34093,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/7316
+MYH11,renal interstitial pericyte,renal papilla,2.092828,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/7569
+MYH11,renal interstitial pericyte,kidney capsule,2.092828,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/7569
+MYH11,renal interstitial pericyte,kidney,2.092828,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/7569
+MYH11,renal interstitial pericyte,kidney blood vessel,2.092828,http://purl.obolibrary.org/obo/UBERON_0003517,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/7569
+MYH11,renal interstitial pericyte,kidney pyramid,2.092828,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/7569
+MYH11,renal interstitial pericyte,renal column,2.092828,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/7569
+MYH11,renal interstitial pericyte,outer cortex of kidney,2.092828,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/7569
+NRG3,parietal epithelial cell,renal papilla,0.986207,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1000452,http://identifiers.org/hgnc/7999
+NRG3,parietal epithelial cell,kidney capsule,0.986207,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1000452,http://identifiers.org/hgnc/7999
+NRG3,parietal epithelial cell,kidney,0.986207,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1000452,http://identifiers.org/hgnc/7999
+NRG3,parietal epithelial cell,kidney pyramid,0.986207,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1000452,http://identifiers.org/hgnc/7999
+NRG3,parietal epithelial cell,renal column,0.986207,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_1000452,http://identifiers.org/hgnc/7999
+NRG3,parietal epithelial cell,outer cortex of kidney,0.986207,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1000452,http://identifiers.org/hgnc/7999
+NRG3,parietal epithelial cell,glomerular parietal epithelium,0.986207,http://purl.obolibrary.org/obo/UBERON_0005750,http://purl.obolibrary.org/obo/CL_1000452,http://identifiers.org/hgnc/7999
+PAX5,B cell,kidney capsule,0.972029,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/8619
+PAX5,B cell,kidney,0.972029,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/8619
+PAX5,B cell,kidney pyramid,0.972029,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/8619
+PAX5,B cell,kidney interstitium,0.972029,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/8619
+PAX5,B cell,renal column,0.972029,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/8619
+PAX5,B cell,outer cortex of kidney,0.972029,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/8619
+PDE1C,kidney collecting duct intercalated cell,collecting duct of renal tubule,1.442767,http://purl.obolibrary.org/obo/UBERON_0001232,http://purl.obolibrary.org/obo/CL_1001432,http://identifiers.org/hgnc/8776
+PDGFRA,kidney interstitial fibroblast,renal papilla,0.843442,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/8803
+PDGFRA,kidney interstitial fibroblast,kidney capsule,0.843442,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/8803
+PDGFRA,kidney interstitial fibroblast,kidney,0.843442,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/8803
+PDGFRA,kidney interstitial fibroblast,kidney pyramid,0.843442,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/8803
+PDGFRA,kidney interstitial fibroblast,kidney interstitium,0.843442,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/8803
+PDGFRA,kidney interstitial fibroblast,renal column,0.843442,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/8803
+PDGFRA,kidney interstitial fibroblast,outer cortex of kidney,0.843442,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1000692,http://identifiers.org/hgnc/8803
+PDGFRB,renal interstitial pericyte,renal papilla,0.829444,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/8804
+PDGFRB,renal interstitial pericyte,kidney capsule,0.829444,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/8804
+PDGFRB,renal interstitial pericyte,kidney,0.829444,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/8804
+PDGFRB,renal interstitial pericyte,kidney blood vessel,0.829444,http://purl.obolibrary.org/obo/UBERON_0003517,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/8804
+PDGFRB,renal interstitial pericyte,kidney pyramid,0.829444,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/8804
+PDGFRB,renal interstitial pericyte,renal column,0.829444,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/8804
+PDGFRB,renal interstitial pericyte,outer cortex of kidney,0.829444,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_1001318,http://identifiers.org/hgnc/8804
+PECAM1,endothelial cell,endothelium,1.741475,http://purl.obolibrary.org/obo/UBERON_0001986,http://purl.obolibrary.org/obo/CL_0000115,http://identifiers.org/hgnc/8823
+PTPRC,B cell,kidney capsule,1.287498,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/9666
+PTPRC,B cell,kidney,1.287498,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/9666
+PTPRC,B cell,kidney pyramid,1.287498,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/9666
+PTPRC,B cell,kidney interstitium,1.287498,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/9666
+PTPRC,B cell,renal column,1.287498,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/9666
+PTPRC,B cell,outer cortex of kidney,1.287498,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000236,http://identifiers.org/hgnc/9666
+PTPRC,monocyte,kidney interstitium,1.342962,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000576,http://identifiers.org/hgnc/9666
+PTPRC,neutrophil,kidney capsule,1.637665,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/9666
+PTPRC,neutrophil,kidney,1.637665,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/9666
+PTPRC,neutrophil,kidney pyramid,1.637665,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/9666
+PTPRC,neutrophil,kidney interstitium,1.637665,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/9666
+PTPRC,neutrophil,renal column,1.637665,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/9666
+PTPRC,neutrophil,outer cortex of kidney,1.637665,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/9666
+PTPRC,T cell,renal papilla,1.61692,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/9666
+PTPRC,T cell,kidney capsule,1.61692,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/9666
+PTPRC,T cell,kidney,1.61692,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/9666
+PTPRC,T cell,kidney pyramid,1.61692,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/9666
+PTPRC,T cell,kidney interstitium,1.61692,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/9666
+PTPRC,T cell,renal column,1.61692,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/9666
+PTPRC,T cell,outer cortex of kidney,1.61692,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/9666
+S100A8,neutrophil,kidney capsule,2.323873,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/10498
+S100A8,neutrophil,kidney,2.323873,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/10498
+S100A8,neutrophil,kidney pyramid,2.323873,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/10498
+S100A8,neutrophil,kidney interstitium,2.323873,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/10498
+S100A8,neutrophil,renal column,2.323873,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/10498
+S100A8,neutrophil,outer cortex of kidney,2.323873,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000775,http://identifiers.org/hgnc/10498
+SLC5A12,epithelial cell of proximal tubule,proximal tubule,1.435854,http://purl.obolibrary.org/obo/UBERON_0004134,http://purl.obolibrary.org/obo/CL_0002306,http://identifiers.org/hgnc/28750
+SPP1,kidney distal convoluted tubule epithelial cell,distal convoluted tubule,2.04046,http://purl.obolibrary.org/obo/UBERON_0001292,http://purl.obolibrary.org/obo/CL_1000849,http://identifiers.org/hgnc/11255
+THEMIS,T cell,renal papilla,0.916984,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/21569
+THEMIS,T cell,kidney capsule,0.916984,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/21569
+THEMIS,T cell,kidney,0.916984,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/21569
+THEMIS,T cell,kidney pyramid,0.916984,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/21569
+THEMIS,T cell,kidney interstitium,0.916984,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/21569
+THEMIS,T cell,renal column,0.916984,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/21569
+THEMIS,T cell,outer cortex of kidney,0.916984,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000084,http://identifiers.org/hgnc/21569
+TPSAB1,mast cell,renal papilla,0.957476,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/12019
+TPSAB1,mast cell,kidney capsule,0.957476,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/12019
+TPSAB1,mast cell,kidney,0.957476,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/12019
+TPSAB1,mast cell,kidney pyramid,0.957476,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/12019
+TPSAB1,mast cell,kidney interstitium,0.957476,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/12019
+TPSAB1,mast cell,renal column,0.957476,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/12019
+TPSAB1,mast cell,outer cortex of kidney,0.957476,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/12019
+TPSB2,mast cell,renal papilla,1.086372,http://purl.obolibrary.org/obo/UBERON_0001228,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14120
+TPSB2,mast cell,kidney capsule,1.086372,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14120
+TPSB2,mast cell,kidney,1.086372,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14120
+TPSB2,mast cell,kidney pyramid,1.086372,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14120
+TPSB2,mast cell,kidney interstitium,1.086372,http://purl.obolibrary.org/obo/UBERON_0005215,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14120
+TPSB2,mast cell,renal column,1.086372,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14120
+TPSB2,mast cell,outer cortex of kidney,1.086372,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000097,http://identifiers.org/hgnc/14120
+VEGFA,podocyte,kidney capsule,2.070876,http://purl.obolibrary.org/obo/UBERON_0002015,http://purl.obolibrary.org/obo/CL_0000653,http://identifiers.org/hgnc/12680
+VEGFA,podocyte,kidney,2.070876,http://purl.obolibrary.org/obo/UBERON_0002113,http://purl.obolibrary.org/obo/CL_0000653,http://identifiers.org/hgnc/12680
+VEGFA,podocyte,kidney pyramid,2.070876,http://purl.obolibrary.org/obo/UBERON_0004200,http://purl.obolibrary.org/obo/CL_0000653,http://identifiers.org/hgnc/12680
+VEGFA,podocyte,renal column,2.070876,http://purl.obolibrary.org/obo/UBERON_0001284,http://purl.obolibrary.org/obo/CL_0000653,http://identifiers.org/hgnc/12680
+VEGFA,podocyte,outer cortex of kidney,2.070876,http://purl.obolibrary.org/obo/UBERON_0002189,http://purl.obolibrary.org/obo/CL_0000653,http://identifiers.org/hgnc/12680
+VEGFA,podocyte,glomerular visceral epithelium,2.070876,http://purl.obolibrary.org/obo/UBERON_0005751,http://purl.obolibrary.org/obo/CL_0000653,http://identifiers.org/hgnc/12680
