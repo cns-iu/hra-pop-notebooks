@@ -1,235 +1,235 @@
-gene_name,Ensembl ID,Lineage/ L1 or state,cell type(s),Rationale/Source,Specific Request by,specificity flag,Protein/Other name,is_in_10x_multi_panel,10x_multi_panel_celltype,is_in_Xenium_KIL_panel,10x_panel_designer_comment,ensemble,hgnc
-BAX,ENSG00000087088,apoptosis,multiple,Tissue  expert added,,,,False,,False,,ENSG00000087088,HGNC:959
-CASP3,ENSG00000164305,apoptosis,multiple,Tissue  expert added,,,,False,,False,,ENSG00000164305,HGNC:1504
-CASP8,ENSG00000064012,apoptosis,multiple,Tissue  expert added,,,,False,,False,,ENSG00000064012,HGNC:1509
-CASP9,ENSG00000132906,apoptosis,multiple,Tissue  expert added,,,,False,,False,,ENSG00000132906,HGNC:1511
-BIRC5,ENSG00000089685,"apoptosis, inhibitor","multiple, said to be generally low in adult cells except cancer",Tissue  expert added,IVD,,,False,,False,,ENSG00000089685,HGNC:593
-IAPP,ENSG00000121351,endocrine,beta cell,Tissue  expert added,pancreas,,,False,,False,,ENSG00000121351,HGNC:5329
-NPTX2,ENSG00000106236,endocrine,beta cell,Tissue  expert added,pancreas,,,False,,False,,ENSG00000106236,HGNC:7953
-MEOX1,ENSG00000005102,endothelial,"highest endothelial cells, also fibroblasts, smooth muscle",MxIF Proteins,,check specificity?,,False,,False,,ENSG00000005102,HGNC:7013
-NRG3,ENSG00000185737,endothelial,Endocardial Endothelial,Tissue  expert added,HRT Add-on,,,False,,False,,ENSG00000185737,HGNC:7999
-ROBO4,ENSG00000154133,endothelial,endothelial tip cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000154133,HGNC:17985
-VEGFA,ENSG00000112715,endothelial,"endothelial cells, cardiac myofibroblasts, macrophages, schwann cells, activated chondrocytes",MxIF Proteins,,,,False,,False,,ENSG00000112715,HGNC:12680
-MMRN2,ENSG00000173269,"endothelial, artery",endothelial cell of artery,TOP 5 (CZI) List,,,,True,"Breast - Adipocytes,General - Endothelial cells,Liver - Hepatic stellate cells",False,,ENSG00000173269,HGNC:19888
-SOX18,ENSG00000203883,"endothelial, artery",endothelial cell of artery,TOP 5 (CZI) List,,,,True,"Breast - Adipocytes,General - Endothelial cells,Liver - Hepatic stellate cells",False,,ENSG00000203883,HGNC:11194
-ADGRF5,ENSG00000069122,"endothelial, capillary",capillary endothelial cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000069122,HGNC:19030
-ART4,ENSG00000111339,"endothelial, lymphatic",Lymphatic Endothelium,Tissue  expert added,Ovary,,,False,,False,,ENSG00000111339,HGNC:726
-POF1B,ENSG00000124429,"endothelial, lymphatic",Lymphatic Endothelium,Tissue  expert added,Ovary,,,False,,False,,ENSG00000124429,HGNC:13711
-SCN3A,ENSG00000153253,"endothelial, lymphatic",Lymphatic Endothelium,Tissue  expert added,Ovary,,,False,,False,,ENSG00000153253,HGNC:10590
-TM4SF18,ENSG00000163762,"endothelial, lymphatic","endothelial cell of lymphatic vessel,endothelial tip cell",TOP 5 (CZI) List,,,,True,"Breast - Adipocytes,General - Endothelial cells,Liver - Hepatic stellate cells",False,,ENSG00000163762,HGNC:25181
-TSPEAR,ENSG00000175894,"endothelial, lymphatic",Lymphatic Endothelium,Tissue  expert added,Uterus,,,False,,False,,ENSG00000175894,HGNC:1268
-CADM3-AS1,ENSG00000225670,"endothelial, vascular",vascular endothelium,Tissue  expert added,Uterus,,,False,,False,,ENSG00000225670,HGNC:40812
-CPLX1,ENSG00000168993,"endothelial, vascular",vascular endothelium,Tissue  expert added,Uterus,,,False,,False,,ENSG00000168993,HGNC:2309
-DCC,ENSG00000187323,"endothelial, vascular",vascular endothelium,Tissue  expert added,Ovary,,,False,,False,,ENSG00000187323,HGNC:2701
-ELOVL7,ENSG00000164181,"endothelial, vascular",vascular endothelium,Tissue  expert added,Uterus,,,False,,False,,ENSG00000164181,HGNC:26292
-LINC02360,ENSG00000248300,"endothelial, vascular",vascular endothelium,Tissue  expert added,Ovary,,,False,,False,,ENSG00000248300,HGNC:53282
-SPC25,ENSG00000152253,"endothelial, vascular",vascular endothelium,Tissue  expert added,Uterus,,,False,,False,,ENSG00000152253,HGNC:24031
-DIPK2B,ENSG00000147113,"endothelial, vein",vein endothelial cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000147113,HGNC:25866
-ADCYAP1R1,ENSG00000078549,epithelial,glandular epithelium,Tissue  expert added,Ovary,,,False,,False,,ENSG00000078549,HGNC:242
-ARHGAP40,ENSG00000124143,epithelial,absorptive cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000124143,HGNC:16226
-AZGP1,ENSG00000160862,epithelial,serous cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000160862,HGNC:910
-CEACAM5,ENSG00000105388,epithelial,goblet cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000105388,HGNC:1817
-CEACAM6,ENSG00000086548,epithelial,goblet cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000086548,HGNC:1818
-CHRM3,ENSG00000133019,epithelial,glandular epithelium,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000133019,HGNC:1952
-CXCL6,ENSG00000124875,epithelial,club cell,TOP 5 (CZI) List,,,CXCL4,True,"General - Fibroblasts,Liver - Cholangiocytes,Lung - Club cells,Pancreas - Ductal cells",False,,ENSG00000124875,HGNC:10643
-CYP24A1,ENSG00000019186,epithelial,glandular epithelium,Tissue  expert added,Uterus,,,False,,False,,ENSG00000019186,HGNC:2602
-DPP6,ENSG00000130226,epithelial,glandular epithelium,Tissue  expert added,Ovary,,,False,,False,,ENSG00000130226,HGNC:3010
-FABP1,ENSG00000163586,epithelial,enterocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000163586,HGNC:3555
-FGG,ENSG00000171557,epithelial,"duct cell,serous cell",TOP 5 (CZI) List,,,,False,,False,,ENSG00000171557,HGNC:3694
-GABRP,ENSG00000094755,epithelial,glandular epithelium,Tissue  expert added,Uterus,,,False,,False,,ENSG00000094755,HGNC:4089
-GCNT3,ENSG00000140297,epithelial,serous cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000140297,HGNC:4205
-HNF1B,ENSG00000275410,epithelial,glandular epithelium,Tissue  expert added,Uterus,,,False,,False,,ENSG00000275410,HGNC:11630
-KCNC3,ENSG00000131398,epithelial,glandular epithelium,Tissue  expert added,Ovary,,,False,,False,,ENSG00000131398,HGNC:6235
-KRT71,ENSG00000139648,epithelial,Inner root sheath,Tissue  expert added,Skin,,,False,,False,,ENSG00000139648,HGNC:28927
-LGALS4,ENSG00000171747,epithelial,enterocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000171747,HGNC:6565
-LOR,ENSG00000203782,epithelial,epithelial,Tissue  expert added,Skin,,,False,,False,,,
-MAL2,ENSG00000147676,epithelial,mucous cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000147676,HGNC:13634
-MISP,ENSG00000099812,epithelial,enterocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000099812,HGNC:27000
-MMP3,ENSG00000149968,epithelial,"epithelial, periosteum, osteocytes/blasts, lung in IPF, chondrocytes, disc degeneration, inducible",Tissue  expert added,IVD,,,False,,False,,ENSG00000149968,HGNC:7173
-NR5A2,ENSG00000116833,epithelial,granulosa cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000116833,HGNC:7984
-PAX1,ENSG00000125813,epithelial,"ventral vertebral column, few thymic stromal",Tissue  expert added,IVD,,,False,,False,,ENSG00000125813,HGNC:8615
-RAB25,ENSG00000132698,epithelial,"duct cell,mucous cell,stratified epithelial cell",TOP 5 (CZI) List,,,,False,,False,,ENSG00000132698,HGNC:18238
-REEP6,ENSG00000115255,epithelial,granulosa cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000115255,HGNC:30078
-SFRP2,ENSG00000145423,epithelial,"hari follicles, ?cell in IVD, pancreatic ca",Tissue  expert added,IVD,,,True,"General - Endothelial cells,General - Fibroblasts,General - Smooth muscle cells",False,,ENSG00000145423,HGNC:10777
-SFTPB,ENSG00000168878,epithelial,"type II pneumocyte, bronchiolar epithelium",MxIF Proteins,,,,False,,True,,ENSG00000168878,HGNC:10801
-SH2D7,ENSG00000183476,epithelial,tuft cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000183476,HGNC:34549
-SHH,ENSG00000164690,epithelial,Hair shaft matrix,Tissue  expert added,Skin,,,False,,False,,ENSG00000164690,HGNC:10848
-SLC15A1,ENSG00000088386,epithelial,paneth cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000088386,HGNC:10920
-SLC1A1,ENSG00000106688,epithelial,type I pneumocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000106688,HGNC:10939
-SLC22A31,ENSG00000259803,epithelial,type II pneumocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000259803,HGNC:27091
-SLC34A2,ENSG00000157765,epithelial,"duct cell,type II pneumocyte",TOP 5 (CZI) List,,,,False,,False,,ENSG00000157765,HGNC:11020
-SLC5A12,ENSG00000148942,epithelial,paneth cell,TOP 5 (CZI) List,,,,False,,True,,ENSG00000148942,HGNC:28750
-SLC5A8,ENSG00000256870,epithelial,glandular epithelium,Tissue  expert added,Uterus,,,False,,False,,ENSG00000256870,HGNC:19119
-SLCO1A2,ENSG00000084453,epithelial,tuft cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000084453,HGNC:10956
-ST6GALNAC5,ENSG00000117069,epithelial,type I pneumocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000117069,HGNC:19342
-TNNI3,ENSG00000129991,epithelial,granulosa cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000129991,HGNC:11947
-TNS4,ENSG00000131746,epithelial,myoepithelial cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000131746,HGNC:24352
-TRIM50,ENSG00000146755,epithelial,paneth cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000146755,HGNC:19017
-TSPAN8,ENSG00000127324,epithelial,club cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000127324,HGNC:11855
-TTYH1,ENSG00000167614,epithelial,serous cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000167614,HGNC:13476
-UGT2B7,ENSG00000171234,epithelial,"absorptive cell,duct cell,tuft cell",TOP 5 (CZI) List,,,,False,,False,,ENSG00000171234,HGNC:12554
-VSIG2,ENSG00000019102,epithelial,club cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000019102,HGNC:17149
-WWC1,ENSG00000113645,epithelial,absorptive cell; epicardium,TOP 5 (CZI) List; Tissue Expert Added,HRT,,,False,,False,,ENSG00000113645,HGNC:29435
-ZNF385B,ENSG00000144331,epithelial,type II pneumocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000144331,HGNC:26332
-ZNF750,ENSG00000141579,epithelial,absorptive cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000141579,HGNC:25843
-AQP5,ENSG00000161798,"epithelial, eccrine cells",Eccrine secretory cells,Tissue  expert added,Skin,,,False,,False,,ENSG00000161798,HGNC:638
-DCD,ENSG00000161634,"epithelial, eccrine cells",Eccrine secretory cells,Tissue  expert added,Skin,,,False,,False,,ENSG00000161634,HGNC:14669
-DSC1,ENSG00000134765,"epithelial, keratinocytes",Differentiated Keratinocytes,Tissue  expert added,Skin,,,False,,False,,ENSG00000134765,HGNC:3035
-DSC3,ENSG00000134762,"epithelial, keratinocytes",keratinocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000134762,HGNC:3037
-KRT2,ENSG00000172867,"epithelial, keratinocytes",Spinous to Granular Cells,Tissue  expert added,Skin,,,False,,False,,ENSG00000172867,HGNC:6439
-KRTDAP,ENSG00000188508,"epithelial, keratinocytes",Differentiated Keratinocytes; Pilosebaceous cells; BCC,Tissue  expert added,Skin,,,False,,False,,ENSG00000188508,HGNC:16313
-LAMB3,ENSG00000196878,"epithelial, keratinocytes",TSK,Tissue  expert added,Skin,,,False,,False,,ENSG00000196878,HGNC:6490
-SERPINB5,ENSG00000206075,"epithelial, keratinocytes",keratinocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000206075,HGNC:8949
-BCAN,ENSG00000132692,"epithelial, melanocyte",melanocyte,Tissue  expert added,Skin,,,False,,False,,ENSG00000132692,HGNC:23059
-COL11A1,ENSG00000060718,"epithelial, melanocyte",melanocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000060718,HGNC:2186
-PMEL,ENSG00000185664,"epithelial, melanocyte",melanocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000185664,HGNC:10880
-SIM2,ENSG00000159263,"epithelial, melanocyte",melanocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000159263,HGNC:10883
-TRIM63,ENSG00000158022,"epithelial, melanocyte",melanocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000158022,HGNC:16007
-TYRP1,ENSG00000107165,"epithelial, melanocyte",melanocyte,Tissue  expert added,Skin,,,False,,False,,ENSG00000107165,HGNC:12450
-HAS1,ENSG00000105509,"epithelial, mesenchymal",Epicardium,Tissue  expert added,HRT Add-on,,,False,,False,,ENSG00000105509,HGNC:4818
-CFAP157,ENSG00000160401,"epithelial, multiciliated",multiciliated cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000160401,HGNC:27843
-ERICH3,ENSG00000178965,"epithelial, multiciliated",multiciliated cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000178965,HGNC:25346
-ZMYND10,ENSG00000004838,"epithelial, multiciliated",multiciliated cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000004838,HGNC:19412
-ITGA9,ENSG00000144668,"epithelial, stroma","airway epithelium, basal layer squamous epithelium, smooth and skeletal muscle",MxIF Proteins,,,,False,,False,,ENSG00000144668,HGNC:6145
-ALOX5,ENSG00000012779,ferroptosis,multiple,Tissue  expert added,,,,False,,False,,ENSG00000012779,HGNC:435
-TFRC,ENSG00000072274,ferroptosis,multiple,Tissue  expert added,,,TFR1,False,,False,,ENSG00000072274,HGNC:11763
-GYPB,ENSG00000250361,hematopoietic,erythrocyte,TOP 5 (CZI) List,,,,True,Liver - Erythroid cells,False,,ENSG00000250361,HGNC:4703
-SLC4A1,ENSG00000004939,hematopoietic,erythrocyte,TOP 5 (CZI) List,,,,True,Liver - Erythroid cells,True,,ENSG00000004939,HGNC:11027
-DPPA4,ENSG00000121570,hematopoietic stem cell,hematopoietic stem cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000121570,HGNC:19200
-PRSS57,ENSG00000185198,hematopoietic stem cell,hematopoietic stem cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000185198,HGNC:31397
-HIF1A,ENSG00000100644,"hypoxia, stress",multiple,Tissue  expert added,,,,False,,True,Highly expressed,ENSG00000100644,HGNC:4910
-ACER1,ENSG00000167769,Immune cells,CD4_RGCC,Tissue  expert added,Skin,,,False,,False,,ENSG00000167769,HGNC:18356
-CCL22,ENSG00000102962,Immune cells,DC_Langerhans cells_migrating; DC,Tissue  expert added,Skin,,,False,,False,,ENSG00000102962,HGNC:10621
-BLK,ENSG00000136573,"immune lymphoid, B",memory B cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000136573,HGNC:1057
-CLEC17A,ENSG00000187912,"immune lymphoid, B",immature B cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000187912,HGNC:34520
-FCRL1,ENSG00000163534,"immune lymphoid, B","follicular B cell,naive B cell",TOP 5 (CZI) List,,,,False,,False,,ENSG00000163534,HGNC:18509
-FCRL5,ENSG00000143297,"immune lymphoid, B",plasma cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000143297,HGNC:18508
-NIBAN3,ENSG00000167483,"immune lymphoid, B",pre-B cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000167483,HGNC:24130
-TNFRSF13C,ENSG00000159958,"immune lymphoid, B","class switched memory B cell,memory B cell",TOP 5 (CZI) List,,,,False,,False,,ENSG00000159958,HGNC:17755
-TNFRSF17,ENSG00000048462,"immune lymphoid, B",plasma cell,TOP 5 (CZI) List,,,,True,General - B cells,False,,ENSG00000048462,HGNC:11913
-VPREB3,ENSG00000128218,"immune lymphoid, B","follicular B cell,immature B cell,mature B cell,memory B cell,naive B cell,pre-B cell",TOP 5 (CZI) List,,,,False,,False,,ENSG00000128218,HGNC:12710
-IL23R,ENSG00000162594,"immune lymphoid, innate",innate lymphoid cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000162594,HGNC:19100
-CD6,ENSG00000013725,"immune lymphoid, T","effector memory CD4 T cell,naive CD4 T cell",TOP 5 (CZI) List,,,,False,,False,,ENSG00000013725,HGNC:1691
-GPR171,ENSG00000174946,"immune lymphoid, T",mucosal invariant T cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000174946,HGNC:30057
-ITK,ENSG00000113263,"immune lymphoid, T","T follicular helper cell,central memory CD4 T cell",TOP 5 (CZI) List,,,,False,,False,,ENSG00000113263,HGNC:6171
-ZNF831,ENSG00000124203,"immune lymphoid, T",central memory CD4 T cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000124203,HGNC:16167
-KLRC2,ENSG00000205809,"immune lymphoid, T/NKT",T/NK cells,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000205809,HGNC:6375
-KLRC3,ENSG00000205810,"immune lymphoid, T/NKT",T/NK cells,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000205810,HGNC:6376
-SH2D1A,ENSG00000183918,"immune lymphoid, thymoctye",double positive thymocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000183918,HGNC:10820
-SOCS2,ENSG00000120833,"immune lymphoid, thymoctye",double negative thymocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000120833,HGNC:19382
-TFDP2,ENSG00000114126,"immune lymphoid, thymoctye",double positive thymocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000114126,HGNC:11751
-UGT3A2,ENSG00000168671,"immune lymphoid, thymoctye",double negative thymocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000168671,HGNC:27266
-CSF2RA,ENSG00000198223,"immune myeloid, dendritic",conventional dendritic cell,TOP 5 (CZI) List,,Check this gene ID from the CZI list,,True,"General - Macrophages,General - Monocytes,Skin - Langerhans cells",True,,ENSG00000198223,HGNC:2435
-CXCL10,ENSG00000169245,"immune myeloid, macrophage",moMACinf,Tissue  expert added,,,,True,"General - Endothelial cells,General - Macrophages,Pancreas - Ductal cells",True,,ENSG00000169245,HGNC:10637
-HBEGF,ENSG00000113070,"immune myeloid, macrophage",moMACinf,Tissue  expert added,,,,False,,False,,ENSG00000113070,HGNC:3059
-CDK15,ENSG00000138395,"immune myeloid, mast",Mast,Tissue  expert added,HRT Add-on,,,False,,False,,ENSG00000138395,HGNC:14434
-NTM,ENSG00000182667,"immune myeloid, mast",Mast,Tissue  expert added,HRT Add-on,,,False,,False,,ENSG00000182667,HGNC:17941
-CLEC1B,ENSG00000165682,"immune myeloid, megakaryocyte,platelet",platelet,TOP 5 (CZI) List,,,,False,,False,,ENSG00000165682,HGNC:24356
-GATA1,ENSG00000102145,"immune myeloid, megakaryocyte,platelet",megakaryocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000102145,HGNC:4170
-MPIG6B,ENSG00000204420,"immune myeloid, megakaryocyte,platelet",megakaryocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000204420,HGNC:13937
-TREML1,ENSG00000161911,"immune myeloid, megakaryocyte,platelet",platelet,TOP 5 (CZI) List,,,,False,,False,,ENSG00000161911,HGNC:20434
-TUBB1,ENSG00000101162,"immune myeloid, megakaryocyte,platelet","megakaryocyte,platelet",TOP 5 (CZI) List,,,,False,,False,,ENSG00000101162,HGNC:16257
-ADGRE2,ENSG00000127507,"immune, myeloid",non classical monocyte,Tissue  expert added,,,,False,,False,,ENSG00000127507,HGNC:3337
-CD300E,ENSG00000186407,"immune, myeloid","classical monocyte,non-classical monocyte",TOP 5 (CZI) List,,,,True,"General - Macrophages,Liver - Kupffer cells",False,,ENSG00000186407,HGNC:28874
-CXCR2,ENSG00000180871,"immune, myeloid","conventional dendritic cell, cDC1",Tissue  expert added,,,,False,,False,,ENSG00000180871,HGNC:6027
-KCND3,ENSG00000171385,"immune, myeloid","conventional dendritic cell, cDC1",Tissue  expert added,,,,False,,False,,ENSG00000171385,HGNC:6239
-KCNK13,ENSG00000152315,"immune, myeloid",macrophage,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000152315,HGNC:6275
-LILRA1,ENSG00000104974,"immune, myeloid",non-classical monocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000104974,HGNC:6602
-LILRA2,ENSG00000239998,"immune, myeloid",non-classical monocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000239998,HGNC:6603
-LILRA5,ENSG00000187116,"immune, myeloid","classical monocyte,non-classical monocyte",TOP 5 (CZI) List,,,,True,"General - Macrophages,Liver - Kupffer cells",False,,ENSG00000187116,HGNC:16309
-LILRB5,ENSG00000105609,"immune, myeloid",macrophage,Tissue  expert added,Ovary,,,False,,False,,ENSG00000105609,HGNC:6609
-MS4A4A,ENSG00000110079,"immune, myeloid",macrophage,TOP 5 (CZI) List,,,,True,"General - Macrophages,Liver - Kupffer cells,Skin - Langerhans cells",False,,ENSG00000110079,HGNC:13371
-PADI2,ENSG00000117115,"immune, myeloid",macrophage,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000117115,HGNC:18341
-PADI4,ENSG00000159339,"immune, myeloid",neutrophil,TOP 5 (CZI) List,,,,False,,False,,ENSG00000159339,HGNC:18368
-PLEK,ENSG00000115956,"immune, myeloid",macrophage,Tissue  expert added,Ovary,,,False,,False,,ENSG00000115956,HGNC:9070
-PROK2,ENSG00000163421,"immune, myeloid",neutrophil,TOP 5 (CZI) List,,,,False,,False,,ENSG00000163421,HGNC:18455
-RNASE2,ENSG00000169385,"immune, myeloid",classical monocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000169385,HGNC:10045
-SLC9A7,ENSG00000065923,"immune, myeloid",Langerhans cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000065923,HGNC:17123
-SMIM25,ENSG00000224397,"immune, myeloid",non classical monocyte,Tissue  expert added,,PELATON,,False,,False,,,
-SNED1,ENSG00000162804,"immune, myeloid",non classical monocyte,Tissue  expert added,,,,False,,False,,ENSG00000162804,HGNC:24696
-STARD13,ENSG00000133121,"immune, myeloid",macrophage,Tissue  expert added,,,,False,,False,,ENSG00000133121,HGNC:19164
-TVP23A,ENSG00000166676,"immune, myeloid",Langerhans cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000166676,HGNC:20398
-ZNF804A,ENSG00000170396,"immune, myeloid",macrophage,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000170396,HGNC:21711
-NFKB1,ENSG00000109320,inflammation,multiple,Tissue  expert added,,,NFKB p50,False,,False,,ENSG00000109320,HGNC:7794
-RELA,ENSG00000173039,inflammation,multiple,Tissue  expert added,,,NFKB family member p65,False,,False,,ENSG00000173039,HGNC:9955
-SPP1,ENSG00000118785,injury,multiple,Tissue  expert added,,,,False,,True,,ENSG00000118785,HGNC:11255
-MT-ATP8,ENSG00000228253,mitochondrial,mitochondrial,Tissue  expert added,HRT Add-on,,,False,,False,,ENSG00000228253,HGNC:7415
-CA12,ENSG00000074410,multiple,epithelial and others,Tissue  expert added,IVD,,,False,,False,,ENSG00000074410,HGNC:1371
-CYTL1,ENSG00000170891,multiple,"some CD34+ cells, chondrocytes, endothelial",Tissue  expert added,IVD,,,False,,False,,ENSG00000170891,HGNC:24435
-MMP13,ENSG00000137745,multiple,"chondrocytes, epithelial, neuronal, cancer",Tissue  expert added,IVD,,,False,,False,,ENSG00000137745,HGNC:7159
-TGFB1,ENSG00000105329,multiple,multiple,Tissue  expert added,IVD,,,False,,False,,ENSG00000105329,HGNC:11766
-HPGD ,ENSG00000164120,multiple? capillary endothelial,"Treg (esp in fat?), lung capillary, other",MxIF Proteins,,,15-PGDH,False,,False,,,
-CADM2,ENSG00000175161,neural,Neuronal,Tissue  expert added,HRT Add-on,,,False,,False,,ENSG00000175161,HGNC:29849
-CDH19,ENSG00000071991,neural,schwann cell,TOP 5 (CZI) List,,,,False,,True,,ENSG00000071991,HGNC:1758
-CMTM5,ENSG00000166091,neural,schwann cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000166091,HGNC:19176
-INA,ENSG00000148798,neural,ganglion cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000148798,HGNC:6057
-NRSN1,ENSG00000152954,neural,"ganglion cell,motor neuron",TOP 5 (CZI) List,,,,False,,False,,ENSG00000152954,HGNC:17881
-PHOX2A,ENSG00000165462,neural,"ganglion cell,motor neuron,sensory neuron",TOP 5 (CZI) List,,,,False,,False,,ENSG00000165462,HGNC:691
-PMP2,ENSG00000147588,neural,schwann cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000147588,HGNC:9117
-SCG3,ENSG00000104112,neural,motor neuron,TOP 5 (CZI) List,,,,False,,False,,ENSG00000104112,HGNC:13707
-STMN4,ENSG00000015592,neural,"ganglion cell,motor neuron,sensory neuron",TOP 5 (CZI) List,,,,False,,False,,ENSG00000015592,HGNC:16078
-TLX2,ENSG00000115297,neural,sensory neuron,TOP 5 (CZI) List,,,,False,,False,,ENSG00000115297,HGNC:5057
-TTC9B,ENSG00000174521,neural,"ganglion cell,sensory neuron",TOP 5 (CZI) List,,,,False,,False,,ENSG00000174521,HGNC:26395
-GRIA1,ENSG00000155511,"neural CNS, stromal","CNS, fibroblast",MxIF Proteins,,,,False,,False,,ENSG00000155511,HGNC:4571
-CIT,ENSG00000122966,proliferation markers,multiple,State Rescue,,,,False,,False,,ENSG00000122966,HGNC:1985
-TOP2A,ENSG00000131747,proliferation markers,multiple,State Rescue,,,,True,"Colon - Distal enterocytes,Colon - Undifferentiated cells,General - Proliferation,General - T cells",True,,ENSG00000131747,HGNC:11989
-CDKN1A,ENSG00000124762,senescence markers,multiple,State Rescue,,,p21,False,,True,,ENSG00000124762,HGNC:1784
-CDKN1B,ENSG00000111276,senescence markers,multiple,State Rescue,,,,False,,True,,ENSG00000111276,HGNC:1785
-CDKN2A,ENSG00000147889,senescence markers,multiple,State Rescue,,,p16,False,,True,,ENSG00000147889,HGNC:1787
-FOXO4,ENSG00000184481,senescence markers,with TP53 induces senescence,State Rescue; MxIF Proteins,,,,False,,False,,ENSG00000184481,HGNC:7139
-GDF15,ENSG00000130513,senescence markers,multiple,State Rescue; MxIF Proteins,,,,True,"Breast - Breast glandular cells,Colon - Distal enterocytes,Colon - Intestinal goblet cells,Colon - Undifferentiated cells,Kidney - Collecting duct cells,Lung - Alveolar cells type 2,Lung - Respiratory ciliated cells,Pancreas - Ductal cells,Pancreas - Pancreatic endocrine cells",False,,ENSG00000130513,HGNC:30142
-GLB1,ENSG00000170266,senescence markers,multiple,State Rescue; MxIF Proteins,,,,False,,False,,ENSG00000170266,HGNC:4298
-SIRT1,ENSG00000096717,senescence markers,multiple,State Rescue,,,,False,,False,,ENSG00000096717,HGNC:14929
-EMILIN1,ENSG00000138080,stromal,"fibroblasts, ECM, endothelial lymphatic?",Rescue; MxIF Proteins,,,,False,,False,,ENSG00000138080,HGNC:19880
-ADAMTS4,ENSG00000158859,stromal,"tendon, cartilage, synovium (esp osteoarthritic)",Tissue  expert added,IVD,,,False,,False,,ENSG00000158859,HGNC:220
-ITGA8,ENSG00000077943,stromal,"smooth muscle, fibroblasts, intestinal epithelial crypt cells, adipose, vascular smooth muscle (HRT)","MxIF Proteins, tissue expert added",,,,False,,False,,ENSG00000077943,HGNC:6144
-MMP2,ENSG00000087245,stromal,Secretory-reticular Fibroblasts,Tissue  expert added,Skin,,,False,,False,,ENSG00000087245,HGNC:7166
-PRG4,ENSG00000116690,stromal,synovial fluid; epicardium,Tissue  expert added (x2) ,IVD; HRT,,,True,"General - Fibroblasts,Liver - Hepatocytes",False,,ENSG00000116690,HGNC:9364
-OSMR,ENSG00000145623,"stromal, activated fibroblasts",OSMRhi fibroblast,Tissue  expert added,,,,False,,False,,ENSG00000145623,HGNC:8507
-ABCA9,ENSG00000154258,"stromal, adipocyte",adipocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000154258,HGNC:39
-ADIPOQ,ENSG00000181092,"stromal, adipocyte",adipocyte,Tissue  expert added,HRT,,,True,Breast - adipocytes,False,,ENSG00000181092,HGNC:13633
-CILP,ENSG00000138615,"stromal, adipocyte",adipocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000138615,HGNC:1980
-CYP4B1,ENSG00000142973,"stromal, adipocyte",adipocyte,TOP 5 (CZI) List,,,,True,"Breast - Adipocytes,General - Endothelial cells,General - Fibroblasts,Lung - Alveolar cells type 1,Lung - Respiratory ciliated cells",False,,ENSG00000142973,HGNC:2644
-PLIN1,ENSG00000166819,"stromal, adipocyte",adipocyte,MxIF Proteins,,,,False,,True,,ENSG00000166819,HGNC:9076
-FGF12,ENSG00000114279,"stromal, cardiac muscle",cardiomyocyte,Tissue  expert added,HRT,,,False,,False,,ENSG00000114279,HGNC:3668
-MYLK3,ENSG00000140795,"stromal, cardiac muscle",ventricular cardiomyocyte,Tissue  expert added,HRT,,,False,,False,,ENSG00000140795,HGNC:29826
-NLGN1,ENSG00000169760,"stromal, cardiac muscle",ventricular cardiomyocyte,Tissue  expert added,HRT,,,False,,False,,ENSG00000169760,HGNC:14291
-PAM,ENSG00000145730,"stromal, cardiac muscle",Atrial Cardiomyocyte,Tissue  expert added,HRT Add-on,,,False,,False,,ENSG00000145730,HGNC:8596
-PKP2,ENSG00000057294,"stromal, cardiac muscle",ventricular cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000057294,HGNC:9024
-PRKAG2,ENSG00000106617,"stromal, cardiac muscle",Atrial Cardiomyocyte,Tissue  expert added,HRT Add-on,,,False,,False,,ENSG00000106617,HGNC:9386
-RBM20,ENSG00000203867,"stromal, cardiac muscle",ventricular cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000203867,HGNC:27424
-TECRL,ENSG00000205678,"stromal, cardiac muscle","atrial cardiac myocyte,ventricular cardiac myocyte",TOP 5 (CZI) List,,,,False,,False,,ENSG00000205678,HGNC:27365
-TENM2,ENSG00000145934,"stromal, cardiac muscle",ventricular cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000145934,HGNC:29943
-TNNC1,ENSG00000114854,"stromal, cardiac muscle",atrial cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000114854,HGNC:11943
-TNNI1,ENSG00000159173,"stromal, cardiac muscle",atrial cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000159173,HGNC:11945
-TNNT2,ENSG00000118194,"stromal, cardiac muscle",atrial cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,ENSG00000118194,HGNC:11949
-ACAN,ENSG00000157766,"stromal, chondrocyte","chondrocytes, CNS",Tissue  expert added,IVD,,,False,,False,,ENSG00000157766,HGNC:319
-COL10A1,ENSG00000123500,"stromal, chondrocyte",hypertrophic chondrocytes,Tissue  expert added,IVD,,,False,,False,,ENSG00000123500,HGNC:2185
-CLSTN2,ENSG00000158258,"stromal, fibroblasts",fibroblast,Tissue  expert added,Ovary,,,False,,False,,ENSG00000158258,HGNC:17448
-COL5A1,ENSG00000130635,"stromal, fibroblasts","fibroblasts, vascular smooth muscle cells",Tissue  expert added,IVD,,,False,,False,,ENSG00000130635,HGNC:2209
-DIO3OS,ENSG00000258498,"stromal, fibroblasts",fibroblast,Tissue  expert added,Uterus,,,False,,False,,ENSG00000258498,HGNC:20348
-FOXF1,ENSG00000103241,"stromal, fibroblasts",fibroblasts ,Tissue  expert added,IVD,,,False,,False,,ENSG00000103241,HGNC:3809
-GALNT15,ENSG00000131386,"stromal, fibroblasts",fibroblast,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000131386,HGNC:21531
-GFPT2,ENSG00000131459,"stromal, fibroblasts",fibroblast,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000131459,HGNC:4242
-IGSF10,ENSG00000152580,"stromal, fibroblasts",fibroblast,Tissue  expert added,Ovary,,,False,,False,,ENSG00000152580,HGNC:26384
-OLFML3,ENSG00000116774,"stromal, fibroblasts","fibroblast,mesenchymal stem cell",TOP 5 (CZI) List,,,,False,,False,,ENSG00000116774,HGNC:24956
-PWWP3B,ENSG00000157502,"stromal, fibroblasts",fibroblast,Tissue  expert added,Ovary,,,False,,False,,ENSG00000157502,HGNC:26583
-SHC3,ENSG00000148082,"stromal, fibroblasts",fibroblast,Tissue  expert added,Uterus,,,False,,False,,ENSG00000148082,HGNC:18181
-STXBP5L,ENSG00000145087,"stromal, fibroblasts",fibroblast,Tissue  expert added,Ovary,,,False,,False,,ENSG00000145087,HGNC:30757
-EGFLAM,ENSG00000164318,"stromal, pericyte",pericyte,Tissue  expert added,HRT,,,False,,False,,ENSG00000164318,HGNC:26810
-JSRP1,ENSG00000167476,"stromal, skeletal muscle",skeletal muscle cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000167476,HGNC:24963
-TRABD2B,ENSG00000269113,"stromal, skeletal muscle",skeletal muscle cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000269113,HGNC:44200
-WSCD2,ENSG00000075035,"stromal, skeletal muscle",skeletal muscle cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000075035,HGNC:29117
-ZNF385C,ENSG00000187595,"stromal, skeletal muscle",skeletal muscle cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000187595,HGNC:33722
-DGKG,ENSG00000058866,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Ovary,,,False,,False,,ENSG00000058866,HGNC:2853
-FBXL22,ENSG00000197361,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Uterus,,,False,,False,,ENSG00000197361,HGNC:27537
-GRIA2,ENSG00000120251,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000120251,HGNC:4572
-HSD17B6,ENSG00000025423,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Uterus,,,False,,False,,ENSG00000025423,HGNC:23316
-JPH2,ENSG00000149596,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000149596,HGNC:14202
-LMOD1,ENSG00000163431,"stromal, smooth muscle",smooth muscle cell,TOP 5 (CZI) List,,,,False,,False,,ENSG00000163431,HGNC:6647
-PCP4,ENSG00000183036,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Uterus,,,True,"General - Smooth muscle cells,Kidney - Proximal tubular cells",False,,ENSG00000183036,HGNC:8742
-PDE1C,ENSG00000154678,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000154678,HGNC:8776
-RBFOX3,ENSG00000167281,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Uterus,,,False,,False,,ENSG00000167281,HGNC:27097
-SLC24A2,ENSG00000155886,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Fallopian Tube,,,False,,False,,ENSG00000155886,HGNC:10976
-FOXC2,ENSG00000176692,"stromal, transition","epithelial-mesenchymal transition, embryonic mesenchymal cells",State Rescue; MxIF Proteins,,,,False,,False,,ENSG00000176692,HGNC:3801
-MYH10,ENSG00000133026,"stromal, vascular smooth muscle",vascular smooth muscle,Tissue  expert added,HRT,,,False,,False,,ENSG00000133026,HGNC:7568
+gene_name,Ensembl ID,Lineage/ L1 or state,cell type(s),Rationale/Source,Specific Request by,specificity flag,Protein/Other name,is_in_10x_multi_panel,10x_multi_panel_celltype,is_in_Xenium_KIL_panel,10x_panel_designer_comment,hgnc
+BAX,ENSG00000087088,apoptosis,multiple,Tissue  expert added,,,,False,,False,,HGNC:959
+CASP3,ENSG00000164305,apoptosis,multiple,Tissue  expert added,,,,False,,False,,HGNC:1504
+CASP8,ENSG00000064012,apoptosis,multiple,Tissue  expert added,,,,False,,False,,HGNC:1509
+CASP9,ENSG00000132906,apoptosis,multiple,Tissue  expert added,,,,False,,False,,HGNC:1511
+BIRC5,ENSG00000089685,"apoptosis, inhibitor","multiple, said to be generally low in adult cells except cancer",Tissue  expert added,IVD,,,False,,False,,HGNC:593
+IAPP,ENSG00000121351,endocrine,beta cell,Tissue  expert added,pancreas,,,False,,False,,HGNC:5329
+NPTX2,ENSG00000106236,endocrine,beta cell,Tissue  expert added,pancreas,,,False,,False,,HGNC:7953
+MEOX1,ENSG00000005102,endothelial,"highest endothelial cells, also fibroblasts, smooth muscle",MxIF Proteins,,check specificity?,,False,,False,,HGNC:7013
+NRG3,ENSG00000185737,endothelial,Endocardial Endothelial,Tissue  expert added,HRT Add-on,,,False,,False,,HGNC:7999
+ROBO4,ENSG00000154133,endothelial,endothelial tip cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:17985
+VEGFA,ENSG00000112715,endothelial,"endothelial cells, cardiac myofibroblasts, macrophages, schwann cells, activated chondrocytes",MxIF Proteins,,,,False,,False,,HGNC:12680
+MMRN2,ENSG00000173269,"endothelial, artery",endothelial cell of artery,TOP 5 (CZI) List,,,,True,"Breast - Adipocytes,General - Endothelial cells,Liver - Hepatic stellate cells",False,,HGNC:19888
+SOX18,ENSG00000203883,"endothelial, artery",endothelial cell of artery,TOP 5 (CZI) List,,,,True,"Breast - Adipocytes,General - Endothelial cells,Liver - Hepatic stellate cells",False,,HGNC:11194
+ADGRF5,ENSG00000069122,"endothelial, capillary",capillary endothelial cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:19030
+ART4,ENSG00000111339,"endothelial, lymphatic",Lymphatic Endothelium,Tissue  expert added,Ovary,,,False,,False,,HGNC:726
+POF1B,ENSG00000124429,"endothelial, lymphatic",Lymphatic Endothelium,Tissue  expert added,Ovary,,,False,,False,,HGNC:13711
+SCN3A,ENSG00000153253,"endothelial, lymphatic",Lymphatic Endothelium,Tissue  expert added,Ovary,,,False,,False,,HGNC:10590
+TM4SF18,ENSG00000163762,"endothelial, lymphatic","endothelial cell of lymphatic vessel,endothelial tip cell",TOP 5 (CZI) List,,,,True,"Breast - Adipocytes,General - Endothelial cells,Liver - Hepatic stellate cells",False,,HGNC:25181
+TSPEAR,ENSG00000175894,"endothelial, lymphatic",Lymphatic Endothelium,Tissue  expert added,Uterus,,,False,,False,,HGNC:1268
+CADM3-AS1,ENSG00000225670,"endothelial, vascular",vascular endothelium,Tissue  expert added,Uterus,,,False,,False,,HGNC:40812
+CPLX1,ENSG00000168993,"endothelial, vascular",vascular endothelium,Tissue  expert added,Uterus,,,False,,False,,HGNC:2309
+DCC,ENSG00000187323,"endothelial, vascular",vascular endothelium,Tissue  expert added,Ovary,,,False,,False,,HGNC:2701
+ELOVL7,ENSG00000164181,"endothelial, vascular",vascular endothelium,Tissue  expert added,Uterus,,,False,,False,,HGNC:26292
+LINC02360,ENSG00000248300,"endothelial, vascular",vascular endothelium,Tissue  expert added,Ovary,,,False,,False,,HGNC:53282
+SPC25,ENSG00000152253,"endothelial, vascular",vascular endothelium,Tissue  expert added,Uterus,,,False,,False,,HGNC:24031
+DIPK2B,ENSG00000147113,"endothelial, vein",vein endothelial cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:25866
+ADCYAP1R1,ENSG00000078549,epithelial,glandular epithelium,Tissue  expert added,Ovary,,,False,,False,,HGNC:242
+ARHGAP40,ENSG00000124143,epithelial,absorptive cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:16226
+AZGP1,ENSG00000160862,epithelial,serous cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:910
+CEACAM5,ENSG00000105388,epithelial,goblet cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:1817
+CEACAM6,ENSG00000086548,epithelial,goblet cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:1818
+CHRM3,ENSG00000133019,epithelial,glandular epithelium,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:1952
+CXCL6,ENSG00000124875,epithelial,club cell,TOP 5 (CZI) List,,,CXCL4,True,"General - Fibroblasts,Liver - Cholangiocytes,Lung - Club cells,Pancreas - Ductal cells",False,,HGNC:10643
+CYP24A1,ENSG00000019186,epithelial,glandular epithelium,Tissue  expert added,Uterus,,,False,,False,,HGNC:2602
+DPP6,ENSG00000130226,epithelial,glandular epithelium,Tissue  expert added,Ovary,,,False,,False,,HGNC:3010
+FABP1,ENSG00000163586,epithelial,enterocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:3555
+FGG,ENSG00000171557,epithelial,"duct cell,serous cell",TOP 5 (CZI) List,,,,False,,False,,HGNC:3694
+GABRP,ENSG00000094755,epithelial,glandular epithelium,Tissue  expert added,Uterus,,,False,,False,,HGNC:4089
+GCNT3,ENSG00000140297,epithelial,serous cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:4205
+HNF1B,ENSG00000275410,epithelial,glandular epithelium,Tissue  expert added,Uterus,,,False,,False,,HGNC:11630
+KCNC3,ENSG00000131398,epithelial,glandular epithelium,Tissue  expert added,Ovary,,,False,,False,,HGNC:6235
+KRT71,ENSG00000139648,epithelial,Inner root sheath,Tissue  expert added,Skin,,,False,,False,,HGNC:28927
+LGALS4,ENSG00000171747,epithelial,enterocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:6565
+LOR,ENSG00000203782,epithelial,epithelial,Tissue  expert added,Skin,,,False,,False,,
+MAL2,ENSG00000147676,epithelial,mucous cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:13634
+MISP,ENSG00000099812,epithelial,enterocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:27000
+MMP3,ENSG00000149968,epithelial,"epithelial, periosteum, osteocytes/blasts, lung in IPF, chondrocytes, disc degeneration, inducible",Tissue  expert added,IVD,,,False,,False,,HGNC:7173
+NR5A2,ENSG00000116833,epithelial,granulosa cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:7984
+PAX1,ENSG00000125813,epithelial,"ventral vertebral column, few thymic stromal",Tissue  expert added,IVD,,,False,,False,,HGNC:8615
+RAB25,ENSG00000132698,epithelial,"duct cell,mucous cell,stratified epithelial cell",TOP 5 (CZI) List,,,,False,,False,,HGNC:18238
+REEP6,ENSG00000115255,epithelial,granulosa cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:30078
+SFRP2,ENSG00000145423,epithelial,"hari follicles, ?cell in IVD, pancreatic ca",Tissue  expert added,IVD,,,True,"General - Endothelial cells,General - Fibroblasts,General - Smooth muscle cells",False,,HGNC:10777
+SFTPB,ENSG00000168878,epithelial,"type II pneumocyte, bronchiolar epithelium",MxIF Proteins,,,,False,,True,,HGNC:10801
+SH2D7,ENSG00000183476,epithelial,tuft cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:34549
+SHH,ENSG00000164690,epithelial,Hair shaft matrix,Tissue  expert added,Skin,,,False,,False,,HGNC:10848
+SLC15A1,ENSG00000088386,epithelial,paneth cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:10920
+SLC1A1,ENSG00000106688,epithelial,type I pneumocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:10939
+SLC22A31,ENSG00000259803,epithelial,type II pneumocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:27091
+SLC34A2,ENSG00000157765,epithelial,"duct cell,type II pneumocyte",TOP 5 (CZI) List,,,,False,,False,,HGNC:11020
+SLC5A12,ENSG00000148942,epithelial,paneth cell,TOP 5 (CZI) List,,,,False,,True,,HGNC:28750
+SLC5A8,ENSG00000256870,epithelial,glandular epithelium,Tissue  expert added,Uterus,,,False,,False,,HGNC:19119
+SLCO1A2,ENSG00000084453,epithelial,tuft cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:10956
+ST6GALNAC5,ENSG00000117069,epithelial,type I pneumocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:19342
+TNNI3,ENSG00000129991,epithelial,granulosa cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:11947
+TNS4,ENSG00000131746,epithelial,myoepithelial cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:24352
+TRIM50,ENSG00000146755,epithelial,paneth cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:19017
+TSPAN8,ENSG00000127324,epithelial,club cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:11855
+TTYH1,ENSG00000167614,epithelial,serous cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:13476
+UGT2B7,ENSG00000171234,epithelial,"absorptive cell,duct cell,tuft cell",TOP 5 (CZI) List,,,,False,,False,,HGNC:12554
+VSIG2,ENSG00000019102,epithelial,club cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:17149
+WWC1,ENSG00000113645,epithelial,absorptive cell; epicardium,TOP 5 (CZI) List; Tissue Expert Added,HRT,,,False,,False,,HGNC:29435
+ZNF385B,ENSG00000144331,epithelial,type II pneumocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:26332
+ZNF750,ENSG00000141579,epithelial,absorptive cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:25843
+AQP5,ENSG00000161798,"epithelial, eccrine cells",Eccrine secretory cells,Tissue  expert added,Skin,,,False,,False,,HGNC:638
+DCD,ENSG00000161634,"epithelial, eccrine cells",Eccrine secretory cells,Tissue  expert added,Skin,,,False,,False,,HGNC:14669
+DSC1,ENSG00000134765,"epithelial, keratinocytes",Differentiated Keratinocytes,Tissue  expert added,Skin,,,False,,False,,HGNC:3035
+DSC3,ENSG00000134762,"epithelial, keratinocytes",keratinocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:3037
+KRT2,ENSG00000172867,"epithelial, keratinocytes",Spinous to Granular Cells,Tissue  expert added,Skin,,,False,,False,,HGNC:6439
+KRTDAP,ENSG00000188508,"epithelial, keratinocytes",Differentiated Keratinocytes; Pilosebaceous cells; BCC,Tissue  expert added,Skin,,,False,,False,,HGNC:16313
+LAMB3,ENSG00000196878,"epithelial, keratinocytes",TSK,Tissue  expert added,Skin,,,False,,False,,HGNC:6490
+SERPINB5,ENSG00000206075,"epithelial, keratinocytes",keratinocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:8949
+BCAN,ENSG00000132692,"epithelial, melanocyte",melanocyte,Tissue  expert added,Skin,,,False,,False,,HGNC:23059
+COL11A1,ENSG00000060718,"epithelial, melanocyte",melanocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:2186
+PMEL,ENSG00000185664,"epithelial, melanocyte",melanocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:10880
+SIM2,ENSG00000159263,"epithelial, melanocyte",melanocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:10883
+TRIM63,ENSG00000158022,"epithelial, melanocyte",melanocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:16007
+TYRP1,ENSG00000107165,"epithelial, melanocyte",melanocyte,Tissue  expert added,Skin,,,False,,False,,HGNC:12450
+HAS1,ENSG00000105509,"epithelial, mesenchymal",Epicardium,Tissue  expert added,HRT Add-on,,,False,,False,,HGNC:4818
+CFAP157,ENSG00000160401,"epithelial, multiciliated",multiciliated cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:27843
+ERICH3,ENSG00000178965,"epithelial, multiciliated",multiciliated cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:25346
+ZMYND10,ENSG00000004838,"epithelial, multiciliated",multiciliated cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:19412
+ITGA9,ENSG00000144668,"epithelial, stroma","airway epithelium, basal layer squamous epithelium, smooth and skeletal muscle",MxIF Proteins,,,,False,,False,,HGNC:6145
+ALOX5,ENSG00000012779,ferroptosis,multiple,Tissue  expert added,,,,False,,False,,HGNC:435
+TFRC,ENSG00000072274,ferroptosis,multiple,Tissue  expert added,,,TFR1,False,,False,,HGNC:11763
+GYPB,ENSG00000250361,hematopoietic,erythrocyte,TOP 5 (CZI) List,,,,True,Liver - Erythroid cells,False,,HGNC:4703
+SLC4A1,ENSG00000004939,hematopoietic,erythrocyte,TOP 5 (CZI) List,,,,True,Liver - Erythroid cells,True,,HGNC:11027
+DPPA4,ENSG00000121570,hematopoietic stem cell,hematopoietic stem cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:19200
+PRSS57,ENSG00000185198,hematopoietic stem cell,hematopoietic stem cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:31397
+HIF1A,ENSG00000100644,"hypoxia, stress",multiple,Tissue  expert added,,,,False,,True,Highly expressed,HGNC:4910
+ACER1,ENSG00000167769,Immune cells,CD4_RGCC,Tissue  expert added,Skin,,,False,,False,,HGNC:18356
+CCL22,ENSG00000102962,Immune cells,DC_Langerhans cells_migrating; DC,Tissue  expert added,Skin,,,False,,False,,HGNC:10621
+BLK,ENSG00000136573,"immune lymphoid, B",memory B cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:1057
+CLEC17A,ENSG00000187912,"immune lymphoid, B",immature B cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:34520
+FCRL1,ENSG00000163534,"immune lymphoid, B","follicular B cell,naive B cell",TOP 5 (CZI) List,,,,False,,False,,HGNC:18509
+FCRL5,ENSG00000143297,"immune lymphoid, B",plasma cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:18508
+NIBAN3,ENSG00000167483,"immune lymphoid, B",pre-B cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:24130
+TNFRSF13C,ENSG00000159958,"immune lymphoid, B","class switched memory B cell,memory B cell",TOP 5 (CZI) List,,,,False,,False,,HGNC:17755
+TNFRSF17,ENSG00000048462,"immune lymphoid, B",plasma cell,TOP 5 (CZI) List,,,,True,General - B cells,False,,HGNC:11913
+VPREB3,ENSG00000128218,"immune lymphoid, B","follicular B cell,immature B cell,mature B cell,memory B cell,naive B cell,pre-B cell",TOP 5 (CZI) List,,,,False,,False,,HGNC:12710
+IL23R,ENSG00000162594,"immune lymphoid, innate",innate lymphoid cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:19100
+CD6,ENSG00000013725,"immune lymphoid, T","effector memory CD4 T cell,naive CD4 T cell",TOP 5 (CZI) List,,,,False,,False,,HGNC:1691
+GPR171,ENSG00000174946,"immune lymphoid, T",mucosal invariant T cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:30057
+ITK,ENSG00000113263,"immune lymphoid, T","T follicular helper cell,central memory CD4 T cell",TOP 5 (CZI) List,,,,False,,False,,HGNC:6171
+ZNF831,ENSG00000124203,"immune lymphoid, T",central memory CD4 T cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:16167
+KLRC2,ENSG00000205809,"immune lymphoid, T/NKT",T/NK cells,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:6375
+KLRC3,ENSG00000205810,"immune lymphoid, T/NKT",T/NK cells,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:6376
+SH2D1A,ENSG00000183918,"immune lymphoid, thymoctye",double positive thymocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:10820
+SOCS2,ENSG00000120833,"immune lymphoid, thymoctye",double negative thymocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:19382
+TFDP2,ENSG00000114126,"immune lymphoid, thymoctye",double positive thymocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:11751
+UGT3A2,ENSG00000168671,"immune lymphoid, thymoctye",double negative thymocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:27266
+CSF2RA,ENSG00000198223,"immune myeloid, dendritic",conventional dendritic cell,TOP 5 (CZI) List,,Check this gene ID from the CZI list,,True,"General - Macrophages,General - Monocytes,Skin - Langerhans cells",True,,HGNC:2435
+CXCL10,ENSG00000169245,"immune myeloid, macrophage",moMACinf,Tissue  expert added,,,,True,"General - Endothelial cells,General - Macrophages,Pancreas - Ductal cells",True,,HGNC:10637
+HBEGF,ENSG00000113070,"immune myeloid, macrophage",moMACinf,Tissue  expert added,,,,False,,False,,HGNC:3059
+CDK15,ENSG00000138395,"immune myeloid, mast",Mast,Tissue  expert added,HRT Add-on,,,False,,False,,HGNC:14434
+NTM,ENSG00000182667,"immune myeloid, mast",Mast,Tissue  expert added,HRT Add-on,,,False,,False,,HGNC:17941
+CLEC1B,ENSG00000165682,"immune myeloid, megakaryocyte,platelet",platelet,TOP 5 (CZI) List,,,,False,,False,,HGNC:24356
+GATA1,ENSG00000102145,"immune myeloid, megakaryocyte,platelet",megakaryocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:4170
+MPIG6B,ENSG00000204420,"immune myeloid, megakaryocyte,platelet",megakaryocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:13937
+TREML1,ENSG00000161911,"immune myeloid, megakaryocyte,platelet",platelet,TOP 5 (CZI) List,,,,False,,False,,HGNC:20434
+TUBB1,ENSG00000101162,"immune myeloid, megakaryocyte,platelet","megakaryocyte,platelet",TOP 5 (CZI) List,,,,False,,False,,HGNC:16257
+ADGRE2,ENSG00000127507,"immune, myeloid",non classical monocyte,Tissue  expert added,,,,False,,False,,HGNC:3337
+CD300E,ENSG00000186407,"immune, myeloid","classical monocyte,non-classical monocyte",TOP 5 (CZI) List,,,,True,"General - Macrophages,Liver - Kupffer cells",False,,HGNC:28874
+CXCR2,ENSG00000180871,"immune, myeloid","conventional dendritic cell, cDC1",Tissue  expert added,,,,False,,False,,HGNC:6027
+KCND3,ENSG00000171385,"immune, myeloid","conventional dendritic cell, cDC1",Tissue  expert added,,,,False,,False,,HGNC:6239
+KCNK13,ENSG00000152315,"immune, myeloid",macrophage,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:6275
+LILRA1,ENSG00000104974,"immune, myeloid",non-classical monocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:6602
+LILRA2,ENSG00000239998,"immune, myeloid",non-classical monocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:6603
+LILRA5,ENSG00000187116,"immune, myeloid","classical monocyte,non-classical monocyte",TOP 5 (CZI) List,,,,True,"General - Macrophages,Liver - Kupffer cells",False,,HGNC:16309
+LILRB5,ENSG00000105609,"immune, myeloid",macrophage,Tissue  expert added,Ovary,,,False,,False,,HGNC:6609
+MS4A4A,ENSG00000110079,"immune, myeloid",macrophage,TOP 5 (CZI) List,,,,True,"General - Macrophages,Liver - Kupffer cells,Skin - Langerhans cells",False,,HGNC:13371
+PADI2,ENSG00000117115,"immune, myeloid",macrophage,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:18341
+PADI4,ENSG00000159339,"immune, myeloid",neutrophil,TOP 5 (CZI) List,,,,False,,False,,HGNC:18368
+PLEK,ENSG00000115956,"immune, myeloid",macrophage,Tissue  expert added,Ovary,,,False,,False,,HGNC:9070
+PROK2,ENSG00000163421,"immune, myeloid",neutrophil,TOP 5 (CZI) List,,,,False,,False,,HGNC:18455
+RNASE2,ENSG00000169385,"immune, myeloid",classical monocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:10045
+SLC9A7,ENSG00000065923,"immune, myeloid",Langerhans cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:17123
+SMIM25,ENSG00000224397,"immune, myeloid",non classical monocyte,Tissue  expert added,,PELATON,,False,,False,,
+SNED1,ENSG00000162804,"immune, myeloid",non classical monocyte,Tissue  expert added,,,,False,,False,,HGNC:24696
+STARD13,ENSG00000133121,"immune, myeloid",macrophage,Tissue  expert added,,,,False,,False,,HGNC:19164
+TVP23A,ENSG00000166676,"immune, myeloid",Langerhans cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:20398
+ZNF804A,ENSG00000170396,"immune, myeloid",macrophage,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:21711
+NFKB1,ENSG00000109320,inflammation,multiple,Tissue  expert added,,,NFKB p50,False,,False,,HGNC:7794
+RELA,ENSG00000173039,inflammation,multiple,Tissue  expert added,,,NFKB family member p65,False,,False,,HGNC:9955
+SPP1,ENSG00000118785,injury,multiple,Tissue  expert added,,,,False,,True,,HGNC:11255
+MT-ATP8,ENSG00000228253,mitochondrial,mitochondrial,Tissue  expert added,HRT Add-on,,,False,,False,,HGNC:7415
+CA12,ENSG00000074410,multiple,epithelial and others,Tissue  expert added,IVD,,,False,,False,,HGNC:1371
+CYTL1,ENSG00000170891,multiple,"some CD34+ cells, chondrocytes, endothelial",Tissue  expert added,IVD,,,False,,False,,HGNC:24435
+MMP13,ENSG00000137745,multiple,"chondrocytes, epithelial, neuronal, cancer",Tissue  expert added,IVD,,,False,,False,,HGNC:7159
+TGFB1,ENSG00000105329,multiple,multiple,Tissue  expert added,IVD,,,False,,False,,HGNC:11766
+HPGD ,ENSG00000164120,multiple? capillary endothelial,"Treg (esp in fat?), lung capillary, other",MxIF Proteins,,,15-PGDH,False,,False,,
+CADM2,ENSG00000175161,neural,Neuronal,Tissue  expert added,HRT Add-on,,,False,,False,,HGNC:29849
+CDH19,ENSG00000071991,neural,schwann cell,TOP 5 (CZI) List,,,,False,,True,,HGNC:1758
+CMTM5,ENSG00000166091,neural,schwann cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:19176
+INA,ENSG00000148798,neural,ganglion cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:6057
+NRSN1,ENSG00000152954,neural,"ganglion cell,motor neuron",TOP 5 (CZI) List,,,,False,,False,,HGNC:17881
+PHOX2A,ENSG00000165462,neural,"ganglion cell,motor neuron,sensory neuron",TOP 5 (CZI) List,,,,False,,False,,HGNC:691
+PMP2,ENSG00000147588,neural,schwann cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:9117
+SCG3,ENSG00000104112,neural,motor neuron,TOP 5 (CZI) List,,,,False,,False,,HGNC:13707
+STMN4,ENSG00000015592,neural,"ganglion cell,motor neuron,sensory neuron",TOP 5 (CZI) List,,,,False,,False,,HGNC:16078
+TLX2,ENSG00000115297,neural,sensory neuron,TOP 5 (CZI) List,,,,False,,False,,HGNC:5057
+TTC9B,ENSG00000174521,neural,"ganglion cell,sensory neuron",TOP 5 (CZI) List,,,,False,,False,,HGNC:26395
+GRIA1,ENSG00000155511,"neural CNS, stromal","CNS, fibroblast",MxIF Proteins,,,,False,,False,,HGNC:4571
+CIT,ENSG00000122966,proliferation markers,multiple,State Rescue,,,,False,,False,,HGNC:1985
+TOP2A,ENSG00000131747,proliferation markers,multiple,State Rescue,,,,True,"Colon - Distal enterocytes,Colon - Undifferentiated cells,General - Proliferation,General - T cells",True,,HGNC:11989
+CDKN1A,ENSG00000124762,senescence markers,multiple,State Rescue,,,p21,False,,True,,HGNC:1784
+CDKN1B,ENSG00000111276,senescence markers,multiple,State Rescue,,,,False,,True,,HGNC:1785
+CDKN2A,ENSG00000147889,senescence markers,multiple,State Rescue,,,p16,False,,True,,HGNC:1787
+FOXO4,ENSG00000184481,senescence markers,with TP53 induces senescence,State Rescue; MxIF Proteins,,,,False,,False,,HGNC:7139
+GDF15,ENSG00000130513,senescence markers,multiple,State Rescue; MxIF Proteins,,,,True,"Breast - Breast glandular cells,Colon - Distal enterocytes,Colon - Intestinal goblet cells,Colon - Undifferentiated cells,Kidney - Collecting duct cells,Lung - Alveolar cells type 2,Lung - Respiratory ciliated cells,Pancreas - Ductal cells,Pancreas - Pancreatic endocrine cells",False,,HGNC:30142
+GLB1,ENSG00000170266,senescence markers,multiple,State Rescue; MxIF Proteins,,,,False,,False,,HGNC:4298
+SIRT1,ENSG00000096717,senescence markers,multiple,State Rescue,,,,False,,False,,HGNC:14929
+EMILIN1,ENSG00000138080,stromal,"fibroblasts, ECM, endothelial lymphatic?",Rescue; MxIF Proteins,,,,False,,False,,HGNC:19880
+ADAMTS4,ENSG00000158859,stromal,"tendon, cartilage, synovium (esp osteoarthritic)",Tissue  expert added,IVD,,,False,,False,,HGNC:220
+ITGA8,ENSG00000077943,stromal,"smooth muscle, fibroblasts, intestinal epithelial crypt cells, adipose, vascular smooth muscle (HRT)","MxIF Proteins, tissue expert added",,,,False,,False,,HGNC:6144
+MMP2,ENSG00000087245,stromal,Secretory-reticular Fibroblasts,Tissue  expert added,Skin,,,False,,False,,HGNC:7166
+PRG4,ENSG00000116690,stromal,synovial fluid; epicardium,Tissue  expert added (x2) ,IVD; HRT,,,True,"General - Fibroblasts,Liver - Hepatocytes",False,,HGNC:9364
+OSMR,ENSG00000145623,"stromal, activated fibroblasts",OSMRhi fibroblast,Tissue  expert added,,,,False,,False,,HGNC:8507
+ABCA9,ENSG00000154258,"stromal, adipocyte",adipocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:39
+ADIPOQ,ENSG00000181092,"stromal, adipocyte",adipocyte,Tissue  expert added,HRT,,,True,Breast - adipocytes,False,,HGNC:13633
+CILP,ENSG00000138615,"stromal, adipocyte",adipocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:1980
+CYP4B1,ENSG00000142973,"stromal, adipocyte",adipocyte,TOP 5 (CZI) List,,,,True,"Breast - Adipocytes,General - Endothelial cells,General - Fibroblasts,Lung - Alveolar cells type 1,Lung - Respiratory ciliated cells",False,,HGNC:2644
+PLIN1,ENSG00000166819,"stromal, adipocyte",adipocyte,MxIF Proteins,,,,False,,True,,HGNC:9076
+FGF12,ENSG00000114279,"stromal, cardiac muscle",cardiomyocyte,Tissue  expert added,HRT,,,False,,False,,HGNC:3668
+MYLK3,ENSG00000140795,"stromal, cardiac muscle",ventricular cardiomyocyte,Tissue  expert added,HRT,,,False,,False,,HGNC:29826
+NLGN1,ENSG00000169760,"stromal, cardiac muscle",ventricular cardiomyocyte,Tissue  expert added,HRT,,,False,,False,,HGNC:14291
+PAM,ENSG00000145730,"stromal, cardiac muscle",Atrial Cardiomyocyte,Tissue  expert added,HRT Add-on,,,False,,False,,HGNC:8596
+PKP2,ENSG00000057294,"stromal, cardiac muscle",ventricular cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:9024
+PRKAG2,ENSG00000106617,"stromal, cardiac muscle",Atrial Cardiomyocyte,Tissue  expert added,HRT Add-on,,,False,,False,,HGNC:9386
+RBM20,ENSG00000203867,"stromal, cardiac muscle",ventricular cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:27424
+TECRL,ENSG00000205678,"stromal, cardiac muscle","atrial cardiac myocyte,ventricular cardiac myocyte",TOP 5 (CZI) List,,,,False,,False,,HGNC:27365
+TENM2,ENSG00000145934,"stromal, cardiac muscle",ventricular cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:29943
+TNNC1,ENSG00000114854,"stromal, cardiac muscle",atrial cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:11943
+TNNI1,ENSG00000159173,"stromal, cardiac muscle",atrial cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:11945
+TNNT2,ENSG00000118194,"stromal, cardiac muscle",atrial cardiac myocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:11949
+ACAN,ENSG00000157766,"stromal, chondrocyte","chondrocytes, CNS",Tissue  expert added,IVD,,,False,,False,,HGNC:319
+COL10A1,ENSG00000123500,"stromal, chondrocyte",hypertrophic chondrocytes,Tissue  expert added,IVD,,,False,,False,,HGNC:2185
+CLSTN2,ENSG00000158258,"stromal, fibroblasts",fibroblast,Tissue  expert added,Ovary,,,False,,False,,HGNC:17448
+COL5A1,ENSG00000130635,"stromal, fibroblasts","fibroblasts, vascular smooth muscle cells",Tissue  expert added,IVD,,,False,,False,,HGNC:2209
+DIO3OS,ENSG00000258498,"stromal, fibroblasts",fibroblast,Tissue  expert added,Uterus,,,False,,False,,HGNC:20348
+FOXF1,ENSG00000103241,"stromal, fibroblasts",fibroblasts ,Tissue  expert added,IVD,,,False,,False,,HGNC:3809
+GALNT15,ENSG00000131386,"stromal, fibroblasts",fibroblast,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:21531
+GFPT2,ENSG00000131459,"stromal, fibroblasts",fibroblast,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:4242
+IGSF10,ENSG00000152580,"stromal, fibroblasts",fibroblast,Tissue  expert added,Ovary,,,False,,False,,HGNC:26384
+OLFML3,ENSG00000116774,"stromal, fibroblasts","fibroblast,mesenchymal stem cell",TOP 5 (CZI) List,,,,False,,False,,HGNC:24956
+PWWP3B,ENSG00000157502,"stromal, fibroblasts",fibroblast,Tissue  expert added,Ovary,,,False,,False,,HGNC:26583
+SHC3,ENSG00000148082,"stromal, fibroblasts",fibroblast,Tissue  expert added,Uterus,,,False,,False,,HGNC:18181
+STXBP5L,ENSG00000145087,"stromal, fibroblasts",fibroblast,Tissue  expert added,Ovary,,,False,,False,,HGNC:30757
+EGFLAM,ENSG00000164318,"stromal, pericyte",pericyte,Tissue  expert added,HRT,,,False,,False,,HGNC:26810
+JSRP1,ENSG00000167476,"stromal, skeletal muscle",skeletal muscle cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:24963
+TRABD2B,ENSG00000269113,"stromal, skeletal muscle",skeletal muscle cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:44200
+WSCD2,ENSG00000075035,"stromal, skeletal muscle",skeletal muscle cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:29117
+ZNF385C,ENSG00000187595,"stromal, skeletal muscle",skeletal muscle cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:33722
+DGKG,ENSG00000058866,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Ovary,,,False,,False,,HGNC:2853
+FBXL22,ENSG00000197361,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Uterus,,,False,,False,,HGNC:27537
+GRIA2,ENSG00000120251,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:4572
+HSD17B6,ENSG00000025423,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Uterus,,,False,,False,,HGNC:23316
+JPH2,ENSG00000149596,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:14202
+LMOD1,ENSG00000163431,"stromal, smooth muscle",smooth muscle cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:6647
+PCP4,ENSG00000183036,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Uterus,,,True,"General - Smooth muscle cells,Kidney - Proximal tubular cells",False,,HGNC:8742
+PDE1C,ENSG00000154678,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:8776
+RBFOX3,ENSG00000167281,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Uterus,,,False,,False,,HGNC:27097
+SLC24A2,ENSG00000155886,"stromal, smooth muscle",smooth muscle,Tissue  expert added,Fallopian Tube,,,False,,False,,HGNC:10976
+FOXC2,ENSG00000176692,"stromal, transition","epithelial-mesenchymal transition, embryonic mesenchymal cells",State Rescue; MxIF Proteins,,,,False,,False,,HGNC:3801
+MYH10,ENSG00000133026,"stromal, vascular smooth muscle",vascular smooth muscle,Tissue  expert added,HRT,,,False,,False,,HGNC:7568

@@ -19,7 +19,6 @@ MEOX1,ENSG00000005102,endothelial,"highest endothelial cells, also fibroblasts, 
 NRG3,ENSG00000185737,endothelial,Endocardial Endothelial,Tissue  expert added,HRT Add-on,,,False,,False,,HGNC:7999
 PCDH15,ENSG00000150275,endothelial,Endocardial Endothelial,Tissue  expert added,HRT,,,False,,False,,HGNC:14674
 PDPN,ENSG00000162493,endothelial,"endothelial, lymphatics, stromal of LN, podocytes, osteocytes, type 1 pneumocytes",MxIF Proteins,,,,True,"General - Endothelial cells,General - Fibroblasts,General - Monocytes,Lung - Alveolar cells type 1",False,,HGNC:29602
-PECAM1,ENSG00000261371,endothelial,"endothelial cells most strongly, also some immune, some plts, ",MxIF Proteins,,,CD31 is PECAM1,True,"General - Endothelial cells,General - Macrophages",True,Highly expressed,HGNC:8823
 ROBO4,ENSG00000154133,endothelial,endothelial tip cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:17985
 SOX17,ENSG00000164736,endothelial,"endothelial cell of artery,endothelial tip cell",TOP 5 (CZI) List,,,,True,"Breast - Adipocytes,General - Endothelial cells",False,,HGNC:18122
 VEGFA,ENSG00000112715,endothelial,"endothelial cells, cardiac myofibroblasts, macrophages, schwann cells, activated chondrocytes",MxIF Proteins,,,,False,,False,,HGNC:12680

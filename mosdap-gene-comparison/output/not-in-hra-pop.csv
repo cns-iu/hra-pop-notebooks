@@ -1,0 +1,20 @@
+gene_name,Ensembl ID,Lineage/ L1 or state,cell type(s),Rationale/Source,Specific Request by,specificity flag,Protein/Other name,is_in_10x_multi_panel,10x_multi_panel_celltype,is_in_Xenium_KIL_panel,10x_panel_designer_comment,hgnc
+LINC02360,ENSG00000248300,"endothelial, vascular",vascular endothelium,Tissue  expert added,Ovary,,,False,,False,,HGNC:53282
+KRT71,ENSG00000139648,epithelial,Inner root sheath,Tissue  expert added,Skin,,,False,,False,,HGNC:28927
+LOR,ENSG00000203782,epithelial,epithelial,Tissue  expert added,Skin,,,False,,False,,
+MMP3,ENSG00000149968,epithelial,"epithelial, periosteum, osteocytes/blasts, lung in IPF, chondrocytes, disc degeneration, inducible",Tissue  expert added,IVD,,,False,,False,,HGNC:7173
+PAX1,ENSG00000125813,epithelial,"ventral vertebral column, few thymic stromal",Tissue  expert added,IVD,,,False,,False,,HGNC:8615
+SLC5A8,ENSG00000256870,epithelial,glandular epithelium,Tissue  expert added,Uterus,,,False,,False,,HGNC:19119
+TRIM50,ENSG00000146755,epithelial,paneth cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:19017
+ZNF750,ENSG00000141579,epithelial,absorptive cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:25843
+TRIM63,ENSG00000158022,"epithelial, melanocyte",melanocyte,TOP 5 (CZI) List,,,,False,,False,,HGNC:16007
+SLC6A12,ENSG00000111181,"immune, myeloid",Langerhans cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:11045
+SMIM25,ENSG00000224397,"immune, myeloid",non classical monocyte,Tissue  expert added,,PELATON,,False,,False,,
+NCR2,ENSG00000096264,"immune, NK",activated NK cells,MxIF Proteins,,,,False,,False,,HGNC:6732
+MMP13,ENSG00000137745,multiple,"chondrocytes, epithelial, neuronal, cancer",Tissue  expert added,IVD,,,False,,False,,HGNC:7159
+HPGD ,ENSG00000164120,multiple? capillary endothelial,"Treg (esp in fat?), lung capillary, other",MxIF Proteins,,,15-PGDH,False,,False,,
+NRSN1,ENSG00000152954,neural,"ganglion cell,motor neuron",TOP 5 (CZI) List,,,,False,,False,,HGNC:17881
+PHOX2A,ENSG00000165462,neural,"ganglion cell,motor neuron,sensory neuron",TOP 5 (CZI) List,,,,False,,False,,HGNC:691
+STMN4,ENSG00000015592,neural,"ganglion cell,motor neuron,sensory neuron",TOP 5 (CZI) List,,,,False,,False,,HGNC:16078
+TLX2,ENSG00000115297,neural,sensory neuron,TOP 5 (CZI) List,,,,False,,False,,HGNC:5057
+WSCD2,ENSG00000075035,"stromal, skeletal muscle",skeletal muscle cell,TOP 5 (CZI) List,,,,False,,False,,HGNC:29117
