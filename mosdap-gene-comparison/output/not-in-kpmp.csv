@@ -1,4 +1,4 @@
-gene_name,Ensembl ID,Lineage/ L1 or state,cell type(s),Rationale/Source,Specific Request by,specificity flag,Protein/Other name,is_in_10x_multi_panel,10x_multi_panel_celltype,is_in_Xenium_KIL_panel,10x_panel_designer_comment,hgnc
+gene_label,Ensembl ID,Lineage/ L1 or state,cell type(s),Rationale/Source,Specific Request by,specificity flag,Protein/Other name,is_in_10x_multi_panel,10x_multi_panel_celltype,is_in_Xenium_KIL_panel,10x_panel_designer_comment,hgnc
 BAX,ENSG00000087088,apoptosis,multiple,Tissue  expert added,,,,False,,False,,HGNC:959
 BID,ENSG00000015475,apoptosis,multiple,Tissue  expert added,,,,False,,False,,HGNC:1050
 CASP3,ENSG00000164305,apoptosis,multiple,Tissue  expert added,,,,False,,False,,HGNC:1504

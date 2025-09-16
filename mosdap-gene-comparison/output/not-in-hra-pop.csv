@@ -1,4 +1,4 @@
-gene_name,Ensembl ID,Lineage/ L1 or state,cell type(s),Rationale/Source,Specific Request by,specificity flag,Protein/Other name,is_in_10x_multi_panel,10x_multi_panel_celltype,is_in_Xenium_KIL_panel,10x_panel_designer_comment,hgnc
+gene_label,Ensembl ID,Lineage/ L1 or state,cell type(s),Rationale/Source,Specific Request by,specificity flag,Protein/Other name,is_in_10x_multi_panel,10x_multi_panel_celltype,is_in_Xenium_KIL_panel,10x_panel_designer_comment,hgnc
 LINC02360,ENSG00000248300,"endothelial, vascular",vascular endothelium,Tissue  expert added,Ovary,,,False,,False,,HGNC:53282
 KRT71,ENSG00000139648,epithelial,Inner root sheath,Tissue  expert added,Skin,,,False,,False,,HGNC:28927
 LOR,ENSG00000203782,epithelial,epithelial,Tissue  expert added,Skin,,,False,,False,,
