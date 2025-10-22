@@ -1,511 +1,511 @@
-organ,as_label,cell_id,cell_label,cell_percentage,anatomical_structure_of,node_name,label,glb file of single organs
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000084,T,0.001890946741352456,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000097,Mast,9.004508292154553e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000236,B,1.968915807322424e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.0006500047385240431,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,1.968915807322424e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000875,Non-classical monocyte,3.937831614644848e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.01332667227238874,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,0.0003347156872448121,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.0008694732205135825,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000597,Papillary Tip Epithelial,1.968915807322424e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.0002701352487646366,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.0017245077251068,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.0334067257638934,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.0007481880067825212,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000718,Inner Medullary Collecting Duct,0.3606659975853218,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.01651736596868164,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,0.0002559590549519151,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.04635037828123102,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.000469914572680952,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.08564127456583438,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.005222614809449641,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.01834320722733863,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,9.004508292154553e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.06167221857170647,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,5.906747421967272e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.3360057208817698,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.01525699732988765,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal papilla,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,3.937831614644848e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0000084,T,0.0003596259889714696,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0000650,Mesangial,0.0004795013186286262,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,0.001198753296571566,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,0.0002397506593143131,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.002996883241428913,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.001678254615200192,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,0.0002397506593143131,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0002573,Schwann / Neural,0.0003596259889714696,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.0001198753296571565,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,0.001078877966914409,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,0.0004795013186286262,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.005993766482857827,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.001438503955885879,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,0.01042915368017262,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.09530088707743944,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.005154639175257732,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.005034763845600575,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,0.006353392471829297,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001005,Glomerular Capillary Endothelial,0.0007192519779429393,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.0002397506593143131,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.3018460800767202,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,0.2700791177175737,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.0284104531287461,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.01606329417405898,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030011,Proximal Tubule Epithelial Segment 3,0.01546391752577319,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.06485255334452168,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,0.04003836010549029,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.0001198753296571565,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,0.001678254615200192,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,0.03620234955646128,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.02325581395348837,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.04902900982977702,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,renal column,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,0.01306641093263006,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0000084,T,0.002287227639340315,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,0.0001805706031058143,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,0.0003611412062116287,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0000875,Non-classical monocyte,0.0004213314072469,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.01113518719152522,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.005417118093174429,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,0.0001805706031058143,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,0.0001805706031058143,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000597,Papillary Tip Epithelial,0.006861682918020944,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.008607198748043816,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.05826411460214275,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,6.019020103527144e-05,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.002527988443481401,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.007042253521126757,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000718,Inner Medullary Collecting Duct,0.211087035030697,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.07890935355724085,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,6.019020103527144e-05,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.114421572168051,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.001865896232093415,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,6.019020103527144e-05,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.05886601661249548,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.01101480678945467,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.03725773444083302,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,0.007463584928373659,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.09726736487299864,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,6.019020103527144e-05,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,0.0021066570362345,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.2355242566510171,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.04002648368845551,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,kidney capsule,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,0.0004815216082821715,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000084,T,0.0007872226391818021,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.0003804007565977227,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000236,B,0.001066363680326526,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000648,Renin-positive Juxtaglomerular Granular,9.882521958643156e-05,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000650,Mesangial,0.003900693505515448,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,0.008311885516141622,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,7.587322434406073e-06,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.0003262548646794611,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,0.000135681328068144,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000875,Non-classical monocyte,0.0001006096198716869,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.002360861592097604,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000990,Classical Dendritic,0.003100800727624772,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0001058,Plasmacytoid Dendritic,1.379513169892013e-05,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.0002978286163006663,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,0.007248321212915103,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0002573,Schwann / Neural,0.0002198916402544471,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.0008108350763542587,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,0.001499673940163995,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,0.00570703356822473,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000597,Papillary Tip Epithelial,0.0002341551166745456,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.03308434220778535,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.02344229974394411,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,0.007483939303306318,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.006514352265508933,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.005616475081308876,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000718,Inner Medullary Collecting Duct,0.1429213115034603,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.05649095704992897,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,0.02192275736535074,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001005,Glomerular Capillary Endothelial,0.004679914278555291,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.06766634909480275,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.03128173752186184,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,0.1876861307066732,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.006026378451436202,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.006294812745991102,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030009,Proximal Tubule Epithelial Segment 1,0.09498296294854933,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030010,Proximal Tubule Epithelial Segment 2,0.001154067264737288,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030011,Proximal Tubule Epithelial Segment 3,0.05577066769999375,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.03362494548392434,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,0.05270662789444197,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.01319277072206971,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,0.07167728811968158,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030017,Distal Convoluted Tubule Type 2,0.001800525069819894,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,0.003867214790151923,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030020,Connecting Tubule Intercalated Type A,0.0002296889427870202,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.01400325954061832,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4033078,Cycling Mononuclear Phagocyte,2.06926975483802e-06,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.01120829895202837,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,outer cortex of kidney,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,0.008059134906815228,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000084,T,0.004870792523215079,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000097,Mast,7.362812057846896e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000236,B,0.0003291869960404183,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000648,Renin-positive Juxtaglomerular Granular,8.347479893936007e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000650,Mesangial,0.0009370434352725924,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,0.002268358959644012,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,1.299319774914158e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000786,Plasma,1.301918414463986e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,3.159296032703775e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000875,Non-classical monocyte,8.72060122263219e-06,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.003168198538694896,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000990,Classical Dendritic,0.0007752607990321143,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,7.363678271030171e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,0.0148154569193984,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0002573,Schwann / Neural,3.000995573460067e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.006391399448994866,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,0.001013841896101852,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,0.00464753906842341,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000597,Papillary Tip Epithelial,0.002347465878606702,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.01664865852769295,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.1025719909343514,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,0.003088554567558574,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.007493891767806154,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.006435208180739054,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000718,Inner Medullary Collecting Duct,0.03025986690010765,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.07918079611955897,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,0.01423418889382688,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001005,Glomerular Capillary Endothelial,0.002962797737610549,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.06182582952775565,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.08139610385279325,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,0.2284502812949354,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.01324068784880131,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.006515393535114923,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030009,Proximal Tubule Epithelial Segment 1,0.004771790852965493,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030010,Proximal Tubule Epithelial Segment 2,0.0002483671405077995,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030011,Proximal Tubule Epithelial Segment 3,0.001378127850328618,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.1044009719189105,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,0.01310861199368129,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.02029986619951443,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,0.04753494481555039,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030017,Distal Convoluted Tubule Type 2,8.388191913549985e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,0.003779675749033163,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030020,Connecting Tubule Intercalated Type A,1.082766479095132e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.06095887356667489,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4033078,Cycling Mononuclear Phagocyte,8.662131832761053e-06,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.04209067801988033,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,renal pyramid,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,0.005128850423710777,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0000084,T,0.0003596259889714697,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0000650,Mesangial,0.0004795013186286262,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,0.001198753296571566,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,0.0002397506593143131,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.002996883241428914,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.001678254615200192,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,0.0002397506593143131,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0002573,Schwann / Neural,0.0003596259889714697,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.0001198753296571566,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,0.001078877966914409,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,0.0004795013186286262,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.005993766482857828,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.001438503955885879,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,0.01042915368017262,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.09530088707743949,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.005154639175257732,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.005034763845600575,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,0.006353392471829296,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001005,Glomerular Capillary Endothelial,0.0007192519779429394,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.0002397506593143131,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.3018460800767202,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,0.2700791177175737,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.0284104531287461,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.01606329417405898,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030011,Proximal Tubule Epithelial Segment 3,0.0154639175257732,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.0648525533445217,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,0.04003836010549029,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.0001198753296571566,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,0.001678254615200192,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,0.03620234955646128,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.02325581395348837,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.04902900982977704,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-Left kidney,hilum of kidney,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,0.01306641093263006,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000057,Fibroblast,0.2587151026110405,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000077,Mesothelial,0.005506003929082116,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000084,T,0.02499114591739153,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.002023284654654702,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000115,Endothelial,0.00828315339164628,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000136,Adipocyte,0.005492594324824043,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000192,Smooth Muscle,0.02323921855905566,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000235,Macrophage,0.05254294766108934,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000236,B,0.01059049022177783,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000623,NK,0.02010576161685249,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000669,Pericyte,0.06030523662744232,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002129,Atrial Cardiomyocyte,0.1148455346324131,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002131,Ventricular Cardiomycoyte,0.1224932293410582,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.008053522427358914,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002144,Capillary Endothelial,0.09243349125581488,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002350,Endocardial,0.03550863207537858,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002573,Neuronal,0.01374093039373933,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0011031,Monocyte/cDC,0.0760197952986472,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_1000413,Arterial Endothelial,0.02829286956886352,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_1000414,Venous Endothelial,0.03681705549186939,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000057,Fibroblast,0.1711423883947845,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000077,Mesothelial,0.008462136257663413,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000084,T,0.0324453846818064,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.00522407391416976,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000115,Endothelial,0.004079958552802003,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000136,Adipocyte,0.0199464640359209,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000192,Smooth Muscle,0.04075641136344012,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000235,Macrophage,0.03147396597875831,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000236,B,0.005396770572489423,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000623,NK,0.02527847336154045,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000669,Pericyte,0.1616872463517831,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0001065,ILC,8.634832915983075e-05,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002129,Atrial Cardiomyocyte,0.1537863742336586,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002131,Ventricular Cardiomycoyte,0.007404369225455485,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.002072359899835938,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002144,Capillary Endothelial,0.2065452033503151,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002350,Endocardial,0.01729125291425611,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002573,Neuronal,0.01411795181763233,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0011031,Monocyte/cDC,0.06845263794145583,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_1000413,Arterial Endothelial,0.00904498747949227,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_1000414,Venous Endothelial,0.01530524134358,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000057,Fibroblast,0.1626401019073387,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000077,Mesothelial,0.004170165295547568,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000084,T,0.01521243383175038,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.004784191249949332,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000115,Endothelial,7.82069411860387e-05,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000136,Adipocyte,0.00376708474338679,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000192,Smooth Muscle,0.01847861430412759,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000235,Macrophage,0.02043136825775384,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000236,B,0.02464440948113727,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000623,NK,0.01376273054722016,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000669,Pericyte,0.09564565813846768,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0001065,ILC,2.557465841180174e-05,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002129,Atrial Cardiomyocyte,0.003234231662072334,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002131,Ventricular Cardiomycoyte,0.341260293669926,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.002824881025804492,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002144,Capillary Endothelial,0.1362216358696265,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002350,Endocardial,0.004675986769446093,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002573,Neuronal,0.005411082584396502,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0011031,Monocyte/cDC,0.02995423410974666,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_1000413,Arterial Endothelial,0.1026390263667704,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_1000414,Venous Endothelial,0.01013808858593369,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000057,Fibroblast,0.2795555367257744,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000077,Mesothelial,0.006697244084754339,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000084,T,0.008313015438733178,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.004338141687264964,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000115,Endothelial,0.0001048323726093733,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000136,Adipocyte,0.005113577147528373,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000192,Smooth Muscle,0.01428803095950921,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000235,Macrophage,0.02356225312775641,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000236,B,0.08343435274278005,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000623,NK,0.008084599364427172,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000669,Pericyte,0.04897076993049831,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0001065,ILC,4.478326681395796e-05,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002129,Atrial Cardiomyocyte,0.00187704421318011,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002131,Ventricular Cardiomycoyte,0.4051275332871974,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.002337493516322847,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002144,Capillary Endothelial,0.06019321901936659,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002350,Endocardial,0.006264089829700426,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002573,Neuronal,0.004376826431540123,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0011031,Monocyte/cDC,0.0193746834555727,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_1000413,Arterial Endothelial,0.00913675148687622,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_1000414,Venous Endothelial,0.008805221911793842,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000057,Fibroblast,0.1507942120791855,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000077,Mesothelial,0.00245027080534812,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000084,T,0.01264684157999307,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.004595219237061562,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000115,Endothelial,0.0001230690603314019,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000136,Adipocyte,0.001551610271053195,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000192,Smooth Muscle,0.01218789654250722,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000235,Macrophage,0.01790569363196667,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000236,B,0.03153110517084486,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.01329103119266525,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000669,Pericyte,0.0858190897632822,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002129,Atrial Cardiomyocyte,0.00540050966829256,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002131,Ventricular Cardiomycoyte,0.4707697093711321,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.003124586698413925,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002144,Capillary Endothelial,0.1261380950234162,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002350,Endocardial,0.002379762489533253,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002573,Neuronal,0.00396491762598928,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0011031,Monocyte/cDC,0.03371964056142567,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_1000413,Arterial Endothelial,0.01076362856304693,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-heart,interventricular septum,http://purl.obolibrary.org/obo/CL_1000414,Venous Endothelial,0.01084311066451096,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.005530390814284209,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.01490572000421363,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.3199726113978721,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.04329505951753924,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.06647003054882546,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.01943537343305594,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.03918676919835669,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.002475508269251027,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.004793005372379647,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.115190140103234,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.02965342884230486,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.07837353839671338,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.2607184241019699,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.00553039081428421,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.01490572000421363,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.3199726113978721,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.04329505951753924,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.06647003054882546,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.01943537343305594,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.03918676919835669,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.002475508269251027,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.004793005372379648,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.115190140103234,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.02965342884230486,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.07837353839671338,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.2607184241019699,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.005530390814284209,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.01490572000421363,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.3199726113978721,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.04329505951753924,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.06647003054882544,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.01943537343305593,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.03918676919835668,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.002475508269251027,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.004793005372379647,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.1151901401032339,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.02965342884230486,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.07837353839671335,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.2607184241019699,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.00068654928796423,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.0280098703717737,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.05322668545460742,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.08323637422782601,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.1356867041370398,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.06252799463371926,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.0169165943158411,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.1290348967752478,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.01577306957974085,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.03024478628748442,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.006620713419171235,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.2741824139487551,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.1638533475608292,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.002267629872249782,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.02373253850467435,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.1402953482410595,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.07019911096144273,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.1130936572496658,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.04846211193790293,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.02418581254357698,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.08772458741880065,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.01218906167235236,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.05797183906441215,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.01413883286238881,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.2102683470487745,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.1954711226226994,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.00553039081428421,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.01490572000421363,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.3199726113978721,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.04329505951753924,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.06647003054882544,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.01943537343305593,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.03918676919835668,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.002475508269251027,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.004793005372379647,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.115190140103234,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.02965342884230486,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.07837353839671336,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.2607184241019699,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000071,Endothelial,0.06984677488131448,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000160,Goblet,0.04715833893990074,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000165,Neuroendocrine,0.006042458298193579,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000236,B,0.001266610443060964,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000451,DC,0.007391193109133807,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000499,Stroma,0.07339707447732575,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000510,Paneth,0.01365791410422846,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000540,Nerve,0.02593234847264468,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000584,Enterocyte,0.2704576538331548,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.00297542902085643,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000624,CD4+ T cell,0.04645396455385936,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000625,CD8+ T,0.1507519117605253,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,0.006550997653138255,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.04640342648131828,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000863,M1 Macrophage,0.00844933400296279,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.03355728016728101,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0001028,CD7+ Immune,0.004207294539045399,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0002088,ICC,0.008190326381189729,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic,0.0177672911277255,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0002504,Smooth muscle,0.1332215178478361,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0009010,TA,0.02604921776539594,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,jejunum,http://purl.obolibrary.org/obo/CL_4033092,CD57+ Enterocyte,0.0002716421399083365,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000071,Endothelial,0.07759710521458399,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000160,Goblet,0.05607079547393754,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000165,Neuroendocrine,0.00966437623852029,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000236,B,0.0009159390813444454,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000451,DC,0.007679261119256662,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000499,Stroma,0.07760058787268796,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000510,Paneth,0.01238433221772186,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000540,Nerve,0.02253279793269415,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000584,Enterocyte,0.3006787700644641,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.001807499555961092,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000624,CD4+ T cell,0.04455364512410452,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000625,CD8+ T,0.07999665664822019,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,0.006749391405496331,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.0682705468121489,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000863,M1 Macrophage,0.01448785771252051,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.04148542333450584,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0001028,CD7+ Immune,0.00502547564403055,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0002088,ICC,0.01104699150579689,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic,0.02002180143973086,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0002504,Smooth muscle,0.0964382855570686,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0009010,TA,0.04108491765254914,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_4033092,CD57+ Enterocyte,0.003907542392655771,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000071,Endothelial,0.0804783723569717,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000160,Goblet,0.05872462062297701,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000165,Neuroendocrine,0.006965404178401783,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000236,B,0.001382992139224011,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000451,DC,0.008554373870276178,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000499,Stroma,0.06738408508134011,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000510,Paneth,0.01346420614569759,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000540,Nerve,0.02726890579679684,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000584,Enterocyte,0.2793518012526798,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.001076127622010173,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000624,CD4+ T cell,0.04082559166001092,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000625,CD8+ T,0.1205220900416159,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,0.004548320652402371,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.06150741939551894,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000863,M1 Macrophage,0.008356803564672747,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.03942578502669301,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0001028,CD7+ Immune,0.006708983143469672,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0002088,ICC,0.01514985917861196,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic,0.02160242128714952,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0002504,Smooth muscle,0.1032914372188827,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0009010,TA,0.03267056202446509,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_4033092,CD57+ Enterocyte,0.0007398377401319937,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000071,Endothelial,0.08047837235697171,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000160,Goblet,0.05872462062297701,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000165,Neuroendocrine,0.006965404178401783,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000236,B,0.001382992139224011,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000451,DC,0.00855437387027618,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000499,Stroma,0.06738408508134011,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000510,Paneth,0.01346420614569759,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000540,Nerve,0.02726890579679684,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000584,Enterocyte,0.2793518012526798,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.001076127622010173,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000624,CD4+ T cell,0.04082559166001093,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000625,CD8+ T,0.1205220900416159,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,0.004548320652402372,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.06150741939551894,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000863,M1 Macrophage,0.008356803564672749,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.03942578502669301,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0001028,CD7+ Immune,0.006708983143469672,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0002088,ICC,0.01514985917861196,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic,0.02160242128714953,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0002504,Smooth muscle,0.1032914372188827,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0009010,TA,0.03267056202446509,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_4033092,CD57+ Enterocyte,0.0007398377401319939,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000071,Endothelial,0.07535191655273683,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000160,Goblet,0.07269355410400526,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000165,Neuroendocrine,0.005541419818724998,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000236,B,0.03774558205478758,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000451,DC,0.01479188819687072,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000499,Stroma,0.07940908400425337,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000510,Paneth,0.01888070282039597,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000540,Nerve,0.02885589143754114,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000584,Enterocyte,0.1944370601043091,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.002636209428325485,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000624,CD4+ T cell,0.05798711327155804,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000625,CD8+ T,0.0997423920198491,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,0.005383183958681451,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.0429800243050281,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000863,M1 Macrophage,0.01108916907185174,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.04283761203098891,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0001028,CD7+ Immune,0.002186819585801812,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0002088,ICC,0.01851043090789407,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic,0.02285242290748898,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0002504,Smooth muscle,0.1339656438300673,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0009010,TA,0.03190034938477897,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
-small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_4033092,CD57+ Enterocyte,0.0002215302040609651,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine
+organ,as_label,cell_id,cell_label,cell_percentage,anatomical_structure_of,node_name,label,glb file of single organs,color
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000084,T,0.001890946741352456,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#fcb162
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000097,Mast,9.004508292154553e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#97e899
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000236,B,1.968915807322424e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#1a2e47
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.0006500047385240431,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#630cbd
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,1.968915807322424e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#62662e
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000875,Non-classical monocyte,3.937831614644848e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#fecdc5
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.01332667227238874,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#b88ef4
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,0.0003347156872448121,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#232c8a
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.0008694732205135825,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#62c361
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000597,Papillary Tip Epithelial,1.968915807322424e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#8f1976
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.0002701352487646366,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#8eff01
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.0017245077251068,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#b7d781
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.0334067257638934,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#78a27d
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.0007481880067825212,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#a7ddca
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000718,Inner Medullary Collecting Duct,0.3606659975853218,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#3aae54
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.01651736596868164,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#6c6c2c
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,0.0002559590549519151,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#3d437c
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.04635037828123102,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#dd9dee
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.000469914572680952,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#11137e
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.08564127456583438,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#f0ec7e
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.005222614809449641,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#59bf46
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.01834320722733863,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#a5e73a
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,9.004508292154553e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#939757
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.06167221857170647,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#85a53f
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,5.906747421967272e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#e5a404
+Left kidney,renal papilla,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.3360057208817698,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#e3fd94
+Left kidney,renal papilla,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.01525699732988765,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#c5145e
+Left kidney,renal papilla,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,3.937831614644848e-05,#VHMLeftKidney,VH_M_renal_papilla_L,renal papilla,VH_M_Kidney_L,#0357e5
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0000084,T,0.0003596259889714696,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#c81bac
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0000650,Mesangial,0.0004795013186286262,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#0fe033
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,0.001198753296571566,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#77ee4b
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,0.0002397506593143131,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#77737a
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.002996883241428913,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#112792
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.001678254615200192,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#e9e12b
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,0.0002397506593143131,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#c8a670
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0002573,Schwann / Neural,0.0003596259889714696,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#980784
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.0001198753296571565,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#70c7ed
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,0.001078877966914409,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#02fbba
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,0.0004795013186286262,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#3e485e
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.005993766482857827,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#a40f26
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.001438503955885879,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#651a8d
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,0.01042915368017262,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#46552c
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.09530088707743944,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#87d703
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.005154639175257732,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#8c6806
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.005034763845600575,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#6dfa2c
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,0.006353392471829297,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#9a05c2
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001005,Glomerular Capillary Endothelial,0.0007192519779429393,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#a7cb1d
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.0002397506593143131,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#2b7f93
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.3018460800767202,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#9ec2d7
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,0.2700791177175737,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#eebae8
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.0284104531287461,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#a2d816
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.01606329417405898,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#1e0698
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030011,Proximal Tubule Epithelial Segment 3,0.01546391752577319,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#2d40fc
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.06485255334452168,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#cee293
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,0.04003836010549029,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#4cf4c2
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.0001198753296571565,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#2b087b
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,0.001678254615200192,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#db915e
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,0.03620234955646128,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#444e61
+Left kidney,renal column,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.02325581395348837,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#71741a
+Left kidney,renal column,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.04902900982977702,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#d6920a
+Left kidney,renal column,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,0.01306641093263006,#VHMLeftKidney,VH_M_renal_column_L,renal column,VH_M_Kidney_L,#5418cb
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0000084,T,0.002287227639340315,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#f84d6c
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,0.0001805706031058143,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#5a7e5d
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,0.0003611412062116287,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#150e9b
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0000875,Non-classical monocyte,0.0004213314072469,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#13b31a
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.01113518719152522,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#5c764a
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.005417118093174429,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#7145b3
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,0.0001805706031058143,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#58a4cd
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,0.0001805706031058143,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#745235
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000597,Papillary Tip Epithelial,0.006861682918020944,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#255edd
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.008607198748043816,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#c945c1
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.05826411460214275,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#f46f67
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,6.019020103527144e-05,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#a20059
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.002527988443481401,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#2fe2ff
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.007042253521126757,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#3f02db
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000718,Inner Medullary Collecting Duct,0.211087035030697,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#e57211
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.07890935355724085,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#6f693e
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,6.019020103527144e-05,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#f1eac3
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.114421572168051,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#79406d
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.001865896232093415,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#fe00c7
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,6.019020103527144e-05,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#c7ad97
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.05886601661249548,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#3c0c10
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.01101480678945467,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#fb3f61
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.03725773444083302,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#a640fa
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,0.007463584928373659,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#02e045
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.09726736487299864,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#be82ac
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,6.019020103527144e-05,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#21b999
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,0.0021066570362345,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#3131cd
+Left kidney,kidney capsule,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.2355242566510171,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#7320fe
+Left kidney,kidney capsule,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.04002648368845551,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#1a0501
+Left kidney,kidney capsule,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,0.0004815216082821715,#VHMLeftKidney,VH_M_kidney_capsule_L,kidney capsule,VH_M_Kidney_L,#c404a4
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000084,T,0.0007872226391818021,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#e054c6
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.0003804007565977227,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#ec517a
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000236,B,0.001066363680326526,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#76a21b
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000648,Renin-positive Juxtaglomerular Granular,9.882521958643156e-05,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#61aaca
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000650,Mesangial,0.003900693505515448,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#e6b52f
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,0.008311885516141622,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#1b8bbe
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,7.587322434406073e-06,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#f4f6ca
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.0003262548646794611,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#12ea2b
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,0.000135681328068144,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#3483f8
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000875,Non-classical monocyte,0.0001006096198716869,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#6dfb50
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.002360861592097604,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#d343bd
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0000990,Classical Dendritic,0.003100800727624772,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#3c89f8
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0001058,Plasmacytoid Dendritic,1.379513169892013e-05,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#190e1a
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.0002978286163006663,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#ce38bd
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,0.007248321212915103,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#b8ae34
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0002573,Schwann / Neural,0.0002198916402544471,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#d2aaf0
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.0008108350763542587,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#b04305
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,0.001499673940163995,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#c73391
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,0.00570703356822473,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#abecfc
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000597,Papillary Tip Epithelial,0.0002341551166745456,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#a22f59
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.03308434220778535,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#9c84f5
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.02344229974394411,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#b5fb3e
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,0.007483939303306318,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#9e6c9e
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.006514352265508933,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#dd9017
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.005616475081308876,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#13c007
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000718,Inner Medullary Collecting Duct,0.1429213115034603,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#e0e26d
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.05649095704992897,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#56dfc9
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,0.02192275736535074,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#9081bd
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001005,Glomerular Capillary Endothelial,0.004679914278555291,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#d855d8
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.06766634909480275,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#88f22c
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.03128173752186184,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#c8cb2f
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,0.1876861307066732,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#5e1a75
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.006026378451436202,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#3be5e0
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.006294812745991102,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#d9db58
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030009,Proximal Tubule Epithelial Segment 1,0.09498296294854933,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#240ef0
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030010,Proximal Tubule Epithelial Segment 2,0.001154067264737288,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#f7bb2b
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030011,Proximal Tubule Epithelial Segment 3,0.05577066769999375,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#b8f062
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.03362494548392434,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#5aad8c
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,0.05270662789444197,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#7f6e23
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.01319277072206971,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#0309af
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,0.07167728811968158,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#f55838
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030017,Distal Convoluted Tubule Type 2,0.001800525069819894,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#5c3f6c
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,0.003867214790151923,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#72ce35
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030020,Connecting Tubule Intercalated Type A,0.0002296889427870202,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#377b22
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.01400325954061832,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#b698dc
+Left kidney,outer cortex of kidney,http://purl.obolibrary.org/obo/CL_4033078,Cycling Mononuclear Phagocyte,2.06926975483802e-06,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#ec48c9
+Left kidney,outer cortex of kidney,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.01120829895202837,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#b99038
+Left kidney,outer cortex of kidney,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,0.008059134906815228,#VHMLeftKidney,VH_M_outer_cortex_of_kidney_L,outer cortex of kidney,VH_M_Kidney_L,#4060b8
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000084,T,0.004870792523215079,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#cd2cd2
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000097,Mast,7.362812057846896e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#e3afa3
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000236,B,0.0003291869960404183,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#df5d23
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000648,Renin-positive Juxtaglomerular Granular,8.347479893936007e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#79a12a
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000650,Mesangial,0.0009370434352725924,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#7c0182
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,0.002268358959644012,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#04fddd
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,1.299319774914158e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#75e3f6
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000786,Plasma,1.301918414463986e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#ff1a81
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,3.159296032703775e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#1c1b81
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000875,Non-classical monocyte,8.72060122263219e-06,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#0d164f
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.003168198538694896,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#47e6cd
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0000990,Classical Dendritic,0.0007752607990321143,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#304ee5
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,7.363678271030171e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#b5f829
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,0.0148154569193984,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#f4c30f
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0002573,Schwann / Neural,3.000995573460067e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#bb221b
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.006391399448994866,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#7c6ea9
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,0.001013841896101852,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#bc8121
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,0.00464753906842341,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#d9627c
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000597,Papillary Tip Epithelial,0.002347465878606702,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#405ce6
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.01664865852769295,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#5163f2
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.1025719909343514,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#a4bdb7
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,0.003088554567558574,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#034b83
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.007493891767806154,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#d6defe
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.006435208180739054,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#e02c5d
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000718,Inner Medullary Collecting Duct,0.03025986690010765,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#a680b3
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.07918079611955897,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#73acec
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,0.01423418889382688,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#7ae16a
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001005,Glomerular Capillary Endothelial,0.002962797737610549,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#25bd96
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.06182582952775565,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#71dd3b
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.08139610385279325,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#724fe3
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,0.2284502812949354,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#8a7dc5
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.01324068784880131,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#7c3ca4
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.006515393535114923,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#7feca6
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030009,Proximal Tubule Epithelial Segment 1,0.004771790852965493,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#bdf0d1
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030010,Proximal Tubule Epithelial Segment 2,0.0002483671405077995,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#5f2716
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030011,Proximal Tubule Epithelial Segment 3,0.001378127850328618,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#2625db
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.1044009719189105,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#041f79
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,0.01310861199368129,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#f958c1
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.02029986619951443,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#9da903
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,0.04753494481555039,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#f2a061
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030017,Distal Convoluted Tubule Type 2,8.388191913549985e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#1a4047
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,0.003779675749033163,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#59c791
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030020,Connecting Tubule Intercalated Type A,1.082766479095132e-05,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#cfb6aa
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.06095887356667489,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#1d59e9
+Left kidney,renal pyramid,http://purl.obolibrary.org/obo/CL_4033078,Cycling Mononuclear Phagocyte,8.662131832761053e-06,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#20d065
+Left kidney,renal pyramid,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.04209067801988033,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#867dce
+Left kidney,renal pyramid,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,0.005128850423710777,#VHMLeftKidney,VH_M_renal_pyramid_L,renal pyramid,VH_M_Kidney_L,#076ceb
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0000084,T,0.0003596259889714697,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#625e4f
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0000650,Mesangial,0.0004795013186286262,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#16824a
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0000653,Podocyte,0.001198753296571566,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#882cce
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0000814,Natural Killer T,0.0002397506593143131,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#fa1dce
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.002996883241428914,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#c6bfc6
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.001678254615200192,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#c6cb8e
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0002201,Intercalated Type B,0.0002397506593143131,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#d12ca4
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0002573,Schwann / Neural,0.0003596259889714697,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#ff5598
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_0011031,Monocyte-derived,0.0001198753296571566,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#83e2b6
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000412,Afferent / Efferent Arteriole Endothelial,0.001078877966914409,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#861113
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000452,Parietal Epithelial,0.0004795013186286262,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#1892d8
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000692,Fibroblast,0.005993766482857828,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#b99f53
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000714,Cortical Collecting Duct Principal,0.001438503955885879,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#58de43
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000715,Cortical Collecting Duct Intercalated Type A,0.01042915368017262,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#4b6b8d
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000716,Outer Medullary Collecting Duct Principal,0.09530088707743949,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#2aad34
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000717,Outer Medullary Collecting Duct Intercalated Type A,0.005154639175257732,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#a9b948
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000768,Connecting Tubule,0.005034763845600575,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#d153ee
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1000850,Macula Densa,0.006353392471829296,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#cc1f08
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001005,Glomerular Capillary Endothelial,0.0007192519779429394,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#ce4726
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001107,Ascending Thin Limb,0.0002397506593143131,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#cb6999
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001108,Medullary Thick Ascending Limb,0.3018460800767202,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#e4d5b4
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001109,Cortical Thick Ascending Limb,0.2700791177175737,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#742079
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001131,Ascending Vasa Recta Endothelial,0.0284104531287461,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#70a9b9
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_1001318,Vascular Smooth Muscle / Pericyte,0.01606329417405898,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#30a954
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030011,Proximal Tubule Epithelial Segment 3,0.0154639175257732,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#0cdb9b
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030012,Descending Thin Limb Type 1,0.0648525533445217,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#340c40
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030013,Descending Thin Limb Type 2,0.04003836010549029,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#e37756
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030014,Descending Thin Limb Type 3,0.0001198753296571566,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#03e717
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030016,Distal Convoluted Tubule Type 1,0.001678254615200192,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#6e192c
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030018,Connecting Tubule Principal,0.03620234955646128,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#211389
+Left kidney,hilum of kidney,http://purl.obolibrary.org/obo/CL_4030022,Medullary Fibroblast,0.02325581395348837,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#4abe67
+Left kidney,hilum of kidney,https://purl.org/ccf/ASCTB-TEMP_descending-vasa-recta-endothelial,Descending Vasa Recta Endothelial ,0.04902900982977704,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#b19706
+Left kidney,hilum of kidney,https://purl.org/ccf/ASCTB-TEMP_peritubular-capilary-endothelial,Peritubular Capilary Endothelial ,0.01306641093263006,#VHMLeftKidney,VH_M_hilum_of_kidney_L,hilum of kidney,VH_M_Kidney_L,#ce1a7a
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000057,Fibroblast,0.2587151026110405,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#c687f8
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000077,Mesothelial,0.005506003929082116,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#e12b94
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000084,T,0.02499114591739153,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#81fe83
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.002023284654654702,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#5f8801
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000115,Endothelial,0.00828315339164628,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#d142d6
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000136,Adipocyte,0.005492594324824043,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#e4844b
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000192,Smooth Muscle,0.02323921855905566,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#e2975e
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000235,Macrophage,0.05254294766108934,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#2d0a63
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000236,B,0.01059049022177783,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#24c0e5
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000623,NK,0.02010576161685249,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#40ea20
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0000669,Pericyte,0.06030523662744232,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#29d797
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002129,Atrial Cardiomyocyte,0.1148455346324131,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#e7388c
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002131,Ventricular Cardiomycoyte,0.1224932293410582,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#479baf
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.008053522427358914,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#92b9c0
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002144,Capillary Endothelial,0.09243349125581488,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#1bc05f
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002350,Endocardial,0.03550863207537858,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#ebfa1f
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0002573,Neuronal,0.01374093039373933,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#1b93b8
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_0011031,Monocyte/cDC,0.0760197952986472,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#08deb9
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_1000413,Arterial Endothelial,0.02829286956886352,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#d9d610
+heart,right cardiac atrium,http://purl.obolibrary.org/obo/CL_1000414,Venous Endothelial,0.03681705549186939,#VHMHeart,VH_M_right_cardiac_atrium,right cardiac atrium,VH_M_Heart,#4e5462
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000057,Fibroblast,0.1711423883947845,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#dab36c
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000077,Mesothelial,0.008462136257663413,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#5f413f
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000084,T,0.0324453846818064,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#3026a3
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.00522407391416976,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#79be34
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000115,Endothelial,0.004079958552802003,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#be7de2
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000136,Adipocyte,0.0199464640359209,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#23429f
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000192,Smooth Muscle,0.04075641136344012,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#a7f4f9
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000235,Macrophage,0.03147396597875831,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#7e0f68
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000236,B,0.005396770572489423,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#3b500b
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000623,NK,0.02527847336154045,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#d716da
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0000669,Pericyte,0.1616872463517831,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#f03c81
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0001065,ILC,8.634832915983075e-05,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#906bb2
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002129,Atrial Cardiomyocyte,0.1537863742336586,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#75f4eb
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002131,Ventricular Cardiomycoyte,0.007404369225455485,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#3c3c3a
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.002072359899835938,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#5d6b41
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002144,Capillary Endothelial,0.2065452033503151,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#26b41c
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002350,Endocardial,0.01729125291425611,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#8d8af7
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0002573,Neuronal,0.01411795181763233,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#1f0293
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_0011031,Monocyte/cDC,0.06845263794145583,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#e77f82
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_1000413,Arterial Endothelial,0.00904498747949227,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#a42245
+heart,left cardiac atrium,http://purl.obolibrary.org/obo/CL_1000414,Venous Endothelial,0.01530524134358,#VHMHeart,VH_M_left_cardiac_atrium,left cardiac atrium,VH_M_Heart,#d99a01
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000057,Fibroblast,0.1626401019073387,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#fc7f12
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000077,Mesothelial,0.004170165295547568,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#2ad04d
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000084,T,0.01521243383175038,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#92f544
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.004784191249949332,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#db60ba
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000115,Endothelial,7.82069411860387e-05,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#d77d84
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000136,Adipocyte,0.00376708474338679,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#132c92
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000192,Smooth Muscle,0.01847861430412759,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#03ba84
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000235,Macrophage,0.02043136825775384,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#3977a4
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000236,B,0.02464440948113727,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#5748b8
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000623,NK,0.01376273054722016,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#9f218e
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0000669,Pericyte,0.09564565813846768,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#785148
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0001065,ILC,2.557465841180174e-05,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#517d34
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002129,Atrial Cardiomyocyte,0.003234231662072334,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#86cfb7
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002131,Ventricular Cardiomycoyte,0.341260293669926,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#aab150
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.002824881025804492,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#6f6ff0
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002144,Capillary Endothelial,0.1362216358696265,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#e91461
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002350,Endocardial,0.004675986769446093,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#f8f7c1
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0002573,Neuronal,0.005411082584396502,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#b6c111
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_0011031,Monocyte/cDC,0.02995423410974666,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#89b854
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_1000413,Arterial Endothelial,0.1026390263667704,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#21fde0
+heart,heart right ventricle,http://purl.obolibrary.org/obo/CL_1000414,Venous Endothelial,0.01013808858593369,#VHMHeart,VH_M_heart_right_ventricle,heart right ventricle,VH_M_Heart,#2eb20b
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000057,Fibroblast,0.2795555367257744,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#2eb795
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000077,Mesothelial,0.006697244084754339,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#f3229a
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000084,T,0.008313015438733178,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#90384c
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.004338141687264964,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#c3f421
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000115,Endothelial,0.0001048323726093733,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#310ac8
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000136,Adipocyte,0.005113577147528373,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#d5aef9
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000192,Smooth Muscle,0.01428803095950921,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#82fa54
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000235,Macrophage,0.02356225312775641,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#1f88db
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000236,B,0.08343435274278005,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#2beabe
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000623,NK,0.008084599364427172,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#47c31b
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0000669,Pericyte,0.04897076993049831,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#ac1adb
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0001065,ILC,4.478326681395796e-05,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#b03fab
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002129,Atrial Cardiomyocyte,0.00187704421318011,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#adc79b
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002131,Ventricular Cardiomycoyte,0.4051275332871974,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#02bc3f
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.002337493516322847,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#7b66c8
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002144,Capillary Endothelial,0.06019321901936659,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#03e0f7
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002350,Endocardial,0.006264089829700426,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#d94f0a
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0002573,Neuronal,0.004376826431540123,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#1a1986
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_0011031,Monocyte/cDC,0.0193746834555727,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#aecd07
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_1000413,Arterial Endothelial,0.00913675148687622,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#52ee5f
+heart,heart left ventricle,http://purl.obolibrary.org/obo/CL_1000414,Venous Endothelial,0.008805221911793842,#VHMHeart,VH_M_heart_left_ventricle,heart left ventricle,VH_M_Heart,#344a01
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000057,Fibroblast,0.1507942120791855,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#a289f0
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000077,Mesothelial,0.00245027080534812,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#8f216b
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000084,T,0.01264684157999307,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#8c92f7
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000097,Mast,0.004595219237061562,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#b79971
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000115,Endothelial,0.0001230690603314019,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#5f8cc5
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000136,Adipocyte,0.001551610271053195,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#10468c
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000192,Smooth Muscle,0.01218789654250722,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#2b9b1e
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000235,Macrophage,0.01790569363196667,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#d8f816
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000236,B,0.03153110517084486,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#da7361
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.01329103119266525,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#0baa3e
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0000669,Pericyte,0.0858190897632822,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#dd9abd
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002129,Atrial Cardiomyocyte,0.00540050966829256,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#fffe2b
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002131,Ventricular Cardiomycoyte,0.4707697093711321,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#95eba7
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic Endothelial,0.003124586698413925,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#f09e0b
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002144,Capillary Endothelial,0.1261380950234162,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#4c67f6
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002350,Endocardial,0.002379762489533253,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#989f28
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0002573,Neuronal,0.00396491762598928,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#795e06
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_0011031,Monocyte/cDC,0.03371964056142567,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#881c9e
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_1000413,Arterial Endothelial,0.01076362856304693,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#ddf784
+heart,interventricular septum,http://purl.obolibrary.org/obo/CL_1000414,Venous Endothelial,0.01084311066451096,#VHMHeart,VH_M_interventricular_septum,interventricular septum,VH_M_Heart,#12ccf2
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.005530390814284209,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#73d0dd
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.01490572000421363,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#3279ff
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.3199726113978721,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#86fb1f
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.04329505951753924,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#499de0
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.06647003054882546,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#2a629f
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.01943537343305594,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#548f4d
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.03918676919835669,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#5fa632
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.002475508269251027,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#7209b8
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.004793005372379647,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#bfca1a
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.115190140103234,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#abc0f7
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.02965342884230486,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#67243e
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.07837353839671338,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#647457
+prostate,seminal vesicle,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.2607184241019699,#VHMProstate,VH_M_seminal_vesicle,seminal vesicle,VH_M_Prostate,#780e99
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.00553039081428421,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#767775
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.01490572000421363,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#bee2f9
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.3199726113978721,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#72ab96
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.04329505951753924,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#143a1e
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.06647003054882546,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#535484
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.01943537343305594,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#ef3e1e
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.03918676919835669,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#27bb56
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.002475508269251027,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#0f4c28
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.004793005372379648,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#b2e953
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.115190140103234,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#3c5557
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.02965342884230486,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#36b0ce
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.07837353839671338,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#087c19
+prostate,apex of prostate,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.2607184241019699,#VHMProstate,VH_M_apex_of_prostate,apex of prostate,VH_M_Prostate,#8a7047
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.005530390814284209,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#39fe87
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.01490572000421363,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#0dd7b6
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.3199726113978721,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#178a9c
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.04329505951753924,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#f65b64
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.06647003054882544,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#2632cc
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.01943537343305593,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#769e0e
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.03918676919835668,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#89f099
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.002475508269251027,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#594e0b
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.004793005372379647,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#181014
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.1151901401032339,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#a49086
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.02965342884230486,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#f31eac
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.07837353839671335,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#9a440e
+prostate,transition zone of prostate,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.2607184241019699,#VHMProstate,VH_M_transition_zone__of_prostate_L,transition zone of prostate,VH_M_Prostate,#d4f24e
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.00068654928796423,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#3aa503
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.0280098703717737,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#4f715d
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.05322668545460742,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#8ff642
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.08323637422782601,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#c831d7
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.1356867041370398,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#fd8b2e
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.06252799463371926,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#c08229
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.0169165943158411,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#94268c
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.1290348967752478,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#0aa349
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.01577306957974085,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#9e53bc
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.03024478628748442,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#a73b41
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.006620713419171235,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#478f1a
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.2741824139487551,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#5a2db8
+prostate,peripheral zone of prostate,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.1638533475608292,#VHMProstate,VH_M_peripheral_zone_of_prostate_R,peripheral zone of prostate,VH_M_Prostate,#a69d42
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.002267629872249782,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#fce80b
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.02373253850467435,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#3b2944
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.1402953482410595,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#930fcc
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.07019911096144273,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#aac139
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.1130936572496658,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#2e1975
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.04846211193790293,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#2dc268
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.02418581254357698,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#571bdb
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.08772458741880065,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#3edc2d
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.01218906167235236,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#397e63
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.05797183906441215,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#b734ee
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.01413883286238881,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#a6c84c
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.2102683470487745,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#58809e
+prostate,central zone of prostate,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.1954711226226994,#VHMProstate,VH_M_central_zone_of_prostate_R,central zone of prostate,VH_M_Prostate,#d4b216
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000038,erythroid progenitor cell,0.00553039081428421,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#c317e9
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000057,fibroblast,0.01490572000421363,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#574d07
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000066,epithelial cell,0.3199726113978721,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#fca0a8
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000115,endothelial cell,0.04329505951753924,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#acbec4
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000158,club cell,0.06647003054882544,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#3403f1
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000192,smooth muscle cell,0.01943537343305593,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#285a2e
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000235,macrophage,0.03918676919835668,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#91d8c6
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000499,stromal cell,0.002475508269251027,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#581e8b
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000576,monocyte,0.004793005372379647,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#0a0b17
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000625,"CD8-positive, alpha-beta T cell",0.115190140103234,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#1aafa4
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0000814,mature NK T cell,0.02965342884230486,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#3b9e4e
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0002340,luminal cell of prostate epithelium,0.07837353839671336,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#cd64ae
+prostate,Verumontanum,http://purl.obolibrary.org/obo/CL_0002341,basal cell of prostate epithelium,0.2607184241019699,#VHMProstate,VH_M_seminal_colliculus,Verumontanum,VH_M_Prostate,#021128
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000071,Endothelial,0.06984677488131448,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#489ff4
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000160,Goblet,0.04715833893990074,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#dea417
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000165,Neuroendocrine,0.006042458298193579,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#4781ff
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000236,B,0.001266610443060964,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#eb1688
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000451,DC,0.007391193109133807,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#2fcac2
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000499,Stroma,0.07339707447732575,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#b7f7cd
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000510,Paneth,0.01365791410422846,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#00402b
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000540,Nerve,0.02593234847264468,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#b07f41
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000584,Enterocyte,0.2704576538331548,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#e24d0c
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.00297542902085643,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#2416d4
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000624,CD4+ T cell,0.04645396455385936,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#cf2386
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000625,CD8+ T,0.1507519117605253,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#fa01d8
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,0.006550997653138255,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#c41f26
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.04640342648131828,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#c7572c
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000863,M1 Macrophage,0.00844933400296279,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#754c89
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.03355728016728101,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#8aaf62
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0001028,CD7+ Immune,0.004207294539045399,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#490710
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0002088,ICC,0.008190326381189729,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#f3be7d
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic,0.0177672911277255,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#78447c
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0002504,Smooth muscle,0.1332215178478361,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#3cf571
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_0009010,TA,0.02604921776539594,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#69cdb3
+small intestine,jejunum,http://purl.obolibrary.org/obo/CL_4033092,CD57+ Enterocyte,0.0002716421399083365,#VHMSmallIntestine,VH_M_jejunum,jejunum,VH_M_Small_Intestine,#6a04b5
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000071,Endothelial,0.07759710521458399,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#caefe7
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000160,Goblet,0.05607079547393754,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#7ef269
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000165,Neuroendocrine,0.00966437623852029,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#cb76de
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000236,B,0.0009159390813444454,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#00fd9e
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000451,DC,0.007679261119256662,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#0096ee
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000499,Stroma,0.07760058787268796,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#594bd7
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000510,Paneth,0.01238433221772186,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#02b9c4
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000540,Nerve,0.02253279793269415,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#4a72e8
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000584,Enterocyte,0.3006787700644641,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#e0e6df
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.001807499555961092,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#bb28dd
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000624,CD4+ T cell,0.04455364512410452,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#233d21
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000625,CD8+ T,0.07999665664822019,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#1316f2
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,0.006749391405496331,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#ad921c
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.0682705468121489,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#ec2430
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000863,M1 Macrophage,0.01448785771252051,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#663de8
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.04148542333450584,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#2aefad
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0001028,CD7+ Immune,0.00502547564403055,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#a33734
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0002088,ICC,0.01104699150579689,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#2f8acf
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic,0.02002180143973086,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#cd26ec
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0002504,Smooth muscle,0.0964382855570686,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#a6b8ab
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_0009010,TA,0.04108491765254914,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#184f54
+small intestine,descending part of duodenum,http://purl.obolibrary.org/obo/CL_4033092,CD57+ Enterocyte,0.003907542392655771,#VHMSmallIntestine,VH_M_duodenum_descending,descending part of duodenum,VH_M_Small_Intestine,#7ddd43
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000071,Endothelial,0.0804783723569717,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#6a5882
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000160,Goblet,0.05872462062297701,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#d92c4f
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000165,Neuroendocrine,0.006965404178401783,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#e56ffb
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000236,B,0.001382992139224011,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#734f41
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000451,DC,0.008554373870276178,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#279733
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000499,Stroma,0.06738408508134011,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#c302e5
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000510,Paneth,0.01346420614569759,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#488c16
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000540,Nerve,0.02726890579679684,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#5e495f
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000584,Enterocyte,0.2793518012526798,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#a4da48
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.001076127622010173,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#694217
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000624,CD4+ T cell,0.04082559166001092,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#3ef70a
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000625,CD8+ T,0.1205220900416159,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#eac6ed
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,0.004548320652402371,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#8edacd
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.06150741939551894,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#f82acd
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000863,M1 Macrophage,0.008356803564672747,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#46560b
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.03942578502669301,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#c53c23
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0001028,CD7+ Immune,0.006708983143469672,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#160533
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0002088,ICC,0.01514985917861196,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#b603bb
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic,0.02160242128714952,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#60ad0d
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0002504,Smooth muscle,0.1032914372188827,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#4b4684
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_0009010,TA,0.03267056202446509,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#688d91
+small intestine,horizontal part of duodenum,http://purl.obolibrary.org/obo/CL_4033092,CD57+ Enterocyte,0.0007398377401319937,#VHMSmallIntestine,VH_M_duodenum_horizonal,horizontal part of duodenum,VH_M_Small_Intestine,#a46f54
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000071,Endothelial,0.08047837235697171,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#0e067c
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000160,Goblet,0.05872462062297701,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#6505a1
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000165,Neuroendocrine,0.006965404178401783,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#19d60d
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000236,B,0.001382992139224011,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#4ba3be
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000451,DC,0.00855437387027618,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#3355ad
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000499,Stroma,0.06738408508134011,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#aab595
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000510,Paneth,0.01346420614569759,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#4124fa
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000540,Nerve,0.02726890579679684,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#7b7639
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000584,Enterocyte,0.2793518012526798,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#2d4874
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.001076127622010173,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#9fdfd6
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000624,CD4+ T cell,0.04082559166001093,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#9b7b30
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000625,CD8+ T,0.1205220900416159,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#caa4ff
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,0.004548320652402372,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#57647e
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.06150741939551894,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#66125b
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000863,M1 Macrophage,0.008356803564672749,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#75a5d3
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.03942578502669301,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#1321e1
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0001028,CD7+ Immune,0.006708983143469672,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#ee23b4
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0002088,ICC,0.01514985917861196,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#a7bdd3
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic,0.02160242128714953,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#05b9cd
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0002504,Smooth muscle,0.1032914372188827,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#3d9166
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_0009010,TA,0.03267056202446509,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#a0f894
+small intestine,ascending part of duodenum,http://purl.obolibrary.org/obo/CL_4033092,CD57+ Enterocyte,0.0007398377401319939,#VHMSmallIntestine,VH_M_duodenum_ascending,ascending part of duodenum,VH_M_Small_Intestine,#b7b0c9
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000071,Endothelial,0.07535191655273683,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#ed1331
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000160,Goblet,0.07269355410400526,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#a9b025
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000165,Neuroendocrine,0.005541419818724998,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#a23b1f
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000236,B,0.03774558205478758,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#0635b5
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000451,DC,0.01479188819687072,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#f1b360
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000499,Stroma,0.07940908400425337,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#8d10a9
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000510,Paneth,0.01888070282039597,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#53ef9e
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000540,Nerve,0.02885589143754114,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#e58733
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000584,Enterocyte,0.1944370601043091,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#758fbe
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000623,NK,0.002636209428325485,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#86b6b6
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000624,CD4+ T cell,0.05798711327155804,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#ac3e0f
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000625,CD8+ T,0.0997423920198491,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#462a46
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000775,Neutrophil,0.005383183958681451,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#944fdb
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000786,Plasma,0.0429800243050281,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#57353e
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000863,M1 Macrophage,0.01108916907185174,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#fbeb35
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0000890,M2 Macrophage,0.04283761203098891,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#5c5a60
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0001028,CD7+ Immune,0.002186819585801812,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#bca35e
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0002088,ICC,0.01851043090789407,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#a4dce0
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0002138,Lymphatic,0.02285242290748898,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#69c4e2
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0002504,Smooth muscle,0.1339656438300673,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#74e85f
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_0009010,TA,0.03190034938477897,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#e149e1
+small intestine,distal part of ileum,http://purl.obolibrary.org/obo/CL_4033092,CD57+ Enterocyte,0.0002215302040609651,#VHMSmallIntestine,VH_M_ileum_terminal,distal part of ileum,VH_M_Small_Intestine,#cb5eed
