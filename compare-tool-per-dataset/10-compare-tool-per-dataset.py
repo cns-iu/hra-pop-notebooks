@@ -34,13 +34,13 @@ def load_and_parse_data():
         }
     )
 
-    # remove suffixes from dataset ID
+    # Remove suffixes from dataset ID
     df_original["unique_dataset_id"] = df_original["unique_dataset_id"].apply(
         lambda id: id.split("__")[0]
     )
     print(df_original.head())
 
-    # # load sankey
+    # Load sankey
     df_sankey = pd.read_csv(
         "https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/refs/heads/main/output-data/v1.0/reports/universe-ad-hoc/sankey.csv",
     ).fillna("no cell type annotation")
@@ -90,6 +90,7 @@ def load_and_parse_data():
         )
     ]
 
+    # Export results
     result.to_csv("output/dataset-comparison.csv", index=False)
 
 
