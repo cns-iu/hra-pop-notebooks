@@ -14,3 +14,6 @@ gtex-ctann-comparison/data/gtex-private-cell-instances.csv.gz:Zone.Identifier
 #from lu
 build
 .ipynb_checkpoints
+
+#virtual environments
+venv

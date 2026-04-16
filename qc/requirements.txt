@@ -1,0 +1,7 @@
+requests
+pandas
+seaborn
+duckdb
+matplotlib
+scanpy
+numpy
