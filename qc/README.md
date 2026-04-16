@@ -1,4 +1,4 @@
-# 1. Set up virtual enviroment
+# 1. Navigate to `qc` and set up virtual enviroment
 
 `python -m venv venv`
 
