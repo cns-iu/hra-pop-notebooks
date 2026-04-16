@@ -137,7 +137,7 @@ def make_visualization(df: pd.DataFrame) -> None:
     ax.set_ylim(0, 100)
     ax.set_xlabel('Mean % counts ribo')
     ax.set_ylabel('Mean % counts mt')
-    ax.legend(title='handler', bbox_to_anchor=(1.02, 1), loc='upper left')
+    ax.legend(title='handler', bbox_to_anchor=(1.02, 1), loc='upper left', markerscale=6)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     output_path = OUTPUT_DIR / 'qc_scatter.png'
