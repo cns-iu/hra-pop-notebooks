@@ -76,79 +76,91 @@ def make_visualization(df: pd.DataFrame) -> None:
 
     print(df.head())
 
-    mpl.rcParams['figure.figsize'] = (7, 6)
+    mpl.rcParams["figure.figsize"] = (7, 6)
 
     df = df.copy()
-    df['is_in_mito_range'] = df['mean_pct_counts_mt'].between(
-        thresholds['mito']['min'],
-        thresholds['mito']['max'],
-        inclusive='both',
+    df["is_in_mito_range"] = df["mean_pct_counts_mt"].between(
+        thresholds["mito"]["min"],
+        thresholds["mito"]["max"],
+        inclusive="both",
     )
 
-    print('+' * 28)
-    print(df['is_in_mito_range'].sum())
-    print('+' * 28)
+    print("+" * 28)
+    print(df["is_in_mito_range"].sum())
+    print("+" * 28)
 
-    summary = df.groupby('handler')['is_in_mito_range'].agg(
-        true_count='sum',
-        total='count',
+    summary = df.groupby("handler")["is_in_mito_range"].agg(
+        true_count="sum",
+        total="count",
     )
-    summary['pct_true'] = summary['true_count'] / summary['total']
+    summary["pct_true"] = summary["true_count"] / summary["total"]
     print(summary)
 
-    fig, ax = plt.subplots()
+    g = sns.FacetGrid(
+        df,
+        col='handler',
+        col_wrap=2,
+        sharex=True,
+        sharey=True,
+        height=4,
+        hue='handler',
+        palette='tab10',
+    )
 
-    sns.scatterplot(
-        data=df,
+    g.map_dataframe(
+        sns.scatterplot,
         x='mean_pct_counts_ribo',
         y='mean_pct_counts_mt',
-        hue='handler',
         s=5,
         alpha=0.5,
-        ax=ax,
     )
 
-    ax.axvline(
-        thresholds['ribo']['min'],
-        color='red',
-        linestyle='--',
-        linewidth=1.5,
-    )
-    ax.axvline(
-        thresholds['ribo']['max'],
-        color='red',
-        linestyle='--',
-        linewidth=1.5,
-    )
-    ax.axhline(
-        thresholds['mito']['min'],
-        color='blue',
-        linestyle='--',
-        linewidth=1.5,
-    )
-    ax.axhline(
-        thresholds['mito']['max'],
-        color='blue',
-        linestyle='--',
-        linewidth=1.5,
-    )
+    # remove per-axes legends (they repeat)
+    for ax in g.axes.flatten():
+        if ax.get_legend() is not None:
+            ax.get_legend().remove()
 
-    plt.xscale("log")
-    plt.yscale("log")
+    # add threshold lines + formatting
+    for ax in g.axes.flatten():
+        ax.axvline(
+            thresholds['ribo']['min'],
+            color='red',
+            linestyle='--',
+            linewidth=1.5,
+        )
+        ax.axvline(
+            thresholds['ribo']['max'],
+            color='red',
+            linestyle='--',
+            linewidth=1.5,
+        )
+        ax.axhline(
+            thresholds['mito']['min'],
+            color='blue',
+            linestyle='--',
+            linewidth=1.5,
+        )
+        ax.axhline(
+            thresholds['mito']['max'],
+            color='blue',
+            linestyle='--',
+            linewidth=1.5,
+        )
 
-    ax.set_xlim(0, 100)
-    ax.set_ylim(0, 100)
-    ax.set_xlabel('Mean % counts ribo')
-    ax.set_ylabel('Mean % counts mt')
-    ax.legend(title='handler', bbox_to_anchor=(1.02, 1), loc='upper left', markerscale=6)
+        ax.set_xscale('log')
+        ax.set_yscale('log')
+        ax.set_xlim(0, 100)
+        ax.set_ylim(0, 100)
+        ax.set_xlabel('Mean % counts ribo')
+        ax.set_ylabel('Mean % counts mt')
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    output_path = OUTPUT_DIR / 'qc_scatter.png'
+    output_path = OUTPUT_DIR / "qc_scatter_by_handler.png"
     plt.tight_layout()
-    plt.savefig(output_path, dpi=300, bbox_inches='tight')
-    plt.close(fig)
+    plt.savefig(output_path, dpi=300, bbox_inches="tight")
+    plt.close()
 
-    print(f'Saved plot to {output_path}')
+    print(f"Saved plot to {output_path}")
 
 
 def main() -> None:
