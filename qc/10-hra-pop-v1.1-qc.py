@@ -133,6 +133,9 @@ def make_visualization(df: pd.DataFrame) -> None:
         linewidth=1.5,
     )
 
+    plt.xscale("log")
+    plt.yscale("log")
+
     ax.set_xlim(0, 100)
     ax.set_ylim(0, 100)
     ax.set_xlabel('Mean % counts ribo')
