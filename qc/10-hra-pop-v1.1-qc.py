@@ -32,6 +32,9 @@ ATLAS_LABEL = "Atlas dataset in HRApop v1.0"
 NON_ATLAS_LABEL = "Non-atlas dataset in HRApop v1.0"
 ATLAS_ORDER = [NON_ATLAS_LABEL, ATLAS_LABEL]
 
+DEFAULT_X_COLUMN = "mean_pct_counts_ribo"
+DEFAULT_Y_COLUMN = "mean_pct_counts_mt"
+
 CUSTOM_PALETTE = {
     ATLAS_LABEL: "#ff0043",
     NON_ATLAS_LABEL: "#201e3d",
@@ -43,6 +46,16 @@ MARKER_MAP = {
 SIZE_MAP = {
     NON_ATLAS_LABEL: 12,
     ATLAS_LABEL: 28,
+}
+
+THRESHOLD_COLUMN_MAP = {
+    DEFAULT_X_COLUMN: "ribo",
+    DEFAULT_Y_COLUMN: "mito",
+}
+
+AXIS_LABEL_MAP = {
+    DEFAULT_X_COLUMN: "Mean % counts ribo",
+    DEFAULT_Y_COLUMN: "Mean % counts mt",
 }
 
 
@@ -110,7 +123,7 @@ def load_qc_thresholds() -> dict:
         return json.load(f)
 
 
-def compile_stats(df: pd.DataFrame) -> pd.DataFrame:
+def aggregate_by_handler(df: pd.DataFrame) -> pd.DataFrame:
     """Compute grouped summary statistics by handler.
 
     Args:
@@ -139,18 +152,98 @@ def compile_stats(df: pd.DataFrame) -> pd.DataFrame:
     return summary_table
 
 
-def make_visualization(df: pd.DataFrame, atlas_metadata: pd.DataFrame) -> None:
-    """Create and save a faceted ribo-vs-mito scatter plot.
+def make_summary_table(df: pd.DataFrame, threshold: dict) -> None:
+    """Print dataset counts against the configured mito and ribo thresholds."""
 
-    Points are color/shape/size encoded by atlas status and overlaid with
-    configured ribo/mito threshold lines.
+    def count_datasets(group_df: pd.DataFrame, mask: pd.Series) -> int:
+        matching_rows = group_df.loc[mask]
+        return int(matching_rows["dataset_id"].nunique())
 
-    Args:
-        df: QC report DataFrame.
-        atlas_metadata: DataFrame containing dataset_id atlas flags.
-    """
-    thresholds = load_qc_thresholds()
+    summary_rows: list[dict[str, str | int]] = []
 
+    for handler, group_df in df.groupby("handler", sort=True):
+        summary_rows.extend(
+            [
+                {
+                    "handler": str(handler),
+                    "metric": "datasets_total",
+                    "dataset_count": int(group_df["dataset_id"].nunique()),
+                },
+                {
+                    "handler": str(handler),
+                    "metric": "datasets_at_or_above_ribo_min",
+                    "dataset_count": count_datasets(
+                        group_df,
+                        group_df["mean_pct_counts_ribo"] >= threshold["ribo"]["min"],
+                    ),
+                },
+                {
+                    "handler": str(handler),
+                    "metric": "datasets_at_or_below_ribo_max",
+                    "dataset_count": count_datasets(
+                        group_df,
+                        group_df["mean_pct_counts_ribo"] <= threshold["ribo"]["max"],
+                    ),
+                },
+                {
+                    "handler": str(handler),
+                    "metric": "datasets_at_or_above_mito_min",
+                    "dataset_count": count_datasets(
+                        group_df,
+                        group_df["mean_pct_counts_mt"] >= threshold["mito"]["min"],
+                    ),
+                },
+                {
+                    "handler": str(handler),
+                    "metric": "datasets_at_or_below_mito_max",
+                    "dataset_count": count_datasets(
+                        group_df,
+                        group_df["mean_pct_counts_mt"] <= threshold["mito"]["max"],
+                    ),
+                },
+                {
+                    "handler": str(handler),
+                    "metric": "datasets_within_mito_range",
+                    "dataset_count": count_datasets(
+                        group_df,
+                        group_df["mean_pct_counts_mt"].between(
+                            threshold["mito"]["min"],
+                            threshold["mito"]["max"],
+                            inclusive="both",
+                        ),
+                    ),
+                },
+                {
+                    "handler": str(handler),
+                    "metric": "datasets_within_ribo_and_mito_ranges",
+                    "dataset_count": count_datasets(
+                        group_df,
+                        group_df["mean_pct_counts_ribo"].between(
+                            threshold["ribo"]["min"],
+                            threshold["ribo"]["max"],
+                            inclusive="both",
+                        )
+                        & group_df["mean_pct_counts_mt"].between(
+                            threshold["mito"]["min"],
+                            threshold["mito"]["max"],
+                            inclusive="both",
+                        ),
+                    ),
+                },
+            ]
+        )
+
+    summary_table = pd.DataFrame(summary_rows)
+
+    print(summary_table.to_string(index=False))
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    summary_table.to_csv(OUTPUT_DIR / "qc_summary_table.csv", index=False)
+    return
+
+
+def enrich_summary_with_atlas_info(
+    df: pd.DataFrame, atlas_metadata: pd.DataFrame
+) -> pd.DataFrame:
     merged_df = pd.merge(df, atlas_metadata, on="dataset_id", how="left")
     merged_df["is_atlas_dataset"] = merged_df["is_atlas_dataset"].fillna(False)
     merged_df["atlas_label"] = merged_df["is_atlas_dataset"].map(
@@ -159,28 +252,54 @@ def make_visualization(df: pd.DataFrame, atlas_metadata: pd.DataFrame) -> None:
             False: NON_ATLAS_LABEL,
         }
     )
+    return merged_df
 
-    print(merged_df.head())
+
+def make_scatter_graph(
+    df: pd.DataFrame,
+    name: str,
+    x_column: str = DEFAULT_X_COLUMN,
+    y_column: str = DEFAULT_Y_COLUMN,
+    x_label: str | None = None,
+    y_label: str | None = None,
+    x_scale: str = "log",
+    y_scale: str = "log",
+    show_ablines=False,
+) -> None:
+    """Create and save a faceted ribo-vs-mito scatter plot.
+
+    Points are color/shape/size encoded by atlas status and overlaid with
+    configured ribo/mito threshold lines.
+
+    Args:
+        df: QC report DataFrame.
+        x_column: Column to plot on the x-axis.
+        y_column: Column to plot on the y-axis.
+        x_label: Optional custom label for the x-axis.
+        y_label: Optional custom label for the y-axis.
+        x_scale: Matplotlib scale for the x-axis.
+        y_scale: Matplotlib scale for the y-axis.
+    """
+    thresholds = load_qc_thresholds()
+
+    missing_columns = [
+        column
+        for column in (x_column, y_column, "handler", "atlas_label")
+        if column not in df.columns
+    ]
+    if missing_columns:
+        raise ValueError(
+            f"Missing required columns for visualization: {missing_columns}"
+        )
+
+    x_label = x_label or AXIS_LABEL_MAP.get(x_column, x_column)
+    y_label = y_label or AXIS_LABEL_MAP.get(y_column, y_column)
+    x_threshold_key = THRESHOLD_COLUMN_MAP.get(x_column)
+    y_threshold_key = THRESHOLD_COLUMN_MAP.get(y_column)
+
+    merged_df = df.copy()
 
     mpl.rcParams["figure.figsize"] = (7, 6)
-
-    merged_df = merged_df.copy()
-    merged_df["is_in_mito_range"] = merged_df["mean_pct_counts_mt"].between(
-        thresholds["mito"]["min"],
-        thresholds["mito"]["max"],
-        inclusive="both",
-    )
-
-    print("+" * 28)
-    print(merged_df["is_in_mito_range"].sum())
-    print("+" * 28)
-
-    mito_summary = merged_df.groupby("handler")["is_in_mito_range"].agg(
-        true_count="sum",
-        total="count",
-    )
-    mito_summary["pct_true"] = mito_summary["true_count"] / mito_summary["total"]
-    print(mito_summary)
 
     g = sns.FacetGrid(
         merged_df,
@@ -196,8 +315,8 @@ def make_visualization(df: pd.DataFrame, atlas_metadata: pd.DataFrame) -> None:
 
     g.map_dataframe(
         sns.scatterplot,
-        x="mean_pct_counts_ribo",
-        y="mean_pct_counts_mt",
+        x=x_column,
+        y=y_column,
         style="atlas_label",
         style_order=ATLAS_ORDER,
         markers=MARKER_MAP,
@@ -217,26 +336,67 @@ def make_visualization(df: pd.DataFrame, atlas_metadata: pd.DataFrame) -> None:
 
     # Add threshold lines and axis formatting to each facet.
     for ax in g.axes.flatten():
-        for value in (thresholds["ribo"]["min"], thresholds["ribo"]["max"]):
-            ax.axvline(value, color="red", linestyle="--", linewidth=1.5)
-        for value in (thresholds["mito"]["min"], thresholds["mito"]["max"]):
-            ax.axhline(value, color="blue", linestyle="--", linewidth=1.5)
+        if show_ablines:
+            if x_threshold_key is not None:
+                for value in (
+                    thresholds[x_threshold_key]["min"],
+                    thresholds[x_threshold_key]["max"],
+                ):
+                    ax.axvline(value, color="red", linestyle="--", linewidth=1.5)
+            if y_threshold_key is not None:
+                for value in (
+                    thresholds[y_threshold_key]["min"],
+                    thresholds[y_threshold_key]["max"],
+                ):
+                    ax.axhline(value, color="blue", linestyle="--", linewidth=1.5)
 
-        ax.set_xscale("log")
-        ax.set_yscale("log")
-        ax.set_xlim(0, 100)
-        ax.set_ylim(0, 100)
-        ax.set_xlabel("Mean % counts ribo")
-        ax.set_ylabel("Mean % counts mt")
+        ax.set_xscale(x_scale)
+        ax.set_yscale(y_scale)
+        ax.set_xlabel(x_label)
+        ax.set_ylabel(y_label)
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    output_path = OUTPUT_DIR / "qc_scatter_by_handler.png"
+    output_path = OUTPUT_DIR / f"{name}.png"
     plt.tight_layout()
     plt.savefig(output_path, dpi=300, bbox_inches="tight")
     plt.close()
 
     print(f"Saved plot to {output_path}")
 
+def make_jitter_plot(df: pd.DataFrame, name: str) -> None:
+    """Create and save a jitter plot of percent low quality by handler."""
+    required_columns = ["handler", "percent_low_quality", "atlas_label"]
+    missing_columns = [column for column in required_columns if column not in df.columns]
+    if missing_columns:
+        raise ValueError(f"Missing required columns for jitter graph: {missing_columns}")
+
+    plt.figure(figsize=(11, 6))
+    ax = sns.stripplot(
+        data=df,
+        x="handler",
+        y="percent_low_quality",
+        hue="atlas_label",
+        order=sorted(df["handler"].dropna().unique()),
+        palette=CUSTOM_PALETTE,
+        dodge=True,
+        jitter=0.25,
+        alpha=0.45,
+        size=3,
+    )
+
+    ax.set_xlabel("Handler")
+    ax.set_ylabel("Percent Low Quality")
+    ax.set_title("Dataset-level Percent Low Quality by Handler")
+    plt.xticks(rotation=45, ha="right")
+    plt.legend(title="Dataset type", bbox_to_anchor=(1.02, 1), loc="upper left")
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    output_path = OUTPUT_DIR / f"{name}.png"
+    plt.tight_layout()
+    plt.savefig(output_path, dpi=300, bbox_inches="tight")
+    plt.close()
+
+    print(f"Saved plot to {output_path}")
 
 def main() -> None:
     """Run end-to-end QC summary generation and plotting."""
@@ -246,9 +406,20 @@ def main() -> None:
     print("=" * 100)
     atlas_metadata = load_hra_pop_data()
     df = load_qc_data()
-    print(df.columns)
-    compile_stats(df)
-    make_visualization(df, atlas_metadata)
+    merged_df = enrich_summary_with_atlas_info(df, atlas_metadata)
+    aggregate_by_handler(merged_df)
+    make_summary_table(merged_df, load_qc_thresholds())
+    make_scatter_graph(merged_df, name="qc_scatter_by_handler", show_ablines=True)
+    make_jitter_plot(merged_df, name="qc_jitter_by_handler_quality")
+    # make_scatter_graph(
+    #     merged_df,
+    #     x_column="mean_n_genes_by_counts",
+    #     y_column="mean_total_counts",
+    #     name="qc_mean_genes_by_counts_vs_total_counts",
+    #     x_scale="log",
+    #     y_scale="linear",
+    #     show_ablines=False,
+    # )
     print("=" * 100)
     print("")
     print("")
