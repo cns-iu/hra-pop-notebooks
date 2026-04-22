@@ -1,10 +1,10 @@
-"""Generate QC summaries and faceted scatter plots for HRApop datasets.
+"""Generate QC summaries and visualizations for HRApop datasets.
 
 The script:
 1. Ensures the QC report CSV is decompressed.
 2. Loads atlas metadata from the HRApop repository.
 3. Prints grouped QC summary statistics by handler (= portal/source).
-4. Creates and saves a faceted ribo-vs-mito scatter plot with threshold lines.
+4. Creates and saves faceted scatter plots and a handler-level jitter plot.
 """
 
 import gzip
@@ -17,6 +17,7 @@ import matplotlib as mpl
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
+import numpy
 
 
 DATA_DIR = Path("data")
@@ -153,9 +154,26 @@ def aggregate_by_handler(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def make_summary_table(df: pd.DataFrame, threshold: dict) -> None:
-    """Print dataset counts against the configured mito and ribo thresholds."""
+    """Build and persist per-handler threshold coverage counts.
+
+    The output table contains one row per `(handler, metric)` combination and
+    is written to `output/qc_summary_table.csv`.
+
+    Args:
+        df: QC DataFrame containing per-dataset metrics and a `handler` column.
+        threshold: Dictionary with nested `ribo` and `mito` min/max thresholds.
+    """
 
     def count_datasets(group_df: pd.DataFrame, mask: pd.Series) -> int:
+        """Count unique datasets in a grouped frame that satisfy a boolean mask.
+
+        Args:
+            group_df: Handler-specific slice of the QC DataFrame.
+            mask: Boolean mask aligned to `group_df.index`.
+
+        Returns:
+            Number of unique `dataset_id` values in rows where mask is True.
+        """
         matching_rows = group_df.loc[mask]
         return int(matching_rows["dataset_id"].nunique())
 
@@ -241,9 +259,56 @@ def make_summary_table(df: pd.DataFrame, threshold: dict) -> None:
     return
 
 
+def compute_correlation(df: pd.DataFrame) -> pd.DataFrame:
+    """Compute and save a Pearson correlation matrix for QC metrics.
+
+    Args:
+        df: QC DataFrame containing numeric QC metrics.
+
+    Returns:
+        Correlation matrix DataFrame for the configured QC columns.
+    """
+    correlation_columns = [
+        "percent_low_quality",
+        "mean_pct_counts_ribo",
+        "mean_pct_counts_mt",
+        "mean_n_genes_by_counts",
+        "mean_total_counts",
+        "mean_pct_counts_in_top_20_genes",
+        "mean_pct_counts_in_top_50_genes",
+    ]
+
+    missing_columns = [column for column in correlation_columns if column not in df.columns]
+    if missing_columns:
+        raise ValueError(
+            f"Missing required columns for correlation matrix: {missing_columns}"
+        )
+
+    correlation_matrix = df[correlation_columns].corr(method="pearson")
+
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    output_path = OUTPUT_DIR / "qc_correlation_matrix.csv"
+    correlation_matrix.to_csv(output_path)
+
+    print("Correlation matrix:")
+    print(correlation_matrix.to_string())
+    print(f"Saved correlation matrix to {output_path}")
+
+    return correlation_matrix
+
+
 def enrich_summary_with_atlas_info(
     df: pd.DataFrame, atlas_metadata: pd.DataFrame
 ) -> pd.DataFrame:
+    """Add atlas membership labels to the QC summary rows.
+
+    Args:
+        df: QC DataFrame with `dataset_id` values.
+        atlas_metadata: DataFrame with atlas flags keyed by `dataset_id`.
+
+    Returns:
+        QC DataFrame enriched with `is_atlas_dataset` and `atlas_label` columns.
+    """
     merged_df = pd.merge(df, atlas_metadata, on="dataset_id", how="left")
     merged_df["is_atlas_dataset"] = merged_df["is_atlas_dataset"].fillna(False)
     merged_df["atlas_label"] = merged_df["is_atlas_dataset"].map(
@@ -258,27 +323,41 @@ def enrich_summary_with_atlas_info(
 def make_scatter_graph(
     df: pd.DataFrame,
     name: str,
+    x_label: str,
+    y_label: str,
+    x_scale: str,
+    y_scale: str,
+    *,
+    x_lim: tuple[float, float],
+    y_lim: tuple[float, float],
     x_column: str = DEFAULT_X_COLUMN,
     y_column: str = DEFAULT_Y_COLUMN,
-    x_label: str | None = None,
-    y_label: str | None = None,
-    x_scale: str = "log",
-    y_scale: str = "log",
     show_ablines=False,
+    x_ablines: list[tuple[str, str] | str] | None = None,
+    y_ablines: list[tuple[str, str] | str] | None = None,
 ) -> None:
-    """Create and save a faceted ribo-vs-mito scatter plot.
+    """Create and save a faceted scatter plot by handler.
 
-    Points are color/shape/size encoded by atlas status and overlaid with
-    configured ribo/mito threshold lines.
+    Points are color/shape/size encoded by atlas status. Optional threshold
+    lines are drawn for axes that map to configured ribo/mito threshold keys.
 
     Args:
         df: QC report DataFrame.
+        name: Output file stem (PNG written to the output directory).
+        x_label: Required label for the x-axis.
+        y_label: Required label for the y-axis.
+        x_scale: Required Matplotlib scale for the x-axis.
+        y_scale: Required Matplotlib scale for the y-axis.
+        x_lim: Required x-axis limits `(min, max)`.
+        y_lim: Required y-axis limits `(min, max)`.
         x_column: Column to plot on the x-axis.
         y_column: Column to plot on the y-axis.
-        x_label: Optional custom label for the x-axis.
-        y_label: Optional custom label for the y-axis.
-        x_scale: Matplotlib scale for the x-axis.
-        y_scale: Matplotlib scale for the y-axis.
+        show_ablines: Whether to draw threshold guide lines for known metrics.
+        x_ablines: Optional list of vertical-line specs. Each spec can be either
+            a threshold key string (for example `"low_quality"`, which expands to
+            both min and max) or an explicit `(threshold_key, bound)` tuple.
+        y_ablines: Optional list of horizontal-line specs. Uses the same format
+            as `x_ablines`.
     """
     thresholds = load_qc_thresholds()
 
@@ -292,10 +371,64 @@ def make_scatter_graph(
             f"Missing required columns for visualization: {missing_columns}"
         )
 
-    x_label = x_label or AXIS_LABEL_MAP.get(x_column, x_column)
-    y_label = y_label or AXIS_LABEL_MAP.get(y_column, y_column)
+    if not x_label.strip() or not y_label.strip():
+        raise ValueError("x_label and y_label are required and cannot be empty.")
+
+    if not x_scale.strip() or not y_scale.strip():
+        raise ValueError("x_scale and y_scale are required and cannot be empty.")
+
+    if x_lim[0] >= x_lim[1] or y_lim[0] >= y_lim[1]:
+        raise ValueError("x_lim and y_lim must be (min, max) with min < max.")
+
     x_threshold_key = THRESHOLD_COLUMN_MAP.get(x_column)
     y_threshold_key = THRESHOLD_COLUMN_MAP.get(y_column)
+
+    def resolve_ablines(
+        abline_specs: list[tuple[str, str] | str] | None,
+        default_threshold_key: str | None,
+    ) -> list[tuple[str, str]]:
+        """Normalize ab-line specs into explicit `(threshold_key, bound)` tuples."""
+        if abline_specs is None:
+            if default_threshold_key is None:
+                return []
+            return [(default_threshold_key, "min"), (default_threshold_key, "max")]
+
+        resolved_specs: list[tuple[str, str]] = []
+        available_keys = list(thresholds.keys())
+        valid_bounds = {"min", "max"}
+
+        for spec in abline_specs:
+            if isinstance(spec, str):
+                threshold_key = spec
+                if threshold_key not in thresholds:
+                    raise ValueError(
+                        f"Unknown threshold key '{threshold_key}'. Available: {available_keys}"
+                    )
+                for bound in ("min", "max"):
+                    if bound in thresholds[threshold_key]:
+                        resolved_specs.append((threshold_key, bound))
+                continue
+
+            threshold_key, bound = spec
+            if threshold_key not in thresholds:
+                raise ValueError(
+                    f"Unknown threshold key '{threshold_key}'. Available: {available_keys}"
+                )
+            if bound not in valid_bounds:
+                raise ValueError(
+                    f"Unknown threshold bound '{bound}'. Use one of: {sorted(valid_bounds)}"
+                )
+            if bound not in thresholds[threshold_key]:
+                raise ValueError(
+                    f"Threshold key '{threshold_key}' does not define bound '{bound}'."
+                )
+
+            resolved_specs.append((threshold_key, bound))
+
+        return resolved_specs
+
+    x_abline_specs = resolve_ablines(x_ablines, x_threshold_key)
+    y_abline_specs = resolve_ablines(y_ablines, y_threshold_key)
 
     merged_df = df.copy()
 
@@ -337,21 +470,25 @@ def make_scatter_graph(
     # Add threshold lines and axis formatting to each facet.
     for ax in g.axes.flatten():
         if show_ablines:
-            if x_threshold_key is not None:
-                for value in (
-                    thresholds[x_threshold_key]["min"],
-                    thresholds[x_threshold_key]["max"],
-                ):
-                    ax.axvline(value, color="red", linestyle="--", linewidth=1.5)
-            if y_threshold_key is not None:
-                for value in (
-                    thresholds[y_threshold_key]["min"],
-                    thresholds[y_threshold_key]["max"],
-                ):
-                    ax.axhline(value, color="blue", linestyle="--", linewidth=1.5)
+            for threshold_key, bound in x_abline_specs:
+                ax.axvline(
+                    thresholds[threshold_key][bound],
+                    color="red",
+                    linestyle="--",
+                    linewidth=1.5,
+                )
+            for threshold_key, bound in y_abline_specs:
+                ax.axhline(
+                    thresholds[threshold_key][bound],
+                    color="blue",
+                    linestyle="--",
+                    linewidth=1.5,
+                )
 
         ax.set_xscale(x_scale)
         ax.set_yscale(y_scale)
+        ax.set_xlim(x_lim)
+        ax.set_ylim(y_lim)
         ax.set_xlabel(x_label)
         ax.set_ylabel(y_label)
 
@@ -363,12 +500,23 @@ def make_scatter_graph(
 
     print(f"Saved plot to {output_path}")
 
+
 def make_jitter_plot(df: pd.DataFrame, name: str) -> None:
-    """Create and save a jitter plot of percent low quality by handler."""
+    """Create and save a dataset-level jitter plot of low-quality percentages.
+
+    Args:
+        df: QC report DataFrame with `handler`, `percent_low_quality`, and
+            `atlas_label` columns.
+        name: Output file stem (PNG written to the output directory).
+    """
     required_columns = ["handler", "percent_low_quality", "atlas_label"]
-    missing_columns = [column for column in required_columns if column not in df.columns]
+    missing_columns = [
+        column for column in required_columns if column not in df.columns
+    ]
     if missing_columns:
-        raise ValueError(f"Missing required columns for jitter graph: {missing_columns}")
+        raise ValueError(
+            f"Missing required columns for jitter graph: {missing_columns}"
+        )
 
     plt.figure(figsize=(11, 6))
     ax = sns.stripplot(
@@ -398,8 +546,14 @@ def make_jitter_plot(df: pd.DataFrame, name: str) -> None:
 
     print(f"Saved plot to {output_path}")
 
+
 def main() -> None:
-    """Run end-to-end QC summary generation and plotting."""
+    """Run the end-to-end HRApop QC reporting workflow.
+
+    The workflow loads QC data, enriches rows with atlas metadata, computes
+    grouped summary statistics, writes threshold coverage summaries, and saves
+    scatter and jitter visualizations under the output directory.
+    """
     print("")
     print("")
     print("")
@@ -409,17 +563,34 @@ def main() -> None:
     merged_df = enrich_summary_with_atlas_info(df, atlas_metadata)
     aggregate_by_handler(merged_df)
     make_summary_table(merged_df, load_qc_thresholds())
-    make_scatter_graph(merged_df, name="qc_scatter_by_handler", show_ablines=True)
+    make_scatter_graph(
+        merged_df,
+        name="qc_scatter_by_handler",
+        x_label="Mean % counts ribo",
+        y_label="Mean % counts mt",
+        x_scale="log",
+        y_scale="log",
+        x_lim=(0.0, 100.0),
+        y_lim=(0.0, 100.0),
+        show_ablines=True,
+    )
+    make_scatter_graph(
+        merged_df,
+        name="qc_scatter_mito_vs_percentage_low_quality",
+        x_column="mean_pct_counts_mt",
+        y_column="percent_low_quality",
+        x_label="Mean % counts mt",
+        y_label="Percent low quality",
+        x_scale="log",
+        y_scale="linear",
+        x_lim=(0.0, 100.0),
+        y_lim=(0.0, 100.0),
+        x_ablines=[("mito", "min"), ("mito", "max")],
+        y_ablines=[("low_quality", "min"), ("low_quality", "max")],
+        show_ablines=True,
+    )
     make_jitter_plot(merged_df, name="qc_jitter_by_handler_quality")
-    # make_scatter_graph(
-    #     merged_df,
-    #     x_column="mean_n_genes_by_counts",
-    #     y_column="mean_total_counts",
-    #     name="qc_mean_genes_by_counts_vs_total_counts",
-    #     x_scale="log",
-    #     y_scale="linear",
-    #     show_ablines=False,
-    # )
+    compute_correlation(merged_df)
     print("=" * 100)
     print("")
     print("")
