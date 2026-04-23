@@ -591,6 +591,8 @@ def main() -> None:
     )
     make_jitter_plot(merged_df, name="qc_jitter_by_handler_quality")
     compute_correlation(merged_df)
+    total_datasets_overall = int(merged_df["dataset_id"].nunique())
+    print(f"Total datasets overall: {total_datasets_overall}")
     print("=" * 100)
     print("")
     print("")
