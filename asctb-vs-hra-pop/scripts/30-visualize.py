@@ -110,7 +110,7 @@ def visualize(summary: pd.DataFrame) -> None:
     ax.legend(title="Overlap Type")
 
     for container in ax.containers:
-        ax.bar_label(container, fmt="%d", fontsize=7, padding=1)
+        ax.bar_label(container, fmt="%d", fontsize=12, padding=1)
 
     plt.yscale("log")
     plt.tight_layout()
