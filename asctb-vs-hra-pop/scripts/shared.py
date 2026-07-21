@@ -2,6 +2,21 @@ import pandas as pd
 import requests
 from pprint import pprint
 # from urllib.parse import quote
+import json
+from pathlib import Path
+
+CACHE_FILE_ASCTB = (
+    Path(__file__).resolve().parent.parent / "data" / "list_cell_types_asctb.json"
+)
+
+OUTPUT_FILE_HRA_POP = (
+    Path(__file__).resolve().parent.parent / "data" / "list_cell_types_hra_pop.json"
+)
+
+def save_list_cell_types(list_cell_types: list[dict], output_file: Path) -> None:
+    output_file.parent.mkdir(parents=True, exist_ok=True)
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(list_cell_types, f, indent=2)
 
 def make_http_request(url) -> dict:
 
