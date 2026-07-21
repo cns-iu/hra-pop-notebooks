@@ -9,7 +9,7 @@ CACHE_FILE_ASCTB = (
     Path(__file__).resolve().parent.parent / "data" / "list_cell_types_asctb.json"
 )
 
-OUTPUT_FILE_HRA_POP = (
+CACHE_FILE_HRA_POP = (
     Path(__file__).resolve().parent.parent / "data" / "list_cell_types_hra_pop.json"
 )
 
@@ -17,6 +17,17 @@ def save_list_cell_types(list_cell_types: list[dict], output_file: Path) -> None
     output_file.parent.mkdir(parents=True, exist_ok=True)
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(list_cell_types, f, indent=2)
+
+
+def load_json_as_df(json_data: list[dict]) -> None:
+    df = pd.DataFrame(json_data)
+    pprint(df)
+    return df
+
+
+def load_list_cell_types(input_file: Path) -> list[dict]:
+    with open(input_file, encoding="utf-8") as f:
+        return json.load(f)
 
 def make_http_request(url) -> dict:
 

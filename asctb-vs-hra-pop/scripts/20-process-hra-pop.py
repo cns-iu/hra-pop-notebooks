@@ -1,10 +1,7 @@
 from shared import *
-from pathlib import Path
 
 
-OUTPUT_FILE_HRA_POP = (
-    Path(__file__).resolve().parent.parent / "data" / "list_cell_types_hra_pop.json"
-)
+
 
 
 def purl_to_id(purl: str) -> str:
@@ -48,8 +45,13 @@ def extract_unique_organ_as_ct_trios_hra_pop(df: pd.DataFrame) -> list[dict]:
 
 
 if __name__ == "__main__":
-    df_hra_pop_trio = download_hra_pop_and_get_organ_as_ct_trios()
-    list_cell_types = extract_unique_organ_as_ct_trios_hra_pop(df_hra_pop_trio)
-    save_list_cell_types(list_cell_types, OUTPUT_FILE_HRA_POP)
-    print(f"Saved HRApop list_cell_types to {OUTPUT_FILE_HRA_POP}")
+    if CACHE_FILE_HRA_POP.exists():
+        print(f"Using cached HRApop list_cell_types from {CACHE_FILE_HRA_POP}")
+        list_cell_types = load_list_cell_types(CACHE_FILE_HRA_POP)
+    else:
+        df_hra_pop_trio = download_hra_pop_and_get_organ_as_ct_trios()
+        list_cell_types = extract_unique_organ_as_ct_trios_hra_pop(df_hra_pop_trio)
+        save_list_cell_types(list_cell_types, CACHE_FILE_HRA_POP)
+        print(f"Saved HRApop list_cell_types to {CACHE_FILE_HRA_POP}")
+
     pprint(list_cell_types)
