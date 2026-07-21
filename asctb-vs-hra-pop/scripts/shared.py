@@ -4,6 +4,8 @@ from pprint import pprint
 # from urllib.parse import quote
 import json
 from pathlib import Path
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 CACHE_FILE_ASCTB = (
     Path(__file__).resolve().parent.parent / "data" / "list_cell_types_asctb.json"

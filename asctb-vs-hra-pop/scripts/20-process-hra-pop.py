@@ -1,9 +1,6 @@
 from shared import *
 
 
-
-
-
 def purl_to_id(purl: str) -> str:
     return purl.split("/")[-1].replace("_", ":")
 
@@ -40,6 +37,22 @@ def extract_unique_organ_as_ct_trios_hra_pop(df: pd.DataFrame) -> list[dict]:
     ].drop_duplicates()
 
     df_hra_pop_trio["source"] = "hra_pop"
+
+    # remove lateriality
+    df_hra_pop_trio["organ"] = df_hra_pop_trio["organ"].replace(
+        {
+            "Left kidney": "kidney",
+            "Left ureter": "ureter",
+            "Left knee": "knee",
+            "Left mammary gland": "mammary gland",
+            "Left ovary": "ovary",
+            "Right kidney": "kidney",
+            "Right ureter": "ureter",
+            "Right knee": "knee",
+            "Right mammary gland": "mammary gland",
+            "Right ovary": "ovary",
+        }
+    )
 
     return df_hra_pop_trio.to_dict(orient="records")
 
