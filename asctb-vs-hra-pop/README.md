@@ -61,7 +61,7 @@ After running the pipeline, outputs are generated in the `output/` directory:
 | File | Description |
 |------|-------------|
 | `as_ct_overlap_by_organ.csv` | Summary table with AS-CT overlap counts by organ and source |
-| `as_ct_overlap_by_organ_grouped.png` | Grouped bar chart visualization |
+| `as_ct_overlap_by_organ_grouped.png` | Grouped bar graph visualization |
 
 ### Output CSV Columns
 
