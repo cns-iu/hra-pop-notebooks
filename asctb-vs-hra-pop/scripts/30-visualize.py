@@ -1,4 +1,10 @@
-from shared import *
+from pathlib import Path
+
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+
+from shared import CACHE_FILE_ASCTB, CACHE_FILE_HRA_POP, load_json_as_df, load_list_cell_types
 
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
@@ -29,9 +35,9 @@ def load_processed_data():
     else:
         df_concat["source"] = df_concat["source"].fillna("unknown")
 
-    # Build a unique AS-CT key to count distinct combinations per organ/source.
-    df_concat["as_ct_combo"] = (
-        df_concat["as_id"].astype(str) + "||" + df_concat["cell_type_id"].astype(str)
+    # Build a unique AS-CT key from IDs only.
+    df_concat["as_ct_combo"] = list(
+        zip(df_concat["as_id"].astype(str), df_concat["cell_type_id"].astype(str))
     )
 
     return df_concat
@@ -116,7 +122,7 @@ def visualize(summary: pd.DataFrame, allowed_organs: set[str] | None = None) -> 
     ax.tick_params(axis="x", rotation=90)
     ax.legend(title="Overlap Type")
 
-    for container in ax.containers:
+    for container in getattr(ax, "containers", []):
         ax.bar_label(container, fmt="%d", fontsize=12, padding=1)
 
     plt.yscale("log")
