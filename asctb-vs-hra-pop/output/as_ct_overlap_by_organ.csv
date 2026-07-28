@@ -26,24 +26,18 @@ kidney,both,4
 knee,only_hra_pop,136
 knee,only_asctb,66
 knee,both,0
-large intestine,only_hra_pop,910
-large intestine,only_asctb,0
-large intestine,both,0
-large-intestine,only_hra_pop,0
-large-intestine,only_asctb,997
-large-intestine,both,0
+large-intestine,only_hra_pop,791
+large-intestine,only_asctb,878
+large-intestine,both,119
 liver,only_hra_pop,255
 liver,only_asctb,98
 liver,both,0
 lung,only_hra_pop,2855
 lung,only_asctb,564
 lung,both,0
-lymph node,only_hra_pop,175
-lymph node,only_asctb,0
-lymph node,both,0
-lymph-node,only_hra_pop,0
-lymph-node,only_asctb,228
-lymph-node,both,0
+lymph-node,only_hra_pop,170
+lymph-node,only_asctb,223
+lymph-node,both,5
 lymph-vasculature,only_hra_pop,0
 lymph-vasculature,only_asctb,118
 lymph-vasculature,both,0
@@ -83,12 +77,9 @@ skeleton,both,0
 skin,only_hra_pop,62
 skin,only_asctb,154
 skin,both,18
-small intestine,only_hra_pop,1027
-small intestine,only_asctb,0
-small intestine,both,0
-small-intestine,only_hra_pop,0
-small-intestine,only_asctb,370
-small-intestine,both,0
+small-intestine,only_hra_pop,1010
+small-intestine,only_asctb,353
+small-intestine,both,17
 spinal-cord,only_hra_pop,0
 spinal-cord,only_asctb,44
 spinal-cord,both,0
@@ -104,10 +95,7 @@ trachea,both,0
 ureter,only_hra_pop,158
 ureter,only_asctb,42
 ureter,both,0
-urinary bladder,only_hra_pop,112
-urinary bladder,only_asctb,0
-urinary bladder,both,0
-urinary-bladder,only_hra_pop,0
+urinary-bladder,only_hra_pop,112
 urinary-bladder,only_asctb,57
 urinary-bladder,both,0
 uterus,only_hra_pop,300

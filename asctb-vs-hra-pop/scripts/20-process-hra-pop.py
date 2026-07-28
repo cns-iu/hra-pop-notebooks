@@ -41,6 +41,11 @@ def extract_unique_organ_as_ct_trios_hra_pop(df: pd.DataFrame) -> list[dict]:
     # remove lateriality
     df_hra_pop_trio["organ"] = df_hra_pop_trio["organ"].replace(
         {
+            "urinary bladder": "urinary-bladder",
+            "mammary gland": "mammary-gland",
+            "lymph node": "lymph-node",
+            "small intestine": "small-intestine",
+            "large intestine": "large-intestine",
             "Left kidney": "kidney",
             "Left ureter": "ureter",
             "Left knee": "knee",
