@@ -14,18 +14,44 @@ The workflow performs three main steps:
 
 ## Quick Start (Automated)
 
-The easiest way to run the workflow is with the provided setup script:
-
+The easiest way to run the workflow is with the provided setup script. From `asctb-vs-hra-pop`, run:
 ```bash
-cd asctb-vs-hra-pop
 python set_up_and_run.py
 ```
 
 This will:
-- Create a Python virtual environment (`.venv`)
-- Install all required dependencies
-- Run all scripts in order
+- Create a Python virtual environment (`.venv`) if one doesn't exist yet
+- Install all required dependencies from `requirements.txt`
+- Run all scripts in `scripts/` in order (`10-download-asctb-and-hra-pop.py`, `20-process-hra-pop.py`, `30-visualize.py`)
 - Generate outputs in the `output/` directory
+
+## Manual Run
+
+To run or debug an individual script, activate the virtual environment first so `python` resolves to the project's `.venv` instead of your global Python.
+
+From `asctb-vs-hra-pop`:
+```powershell
+.venv\Scripts\Activate.ps1
+```
+(If PowerShell blocks the script with an execution-policy error, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` once first.)
+
+Then run the scripts in order, e.g. from `asctb-vs-hra-pop\scripts`:
+```bash
+python .\10-download-asctb-and-hra-pop.py
+python .\20-process-hra-pop.py
+python .\30-visualize.py
+```
+
+Deactivate when done with `deactivate`.
+
+## Scripts
+
+| Script | Description |
+|--------|-------------|
+| `shared.py` | Shared helpers (HTTP requests, JSON cache I/O, imports) used by all other scripts |
+| `10-download-asctb-and-hra-pop.py` | Downloads ASCT+B tables and extracts organ-AS-CT trios; caches result to `data/list_cell_types_asctb.json` |
+| `20-process-hra-pop.py` | Downloads the HRApop CSV, normalizes it into organ-AS-CT trios, and removes organ laterality (e.g. `left kidney` → `kidney`); caches result to `data/list_cell_types_hra_pop.json` |
+| `30-visualize.py` | Loads both cached datasets, summarizes AS-CT overlap by organ, and writes the summary CSV and grouped bar plot to `output/` |
 
 ## Requirements
 
@@ -38,16 +64,10 @@ This will:
 
 ## Input Data
 
-### Required Files
-
-- **data/11th Release (v2.5).csv** - ASCT+B release manifest (provided in repo)
-  - Contains URLs to all ASCT+B organ-specific CSV tables
-  - You can download the file at [https://humanatlas.io/asctb-tables#summary-statistics](https://humanatlas.io/asctb-tables#summary-statistics)
-
 ### External Data Sources
 
 The pipeline downloads data from:
-- **ASCT+B**: `https://purl.humanatlas.io/asct-b/{organ}`
+- **ASCT+B**: `https://purl.humanatlas.io/asct-b/{organ}`, one request per organ. The list of organs is discovered dynamically from the HRA collection endpoint (`https://purl.humanatlas.io/collection/hra`).
 - **HRApop**: `https://raw.githubusercontent.com/x-atlas-consortia/hra-pop/refs/heads/main/output-data/v1.1/reports/atlas-ad-hoc/cell-types-in-anatomical-structurescts-per-as.csv`
 
 Note: The scripts cache downloaded data locally to avoid re-downloading:

@@ -36,55 +36,46 @@ def normalize_cell_types(cell_types: list) -> list:
     return normalized_cell_types
 
 
-# def flatten_cell_list(dict_cell: dict) -> list:
-#     if len(dict_cell
-#     list_flattened = [item for item in dict_cell]
-#     return list_flattened
-
-
 def download_asctb_tables_and_extract_organ_as_cts() -> list:
     print("Downloading ASCT+B tables")
-    with open("./data/11th Release (v2.5).csv") as f:
-        df_data = pd.read_csv(f)
-        pprint(df_data)
 
-        list_csv_urls = df_data["csv"].apply(
-            lambda url: url.split("/")[-1].split(".")[0]
-        )
+    hra_data = make_http_request("https://purl.humanatlas.io/collection/hra")["data"]
+    list_csv_urls = set()
+    for item in hra_data:
+        if "asct-b" in item and "crosswalk" not in item:
+            organ_name = item.split("/")[1]
+            list_csv_urls.add(organ_name)
 
-        list_organ_name = [
-            organ_name.lower()
-            .replace("_", "-")
-            .replace("asct-b-", "")
-            .replace("vh-", "")
-            for organ_name in list_csv_urls
-        ]
+    list_organ_name = [
+        organ_name.lower().replace("_", "-").replace("asct-b-", "").replace("vh-", "")
+        for organ_name in list_csv_urls
+    ]
 
-        list_cell_types = []
-        for organ in list_organ_name:
-            print(organ)
-            asctb_json = make_http_request(purl_base + organ)
-            for cell_type in asctb_json["data"]["cell_types"]:
-                if "ccf_located_in" in cell_type:
-                    located_in = cell_type["ccf_located_in"]
-                    if not isinstance(located_in, list):
-                        located_in = [located_in]
+    list_cell_types = []
+    for organ in list_organ_name:
+        print(organ)
+        asctb_json = make_http_request(purl_base + organ)
+        for cell_type in asctb_json["data"]["cell_types"]:
+            if "ccf_located_in" in cell_type:
+                located_in = cell_type["ccf_located_in"]
+                if not isinstance(located_in, list):
+                    located_in = [located_in]
 
-                    for as_id in located_in:
-                        new_cell_type = {
-                            "organ": organ,
-                            "cell_type_label": cell_type["ccf_pref_label"],
-                            "cell_type_id": cell_type["id"],
-                            "as_id": as_id,
-                            "as_label": ontology_label_from_asctb(as_id, asctb_json),
-                            "source": "asctb",
-                        }
-                        pprint(f"Compiled: {new_cell_type}")
-                        print()
-                        list_cell_types.append(new_cell_type)
+                for as_id in located_in:
+                    new_cell_type = {
+                        "organ": organ,
+                        "cell_type_label": cell_type["ccf_pref_label"],
+                        "cell_type_id": cell_type["id"],
+                        "as_id": as_id,
+                        "as_label": ontology_label_from_asctb(as_id, asctb_json),
+                        "source": "asctb",
+                    }
+                    pprint(f"Compiled: {new_cell_type}")
+                    print()
+                    list_cell_types.append(new_cell_type)
 
-                    # pprint(new_cell_type)
-        return list_cell_types
+                # pprint(new_cell_type)
+    return list_cell_types
 
 
 def extract_unique_organ_as_ct_trios(cell_types: list):
