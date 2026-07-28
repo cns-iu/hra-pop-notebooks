@@ -79,12 +79,19 @@ def apply_plot_rc_params() -> None:
     plt.rcParams.update(PLOT_RC_PARAMS)
 
 
-def visualize(summary: pd.DataFrame) -> None:
+def visualize(summary: pd.DataFrame, allowed_organs: set[str] | None = None) -> None:
     if summary.empty:
         print("No data available to visualize.")
         return
 
     apply_plot_rc_params()
+
+    if allowed_organs is not None:
+        summary = summary[summary["organ"].isin(allowed_organs)].copy()
+
+    if summary.empty:
+        print("No overlapping organs available to visualize after filtering.")
+        return
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     summary.to_csv(SUMMARY_FILE, index=False)
@@ -106,7 +113,7 @@ def visualize(summary: pd.DataFrame) -> None:
     ax.set_xlabel("Organ")
     ax.set_ylabel("Unique AS-CT combinations")
     ax.set_title("AS-CT Overlap by Organ")
-    ax.tick_params(axis="x", rotation=60)
+    ax.tick_params(axis="x", rotation=90)
     ax.legend(title="Overlap Type")
 
     for container in ax.containers:
@@ -124,4 +131,11 @@ def visualize(summary: pd.DataFrame) -> None:
 if __name__ == "__main__":
     df_processed = load_processed_data()
     df_summary = summarize_as_ct_overlap_by_organ(df_processed)
-    visualize(df_summary)
+    hra_pop_organs = set(
+        df_processed.loc[
+            df_processed["source"].isin(["hra_pop", "hrapop"]), "organ"
+        ]
+        .dropna()
+        .unique()
+    )
+    visualize(df_summary, hra_pop_organs)
